@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	1473-1488	CPA	denotes	apoptotic cells
+T1	1503-1510	NegReg	denotes	reduced
+T4	1518-1538	Protein	denotes	endodermal β-catenin
+T3	1539-1542	PosReg	denotes	GOF
+T5	1543-1549	Var	denotes	mutant
+R1	T4	T5	ThemeOf	endodermal β-catenin,mutant
+R2	T5	T3	CauseOf	mutant,GOF
+R3	T3	T1	CauseOf	GOF,reduced
+R4	T2	T1	ThemeOf	apoptotic cells,reduced

@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	62-66	Gene	denotes	EGFR
+T2	67-75	Var	denotes	Mutation
+T4	76-84	Reg	denotes	Positive
+T3	94-120	Disease	denotes	Non-Small Cell Lung Cancer
+R1	T1	T2	ThemeOf	EGFR,Mutation
+R2	T2	T4	CauseOf	Mutation,Positive
+R3	T3	T4	ThemeOf	Non-Small Cell Lung Cancer,Positive

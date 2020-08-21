@@ -1,0 +1,66 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	17-23	Var	denotes	mutant
+T2	24-27	Gene	denotes	p53
+T5	28-39	PosReg	denotes	upregulates
+T6	40-54	MPA	denotes	CXC chemokines
+T3	59-67	PosReg	denotes	enhances
+T4	68-82	CPA	denotes	cell migration
+T7	195-203	Var	denotes	aberrant
+T8	204-216	Protein	denotes	p53 proteins
+T9	221-228	PosReg	denotes	enhance
+T10	229-257	CPA	denotes	tumorigenesis and metastasis
+T11	390-419	Var	denotes	"""p53 -R175H, -R273H and -D281G"""
+T12	427-435	PosReg	denotes	enhanced
+T13	436-445	CPA	denotes	migration
+T17	691-698	Var	denotes	GOF p53
+T18	708-718	PosReg	denotes	upregulate
+T19	719-743	MPA	denotes	CXC-chemokine expression
+T21	826-834	PosReg	denotes	Elevated
+T22	835-845	MPA	denotes	expression
+T20	903-916	Var	denotes	oncogenic p53
+T24	918-931	MPA	denotes	Transcription
+T23	936-944	PosReg	denotes	elevated
+T27	948-981	MPA	denotes	CXCL5 and CXCL8 promoter activity
+T26	986-992	PosReg	denotes	higher
+T25	1013-1020	Var	denotes	GOF p53
+T31	1383-1400	Var	denotes	endogenous mutant
+T32	1401-1404	Gene	denotes	p53
+T33	1438-1445	NegReg	denotes	reduced
+T34	1446-1462	MPA	denotes	CXCL5 expression
+T35	1467-1481	CPA	denotes	cell migration
+T36	1527-1533	Var	denotes	mutant
+T37	1534-1537	Gene	denotes	p53
+T38	1558-1565	NegReg	denotes	reduced
+T39	1566-1603	MPA	denotes	expression of a number of key targets
+T42	1677-1693	MPA	denotes	CXCL5 expression
+T40	1703-1711	PosReg	denotes	elevated
+T43	1715-1725	Disease	denotes	lung tumor
+T41	1745-1752	Var	denotes	GOF p53
+R1	T1	T5	CauseOf	mutant,upregulates
+R11	T11	T12	CauseOf	"""""""p53 -R175H, -R273H and -D281G"""""",enhanced"
+R12	T13	T12	ThemeOf	migration,enhanced
+R13	T17	T18	CauseOf	GOF p53,upregulate
+R14	T19	T18	ThemeOf	CXC-chemokine expression,upregulate
+R15	T20	T21	CauseOf	oncogenic p53,Elevated
+R16	T22	T21	ThemeOf	expression,Elevated
+R17	T25	T26	CauseOf	GOF p53,higher
+R18	T27	T26	ThemeOf	CXCL5 and CXCL8 promoter activity,higher
+R19	T27	T23	CauseOf	CXCL5 and CXCL8 promoter activity,elevated
+R2	T6	T5	ThemeOf	CXC chemokines,upregulates
+R20	T24	T23	ThemeOf	Transcription,elevated
+R23	T31	T33	CauseOf	endogenous mutant,reduced
+R24	T34	T33	ThemeOf	CXCL5 expression,reduced
+R25	T35	T33	ThemeOf	cell migration,reduced
+R26	T32	T31	ThemeOf	p53,endogenous mutant
+R27	T36	T38	CauseOf	mutant,reduced
+R28	T39	T38	ThemeOf	expression of a number of key targets,reduced
+R29	T37	T36	ThemeOf	p53,mutant
+R3	T2	T1	ThemeOf	p53,mutant
+R30	T41	T40	CauseOf	GOF p53,elevated
+R31	T42	T40	ThemeOf	CXCL5 expression,elevated
+R32	T43	T40	ThemeOf	lung tumor,elevated
+R4	T6	T3	CauseOf	CXC chemokines,enhances
+R5	T4	T3	ThemeOf	cell migration,enhances
+R6	T7	T9	CauseOf	aberrant,enhance
+R7	T10	T9	ThemeOf	tumorigenesis and metastasis,enhance
+R8	T8	T7	ThemeOf	p53 proteins,aberrant

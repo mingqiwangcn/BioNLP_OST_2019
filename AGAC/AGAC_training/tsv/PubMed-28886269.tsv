@@ -1,0 +1,18 @@
+Id	Subject	Object	Predicate	Lexical cue
+T9	279-296	Disease	denotes	cleft palate only
+T1	1514-1522	Var	denotes	mutation
+T2	1523-1530	NegReg	denotes	damaged
+T3	1543-1559	MPA	denotes	sumoylation site
+T5	1573-1582	NegReg	denotes	disrupted
+T4	1595-1614	MPA	denotes	CK1 phosphorylation
+T7	1845-1854	Var	denotes	mutations
+T6	1858-1863	Gene	denotes	GRHL3
+T8	1882-1886	Reg	denotes	risk
+T10	1903-1906	Disease	denotes	CPO
+R1	T1	T2	CauseOf	mutation,damaged
+R2	T3	T2	ThemeOf	sumoylation site,damaged
+R3	T1	T5	CauseOf	mutation,disrupted
+R4	T4	T5	ThemeOf	CK1 phosphorylation,disrupted
+R5	T6	T7	ThemeOf	GRHL3,mutations
+R6	T7	T8	CauseOf	mutations,risk
+R7	T10	T8	ThemeOf	CPO,risk

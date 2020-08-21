@@ -1,0 +1,18 @@
+Id	Subject	Object	Predicate	Lexical cue
+T16	774-779	Gene	denotes	NR2F2
+T17	854-869	Var	denotes	p.Gly35Argfs∗75
+T18	928-943	Var	denotes	p.Pro33Alafs∗77
+T20	1025-1039	Reg	denotes	presented with
+T19	1040-1064	Disease	denotes	congenital heart disease
+T11	1412-1417	Gene	denotes	NR2F2
+T12	1418-1434	NegReg	denotes	loss-of-function
+T13	1435-1444	Var	denotes	mutations
+T15	1454-1475	Disease	denotes	syndromic form of DSD
+R10	T13	T12	CauseOf	mutations,loss-of-function
+R11	T15	T12	ThemeOf	syndromic form of DSD,loss-of-function
+R12	T17	T16	ThemeOf	p.Gly35Argfs∗75,NR2F2
+R13	T18	T16	ThemeOf	p.Pro33Alafs∗77,NR2F2
+R14	T18	T20	CauseOf	p.Pro33Alafs∗77,presented with
+R15	T17	T20	CauseOf	p.Gly35Argfs∗75,presented with
+R16	T19	T20	ThemeOf	congenital heart disease,presented with
+R9	T11	T13	ThemeOf	NR2F2,mutations

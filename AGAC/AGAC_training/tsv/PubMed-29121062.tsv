@@ -1,0 +1,28 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	1041-1061	Var	denotes	frameshift mutations
+T2	1065-1069	Gene	denotes	JAK1
+T3	1075-1085	Reg	denotes	associated
+T4	1091-1111	MPA	denotes	high mutation burden
+T5	1116-1142	MPA	denotes	microsatellite instability
+T10	1150-1159	Var	denotes	mutations
+T11	1160-1168	Reg	denotes	occurred
+T12	1203-1214	Disease	denotes	endometrial
+T13	1216-1226	Disease	denotes	colorectal
+T14	1228-1235	Disease	denotes	stomach
+T15	1241-1249	Disease	denotes	prostate
+T16	1250-1260	Disease	denotes	carcinomas
+T6	1965-1969	Var	denotes	JAK1
+T7	1970-1986	NegReg	denotes	loss of function
+T9	2002-2022	MPA	denotes	tumor immune evasion
+R1	T1	T3	CauseOf	frameshift mutations,associated
+R10	T13	T16	ThemeOf	colorectal,carcinomas
+R11	T14	T16	ThemeOf	stomach,carcinomas
+R12	T15	T16	ThemeOf	prostate,carcinomas
+R2	T2	T1	ThemeOf	JAK1,frameshift mutations
+R3	T4	T1	ThemeOf	high mutation burden,frameshift mutations
+R4	T5	T1	ThemeOf	microsatellite instability,frameshift mutations
+R5	T6	T7	CauseOf	JAK1,loss of function
+R6	T9	T7	ThemeOf	tumor immune evasion,loss of function
+R7	T10	T11	CauseOf	mutations,occurred
+R8	T16	T11	ThemeOf	carcinomas,occurred
+R9	T12	T16	ThemeOf	endometrial,carcinomas

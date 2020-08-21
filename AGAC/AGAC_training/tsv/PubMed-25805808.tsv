@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T13	107-126	Disease	denotes	Neural tube defects
+T4	771-778	Protein	denotes	protein
+T5	779-789	NegReg	denotes	truncating
+T6	790-794	Var	denotes	DNMs
+T3	823-830	Gene	denotes	SHROOM3
+T12	936-939	NegReg	denotes	LoF
+T10	940-944	Var	denotes	DNMs
+T11	961-965	Disease	denotes	NTDs
+T7	1224-1227	NegReg	denotes	LoF
+T8	1228-1232	Var	denotes	DNMs
+T9	1255-1259	Disease	denotes	NTDs
+T2	1284-1291	Gene	denotes	SHROOM3
+R1	T3	T6	ThemeOf	SHROOM3,DNMs
+R2	T6	T5	CauseOf	DNMs,truncating
+R3	T4	T5	ThemeOf	protein,truncating
+R4	T8	T7	CauseOf	DNMs,LoF
+R5	T9	T7	ThemeOf	NTDs,LoF
+R6	T2	T8	ThemeOf	SHROOM3,DNMs
+R7	T3	T10	ThemeOf	SHROOM3,DNMs
+R8	T10	T12	CauseOf	DNMs,LoF
+R9	T11	T12	ThemeOf	NTDs,LoF

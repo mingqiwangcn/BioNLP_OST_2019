@@ -1,0 +1,25 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	323-330	Var	denotes	ectopic
+T3	331-335	Protein	denotes	PDGF
+T4	336-344	MPA	denotes	activity
+T5	354-359	Reg	denotes	cause
+T6	363-373	Reg	denotes	contribute
+T7	394-400	Disease	denotes	cancer
+T8	405-420	Disease	denotes	tissue fibrosis
+T9	613-616	NegReg	denotes	LOF
+T10	617-626	Var	denotes	mutations
+T11	649-655	Gene	denotes	PDGF-B
+T13	693-700	Gene	denotes	PDGF-Rβ
+T12	705-752	Disease	denotes	familial idiopathic basal ganglia calcification
+R1	T3	T4	ThemeOf	PDGF,activity
+R10	T10	T9	CauseOf	mutations,LOF
+R11	T12	T9	ThemeOf	familial idiopathic basal ganglia calcification,LOF
+R12	T13	T10	ThemeOf	PDGF-Rβ,mutations
+R2	T4	T2	ThemeOf	activity,ectopic
+R3	T2	T5	CauseOf	ectopic,cause
+R4	T2	T6	CauseOf	ectopic,contribute
+R5	T7	T6	ThemeOf	cancer,contribute
+R6	T8	T6	ThemeOf	tissue fibrosis,contribute
+R7	T7	T5	ThemeOf	cancer,cause
+R8	T8	T5	ThemeOf	tissue fibrosis,cause
+R9	T11	T10	ThemeOf	PDGF-B,mutations

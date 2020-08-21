@@ -1,0 +1,20 @@
+Id	Subject	Object	Predicate	Lexical cue
+T11	4-19	Gene	denotes	apoptotic genes
+T7	20-25	Gene	denotes	APAF1
+T8	30-35	Gene	denotes	CASP9
+T1	540-548	Var	denotes	variants
+T2	553-569	NegReg	denotes	loss-of-function
+T3	574-583	CPA	denotes	apoptosis
+T4	601-608	NegReg	denotes	reduced
+T5	638-646	Var	denotes	variants
+T6	650-665	Gene	denotes	apoptotic genes
+T9	666-678	Reg	denotes	contributing
+T10	682-700	Disease	denotes	neural tube defect
+R1	T7	T11	ThemeOf	APAF1,apoptotic genes
+R2	T8	T11	ThemeOf	CASP9,apoptotic genes
+R3	T1	T2	CauseOf	variants,loss-of-function
+R4	T1	T4	CauseOf	variants,reduced
+R5	T3	T4	ThemeOf	apoptosis,reduced
+R6	T5	T9	CauseOf	variants,contributing
+R7	T10	T9	ThemeOf	neural tube defect,contributing
+R8	T6	T5	ThemeOf	apoptotic genes,variants

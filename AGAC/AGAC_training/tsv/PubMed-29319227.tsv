@@ -1,0 +1,21 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	1405-1418	MPA	denotes	transcription
+T5	1423-1434	MPA	denotes	translation
+T6	1438-1457	Gene	denotes	PEP-dependent genes
+T3	1472-1481	NegReg	denotes	inhibited
+T1	1485-1489	Gene	denotes	fln1
+T7	1499-1506	Var	denotes	mutants
+T8	1572-1580	NegReg	denotes	perturbs
+T9	1585-1645	CPA	denotes	stability of the transcriptionally active chromosome complex
+T10	1650-1653	Enzyme	denotes	PEP
+T11	1654-1662	MPA	denotes	activity
+R1	T1	T7	ThemeOf	fln1,mutants
+R10	T9	T8	ThemeOf	stability of the transcriptionally active chromosome complex,perturbs
+R2	T7	T3	CauseOf	mutants,inhibited
+R3	T4	T3	ThemeOf	transcription,inhibited
+R4	T5	T3	ThemeOf	translation,inhibited
+R5	T6	T5	ThemeOf	PEP-dependent genes,translation
+R6	T6	T4	ThemeOf	PEP-dependent genes,transcription
+R7	T3	T8	CauseOf	inhibited,perturbs
+R8	T10	T11	ThemeOf	PEP,activity
+R9	T11	T8	ThemeOf	activity,perturbs

@@ -1,0 +1,24 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	22-31	Var	denotes	Variation
+T1	35-42	Gene	denotes	Ugt86Dd
+T3	43-54	Reg	denotes	Contributes
+T4	58-104	MPA	denotes	Nicotine Resistance in Drosophila melanogaster
+T5	1157-1176	Var	denotes	frameshift deletion
+T6	1180-1187	Gene	denotes	Ugt86Dd
+T7	1241-1251	NegReg	denotes	eliminates
+T8	1256-1259	MPA	denotes	QTL
+T10	1397-1404	Var	denotes	lesions
+T11	1408-1415	Gene	denotes	Ugt86Dd
+T9	1467-1483	NegReg	denotes	loss-of-function
+T12	1508-1517	NegReg	denotes	reduction
+T13	1521-1531	MPA	denotes	resistance
+R1	T2	T3	CauseOf	Variation,Contributes
+R10	T11	T10	ThemeOf	Ugt86Dd,lesions
+R2	T1	T2	ThemeOf	Ugt86Dd,Variation
+R3	T4	T3	ThemeOf	Nicotine Resistance in Drosophila melanogaster,Contributes
+R4	T5	T7	CauseOf	frameshift deletion,eliminates
+R5	T8	T7	ThemeOf	QTL,eliminates
+R6	T6	T5	ThemeOf	Ugt86Dd,frameshift deletion
+R7	T10	T9	CauseOf	lesions,loss-of-function
+R8	T10	T12	CauseOf	lesions,reduction
+R9	T13	T12	ThemeOf	resistance,reduction

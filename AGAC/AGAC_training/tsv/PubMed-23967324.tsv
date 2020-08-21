@@ -1,0 +1,43 @@
+Id	Subject	Object	Predicate	Lexical cue
+T33	22-38	PosReg	denotes	gain-of-function
+T32	39-48	Var	denotes	mutations
+T34	52-55	Gene	denotes	p53
+T35	59-94	Disease	denotes	high-grade serous ovarian carcinoma
+T26	283-299	PosReg	denotes	gain-of-function
+T27	306-315	Var	denotes	mutations
+T28	319-322	Gene	denotes	p53
+T29	333-351	CPA	denotes	oncogenic activity
+T6	775-786	Protein	denotes	p53 protein
+T7	807-815	Var	denotes	mutation
+T8	823-829	PosReg	denotes	higher
+T9	830-868	MPA	denotes	p53 mRNA and protein expression levels
+T13	1119-1128	Var	denotes	mutations
+T14	1138-1144	PosReg	denotes	higher
+T15	1158-1177	CPA	denotes	platinum resistance
+T16	1286-1295	Var	denotes	mutations
+T17	1316-1323	PosReg	denotes	develop
+T18	1324-1342	CPA	denotes	distant metastasis
+T31	1717-1720	PosReg	denotes	GOF
+T19	1721-1727	Var	denotes	mutp53
+T20	1750-1757	PosReg	denotes	greater
+T21	1772-1801	CPA	denotes	platinum treatment resistance
+T22	1806-1835	CPA	denotes	distant metastatic properties
+T30	1839-1847	Disease	denotes	HGS-OvCa
+R12	T13	T14	CauseOf	mutations,higher
+R13	T15	T14	ThemeOf	platinum resistance,higher
+R14	T16	T17	CauseOf	mutations,develop
+R15	T18	T17	ThemeOf	distant metastasis,develop
+R18	T28	T27	ThemeOf	p53,mutations
+R19	T27	T26	CauseOf	mutations,gain-of-function
+R20	T29	T26	ThemeOf	oncogenic activity,gain-of-function
+R21	T19	T31	CauseOf	mutp53,GOF
+R22	T30	T31	ThemeOf	HGS-OvCa,GOF
+R23	T34	T32	ThemeOf	p53,mutations
+R24	T32	T33	CauseOf	mutations,gain-of-function
+R25	T35	T33	ThemeOf	high-grade serous ovarian carcinoma,gain-of-function
+R4	T19	T20	CauseOf	mutp53,greater
+R5	T21	T20	ThemeOf	platinum treatment resistance,greater
+R6	T22	T20	ThemeOf	distant metastatic properties,greater
+R7	T6	T7	ThemeOf	p53 protein,mutation
+R8	T7	T8	CauseOf	mutation,higher
+R9	T9	T8	ThemeOf	p53 mRNA and protein expression levels,higher

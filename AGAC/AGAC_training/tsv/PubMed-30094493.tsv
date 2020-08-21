@@ -1,0 +1,21 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	142-157	Var	denotes	point mutations
+T2	219-224	Gene	denotes	ERBB2
+T3	245-253	PosReg	denotes	activate
+T4	272-289	Pathway	denotes	signaling pathway
+T5	293-306	Disease	denotes	breast cancer
+T9	1462-1472	PosReg	denotes	activating
+T11	1473-1477	Gene	denotes	HER2
+T10	1478-1486	Var	denotes	mutation
+T7	1513-1528	CPA	denotes	bone metastases
+T8	1534-1548	Disease	denotes	breast cancers
+T6	1569-1581	PosReg	denotes	higher rates
+R1	T2	T1	ThemeOf	ERBB2,point mutations
+R2	T1	T3	CauseOf	point mutations,activate
+R3	T4	T3	ThemeOf	signaling pathway,activate
+R4	T5	T4	ThemeOf	breast cancer,signaling pathway
+R5	T10	T9	CauseOf	mutation,activating
+R6	T9	T6	CauseOf	activating,higher rates
+R7	T8	T7	ThemeOf	breast cancers,bone metastases
+R8	T7	T6	ThemeOf	bone metastases,higher rates
+R9	T11	T10	ThemeOf	HER2,mutation

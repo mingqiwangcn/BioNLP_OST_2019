@@ -1,0 +1,45 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	457-465	Var	denotes	Variants
+T3	551-562	Interaction	denotes	association
+T2	590-611	Disease	denotes	chronic liver disease
+T5	791-805	Var	denotes	splice variant
+T4	825-833	Gene	denotes	HSD17B13
+T6	939-946	NegReg	denotes	reduced
+T7	957-960	MPA	denotes	ALT
+T25	979-982	MPA	denotes	AST
+T8	1039-1046	Var	denotes	variant
+T9	1069-1076	NegReg	denotes	reduced
+T10	1085-1108	Disease	denotes	alcoholic liver disease
+T11	1227-1253	Disease	denotes	nonalcoholic liver disease
+T12	1350-1369	Disease	denotes	alcoholic cirrhosis
+T13	1471-1493	Disease	denotes	nonalcoholic cirrhosis
+T15	1664-1671	Var	denotes	variant
+T16	1694-1701	NegReg	denotes	reduced
+T17	1710-1738	Disease	denotes	nonalcoholic steatohepatitis
+T14	1801-1808	Var	denotes	variant
+T18	1809-1818	NegReg	denotes	mitigated
+T19	1819-1831	Disease	denotes	liver injury
+T20	1988-2004	NegReg	denotes	loss-of-function
+T21	2005-2012	Var	denotes	variant
+T22	2016-2024	Gene	denotes	HSD17B13
+T23	2047-2054	NegReg	denotes	reduced
+T24	2063-2084	Disease	denotes	chronic liver disease
+R1	T1	T3	CauseOf	Variants,association
+R10	T13	T9	ThemeOf	nonalcoholic cirrhosis,reduced
+R11	T15	T16	CauseOf	variant,reduced
+R12	T17	T16	ThemeOf	nonalcoholic steatohepatitis,reduced
+R13	T14	T18	CauseOf	variant,mitigated
+R14	T19	T18	ThemeOf	liver injury,mitigated
+R15	T21	T20	CauseOf	variant,loss-of-function
+R16	T22	T21	ThemeOf	HSD17B13,variant
+R17	T21	T23	CauseOf	variant,reduced
+R18	T24	T23	ThemeOf	chronic liver disease,reduced
+R19	T25	T6	ThemeOf	AST,reduced
+R2	T2	T3	ThemeOf	chronic liver disease,association
+R3	T5	T6	CauseOf	splice variant,reduced
+R4	T4	T5	ThemeOf	HSD17B13,splice variant
+R5	T7	T6	ThemeOf	ALT,reduced
+R6	T8	T9	CauseOf	variant,reduced
+R7	T10	T9	ThemeOf	alcoholic liver disease,reduced
+R8	T11	T9	ThemeOf	nonalcoholic liver disease,reduced
+R9	T12	T9	ThemeOf	alcoholic cirrhosis,reduced

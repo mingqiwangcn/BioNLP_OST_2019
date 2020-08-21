@@ -1,0 +1,26 @@
+Id	Subject	Object	Predicate	Lexical cue
+T12	8-17	Var	denotes	Mutations
+T13	21-24	Gene	denotes	SON
+T14	103-110	Reg	denotes	Causing
+T11	114-146	Disease	denotes	Intellectual-Disability Syndrome
+T1	562-573	Disease	denotes	ID syndrome
+T2	605-621	NegReg	denotes	loss-of-function
+T3	628-637	Var	denotes	mutations
+T4	641-644	Gene	denotes	SON
+T5	1000-1018	CPA	denotes	neuronal migration
+T6	1023-1042	CPA	denotes	cortex organization
+T7	1092-1102	CPA	denotes	metabolism
+T8	1155-1168	NegReg	denotes	downregulated
+T9	1184-1196	PosReg	denotes	accumulation
+T10	1239-1274	Var	denotes	erroneous SON-mediated RNA splicing
+R1	T3	T2	CauseOf	mutations,loss-of-function
+R10	T11	T14	ThemeOf	Intellectual-Disability Syndrome,Causing
+R11	T13	T12	ThemeOf	SON,Mutations
+R2	T1	T2	ThemeOf	ID syndrome,loss-of-function
+R3	T4	T3	ThemeOf	SON,mutations
+R4	T10	T9	CauseOf	erroneous SON-mediated RNA splicing,accumulation
+R5	T9	T8	CauseOf	accumulation,downregulated
+R6	T6	T8	ThemeOf	cortex organization,downregulated
+R7	T7	T8	ThemeOf	metabolism,downregulated
+R8	T5	T8	ThemeOf	neuronal migration,downregulated
+R9	T12	T14	CauseOf	Mutations,Causing

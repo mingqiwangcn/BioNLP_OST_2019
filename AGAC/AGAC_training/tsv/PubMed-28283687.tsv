@@ -1,0 +1,35 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	10-26	PosReg	denotes	gain-of-function
+T2	27-36	Var	denotes	mutations
+T3	96-100	Gene	denotes	LRP5
+T4	105-134	MPA	denotes	glucose and lipid homeostasis
+T5	136-140	Gene	denotes	LRP5
+T6	141-157	NegReg	denotes	loss-of-function
+T7	158-167	Var	denotes	mutations
+T9	193-214	MPA	denotes	profound osteoporosis
+T10	245-273	MPA	denotes	impaired insulin sensitivity
+T11	278-307	MPA	denotes	dysregulated lipid metabolism
+T12	439-443	Gene	denotes	LRP5
+T13	444-460	PosReg	denotes	gain-of-function
+T14	461-470	Var	denotes	mutations
+T15	612-621	NegReg	denotes	reduction
+T16	625-634	MPA	denotes	serum LDL
+T17	3446-3450	Gene	denotes	LRP5
+T18	3451-3459	Var	denotes	variants
+T19	3464-3470	Reg	denotes	affect
+T20	3471-3485	MPA	denotes	LDL metabolism
+R1	T2	T1	CauseOf	mutations,gain-of-function
+R10	T12	T13	CauseOf	LRP5,gain-of-function
+R11	T12	T15	CauseOf	LRP5,reduction
+R12	T16	T15	ThemeOf	serum LDL,reduction
+R13	T17	T18	ThemeOf	LRP5,variants
+R14	T18	T19	CauseOf	variants,affect
+R15	T20	T19	ThemeOf	LDL metabolism,affect
+R2	T3	T2	ThemeOf	LRP5,mutations
+R3	T4	T1	ThemeOf	glucose and lipid homeostasis,gain-of-function
+R4	T5	T7	ThemeOf	LRP5,mutations
+R5	T7	T6	CauseOf	mutations,loss-of-function
+R6	T9	T6	ThemeOf	profound osteoporosis,loss-of-function
+R7	T10	T6	ThemeOf	impaired insulin sensitivity,loss-of-function
+R8	T11	T6	ThemeOf	dysregulated lipid metabolism,loss-of-function
+R9	T12	T14	ThemeOf	LRP5,mutations

@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	102-110	Reg	denotes	reported
+T1	123-126	Gene	denotes	GRN
+T2	133-141	Var	denotes	mutation
+T3	212-235	Disease	denotes	frontotemporal dementia
+R1	T1	T2	ThemeOf	GRN,mutation
+R2	T2	T4	CauseOf	mutation,reported
+R3	T3	T4	ThemeOf	frontotemporal dementia,reported

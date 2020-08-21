@@ -1,0 +1,13 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	936-945	Var	denotes	c.348delA
+T1	1175-1183	Var	denotes	c.499C>T
+T6	1262-1289	MPA	denotes	critical functional domains
+T2	1293-1297	Gene	denotes	FGF5
+T5	1313-1333	MPA	denotes	heparin binding site
+T3	1339-1343	NegReg	denotes	lost
+R1	T2	T1	ThemeOf	FGF5,c.499C>T
+R2	T2	T4	ThemeOf	FGF5,c.348delA
+R3	T4	T3	CauseOf	c.348delA,lost
+R4	T1	T3	CauseOf	c.499C>T,lost
+R5	T5	T3	ThemeOf	heparin binding site,lost
+R6	T6	T3	ThemeOf	critical functional domains,lost

@@ -1,0 +1,67 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	32-37	Gene	denotes	ABCC9
+T2	39-48	Var	denotes	mutations
+T3	90-102	MPA	denotes	KATP channel
+T4	103-119	PosReg	denotes	gain-of-function
+T5	169-183	Disease	denotes	Cantu syndrome
+T6	201-217	PosReg	denotes	gain-of-function
+T7	218-227	Var	denotes	mutations
+T8	238-243	Gene	denotes	KCNJ8
+T9	247-252	Gene	denotes	ABCC9
+T10	394-403	Var	denotes	mutations
+T11	408-416	PosReg	denotes	increase
+T12	417-433	MPA	denotes	channel activity
+T20	520-533	MPA	denotes	KATP function
+T21	537-544	Reg	denotes	altered
+T13	604-608	Gene	denotes	SUR2
+T14	610-615	Var	denotes	D207E
+T15	651-656	Var	denotes	Y985S
+T16	658-663	Var	denotes	G989E
+T17	665-671	Var	denotes	M1060I
+T18	677-683	Var	denotes	R1154Q
+T19	684-690	Var	denotes	R1154W
+T22	971-976	Var	denotes	D207E
+T23	977-986	PosReg	denotes	increases
+T24	987-1008	MPA	denotes	KATP channel activity
+T25	1012-1022	PosReg	denotes	increasing
+T26	1023-1060	MPA	denotes	intrinsic stability of the open state
+T28	1085-1090	Var	denotes	Y981S
+T29	1091-1096	Var	denotes	G985E
+T30	1097-1103	Var	denotes	M1056I
+T31	1130-1136	Var	denotes	R1150Q
+T32	1137-1143	Var	denotes	R1150W
+T33	1145-1154	PosReg	denotes	augmented
+T27	1155-1179	MPA	denotes	Mg-nucleotide activation
+R1	T1	T2	ThemeOf	ABCC9,mutations
+R10	T12	T11	ThemeOf	channel activity,increase
+R11	T10	T11	CauseOf	mutations,increase
+R12	T13	T14	ThemeOf	SUR2,D207E
+R13	T13	T15	ThemeOf	SUR2,Y985S
+R14	T13	T16	ThemeOf	SUR2,G989E
+R15	T13	T17	ThemeOf	SUR2,M1060I
+R16	T13	T18	ThemeOf	SUR2,R1154Q
+R17	T13	T19	ThemeOf	SUR2,R1154W
+R18	T19	T21	CauseOf	R1154W,altered
+R19	T18	T21	CauseOf	R1154Q,altered
+R2	T2	T4	CauseOf	mutations,gain-of-function
+R20	T15	T21	CauseOf	Y985S,altered
+R21	T16	T21	CauseOf	G989E,altered
+R22	T17	T21	CauseOf	M1060I,altered
+R23	T20	T21	ThemeOf	KATP function,altered
+R24	T22	T25	CauseOf	D207E,increasing
+R25	T26	T25	ThemeOf	intrinsic stability of the open state,increasing
+R26	T25	T23	CauseOf	increasing,increases
+R27	T24	T23	ThemeOf	KATP channel activity,increases
+R28	T28	T33	CauseOf	Y981S,augmented
+R29	T29	T33	CauseOf	G985E,augmented
+R3	T3	T4	ThemeOf	KATP channel,gain-of-function
+R30	T30	T33	CauseOf	M1056I,augmented
+R31	T31	T33	CauseOf	R1150Q,augmented
+R32	T32	T33	CauseOf	R1150W,augmented
+R33	T27	T33	ThemeOf	Mg-nucleotide activation,augmented
+R4	T8	T7	ThemeOf	KCNJ8,mutations
+R5	T9	T7	ThemeOf	ABCC9,mutations
+R6	T5	T6	ThemeOf	Cantu syndrome,gain-of-function
+R7	T7	T6	CauseOf	mutations,gain-of-function
+R8	T8	T10	ThemeOf	KCNJ8,mutations
+R9	T9	T10	ThemeOf	ABCC9,mutations

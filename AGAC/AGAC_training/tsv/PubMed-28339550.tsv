@@ -1,0 +1,35 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	774-783	Var	denotes	mutations
+T2	825-829	Gene	denotes	MSL8
+T3	835-844	NegReg	denotes	disrupted
+T4	845-868	MPA	denotes	normal channel function
+T5	892-901	Var	denotes	Ile711Ser
+T6	911-920	PosReg	denotes	increased
+T7	925-942	MPA	denotes	tension threshold
+T8	950-954	Gene	denotes	MSL8
+T9	969-976	Reg	denotes	leaving
+T10	977-998	MPA	denotes	conductance unchanged
+T11	1008-1026	Var	denotes	Phe720Leu mutation
+T12	1036-1045	NegReg	denotes	disrupted
+T14	1050-1054	Gene	denotes	MSL8
+T13	1055-1062	Pathway	denotes	channel
+T15	1078-1087	Var	denotes	mutations
+T16	1088-1096	NegReg	denotes	impaired
+T17	1101-1108	MPA	denotes	ability
+T18	1170-1178	Reg	denotes	maintain
+T19	1183-1192	MPA	denotes	integrity
+R1	T1	T3	CauseOf	mutations,disrupted
+R10	T14	T11	ThemeOf	MSL8,Phe720Leu mutation
+R11	T13	T12	ThemeOf	channel,disrupted
+R12	T15	T16	CauseOf	mutations,impaired
+R13	T17	T16	ThemeOf	ability,impaired
+R14	T15	T18	CauseOf	mutations,maintain
+R15	T19	T18	ThemeOf	integrity,maintain
+R2	T4	T3	ThemeOf	normal channel function,disrupted
+R3	T2	T1	ThemeOf	MSL8,mutations
+R4	T5	T6	CauseOf	Ile711Ser,increased
+R5	T7	T6	ThemeOf	tension threshold,increased
+R6	T8	T5	ThemeOf	MSL8,Ile711Ser
+R7	T5	T9	CauseOf	Ile711Ser,leaving
+R8	T10	T9	ThemeOf	conductance unchanged,leaving
+R9	T11	T12	CauseOf	Phe720Leu mutation,disrupted

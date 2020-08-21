@@ -1,0 +1,41 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	2-18	PosReg	denotes	gain-of-function
+T20	19-27	Var	denotes	mutation
+T1	31-40	Gene	denotes	TNFRSF13B
+T4	78-122	Disease	denotes	familial or sporadic immune thrombocytopenia
+T5	141-164	Disease	denotes	immune thrombocytopenia
+T8	948-958	Reg	denotes	pathologic
+T6	959-965	Var	denotes	p.G76S
+T7	995-1004	Gene	denotes	TNFRSF13B
+T9	1013-1025	Disease	denotes	familial ITP
+T10	1059-1063	Var	denotes	G76S
+T11	1083-1094	PosReg	denotes	upregulated
+T12	1095-1142	MPA	denotes	"""""""cytokine-cytokine receptor interaction"""" signal"""
+T13	1144-1153	PosReg	denotes	increased
+T14	1154-1194	MPA	denotes	"""serum TNFα, IL-17α, IFNγ and BAFF levels"""
+T15	1200-1208	PosReg	denotes	enhanced
+T16	1209-1252	Interaction	denotes	binding capacity of APRIL ligand to B cells
+T17	1301-1305	Var	denotes	G76S
+T18	1321-1327	PosReg	denotes	induce
+T19	1328-1371	CPA	denotes	human megakaryocyte line (Meg-01) apoptosis
+T21	1399-1405	Var	denotes	p.G76S
+T22	1418-1427	Gene	denotes	TNFRSF13B
+T23	1436-1447	Reg	denotes	responsible
+T24	1452-1455	Disease	denotes	ITP
+R1	T20	T2	CauseOf	mutation,gain-of-function
+R10	T12	T11	ThemeOf	"""""""""""""""cytokine-cytokine receptor interaction"""""""" signal"""""",upregulated"
+R11	T14	T13	ThemeOf	"""""""serum TNFα, IL-17α, IFNγ and BAFF levels"""""",increased"
+R12	T16	T15	ThemeOf	binding capacity of APRIL ligand to B cells,enhanced
+R13	T19	T18	ThemeOf	human megakaryocyte line (Meg-01) apoptosis,induce
+R14	T17	T18	CauseOf	G76S,induce
+R15	T21	T23	CauseOf	p.G76S,responsible
+R16	T24	T23	ThemeOf	ITP,responsible
+R17	T22	T21	ThemeOf	TNFRSF13B,p.G76S
+R2	T1	T20	ThemeOf	TNFRSF13B,mutation
+R3	T4	T2	ThemeOf	familial or sporadic immune thrombocytopenia,gain-of-function
+R4	T7	T6	ThemeOf	TNFRSF13B,p.G76S
+R5	T9	T8	ThemeOf	familial ITP,pathologic
+R6	T6	T8	CauseOf	p.G76S,pathologic
+R7	T10	T11	CauseOf	G76S,upregulated
+R8	T10	T13	CauseOf	G76S,increased
+R9	T10	T15	CauseOf	G76S,enhanced

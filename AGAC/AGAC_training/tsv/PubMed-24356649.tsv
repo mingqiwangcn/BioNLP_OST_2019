@@ -1,0 +1,18 @@
+Id	Subject	Object	Predicate	Lexical cue
+T8	153-159	Var	denotes	Mutant
+T9	160-163	Protein	denotes	p53
+T10	188-207	PosReg	denotes	gain new activities
+T11	211-234	CPA	denotes	promoting tumorigenesis
+T15	335-341	Var	denotes	mutp53
+T50	342-345	PosReg	denotes	GOF
+T51	349-362	CPA	denotes	tumorigenesis
+T47	1066-1072	Var	denotes	mutp53
+T48	1073-1076	PosReg	denotes	GOF
+T49	1080-1093	CPA	denotes	tumorigenesis
+R26	T47	T48	CauseOf	mutp53,GOF
+R27	T49	T48	ThemeOf	tumorigenesis,GOF
+R28	T15	T50	CauseOf	mutp53,GOF
+R29	T51	T50	ThemeOf	tumorigenesis,GOF
+R6	T11	T10	ThemeOf	promoting tumorigenesis,gain new activities
+R7	T9	T8	ThemeOf	p53,Mutant
+R8	T8	T10	CauseOf	Mutant,gain new activities

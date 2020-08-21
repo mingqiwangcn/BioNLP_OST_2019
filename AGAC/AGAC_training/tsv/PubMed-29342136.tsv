@@ -1,0 +1,40 @@
+Id	Subject	Object	Predicate	Lexical cue
+T22	17-27	Reg	denotes	mechanisms
+T19	31-36	Gene	denotes	NT5C2
+T20	37-43	Var	denotes	mutant
+T21	44-82	Disease	denotes	relapsed acute lymphoblastic leukaemia
+T18	84-122	Disease	denotes	Relapsed acute lymphoblastic leukaemia
+T2	195-211	PosReg	denotes	Gain-of-function
+T3	212-221	Var	denotes	mutations
+T1	260-265	Gene	denotes	NT5C2
+T4	272-278	PosReg	denotes	induce
+T5	279-309	MPA	denotes	resistance to 6-mercaptopurine
+T7	606-611	Var	denotes	R367Q
+T17	633-645	Disease	denotes	relapsed-ALL
+T6	646-651	Gene	denotes	NT5C2
+T8	662-669	PosReg	denotes	induces
+T9	670-718	MPA	denotes	resistance to chemotherapy with 6-mercaptopurine
+T15	809-824	NegReg	denotes	loss-of-fitness
+T16	825-834	CPA	denotes	phenotype
+T10	838-843	Gene	denotes	NT5C2
+T11	845-850	Var	denotes	R367Q
+T12	883-889	PosReg	denotes	excess
+T13	890-934	MPA	denotes	export of purines to the extracellular space
+T14	939-992	MPA	denotes	depletion of the intracellular purine-nucleotide pool
+R1	T1	T3	ThemeOf	NT5C2,mutations
+R10	T14	T12	ThemeOf	depletion of the intracellular purine-nucleotide pool,excess
+R11	T7	T8	CauseOf	R367Q,induces
+R12	T11	T12	CauseOf	R367Q,excess
+R13	T12	T15	CauseOf	excess,loss-of-fitness
+R14	T8	T17	CauseOf	induces,relapsed-ALL
+R15	T19	T20	ThemeOf	NT5C2,mutant
+R16	T20	T22	CauseOf	mutant,mechanisms
+R17	T21	T22	ThemeOf	relapsed acute lymphoblastic leukaemia,mechanisms
+R2	T5	T4	ThemeOf	resistance to 6-mercaptopurine,induce
+R3	T3	T2	CauseOf	mutations,Gain-of-function
+R4	T2	T4	CauseOf	Gain-of-function,induce
+R5	T6	T7	ThemeOf	NT5C2,R367Q
+R6	T9	T8	ThemeOf	resistance to chemotherapy with 6-mercaptopurine,induces
+R7	T10	T11	ThemeOf	NT5C2,R367Q
+R8	T13	T12	ThemeOf	export of purines to the extracellular space,excess
+R9	T16	T15	ThemeOf	phenotype,loss-of-fitness

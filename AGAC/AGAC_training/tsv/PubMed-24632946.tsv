@@ -1,0 +1,64 @@
+Id	Subject	Object	Predicate	Lexical cue
+T44	288-311	Disease	denotes	anorectal malformations
+T4	809-818	Protein	denotes	β-catenin
+T34	819-823	NegReg	denotes	loss
+T33	829-845	PosReg	denotes	gain-of-function
+T3	860-867	Var	denotes	mutants
+T1	887-916	CPA	denotes	clefts in the perineal region
+T2	921-954	CPA	denotes	hypoplastic elongation of the URS
+T7	960-967	Var	denotes	mutants
+T5	983-990	NegReg	denotes	reduced
+T6	991-1031	CPA	denotes	cell proliferation in the URS mesenchyme
+T10	1050-1059	Protein	denotes	β-catenin
+T11	1064-1071	Var	denotes	mutants
+T14	1198-1205	NegReg	denotes	reduced
+T15	1206-1223	MPA	denotes	expression levels
+T35	1260-1269	Protein	denotes	keratin 1
+T36	1274-1283	Protein	denotes	filaggrin
+T16	1316-1326	MPA	denotes	expression
+T18	1330-1368	Gene	denotes	bone morphogenetic protein (Bmp) genes
+T37	1378-1382	Gene	denotes	Bmp4
+T38	1387-1391	Gene	denotes	Bmp7
+T19	1414-1421	PosReg	denotes	induced
+T20	1457-1466	Protein	denotes	β-catenin
+T21	1471-1478	Var	denotes	mutants
+T22	1484-1494	MPA	denotes	expression
+T23	1502-1511	Gene	denotes	Msx2 gene
+T26	1551-1576	MPA	denotes	readouts of Bmp signaling
+T25	1587-1596	PosReg	denotes	increased
+T31	1604-1611	Var	denotes	mutants
+T39	1882-1885	Disease	denotes	ARM
+T40	1904-1913	Protein	denotes	β-catenin
+T41	1914-1917	PosReg	denotes	GOF
+T42	1918-1925	Var	denotes	mutants
+T43	1931-1940	Reg	denotes	caused by
+T29	1950-1963	MPA	denotes	Bmp signaling
+R1	T4	T3	ThemeOf	β-catenin,mutants
+R12	T15	T14	ThemeOf	expression levels,reduced
+R15	T16	T19	CauseOf	expression,induced
+R16	T20	T21	ThemeOf	β-catenin,mutants
+R17	T21	T19	ThemeOf	mutants,induced
+R18	T23	T22	ThemeOf	Msx2 gene,expression
+R20	T22	T25	ThemeOf	expression,increased
+R21	T26	T25	ThemeOf	readouts of Bmp signaling,increased
+R22	T31	T25	CauseOf	mutants,increased
+R25	T3	T33	CauseOf	mutants,gain-of-function
+R26	T3	T34	CauseOf	mutants,loss
+R27	T1	T34	ThemeOf	clefts in the perineal region,loss
+R28	T2	T33	ThemeOf	hypoplastic elongation of the URS,gain-of-function
+R29	T2	T34	CauseOf	hypoplastic elongation of the URS,loss
+R30	T1	T33	CauseOf	clefts in the perineal region,gain-of-function
+R31	T35	T15	ThemeOf	keratin 1,expression levels
+R32	T36	T15	ThemeOf	filaggrin,expression levels
+R33	T11	T14	CauseOf	mutants,reduced
+R34	T18	T16	ThemeOf	bone morphogenetic protein (Bmp) genes,expression
+R35	T37	T18	ThemeOf	Bmp4,bone morphogenetic protein (Bmp) genes
+R36	T38	T18	ThemeOf	Bmp7,bone morphogenetic protein (Bmp) genes
+R37	T39	T41	ThemeOf	ARM,GOF
+R38	T42	T43	CauseOf	mutants,caused by
+R39	T29	T43	ThemeOf	Bmp signaling,caused by
+R4	T7	T5	CauseOf	mutants,reduced
+R40	T40	T42	ThemeOf	β-catenin,mutants
+R41	T43	T41	CauseOf	caused by,GOF
+R5	T6	T5	ThemeOf	cell proliferation in the URS mesenchyme,reduced
+R6	T10	T11	ThemeOf	β-catenin,mutants

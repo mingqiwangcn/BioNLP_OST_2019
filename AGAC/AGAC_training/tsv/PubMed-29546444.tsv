@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	844-860	NegReg	denotes	loss-of-function
+T2	861-870	Var	denotes	mutations
+T3	891-895	Gene	denotes	Gn1a
+T4	915-918	Gene	denotes	GS3
+T6	923-934	Reg	denotes	responsible
+T5	943-966	MPA	denotes	heavy panicle phenotype
+R1	T2	T6	CauseOf	mutations,responsible
+R2	T5	T6	ThemeOf	heavy panicle phenotype,responsible
+R3	T4	T2	ThemeOf	GS3,mutations
+R4	T3	T2	ThemeOf	Gn1a,mutations
+R5	T2	T1	CauseOf	mutations,loss-of-function

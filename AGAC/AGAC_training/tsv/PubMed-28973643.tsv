@@ -1,0 +1,9 @@
+Id	Subject	Object	Predicate	Lexical cue
+T10	137-174	Disease	denotes	Hereditary hemorrhagic telangiectasia
+T3	362-365	Disease	denotes	HHT
+T1	379-395	NegReg	denotes	loss-of-function
+T2	396-405	Var	denotes	mutations
+T9	438-469	MPA	denotes	(BMP9)-ALK1-Smad1/5/8 signaling
+R1	T9	T2	ThemeOf	(BMP9)-ALK1-Smad1/5/8 signaling,mutations
+R2	T2	T1	CauseOf	mutations,loss-of-function
+R3	T3	T1	ThemeOf	HHT,loss-of-function

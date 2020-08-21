@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T12	27-31	Gene	denotes	PIGN
+T11	65-73	Var	denotes	deletion
+T7	556-585	Var	denotes	biallelic truncating variants
+T6	589-593	Gene	denotes	PIGN
+T9	697-707	Reg	denotes	identified
+T8	770-772	Disease	denotes	FS
+T1	796-800	Gene	denotes	PIGN
+T2	812-820	Var	denotes	missense
+T3	824-841	Var	denotes	compound missense
+T10	847-857	MPA	denotes	truncating
+T4	864-869	Reg	denotes	cause
+T5	870-929	Disease	denotes	multiple congenital anomalies-hypotonia-seizures syndrome 1
+R1	T1	T2	ThemeOf	PIGN,missense
+R10	T3	T10	CauseOf	compound missense,truncating
+R11	T10	T4	CauseOf	truncating,cause
+R2	T1	T3	ThemeOf	PIGN,compound missense
+R3	T5	T4	ThemeOf	multiple congenital anomalies-hypotonia-seizures syndrome 1,cause
+R6	T6	T7	ThemeOf	PIGN,biallelic truncating variants
+R7	T7	T9	CauseOf	biallelic truncating variants,identified
+R8	T8	T9	ThemeOf	FS,identified
+R9	T2	T10	CauseOf	missense,truncating

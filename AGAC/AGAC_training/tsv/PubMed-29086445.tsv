@@ -1,0 +1,6 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	841-851	Reg	denotes	indicating
+T1	852-872	MPA	denotes	premature senescence
+T2	884-896	Var	denotes	Fix- mutants
+R1	T2	T3	CauseOf	Fix- mutants,indicating
+R2	T1	T3	ThemeOf	premature senescence,indicating

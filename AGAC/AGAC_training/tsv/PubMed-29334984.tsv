@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	1030-1033	NegReg	denotes	LOF
+T2	1034-1043	Var	denotes	mutations
+T3	1047-1054	Gene	denotes	ANGPTL3
+T4	1060-1065	NegReg	denotes	lower
+T5	1066-1078	MPA	denotes	plasma LDL-C
+T6	1080-1089	MPA	denotes	TG levels
+R1	T3	T2	ThemeOf	ANGPTL3,mutations
+R2	T2	T1	CauseOf	mutations,LOF
+R3	T5	T4	ThemeOf	plasma LDL-C,lower
+R4	T6	T4	ThemeOf	TG levels,lower
+R6	T1	T4	CauseOf	LOF,lower

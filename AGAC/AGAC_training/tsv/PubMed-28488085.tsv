@@ -1,0 +1,33 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	6-22	NegReg	denotes	loss of function
+T2	23-31	Var	denotes	mutation
+T3	35-40	Gene	denotes	KRIT1
+T4	49-64	Reg	denotes	associated with
+T5	88-131	Disease	denotes	cerebral and spinal cavernous malformations
+T6	209-246	Disease	denotes	Cerebrospinal cavernous malformations
+T8	1355-1360	Gene	denotes	KRIT1
+T7	1390-1406	Var	denotes	c.1535_1536delTG
+T9	1434-1442	Reg	denotes	leads to
+T10	1445-1455	Var	denotes	frameshift
+T11	1463-1483	MPA	denotes	premature stop codon
+T12	1532-1548	NegReg	denotes	loss of function
+T13	1556-1569	Protein	denotes	KRIT1 protein
+T14	1641-1657	NegReg	denotes	loss of function
+T15	1658-1666	Var	denotes	mutation
+T16	1670-1675	Gene	denotes	KRIT1
+T17	1686-1701	Reg	denotes	associated with
+T18	1737-1741	Disease	denotes	CCMs
+R1	T2	T1	CauseOf	mutation,loss of function
+R10	T13	T12	ThemeOf	KRIT1 protein,loss of function
+R11	T15	T14	CauseOf	mutation,loss of function
+R12	T16	T15	ThemeOf	KRIT1,mutation
+R13	T15	T17	CauseOf	mutation,associated with
+R14	T18	T17	ThemeOf	CCMs,associated with
+R2	T3	T2	ThemeOf	KRIT1,mutation
+R3	T2	T4	CauseOf	mutation,associated with
+R4	T5	T4	ThemeOf	cerebral and spinal cavernous malformations,associated with
+R5	T7	T9	CauseOf	c.1535_1536delTG,leads to
+R6	T10	T9	ThemeOf	frameshift,leads to
+R7	T11	T9	ThemeOf	premature stop codon,leads to
+R8	T8	T7	ThemeOf	KRIT1,c.1535_1536delTG
+R9	T7	T12	CauseOf	c.1535_1536delTG,loss of function

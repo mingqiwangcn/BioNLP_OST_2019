@@ -1,0 +1,32 @@
+Id	Subject	Object	Predicate	Lexical cue
+T29	0-6	Var	denotes	Mutant
+T28	7-10	Gene	denotes	p53
+T30	11-27	PosReg	denotes	gain of function
+T27	71-89	Disease	denotes	human osteosarcoma
+T19	1700-1714	Var	denotes	p53-R248W/P72R
+T20	1729-1737	PosReg	denotes	promoted
+T21	1738-1763	CPA	denotes	cancer stem-like features
+T31	1768-1791	CPA	denotes	high proliferation rate
+T32	1793-1809	CPA	denotes	sphere formation
+T33	1811-1828	CPA	denotes	clonogenic growth
+T34	1830-1844	CPA	denotes	high migration
+T35	1849-1865	CPA	denotes	invasive ability
+T22	1892-1901	PosReg	denotes	increased
+T23	1906-1933	MPA	denotes	levels of stemness proteins
+T36	1969-1980	Reg	denotes	involvement
+T37	1984-1998	Var	denotes	p53-R248W/P72R
+T38	2006-2059	CPA	denotes	origin of the aberrant characters of the 3AB-OS cells
+R16	T19	T20	CauseOf	p53-R248W/P72R,promoted
+R17	T21	T20	ThemeOf	cancer stem-like features,promoted
+R18	T19	T22	CauseOf	p53-R248W/P72R,increased
+R19	T23	T22	ThemeOf	levels of stemness proteins,increased
+R22	T28	T29	ThemeOf	p53,Mutant
+R23	T29	T30	CauseOf	Mutant,gain of function
+R24	T27	T30	ThemeOf	human osteosarcoma,gain of function
+R25	T31	T21	ThemeOf	high proliferation rate,cancer stem-like features
+R26	T32	T21	ThemeOf	sphere formation,cancer stem-like features
+R27	T33	T21	ThemeOf	clonogenic growth,cancer stem-like features
+R28	T34	T21	ThemeOf	high migration,cancer stem-like features
+R29	T35	T21	ThemeOf	invasive ability,cancer stem-like features
+R30	T37	T36	CauseOf	p53-R248W/P72R,involvement
+R31	T38	T36	ThemeOf	origin of the aberrant characters of the 3AB-OS cells,involvement

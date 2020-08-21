@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	773-779	Gene	denotes	Mparf1
+T2	780-787	Var	denotes	mutants
+T3	795-802	NegReg	denotes	reduced
+T4	803-823	Gene	denotes	auxin-inducible gene
+T5	824-834	MPA	denotes	expression
+T6	847-868	CPA	denotes	developmental defects
+R1	T1	T2	ThemeOf	Mparf1,mutants
+R2	T2	T3	CauseOf	mutants,reduced
+R3	T4	T5	ThemeOf	auxin-inducible gene,expression
+R4	T5	T3	ThemeOf	expression,reduced
+R5	T6	T3	ThemeOf	developmental defects,reduced

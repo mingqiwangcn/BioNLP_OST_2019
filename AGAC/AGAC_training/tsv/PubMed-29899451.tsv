@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	651-667	PosReg	denotes	gain-of-function
+T3	668-676	Var	denotes	mutation
+T1	684-688	Gene	denotes	Sik3
+T4	773-787	Protein	denotes	brain proteome
+T5	811-831	MPA	denotes	hyperphosphorylation
+T9	1077-1083	Var	denotes	mutant
+T8	1084-1088	Gene	denotes	SIK3
+T10	1089-1096	Protein	denotes	protein
+T6	1098-1112	PosReg	denotes	preferentially
+T7	1113-1128	Interaction	denotes	associates with
+T11	1133-1147	MPA	denotes	phosphorylates
+T12	1148-1154	Protein	denotes	SNIPPs
+R1	T1	T3	ThemeOf	Sik3,mutation
+R10	T12	T11	ThemeOf	SNIPPs,phosphorylates
+R2	T3	T2	CauseOf	mutation,gain-of-function
+R3	T5	T4	ThemeOf	hyperphosphorylation,brain proteome
+R4	T4	T2	CauseOf	brain proteome,gain-of-function
+R5	T8	T9	ThemeOf	SIK3,mutant
+R6	T10	T8	ThemeOf	protein,SIK3
+R7	T9	T6	CauseOf	mutant,preferentially
+R8	T7	T6	ThemeOf	associates with,preferentially
+R9	T11	T7	ThemeOf	phosphorylates,associates with

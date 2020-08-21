@@ -1,0 +1,26 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	409-415	Var	denotes	mutant
+T1	416-419	Gene	denotes	p53
+T3	429-437	Protein	denotes	proteins
+T4	447-451	NegReg	denotes	lose
+T5	468-493	CPA	denotes	tumor suppressor activity
+T6	516-523	PosReg	denotes	promote
+T7	524-541	CPA	denotes	tumor development
+T8	578-584	Var	denotes	mutp53
+T9	681-685	PosReg	denotes	gain
+T10	700-720	CPA	denotes	oncogenic activities
+T13	792-798	Var	denotes	mutp53
+T11	934-938	PosReg	denotes	more
+T12	939-948	CPA	denotes	resistant
+T14	999-1017	CPA	denotes	survival advantage
+R1	T1	T3	ThemeOf	p53,proteins
+R10	T12	T11	ThemeOf	resistant,more
+R11	T14	T11	ThemeOf	survival advantage,more
+R2	T3	T2	ThemeOf	proteins,mutant
+R3	T2	T4	CauseOf	mutant,lose
+R4	T5	T4	ThemeOf	tumor suppressor activity,lose
+R5	T2	T6	CauseOf	mutant,promote
+R6	T7	T6	ThemeOf	tumor development,promote
+R7	T8	T9	CauseOf	mutp53,gain
+R8	T10	T9	ThemeOf	oncogenic activities,gain
+R9	T13	T11	CauseOf	mutp53,more

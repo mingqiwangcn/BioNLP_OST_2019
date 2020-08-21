@@ -1,0 +1,72 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-17	Enzyme	denotes	Protein kinase Cα
+T2	18-34	PosReg	denotes	gain-of-function
+T3	35-42	Var	denotes	variant
+T4	46-65	Disease	denotes	Alzheimer's disease
+T5	75-83	PosReg	denotes	enhanced
+T6	84-93	MPA	denotes	catalysis
+T14	574-590	PosReg	denotes	gain-of-function
+T15	591-608	Var	denotes	germline mutation
+T16	612-616	Enzyme	denotes	PKCα
+T17	620-639	Disease	denotes	Alzheimer's disease
+T18	645-653	PosReg	denotes	enhances
+T19	654-663	MPA	denotes	signaling
+T20	780-788	Var	denotes	mutation
+T21	808-816	PosReg	denotes	increase
+T22	824-833	MPA	denotes	catalytic
+T23	1005-1013	Var	denotes	mutation
+T24	1070-1080	NegReg	denotes	decreasing
+T25	1085-1108	MPA	denotes	dynamics of the C-helix
+T26	1343-1349	Var	denotes	mutant
+T27	1350-1356	Enzyme	denotes	enzyme
+T28	1375-1384	PosReg	denotes	increased
+T29	1385-1396	MPA	denotes	sensitivity
+T32	1513-1522	Reg	denotes	influence
+T31	1523-1530	Protein	denotes	protein
+T30	1531-1543	Interaction	denotes	interactions
+T33	1567-1582	MPA	denotes	phosphorylation
+T34	1607-1652	MPA	denotes	myristoylated alanine-rich C-kinase substrate
+T35	1657-1666	PosReg	denotes	increased
+T36	1726-1730	Enzyme	denotes	PKCα
+T37	1731-1745	Var	denotes	M489V mutation
+T38	1773-1775	Disease	denotes	AD
+T41	1776-1786	Reg	denotes	associated
+T39	1787-1795	Var	denotes	mutation
+T40	1799-1803	Enzyme	denotes	PKCα
+T42	1812-1820	PosReg	denotes	enhanced
+T43	1821-1848	MPA	denotes	agonist-dependent signaling
+T44	1870-1876	NegReg	denotes	evades
+T45	1888-1915	MPA	denotes	homeostatic down-regulation
+T46	1919-1945	Enzyme	denotes	constitutively active PKCα
+R1	T3	T2	CauseOf	variant,gain-of-function
+R10	T19	T18	ThemeOf	signaling,enhances
+R11	T20	T21	CauseOf	mutation,increase
+R12	T22	T21	ThemeOf	catalytic,increase
+R13	T23	T24	CauseOf	mutation,decreasing
+R14	T25	T24	ThemeOf	dynamics of the C-helix,decreasing
+R15	T27	T26	ThemeOf	enzyme,mutant
+R16	T26	T28	CauseOf	mutant,increased
+R17	T29	T28	ThemeOf	sensitivity,increased
+R18	T31	T30	ThemeOf	protein,interactions
+R19	T30	T32	ThemeOf	interactions,influence
+R2	T4	T2	ThemeOf	Alzheimer's disease,gain-of-function
+R20	T28	T32	CauseOf	increased,influence
+R21	T36	T37	ThemeOf	PKCα,M489V mutation
+R22	T37	T35	CauseOf	M489V mutation,increased
+R23	T33	T35	ThemeOf	phosphorylation,increased
+R24	T34	T33	ThemeOf	myristoylated alanine-rich C-kinase substrate,phosphorylation
+R25	T39	T41	CauseOf	mutation,associated
+R26	T38	T41	ThemeOf	AD,associated
+R27	T40	T39	ThemeOf	PKCα,mutation
+R28	T39	T44	CauseOf	mutation,evades
+R29	T45	T44	ThemeOf	homeostatic down-regulation,evades
+R3	T1	T3	ThemeOf	Protein kinase Cα,variant
+R30	T46	T45	ThemeOf	constitutively active PKCα,homeostatic down-regulation
+R31	T44	T42	CauseOf	evades,enhanced
+R32	T43	T42	ThemeOf	agonist-dependent signaling,enhanced
+R4	T3	T5	CauseOf	variant,enhanced
+R5	T6	T5	ThemeOf	catalysis,enhanced
+R6	T15	T14	CauseOf	germline mutation,gain-of-function
+R7	T16	T15	ThemeOf	PKCα,germline mutation
+R8	T17	T14	ThemeOf	Alzheimer's disease,gain-of-function
+R9	T14	T18	CauseOf	gain-of-function,enhances

@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	482-491	Var	denotes	mutations
+T2	495-498	Gene	denotes	pnt
+T3	499-506	Reg	denotes	perturb
+T4	511-541	CPA	denotes	development of several tissues
+R1	T1	T3	CauseOf	mutations,perturb
+R2	T4	T3	ThemeOf	development of several tissues,perturb
+R3	T2	T1	ThemeOf	pnt,mutations

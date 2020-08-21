@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T9	0-16	PosReg	denotes	Gain-of-function
+T10	17-21	Gene	denotes	HCN2
+T11	22-30	Var	denotes	variants
+T12	42-50	Disease	denotes	epilepsy
+T5	1052-1059	Var	denotes	p.S632W
+T6	1064-1071	Var	denotes	p.V246M
+T8	1119-1163	MPA	denotes	depolarizing shift in the voltage dependence
+T7	1167-1177	PosReg	denotes	activation
+T1	1434-1438	Gene	denotes	HCN2
+T2	1439-1447	Var	denotes	variants
+T4	1459-1473	MPA	denotes	susceptibility
+T3	1487-1503	PosReg	denotes	gain-of-function
+R1	T5	T7	CauseOf	p.S632W,activation
+R2	T6	T7	CauseOf	p.V246M,activation
+R3	T8	T7	ThemeOf	depolarizing shift in the voltage dependence,activation
+R4	T1	T2	ThemeOf	HCN2,variants
+R5	T2	T3	CauseOf	variants,gain-of-function
+R6	T4	T3	ThemeOf	susceptibility,gain-of-function
+R7	T10	T11	ThemeOf	HCN2,variants
+R8	T11	T9	CauseOf	variants,Gain-of-function
+R9	T12	T9	ThemeOf	epilepsy,Gain-of-function

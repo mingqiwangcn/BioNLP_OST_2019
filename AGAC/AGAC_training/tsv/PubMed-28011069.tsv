@@ -1,0 +1,25 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	149-180	Var	denotes	Germline heterozygous mutations
+T2	190-207	Gene	denotes	signal transducer
+T3	212-240	Gene	denotes	activator of transcription 1
+T4	259-275	NegReg	denotes	loss of function
+T5	331-353	Disease	denotes	mycobacterial diseases
+T6	358-374	PosReg	denotes	gain of function
+T7	402-435	Disease	denotes	chronic mucocutaneous candidiasis
+T8	449-458	Var	denotes	mutations
+T10	484-490	Reg	denotes	affect
+T9	500-507	MPA	denotes	domains
+T11	511-516	Gene	denotes	STAT1
+T12	533-551	MPA	denotes	coiled-coil domain
+T13	562-580	MPA	denotes	DNA-binding domain
+R1	T1	T4	CauseOf	Germline heterozygous mutations,loss of function
+R10	T12	T9	ThemeOf	coiled-coil domain,domains
+R11	T13	T9	ThemeOf	DNA-binding domain,domains
+R2	T2	T1	ThemeOf	signal transducer,Germline heterozygous mutations
+R3	T1	T6	CauseOf	Germline heterozygous mutations,gain of function
+R4	T7	T6	ThemeOf	chronic mucocutaneous candidiasis,gain of function
+R5	T5	T4	ThemeOf	mycobacterial diseases,loss of function
+R6	T3	T1	ThemeOf	activator of transcription 1,Germline heterozygous mutations
+R7	T8	T10	CauseOf	mutations,affect
+R8	T9	T10	ThemeOf	domains,affect
+R9	T11	T9	ThemeOf	STAT1,domains

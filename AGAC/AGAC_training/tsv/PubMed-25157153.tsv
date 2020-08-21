@@ -1,0 +1,27 @@
+Id	Subject	Object	Predicate	Lexical cue
+T8	343-359	NegReg	denotes	loss-of-function
+T4	366-375	Var	denotes	mutations
+T5	379-384	Gene	denotes	PPARG
+T6	415-428	Disease	denotes	lipodystrophy
+T7	433-451	Disease	denotes	insulin resistance
+T1	491-495	Var	denotes	P12A
+T2	525-534	NegReg	denotes	decreased
+T12	543-558	Disease	denotes	type 2 diabetes
+T10	1521-1528	Var	denotes	variant
+T9	1532-1537	Gene	denotes	PPARG
+T11	1543-1550	NegReg	denotes	reduces
+T15	1551-1602	CPA	denotes	function in a human adipocyte differentiation assay
+T13	1610-1620	Reg	denotes	associated
+T14	1648-1651	Disease	denotes	T2D
+R1	T5	T4	ThemeOf	PPARG,mutations
+R10	T10	T13	CauseOf	variant,associated
+R11	T14	T13	ThemeOf	T2D,associated
+R12	T5	T1	ThemeOf	PPARG,P12A
+R2	T4	T8	CauseOf	mutations,loss-of-function
+R3	T6	T8	ThemeOf	lipodystrophy,loss-of-function
+R4	T7	T8	ThemeOf	insulin resistance,loss-of-function
+R5	T1	T2	CauseOf	P12A,decreased
+R6	T12	T2	ThemeOf	type 2 diabetes,decreased
+R7	T9	T10	ThemeOf	PPARG,variant
+R8	T10	T11	CauseOf	variant,reduces
+R9	T15	T11	ThemeOf	function in a human adipocyte differentiation assay,reduces

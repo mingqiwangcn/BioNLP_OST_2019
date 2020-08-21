@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	8-13	Gene	denotes	SETD5
+T2	14-30	NegReg	denotes	loss-of-function
+T3	31-38	Var	denotes	variant
+T4	54-77	Disease	denotes	intellectual disability
+T6	594-610	NegReg	denotes	Loss-of-Function
+T7	617-625	Var	denotes	variants
+T8	629-634	Gene	denotes	SETD5
+T5	672-674	Disease	denotes	ID
+R1	T1	T3	ThemeOf	SETD5,variant
+R2	T4	T2	ThemeOf	intellectual disability,loss-of-function
+R3	T5	T6	ThemeOf	ID,Loss-of-Function
+R4	T8	T7	ThemeOf	SETD5,variants
+R5	T3	T2	CauseOf	variant,loss-of-function
+R6	T7	T6	CauseOf	variants,Loss-of-Function

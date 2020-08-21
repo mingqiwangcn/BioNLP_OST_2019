@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	1074-1078	Gene	denotes	fama
+T2	1079-1095	NegReg	denotes	loss-of-function
+T3	1096-1103	Var	denotes	mutants
+T4	1124-1133	PosReg	denotes	increased
+T5	1134-1172	MPA	denotes	susceptibility to B. cinerea infection
+T6	1177-1184	NegReg	denotes	reduced
+T7	1185-1208	MPA	denotes	defense-gene expression
+R1	T1	T3	ThemeOf	fama,mutants
+R2	T3	T2	CauseOf	mutants,loss-of-function
+R3	T3	T4	CauseOf	mutants,increased
+R4	T5	T4	ThemeOf	susceptibility to B. cinerea infection,increased
+R5	T3	T6	CauseOf	mutants,reduced
+R6	T7	T6	ThemeOf	defense-gene expression,reduced

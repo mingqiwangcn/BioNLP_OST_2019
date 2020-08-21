@@ -1,0 +1,28 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	25-32	Gene	denotes	SLC30A8
+T3	33-38	Var	denotes	R138X
+T2	39-55	NegReg	denotes	loss-of-function
+T4	70-79	PosReg	denotes	increased
+T5	80-106	MPA	denotes	insulin secretory capacity
+T6	676-681	Var	denotes	R138X
+T7	700-708	PosReg	denotes	increase
+T8	712-729	MPA	denotes	insulin secretion
+T9	832-839	Gene	denotes	SLC30A8
+T10	846-849	NegReg	denotes	LOF
+T16	850-858	Var	denotes	mutation
+T12	869-887	PosReg	denotes	beneficial effects
+T13	891-909	MPA	denotes	glucose metabolism
+T14	913-923	PosReg	denotes	increasing
+T17	951-966	MPA	denotes	secrete insulin
+R1	T1	T3	ThemeOf	SLC30A8,R138X
+R10	T17	T14	ThemeOf	secrete insulin,increasing
+R11	T14	T12	CauseOf	increasing,beneficial effects
+R12	T13	T12	ThemeOf	glucose metabolism,beneficial effects
+R2	T3	T2	CauseOf	R138X,loss-of-function
+R3	T2	T4	CauseOf	loss-of-function,increased
+R4	T5	T4	ThemeOf	insulin secretory capacity,increased
+R5	T6	T7	CauseOf	R138X,increase
+R6	T8	T7	ThemeOf	insulin secretion,increase
+R7	T9	T16	ThemeOf	SLC30A8,mutation
+R8	T16	T10	CauseOf	mutation,LOF
+R9	T10	T14	CauseOf	LOF,increasing

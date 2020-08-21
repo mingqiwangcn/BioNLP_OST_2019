@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	212-220	Var	denotes	variants
+T1	245-249	Gene	denotes	CDH1
+T2	264-279	Reg	denotes	associated with
+T3	299-332	Disease	denotes	hereditary diffuse gastric cancer
+T5	1427-1446	Var	denotes	frameshift deletion
+T6	1450-1455	Gene	denotes	PALB2
+T7	1460-1465	Reg	denotes	found
+T8	1510-1517	Disease	denotes	gastric
+T9	1522-1535	Disease	denotes	breast cancer
+R1	T1	T4	ThemeOf	CDH1,variants
+R2	T4	T2	CauseOf	variants,associated with
+R3	T3	T2	ThemeOf	hereditary diffuse gastric cancer,associated with
+R4	T6	T5	ThemeOf	PALB2,frameshift deletion
+R5	T5	T7	CauseOf	frameshift deletion,found
+R6	T8	T7	ThemeOf	gastric,found
+R7	T9	T7	ThemeOf	breast cancer,found

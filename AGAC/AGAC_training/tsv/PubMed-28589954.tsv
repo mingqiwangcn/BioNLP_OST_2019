@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-6	Gene	denotes	WNT10A
+T2	7-15	Var	denotes	mutation
+T3	16-22	Reg	denotes	causes
+T4	23-43	Disease	denotes	ectodermal dysplasia
+T5	47-56	NegReg	denotes	impairing
+T6	57-86	CPA	denotes	progenitor cell proliferation
+T7	91-120	CPA	denotes	KLF4-mediated differentiation
+R1	T1	T2	ThemeOf	WNT10A,mutation
+R2	T2	T5	CauseOf	mutation,impairing
+R3	T6	T5	ThemeOf	progenitor cell proliferation,impairing
+R4	T7	T5	ThemeOf	KLF4-mediated differentiation,impairing
+R5	T5	T3	CauseOf	impairing,causes
+R6	T4	T3	ThemeOf	ectodermal dysplasia,causes

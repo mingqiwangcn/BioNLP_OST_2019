@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	122-127	Gene	denotes	PAI-1
+T3	145-153	Var	denotes	variants
+T4	154-161	PosReg	denotes	promote
+T5	162-177	CPA	denotes	airway fibrosis
+T6	186-201	Reg	denotes	associated with
+T7	202-208	Disease	denotes	asthma
+R1	T3	T4	CauseOf	variants,promote
+R2	T5	T4	ThemeOf	airway fibrosis,promote
+R3	T1	T3	ThemeOf	PAI-1,variants
+R4	T3	T6	CauseOf	variants,associated with
+R5	T7	T6	ThemeOf	asthma,associated with

@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	972-980	Var	denotes	Deletion
+T2	1044-1051	Reg	denotes	affects
+T3	1056-1078	MPA	denotes	circadian clock output
+T4	1080-1088	Reg	denotes	yielding
+T5	1102-1121	MPA	denotes	asexual conidiation
+R1	T1	T2	CauseOf	Deletion,affects
+R2	T3	T2	ThemeOf	circadian clock output,affects
+R3	T1	T4	CauseOf	Deletion,yielding
+R4	T5	T4	ThemeOf	asexual conidiation,yielding

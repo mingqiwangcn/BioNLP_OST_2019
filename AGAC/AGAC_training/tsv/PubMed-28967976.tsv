@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	535-551	NegReg	denotes	loss-of-function
+T3	552-560	Var	denotes	mutation
+T1	587-594	Gene	denotes	IL-36Ra
+T4	603-621	Disease	denotes	pustular psoriasis
+R1	T1	T3	ThemeOf	IL-36Ra,mutation
+R2	T4	T2	ThemeOf	pustular psoriasis,loss-of-function
+R3	T3	T2	CauseOf	mutation,loss-of-function

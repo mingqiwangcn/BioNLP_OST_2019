@@ -1,0 +1,27 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	0-31	Var	denotes	Biallelic inactivating variants
+T1	39-45	Gene	denotes	GTPBP2
+T3	51-56	Reg	denotes	cause
+T4	59-86	Disease	denotes	neurodevelopmental disorder
+T5	503-531	Var	denotes	c.430[C>T];[C>T] p.(Arg144*)
+T6	533-562	Var	denotes	c.1219[C>T];[C>T] p.(Gln407*)
+T7	567-596	Var	denotes	c.1408[C>T];[C>T] p.(Arg470*)
+T8	600-606	Gene	denotes	GTPBP2
+T9	672-718	CPA	denotes	non-progressive motor and cognitive impairment
+T12	865-895	CPA	denotes	structural brain abnormalities
+T10	903-934	CPA	denotes	agenesis of the corpus callosum
+T11	981-1004	CPA	denotes	brain iron accumulation
+R1	T1	T2	ThemeOf	GTPBP2,Biallelic inactivating variants
+R10	T5	T12	CauseOf	c.430[C>T];[C>T] p.(Arg144*),structural brain abnormalities
+R11	T6	T12	CauseOf	c.1219[C>T];[C>T] p.(Gln407*),structural brain abnormalities
+R12	T7	T12	CauseOf	c.1408[C>T];[C>T] p.(Arg470*),structural brain abnormalities
+R13	T10	T12	ThemeOf	agenesis of the corpus callosum,structural brain abnormalities
+R14	T11	T12	ThemeOf	brain iron accumulation,structural brain abnormalities
+R2	T4	T3	ThemeOf	neurodevelopmental disorder,cause
+R3	T2	T3	CauseOf	Biallelic inactivating variants,cause
+R4	T8	T7	ThemeOf	GTPBP2,c.1408[C>T];[C>T] p.(Arg470*)
+R5	T8	T6	ThemeOf	GTPBP2,c.1219[C>T];[C>T] p.(Gln407*)
+R6	T8	T5	ThemeOf	GTPBP2,c.430[C>T];[C>T] p.(Arg144*)
+R7	T5	T9	CauseOf	c.430[C>T];[C>T] p.(Arg144*),non-progressive motor and cognitive impairment
+R8	T6	T9	CauseOf	c.1219[C>T];[C>T] p.(Gln407*),non-progressive motor and cognitive impairment
+R9	T7	T9	CauseOf	c.1408[C>T];[C>T] p.(Arg470*),non-progressive motor and cognitive impairment

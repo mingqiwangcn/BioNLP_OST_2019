@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	1073-1076	NegReg	denotes	low
+T3	1077-1086	CPA	denotes	fecundity
+T2	1100-1105	Gene	denotes	hop-1
+T1	1106-1113	Var	denotes	mutants
+T5	1136-1149	NegReg	denotes	switching off
+T6	1150-1170	MPA	denotes	glp-1/Notch function
+T12	1423-1430	NegReg	denotes	defects
+T10	1434-1445	CPA	denotes	oocyte size
+T11	1450-1460	CPA	denotes	production
+T7	1469-1474	Gene	denotes	hop-1
+T8	1479-1484	Gene	denotes	glp-1
+T9	1485-1492	Var	denotes	mutants
+R1	T2	T1	ThemeOf	hop-1,mutants
+R10	T11	T12	ThemeOf	production,defects
+R11	T10	T12	ThemeOf	oocyte size,defects
+R3	T3	T4	ThemeOf	fecundity,low
+R4	T1	T5	CauseOf	mutants,switching off
+R5	T6	T5	ThemeOf	glp-1/Notch function,switching off
+R6	T5	T3	CauseOf	switching off,fecundity
+R7	T8	T9	ThemeOf	glp-1,mutants
+R8	T7	T9	ThemeOf	hop-1,mutants
+R9	T9	T12	CauseOf	mutants,defects

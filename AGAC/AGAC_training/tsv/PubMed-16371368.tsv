@@ -1,0 +1,61 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	108-117	Var	denotes	Mutations
+T2	121-126	Gene	denotes	SHP-2
+T3	127-138	Enzyme	denotes	phosphatase
+T4	150-165	PosReg	denotes	hyperactivation
+T5	173-191	MPA	denotes	catalytic activity
+T33	222-231	Disease	denotes	leukemias
+T34	246-278	Disease	denotes	juvenile myelomonocytic leukemia
+T10	1314-1319	Gene	denotes	SHP-2
+T11	1320-1333	Var	denotes	E76K mutation
+T12	1341-1367	Disease	denotes	myeloproliferative disease
+T13	1494-1498	Var	denotes	E76K
+T14	1548-1557	PosReg	denotes	increased
+T15	1558-1570	Interaction	denotes	interactions
+T18	1574-1580	Var	denotes	mutant
+T17	1581-1586	Gene	denotes	SHP-2
+T16	1592-1596	Protein	denotes	Grb2
+T19	1624-1639	PosReg	denotes	hyperactivation
+T20	1643-1709	Pathway	denotes	IL-3-induced Erk and phosphatidylinositol 3-kinase (PI3K) pathways
+T25	1748-1756	PosReg	denotes	increase
+T26	1764-1782	MPA	denotes	catalytic activity
+T24	1784-1810	MPA	denotes	dephosphorylation of STAT5
+T22	1814-1819	Gene	denotes	SHP-2
+T23	1820-1824	Var	denotes	E76K
+T21	1829-1837	NegReg	denotes	dampened
+T35	1875-1880	Gene	denotes	SHP-2
+T27	1881-1885	Var	denotes	E76K
+T36	1905-1910	Var	denotes	C459S
+T28	1947-1955	PosReg	denotes	increase
+T29	1960-1971	Interaction	denotes	interaction
+T30	1977-1981	Protein	denotes	Gab2
+T31	1989-1996	PosReg	denotes	enhance
+T32	2019-2031	Pathway	denotes	PI3K pathway
+R1	T3	T2	ThemeOf	phosphatase,SHP-2
+R10	T17	T15	ThemeOf	SHP-2,interactions
+R11	T18	T17	ThemeOf	mutant,SHP-2
+R12	T14	T19	CauseOf	increased,hyperactivation
+R13	T20	T19	ThemeOf	IL-3-induced Erk and phosphatidylinositol 3-kinase (PI3K) pathways,hyperactivation
+R14	T26	T25	ThemeOf	catalytic activity,increase
+R15	T24	T21	ThemeOf	dephosphorylation of STAT5,dampened
+R16	T23	T22	ThemeOf	E76K,SHP-2
+R17	T22	T24	ThemeOf	SHP-2,dephosphorylation of STAT5
+R18	T27	T28	CauseOf	E76K,increase
+R19	T29	T28	ThemeOf	interaction,increase
+R2	T2	T1	ThemeOf	SHP-2,Mutations
+R20	T30	T29	ThemeOf	Gab2,interaction
+R21	T27	T31	CauseOf	E76K,enhance
+R22	T32	T31	ThemeOf	PI3K pathway,enhance
+R23	T33	T4	ThemeOf	leukemias,hyperactivation
+R24	T34	T4	ThemeOf	juvenile myelomonocytic leukemia,hyperactivation
+R25	T35	T27	ThemeOf	SHP-2,E76K
+R26	T36	T28	CauseOf	C459S,increase
+R27	T35	T36	ThemeOf	SHP-2,C459S
+R28	T36	T31	CauseOf	C459S,enhance
+R3	T1	T4	CauseOf	Mutations,hyperactivation
+R4	T5	T4	ThemeOf	catalytic activity,hyperactivation
+R5	T10	T11	ThemeOf	SHP-2,E76K mutation
+R6	T11	T12	CauseOf	E76K mutation,myeloproliferative disease
+R7	T13	T14	CauseOf	E76K,increased
+R8	T15	T14	ThemeOf	interactions,increased
+R9	T16	T15	ThemeOf	Grb2,interactions

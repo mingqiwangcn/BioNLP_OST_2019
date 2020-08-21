@@ -1,0 +1,9 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	514-530	PosReg	denotes	gain-of-function
+T3	567-573	Gene	denotes	PIK3CA
+T4	575-587	Var	denotes	c.3140 A > G
+T5	589-601	Var	denotes	p.His1047Arg
+R1	T3	T4	ThemeOf	PIK3CA,c.3140 A > G
+R2	T3	T5	ThemeOf	PIK3CA,p.His1047Arg
+R3	T4	T1	CauseOf	c.3140 A > G,gain-of-function
+R4	T5	T1	CauseOf	p.His1047Arg,gain-of-function

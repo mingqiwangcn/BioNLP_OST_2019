@@ -1,0 +1,43 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	281-290	Var	denotes	mutations
+T6	294-299	Gene	denotes	KV7.1
+T4	321-326	Gene	denotes	KCNE1
+T5	333-338	Reg	denotes	cause
+T1	339-355	Disease	denotes	Long QT Syndrome
+T7	455-460	Var	denotes	D242N
+T8	461-466	Gene	denotes	KV7.1
+T9	476-486	Reg	denotes	associated
+T10	496-500	Disease	denotes	LQTS
+T11	506-514	Var	denotes	mutation
+T12	607-617	NegReg	denotes	disrupting
+T13	622-661	MPA	denotes	conserved charge balance of this region
+T14	727-735	Var	denotes	mutation
+T15	792-799	NegReg	denotes	removed
+T16	804-816	MPA	denotes	inactivation
+T17	821-827	NegReg	denotes	slowed
+T18	832-851	MPA	denotes	activation kinetics
+T19	855-875	MPA	denotes	D242N KV7.1 channels
+T20	1400-1405	Var	denotes	D242N
+T22	1425-1433	NegReg	denotes	impaired
+T23	1434-1473	MPA	denotes	action potential adaptation to exercise
+T24	1497-1505	PosReg	denotes	increase
+T25	1509-1519	MPA	denotes	heart rate
+R1	T18	T19	ThemeOf	activation kinetics,D242N KV7.1 channels
+R10	T13	T12	ThemeOf	conserved charge balance of this region,disrupting
+R11	T2	T5	CauseOf	mutations,cause
+R12	T1	T5	ThemeOf	Long QT Syndrome,cause
+R14	T2	T4	ThemeOf	mutations,KCNE1
+R16	T20	T22	CauseOf	D242N,impaired
+R17	T23	T22	ThemeOf	action potential adaptation to exercise,impaired
+R18	T20	T24	CauseOf	D242N,increase
+R19	T25	T24	ThemeOf	heart rate,increase
+R2	T14	T15	CauseOf	mutation,removed
+R20	T6	T2	ThemeOf	KV7.1,mutations
+R21	T4	T2	ThemeOf	KCNE1,mutations
+R22	T8	T7	ThemeOf	KV7.1,D242N
+R23	T7	T9	CauseOf	D242N,associated
+R3	T16	T15	ThemeOf	inactivation,removed
+R4	T14	T17	CauseOf	mutation,slowed
+R5	T18	T17	ThemeOf	activation kinetics,slowed
+R8	T10	T9	ThemeOf	LQTS,associated
+R9	T11	T12	CauseOf	mutation,disrupting

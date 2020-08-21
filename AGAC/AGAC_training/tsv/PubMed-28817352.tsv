@@ -1,0 +1,32 @@
+Id	Subject	Object	Predicate	Lexical cue
+T19	73-109	Disease	denotes	Nonsyndromic cleft lip and/or palate
+T2	196-205	Var	denotes	mutations
+T1	209-217	Gene	denotes	ARHGAP29
+T18	218-228	Reg	denotes	associated
+T4	256-262	Disease	denotes	NSCL/P
+T5	419-446	Var	denotes	single-nucleotide variation
+T6	450-458	Gene	denotes	ARHGAP29
+T7	501-506	Var	denotes	K326X
+T8	533-549	NegReg	denotes	loss-of-function
+T9	1718-1721	NegReg	denotes	LoF
+T10	1722-1730	Var	denotes	variants
+T11	1734-1742	Gene	denotes	Arhgap29
+T12	1743-1752	PosReg	denotes	increases
+T13	1757-1849	CPA	denotes	incidence and length of oral adhesions at a critical time point during orofacial development
+T14	1882-1885	NegReg	denotes	LoF
+T15	1906-1920	Var	denotes	K326X mutation
+T16	1971-1979	Gene	denotes	Arhgap29
+T17	1990-2014	CPA	denotes	craniofacial development
+R10	T10	T9	CauseOf	variants,LoF
+R11	T11	T10	ThemeOf	Arhgap29,variants
+R12	T10	T12	CauseOf	variants,increases
+R13	T13	T12	ThemeOf	incidence and length of oral adhesions at a critical time point during orofacial development,increases
+R14	T2	T18	CauseOf	mutations,associated
+R15	T4	T18	ThemeOf	NSCL/P,associated
+R3	T1	T2	ThemeOf	ARHGAP29,mutations
+R4	T5	T8	CauseOf	single-nucleotide variation,loss-of-function
+R5	T7	T5	ThemeOf	K326X,single-nucleotide variation
+R6	T6	T5	ThemeOf	ARHGAP29,single-nucleotide variation
+R7	T15	T14	CauseOf	K326X mutation,LoF
+R8	T17	T14	ThemeOf	craniofacial development,LoF
+R9	T16	T15	ThemeOf	Arhgap29,K326X mutation

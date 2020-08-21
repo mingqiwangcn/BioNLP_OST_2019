@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	98-101	Gene	denotes	KIT
+T3	103-109	Gene	denotes	PDGFRA
+T4	111-114	Gene	denotes	NF1
+T1	119-122	Gene	denotes	SDH
+T5	123-132	Var	denotes	mutations
+T6	166-175	Reg	denotes	fostering
+T7	191-223	MPA	denotes	gastrointestinal stromal tumours
+R1	T2	T5	ThemeOf	KIT,mutations
+R2	T1	T5	ThemeOf	SDH,mutations
+R3	T4	T5	ThemeOf	NF1,mutations
+R4	T3	T5	ThemeOf	PDGFRA,mutations
+R5	T5	T6	CauseOf	mutations,fostering
+R6	T7	T6	ThemeOf	gastrointestinal stromal tumours,fostering

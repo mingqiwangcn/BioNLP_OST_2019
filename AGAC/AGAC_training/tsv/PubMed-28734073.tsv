@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	80-85	Gene	denotes	SCN5a
+T2	86-95	Var	denotes	mutations
+T3	108-124	PosReg	denotes	gain-of-function
+T4	126-144	Disease	denotes	Long QT Syndrome-3
+T5	147-163	NegReg	denotes	loss-of-function
+T6	165-183	Disease	denotes	Brugada Syndrome 1
+R1	T1	T2	ThemeOf	SCN5a,mutations
+R2	T2	T3	CauseOf	mutations,gain-of-function
+R3	T2	T5	CauseOf	mutations,loss-of-function
+R4	T4	T3	ThemeOf	Long QT Syndrome-3,gain-of-function
+R5	T6	T5	ThemeOf	Brugada Syndrome 1,loss-of-function

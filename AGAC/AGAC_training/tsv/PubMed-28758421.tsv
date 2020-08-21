@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-5	Gene	denotes	PCSK9
+T2	6-16	Var	denotes	deficiency
+T3	28-37	PosReg	denotes	increased
+T4	38-62	MPA	denotes	ectopic fat accumulation
+T8	979-983	Gene	denotes	R46L
+T9	984-991	Var	denotes	variant
+T11	1019-1027	PosReg	denotes	increase
+T12	1042-1095	MPA	denotes	hepatic steatosis and higher epicardial fat thickness
+T13	1369-1374	Gene	denotes	PCSK9
+T16	1375-1385	Var	denotes	deficiency
+T14	1395-1405	Reg	denotes	associated
+T15	1411-1435	MPA	denotes	ectopic fat accumulation
+R1	T1	T2	ThemeOf	PCSK9,deficiency
+R2	T2	T3	CauseOf	deficiency,increased
+R3	T4	T3	ThemeOf	ectopic fat accumulation,increased
+R4	T8	T9	ThemeOf	R46L,variant
+R5	T9	T11	CauseOf	variant,increase
+R6	T12	T11	ThemeOf	hepatic steatosis and higher epicardial fat thickness,increase
+R7	T13	T16	ThemeOf	PCSK9,deficiency
+R8	T16	T14	CauseOf	deficiency,associated
+R9	T15	T14	ThemeOf	ectopic fat accumulation,associated

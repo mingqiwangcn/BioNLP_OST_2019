@@ -1,0 +1,42 @@
+Id	Subject	Object	Predicate	Lexical cue
+T38	869-873	Gene	denotes	MC1R
+T35	899-907	Disease	denotes	melanoma
+T13	1154-1165	Var	denotes	p.Asn281Ser
+T11	1196-1202	NegReg	denotes	silent
+T12	1203-1215	MPA	denotes	polymorphism
+T19	1314-1323	NegReg	denotes	decreases
+T18	1327-1335	MPA	denotes	coupling
+T20	1343-1355	Pathway	denotes	cAMP pathway
+T26	1357-1367	Var	denotes	p.Val38Met
+T27	1372-1382	Var	denotes	p.Val51Ala
+T22	1403-1410	NegReg	denotes	absence
+T21	1414-1433	MPA	denotes	functional coupling
+T28	1435-1445	Var	denotes	p.Ser41Phe
+T29	1447-1458	Var	denotes	p.Met128Thr
+T30	1464-1475	Var	denotes	p.Cys289Arg
+T32	1486-1497	Var	denotes	p.Met128Thr
+T31	1502-1513	Var	denotes	p.Cys289Arg
+T33	1566-1572	NegReg	denotes	unable
+T34	1576-1580	Interaction	denotes	bind
+T23	1622-1632	Var	denotes	p.Val38Met
+T36	1634-1645	Var	denotes	"""p.Ser41Phe,"""
+T37	1650-1660	Var	denotes	p.Val51Ala
+T24	1671-1678	NegReg	denotes	reduced
+T25	1679-1702	CPA	denotes	cell surface expression
+R10	T12	T11	ThemeOf	polymorphism,silent
+R14	T23	T24	CauseOf	p.Val38Met,reduced
+R15	T25	T24	ThemeOf	cell surface expression,reduced
+R17	T18	T19	ThemeOf	coupling,decreases
+R20	T21	T22	ThemeOf	functional coupling,absence
+R21	T20	T19	ThemeOf	cAMP pathway,decreases
+R22	T26	T19	CauseOf	p.Val38Met,decreases
+R23	T27	T19	CauseOf	p.Val51Ala,decreases
+R24	T28	T22	CauseOf	p.Ser41Phe,absence
+R25	T29	T22	CauseOf	p.Met128Thr,absence
+R26	T30	T22	CauseOf	p.Cys289Arg,absence
+R27	T31	T33	CauseOf	p.Cys289Arg,unable
+R28	T32	T33	CauseOf	p.Met128Thr,unable
+R29	T34	T33	ThemeOf	bind,unable
+R30	T36	T24	CauseOf	"""""""p.Ser41Phe,"""""",reduced"
+R31	T37	T24	CauseOf	p.Val51Ala,reduced
+R9	T13	T11	CauseOf	p.Asn281Ser,silent

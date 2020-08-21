@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	0-3	Gene	denotes	CBL
+T1	4-12	Var	denotes	mutation
+T4	17-21	Gene	denotes	MEFV
+T2	22-47	Var	denotes	single-nucleotide variant
+T6	84-89	Disease	denotes	tumor
+T7	90-99	NegReg	denotes	reduction
+T5	140-171	Disease	denotes	chronic myelomonocytic leukemia
+T8	1004-1020	NegReg	denotes	loss-of-function
+T10	1021-1024	Gene	denotes	CBL
+T11	1025-1033	Var	denotes	mutation
+T12	1034-1043	PosReg	denotes	prolonged
+T13	1044-1065	MPA	denotes	STAT5 phosphorylation
+R1	T3	T1	ThemeOf	CBL,mutation
+R10	T11	T12	CauseOf	mutation,prolonged
+R11	T13	T12	ThemeOf	STAT5 phosphorylation,prolonged
+R2	T4	T2	ThemeOf	MEFV,single-nucleotide variant
+R3	T2	T7	CauseOf	single-nucleotide variant,reduction
+R4	T1	T7	CauseOf	mutation,reduction
+R5	T6	T7	ThemeOf	tumor,reduction
+R6	T5	T6	ThemeOf	chronic myelomonocytic leukemia,tumor
+R7	T11	T8	CauseOf	mutation,loss-of-function
+R9	T10	T11	ThemeOf	CBL,mutation

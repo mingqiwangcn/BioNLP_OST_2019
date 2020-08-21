@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T15	108-122	Disease	denotes	Renal agenesis
+T1	441-449	Var	denotes	variants
+T3	456-461	Reg	denotes	cause
+T2	462-464	Disease	denotes	RA
+T9	896-912	NegReg	denotes	loss-of-function
+T10	913-919	Var	denotes	mutant
+T7	944-981	MPA	denotes	pronephric kidney just prior to death
+T12	1002-1013	Var	denotes	mutagenesis
+T14	1037-1045	Reg	denotes	revealed
+T11	1046-1072	MPA	denotes	kidney agenesis phenotypes
+R1	T1	T3	CauseOf	variants,cause
+R10	T11	T14	ThemeOf	kidney agenesis phenotypes,revealed
+R2	T2	T3	ThemeOf	RA,cause
+R7	T10	T9	CauseOf	mutant,loss-of-function
+R8	T7	T9	ThemeOf	pronephric kidney just prior to death,loss-of-function
+R9	T12	T14	CauseOf	mutagenesis,revealed

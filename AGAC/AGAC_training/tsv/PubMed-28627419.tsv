@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T7	0-3	Gene	denotes	ARX
+T8	4-35	Var	denotes	polyalanine expansion mutations
+T9	36-43	Reg	denotes	lead to
+T10	44-94	CPA	denotes	migration impediment in the rostral cortex coupled
+T11	102-177	CPA	denotes	developmental deficit of calbindin-positive cortical GABAergic interneurons
+T6	1701-1731	CPA	denotes	cortical calbindin interneuron
+T5	1732-1743	CPA	denotes	development
+T4	1748-1757	CPA	denotes	migration
+T3	1761-1771	NegReg	denotes	negatively
+T1	1784-1787	Gene	denotes	ARX
+T2	1788-1819	Var	denotes	polyalanine expansion mutations
+R1	T1	T2	ThemeOf	ARX,polyalanine expansion mutations
+R10	T11	T9	ThemeOf	developmental deficit of calbindin-positive cortical GABAergic interneurons,lead to
+R2	T2	T3	CauseOf	polyalanine expansion mutations,negatively
+R3	T6	T5	ThemeOf	cortical calbindin interneuron,development
+R4	T6	T4	ThemeOf	cortical calbindin interneuron,migration
+R5	T4	T3	ThemeOf	migration,negatively
+R6	T5	T3	ThemeOf	development,negatively
+R7	T7	T8	ThemeOf	ARX,polyalanine expansion mutations
+R8	T8	T9	CauseOf	polyalanine expansion mutations,lead to
+R9	T10	T9	ThemeOf	migration impediment in the rostral cortex coupled,lead to

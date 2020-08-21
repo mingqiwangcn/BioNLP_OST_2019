@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T7	76-92	NegReg	denotes	loss-of-function
+T2	99-108	Var	denotes	mutations
+T3	140-143	Gene	denotes	GRN
+T4	151-184	Disease	denotes	frontotemporal lobar degeneration
+R1	T2	T7	CauseOf	mutations,loss-of-function
+R3	T3	T2	ThemeOf	GRN,mutations
+R4	T4	T7	ThemeOf	frontotemporal lobar degeneration,loss-of-function

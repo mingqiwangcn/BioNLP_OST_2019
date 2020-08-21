@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	11-20	Gene	denotes	KIDINS220
+T2	21-37	NegReg	denotes	loss-of-function
+T3	38-46	Var	denotes	variants
+T4	63-88	CPA	denotes	cerebral ventriculomegaly
+T5	93-110	CPA	denotes	limb contractures
+T6	112-134	Var	denotes	Heterozygous mutations
+T7	138-147	Gene	denotes	KIDINS220
+T8	174-179	Reg	denotes	cause
+T9	183-201	Disease	denotes	spastic paraplegia
+T10	203-226	Disease	denotes	intellectual disability
+T11	228-237	Disease	denotes	nystagmus
+T12	242-249	Disease	denotes	obesity
+R1	T1	T3	ThemeOf	KIDINS220,variants
+R10	T12	T8	ThemeOf	obesity,cause
+R2	T3	T2	CauseOf	variants,loss-of-function
+R3	T2	T4	CauseOf	loss-of-function,cerebral ventriculomegaly
+R4	T2	T5	CauseOf	loss-of-function,limb contractures
+R5	T7	T6	ThemeOf	KIDINS220,Heterozygous mutations
+R6	T6	T8	CauseOf	Heterozygous mutations,cause
+R7	T9	T8	ThemeOf	spastic paraplegia,cause
+R8	T10	T8	ThemeOf	intellectual disability,cause
+R9	T11	T8	ThemeOf	nystagmus,cause

@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	987-991	NegReg	denotes	Loss
+T2	995-998	Gene	denotes	DAT
+T3	1016-1022	Var	denotes	mutant
+T4	1037-1045	PosReg	denotes	elevated
+T5	1046-1094	MPA	denotes	subcortical extracellular dopamine concentration
+T6	1104-1111	Reg	denotes	altered
+T7	1116-1153	MPA	denotes	balance of monoaminergic transmission
+R1	T2	T3	ThemeOf	DAT,mutant
+R2	T3	T4	CauseOf	mutant,elevated
+R3	T5	T4	ThemeOf	subcortical extracellular dopamine concentration,elevated
+R4	T3	T6	CauseOf	mutant,altered
+R5	T7	T6	ThemeOf	balance of monoaminergic transmission,altered
+R6	T2	T1	CauseOf	DAT,Loss

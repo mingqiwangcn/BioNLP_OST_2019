@@ -1,0 +1,29 @@
+Id	Subject	Object	Predicate	Lexical cue
+T14	636-641	Gene	denotes	aca10
+T15	642-658	NegReg	denotes	loss of function
+T16	665-672	Var	denotes	mutants
+T17	725-729	Gene	denotes	bon1
+T18	730-733	NegReg	denotes	LOF
+T19	734-741	Var	denotes	mutants
+T5	866-903	MPA	denotes	steady level of calcium concentration
+T4	907-916	PosReg	denotes	increased
+T6	925-930	Gene	denotes	aca10
+T8	935-939	Gene	denotes	bon1
+T7	940-947	Var	denotes	mutants
+T9	1108-1153	CPA	denotes	calcium and pathogen induced stomatal closure
+T10	1158-1169	NegReg	denotes	compromised
+T11	1177-1182	Gene	denotes	aca10
+T12	1187-1191	Gene	denotes	bon1
+T13	1192-1199	Var	denotes	mutants
+R1	T14	T16	ThemeOf	aca10,mutants
+R10	T12	T13	ThemeOf	bon1,mutants
+R11	T13	T10	CauseOf	mutants,compromised
+R12	T9	T10	ThemeOf	calcium and pathogen induced stomatal closure,compromised
+R2	T16	T15	CauseOf	mutants,loss of function
+R3	T17	T19	ThemeOf	bon1,mutants
+R4	T19	T18	CauseOf	mutants,LOF
+R5	T8	T7	ThemeOf	bon1,mutants
+R6	T6	T7	ThemeOf	aca10,mutants
+R7	T7	T4	CauseOf	mutants,increased
+R8	T5	T4	ThemeOf	steady level of calcium concentration,increased
+R9	T11	T13	ThemeOf	aca10,mutants

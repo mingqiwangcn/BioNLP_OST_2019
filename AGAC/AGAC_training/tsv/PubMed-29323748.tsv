@@ -1,0 +1,61 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	4-20	PosReg	denotes	gain-of-function
+T2	30-34	Var	denotes	E76K
+T1	38-42	Gene	denotes	SHP2
+T4	43-51	PosReg	denotes	promotes
+T36	52-55	Disease	denotes	CAC
+T37	56-69	CPA	denotes	tumorigenesis
+T10	74-81	PosReg	denotes	induces
+T11	82-85	CPA	denotes	EMT
+T42	94-125	Pathway	denotes	Wnt/β-catenin signaling pathway
+T38	340-348	Var	denotes	mutation
+T39	358-362	Gene	denotes	SHP2
+T41	370-377	Reg	denotes	highest
+T40	382-399	Disease	denotes	colorectal cancer
+T23	977-983	Gene	denotes	Ptpn11
+T24	983-987	Var	denotes	E76K
+T25	1024-1034	PosReg	denotes	aggravated
+T26	1035-1047	CPA	denotes	inflammation
+T27	1052-1061	PosReg	denotes	increased
+T28	1062-1065	Disease	denotes	CAC
+T29	1066-1079	CPA	denotes	tumorigenesis
+T30	1091-1095	Gene	denotes	SHP2
+T31	1095-1099	Var	denotes	E76K
+T32	1111-1119	PosReg	denotes	promoted
+T33	1120-1163	CPA	denotes	malignant biological behaviors of CRC cells
+T34	1168-1175	PosReg	denotes	induced
+T35	1176-1209	CPA	denotes	epithelial-mesenchymal transition
+T21	1291-1295	Gene	denotes	SHP2
+T22	1295-1299	Var	denotes	E76K
+T17	1325-1333	PosReg	denotes	promotes
+T18	1338-1351	CPA	denotes	tumorigenesis
+T19	1356-1366	CPA	denotes	metastasis
+T20	1370-1373	Disease	denotes	CRC
+R1	T1	T2	ThemeOf	SHP2,E76K
+R10	T24	T25	CauseOf	E76K,aggravated
+R11	T26	T25	ThemeOf	inflammation,aggravated
+R12	T24	T27	CauseOf	E76K,increased
+R15	T30	T31	ThemeOf	SHP2,E76K
+R16	T31	T32	CauseOf	E76K,promoted
+R17	T31	T34	CauseOf	E76K,induced
+R18	T33	T32	ThemeOf	malignant biological behaviors of CRC cells,promoted
+R19	T35	T34	ThemeOf	epithelial-mesenchymal transition,induced
+R2	T2	T3	CauseOf	E76K,gain-of-function
+R20	T21	T22	ThemeOf	SHP2,E76K
+R21	T22	T17	CauseOf	E76K,promotes
+R22	T18	T17	ThemeOf	tumorigenesis,promotes
+R23	T19	T17	ThemeOf	metastasis,promotes
+R24	T20	T19	ThemeOf	CRC,metastasis
+R25	T20	T18	ThemeOf	CRC,tumorigenesis
+R26	T29	T27	ThemeOf	tumorigenesis,increased
+R27	T28	T29	ThemeOf	CAC,tumorigenesis
+R28	T36	T37	ThemeOf	CAC,tumorigenesis
+R29	T37	T4	ThemeOf	tumorigenesis,promotes
+R3	T3	T4	CauseOf	gain-of-function,promotes
+R30	T39	T38	ThemeOf	SHP2,mutation
+R31	T38	T41	CauseOf	mutation,highest
+R32	T40	T41	ThemeOf	colorectal cancer,highest
+R33	T42	T10	ThemeOf	Wnt/β-catenin signaling pathway,induces
+R7	T11	T10	ThemeOf	EMT,induces
+R8	T3	T10	CauseOf	gain-of-function,induces
+R9	T23	T24	ThemeOf	Ptpn11,E76K

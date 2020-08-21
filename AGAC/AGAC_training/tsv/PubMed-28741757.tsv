@@ -1,0 +1,28 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	11-27	Var	denotes	missense variant
+T1	35-40	Gene	denotes	FOXP2
+T2	45-50	Gene	denotes	FOXP1
+T4	73-79	Reg	denotes	causes
+T5	89-117	Disease	denotes	neurodevelopmental disorders
+T6	289-298	Var	denotes	mutations
+T7	302-307	Gene	denotes	FOXP2
+T8	308-315	Reg	denotes	lead to
+T9	360-387	Disease	denotes	childhood apraxia of speech
+T10	419-424	Gene	denotes	FOXP1
+T11	425-433	Var	denotes	variants
+T15	434-442	Reg	denotes	includes
+T12	487-513	Disease	denotes	global developmental delay
+T13	515-538	Disease	denotes	intellectual disability
+T14	544-570	Disease	denotes	speech/language impairment
+R1	T3	T4	CauseOf	missense variant,causes
+R10	T12	T15	ThemeOf	global developmental delay,includes
+R11	T13	T15	ThemeOf	intellectual disability,includes
+R12	T14	T15	ThemeOf	speech/language impairment,includes
+R2	T5	T4	ThemeOf	neurodevelopmental disorders,causes
+R3	T1	T3	ThemeOf	FOXP2,missense variant
+R4	T2	T3	ThemeOf	FOXP1,missense variant
+R5	T6	T8	CauseOf	mutations,lead to
+R6	T7	T6	ThemeOf	FOXP2,mutations
+R7	T9	T8	ThemeOf	childhood apraxia of speech,lead to
+R8	T10	T11	ThemeOf	FOXP1,variants
+R9	T11	T15	CauseOf	variants,includes

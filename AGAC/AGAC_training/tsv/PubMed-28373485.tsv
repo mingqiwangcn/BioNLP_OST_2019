@@ -1,0 +1,50 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	227-243	NegReg	denotes	loss-of-function
+T3	244-253	Var	denotes	mutations
+T1	263-268	Gene	denotes	DGAT1
+T5	286-305	Disease	denotes	congenital diarrhea
+T6	310-336	Disease	denotes	protein-losing enteropathy
+T30	768-775	Var	denotes	p.L105P
+T9	776-781	Gene	denotes	DGAT1
+T7	807-813	Var	denotes	mutant
+T8	824-828	NegReg	denotes	less
+T11	860-864	NegReg	denotes	loss
+T12	868-889	MPA	denotes	TG synthesis activity
+T13	894-903	NegReg	denotes	decreased
+T14	904-931	MPA	denotes	formation of lipid droplets
+T16	1050-1066	Var	denotes	p.L105P missense
+T17	1084-1091	NegReg	denotes	reduces
+T18	1092-1113	MPA	denotes	TG synthesis activity
+T19	1118-1124	Reg	denotes	causes
+T20	1127-1157	MPA	denotes	less severe clinical phenotype
+T26	1206-1211	Gene	denotes	DGAT1
+T25	1212-1222	Var	denotes	deficiency
+T27	1228-1233	Reg	denotes	cause
+T28	1237-1256	Disease	denotes	congenital diarrhea
+T29	1262-1288	Disease	denotes	protein-losing enteropathy
+T21	1307-1312	Gene	denotes	DGAT1
+T22	1313-1322	Var	denotes	mutations
+T23	1323-1332	Reg	denotes	result in
+T24	1335-1355	Disease	denotes	spectrum of diseases
+R1	T3	T4	CauseOf	mutations,loss-of-function
+R10	T7	T13	CauseOf	mutant,decreased
+R11	T14	T13	ThemeOf	formation of lipid droplets,decreased
+R13	T16	T17	CauseOf	p.L105P missense,reduces
+R14	T18	T17	ThemeOf	TG synthesis activity,reduces
+R15	T16	T19	CauseOf	p.L105P missense,causes
+R16	T20	T19	ThemeOf	less severe clinical phenotype,causes
+R17	T26	T25	ThemeOf	DGAT1,deficiency
+R18	T25	T27	CauseOf	deficiency,cause
+R19	T28	T27	ThemeOf	congenital diarrhea,cause
+R2	T5	T4	ThemeOf	congenital diarrhea,loss-of-function
+R20	T29	T27	ThemeOf	protein-losing enteropathy,cause
+R21	T21	T22	ThemeOf	DGAT1,mutations
+R22	T22	T23	CauseOf	mutations,result in
+R23	T24	T23	ThemeOf	spectrum of diseases,result in
+R24	T9	T30	ThemeOf	DGAT1,p.L105P
+R3	T6	T4	ThemeOf	protein-losing enteropathy,loss-of-function
+R4	T1	T3	ThemeOf	DGAT1,mutations
+R5	T7	T8	CauseOf	mutant,less
+R7	T30	T8	ThemeOf	p.L105P,less
+R8	T7	T11	CauseOf	mutant,loss
+R9	T12	T11	ThemeOf	TG synthesis activity,loss

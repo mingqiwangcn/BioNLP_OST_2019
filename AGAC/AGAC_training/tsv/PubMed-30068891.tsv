@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T11	24-32	Disease	denotes	diabetes
+T9	52-68	PosReg	denotes	gain-of-function
+T10	69-77	Var	denotes	mutation
+T8	128-133	Gene	denotes	ABCC8
+T4	141-157	PosReg	denotes	Gain-of-function
+T2	201-206	Gene	denotes	ABCC8
+T3	208-217	Var	denotes	mutations
+T5	231-236	Reg	denotes	cause
+T6	237-263	Disease	denotes	neonatal diabetes mellitus
+T7	268-291	Disease	denotes	maturity-onset diabetes
+R1	T2	T3	ThemeOf	ABCC8,mutations
+R2	T3	T4	CauseOf	mutations,Gain-of-function
+R3	T4	T5	CauseOf	Gain-of-function,cause
+R4	T6	T5	ThemeOf	neonatal diabetes mellitus,cause
+R5	T7	T5	ThemeOf	maturity-onset diabetes,cause
+R6	T8	T10	ThemeOf	ABCC8,mutation
+R7	T10	T9	CauseOf	mutation,gain-of-function
+R8	T11	T9	ThemeOf	diabetes,gain-of-function

@@ -1,0 +1,75 @@
+Id	Subject	Object	Predicate	Lexical cue
+T46	23-26	Gene	denotes	p53
+T45	27-43	PosReg	denotes	gain-of-function
+T47	53-58	Var	denotes	R175H
+T48	145-166	Pathway	denotes	EGFR/PI3K/AKT pathway
+T1	554-557	Gene	denotes	p53
+T2	558-566	Var	denotes	mutation
+T3	581-591	Reg	denotes	associated
+T4	597-630	Disease	denotes	aggressive nonendometrioid cancer
+T22	898-904	Reg	denotes	tested
+T20	925-938	PosReg	denotes	up-regulation
+T21	943-958	NegReg	denotes	down-regulation
+T18	988-996	Reg	denotes	inducing
+T19	997-1024	Protein	denotes	p53-R175H expression vector
+T16	1028-1039	NegReg	denotes	suppressing
+T17	1044-1052	Gene	denotes	p53 gene
+T23	1107-1122	PosReg	denotes	over-expression
+T5	1126-1129	Gene	denotes	p53
+T6	1130-1135	Var	denotes	R175H
+T7	1150-1158	PosReg	denotes	promoted
+T8	1159-1173	CPA	denotes	cell migration
+T9	1178-1186	CPA	denotes	invasion
+T27	1200-1210	PosReg	denotes	activation
+T11	1218-1306	Pathway	denotes	epidermal growth factor receptor (EGFR)/phosphatidylinositol 3-kinase (PI3K)/AKT pathway
+T28	1218-1306	Pathway	denotes	epidermal growth factor receptor (EGFR)/phosphatidylinositol 3-kinase (PI3K)/AKT pathway
+T29	1320-1331	NegReg	denotes	suppression
+T30	1335-1344	Protein	denotes	p53-R175H
+T31	1350-1367	Gene	denotes	short hairpin RNA
+T32	1382-1391	NegReg	denotes	inhibited
+T33	1392-1419	CPA	denotes	cell migration and invasion
+T34	1437-1448	NegReg	denotes	attenuation
+T35	1452-1474	Pathway	denotes	EGFR/PI3K/AKT pathway.
+T37	1531-1539	PosReg	denotes	elevated
+T38	1540-1550	MPA	denotes	expression
+T12	1554-1557	Gene	denotes	p53
+T13	1558-1563	Var	denotes	R175H
+T39	1581-1585	PosReg	denotes	gain
+T40	1589-1606	MPA	denotes	function activity
+T41	1610-1618	PosReg	denotes	activate
+T42	1623-1644	Pathway	denotes	EGFR/PI3K/AKT pathway
+T43	1658-1668	Reg	denotes	contribute
+T44	1698-1716	Disease	denotes	endometrial cancer
+R11	T19	T18	ThemeOf	p53-R175H expression vector,inducing
+R12	T19	T22	CauseOf	p53-R175H expression vector,tested
+R13	T20	T22	ThemeOf	up-regulation,tested
+R14	T21	T22	ThemeOf	down-regulation,tested
+R15	T17	T16	ThemeOf	p53 gene,suppressing
+R16	T17	T22	CauseOf	p53 gene,tested
+R23	T28	T27	ThemeOf	epidermal growth factor receptor (EGFR)/phosphatidylinositol 3-kinase (PI3K)/AKT pathway,activation
+R24	T31	T29	CauseOf	short hairpin RNA,suppression
+R25	T30	T29	ThemeOf	p53-R175H,suppression
+R26	T30	T32	CauseOf	p53-R175H,inhibited
+R27	T33	T32	ThemeOf	cell migration and invasion,inhibited
+R28	T30	T34	CauseOf	p53-R175H,attenuation
+R29	T35	T34	ThemeOf	EGFR/PI3K/AKT pathway.,attenuation
+R31	T38	T37	ThemeOf	expression,elevated
+R33	T40	T39	ThemeOf	function activity,gain
+R35	T42	T41	ThemeOf	EGFR/PI3K/AKT pathway,activate
+R37	T44	T43	ThemeOf	endometrial cancer,contribute
+R38	T12	T13	ThemeOf	p53,R175H
+R39	T13	T37	CauseOf	R175H,elevated
+R40	T1	T2	ThemeOf	p53,mutation
+R41	T2	T3	CauseOf	mutation,associated
+R42	T4	T3	ThemeOf	aggressive nonendometrioid cancer,associated
+R43	T13	T39	CauseOf	R175H,gain
+R44	T39	T41	CauseOf	gain,activate
+R45	T41	T43	CauseOf	activate,contribute
+R46	T47	T45	CauseOf	R175H,gain-of-function
+R47	T46	T47	ThemeOf	p53,R175H
+R48	T48	T45	ThemeOf	EGFR/PI3K/AKT pathway,gain-of-function
+R49	T5	T6	ThemeOf	p53,R175H
+R50	T6	T23	CauseOf	R175H,over-expression
+R51	T6	T7	CauseOf	R175H,promoted
+R52	T8	T7	ThemeOf	cell migration,promoted
+R53	T9	T7	ThemeOf	invasion,promoted

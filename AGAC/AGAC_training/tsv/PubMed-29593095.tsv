@@ -1,0 +1,30 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	194-199	Var	denotes	PCSK9
+T2	225-247	Disease	denotes	cardiovascular disease
+T3	257-266	NegReg	denotes	degrading
+T4	267-307	MPA	denotes	hepatic low-density lipoprotein receptor
+T7	325-341	NegReg	denotes	loss-of-function
+T6	348-353	Gene	denotes	PCSK9
+T5	354-362	Var	denotes	variants
+T9	412-420	PosReg	denotes	increase
+T10	421-440	MPA	denotes	hepatic LDLR levels
+T11	445-450	NegReg	denotes	lower
+T12	455-477	MPA	denotes	risk of developing CVD
+T15	748-762	PosReg	denotes	overexpression
+T13	772-777	Gene	denotes	PCSK9
+T14	778-786	Var	denotes	variants
+T16	797-809	PosReg	denotes	accumulation
+T17	817-834	MPA	denotes	ER of hepatocytes
+R1	T1	T3	CauseOf	PCSK9,degrading
+R10	T13	T14	ThemeOf	PCSK9,variants
+R11	T14	T16	CauseOf	variants,accumulation
+R12	T17	T16	ThemeOf	ER of hepatocytes,accumulation
+R13	T15	T14	ThemeOf	overexpression,variants
+R2	T4	T3	ThemeOf	hepatic low-density lipoprotein receptor,degrading
+R3	T2	T4	ThemeOf	cardiovascular disease,hepatic low-density lipoprotein receptor
+R4	T6	T5	ThemeOf	PCSK9,variants
+R5	T5	T7	CauseOf	variants,loss-of-function
+R6	T5	T9	CauseOf	variants,increase
+R7	T10	T9	ThemeOf	hepatic LDLR levels,increase
+R8	T5	T11	CauseOf	variants,lower
+R9	T12	T11	ThemeOf	risk of developing CVD,lower

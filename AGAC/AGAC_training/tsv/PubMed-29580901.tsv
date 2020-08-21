@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	83-90	Gene	denotes	SYNGAP1
+T2	91-107	NegReg	denotes	loss-of-function
+T3	108-116	Var	denotes	variants
+T4	146-169	Disease	denotes	intellectual disability
+T5	171-186	Disease	denotes	severe epilepsy
+T6	188-212	Disease	denotes	autism spectrum disorder
+T7	217-230	Disease	denotes	schizophrenia
+R1	T1	T2	CauseOf	SYNGAP1,loss-of-function
+R2	T3	T2	ThemeOf	variants,loss-of-function
+R3	T4	T2	ThemeOf	intellectual disability,loss-of-function
+R4	T5	T2	ThemeOf	severe epilepsy,loss-of-function
+R5	T6	T2	ThemeOf	autism spectrum disorder,loss-of-function
+R6	T7	T2	ThemeOf	schizophrenia,loss-of-function

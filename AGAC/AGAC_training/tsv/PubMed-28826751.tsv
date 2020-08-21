@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	107-114	Gene	denotes	SLC40A1
+T2	115-133	Var	denotes	missense mutations
+T3	134-139	Reg	denotes	found
+T4	153-175	Disease	denotes	hemochromatosis type 4
+R1	T1	T2	ThemeOf	SLC40A1,missense mutations
+R2	T2	T3	CauseOf	missense mutations,found
+R3	T4	T3	ThemeOf	hemochromatosis type 4,found

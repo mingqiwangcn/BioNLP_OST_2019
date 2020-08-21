@@ -1,0 +1,54 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	96-110	Disease	denotes	Apert syndrome
+T2	170-186	PosReg	denotes	gain-of-function
+T3	187-196	Var	denotes	mutations
+T1	237-242	Gene	denotes	FGFR2
+T10	812-817	Gene	denotes	Fgfr2
+T9	818-824	Var	denotes	mutant
+T5	978-987	PosReg	denotes	increased
+T6	988-1013	CPA	denotes	trabecular bone formation
+T7	1018-1027	NegReg	denotes	decreased
+T8	1028-1043	CPA	denotes	bone resorption
+T13	1084-1092	PosReg	denotes	increase
+T16	1096-1120	CPA	denotes	bone marrow stromal cell
+T17	1121-1132	CPA	denotes	recruitment
+T15	1137-1150	CPA	denotes	proliferation
+T18	1152-1162	CPA	denotes	osteoblast
+T19	1163-1176	CPA	denotes	proliferation
+T20	1181-1196	CPA	denotes	differentiation
+T11	1202-1210	PosReg	denotes	enhanced
+T12	1211-1233	CPA	denotes	Wnt/?-catenin activity
+T23	1441-1457	PosReg	denotes	gain-of-function
+T22	1458-1466	Var	denotes	mutation
+T21	1470-1475	Gene	denotes	FGFR2
+T28	1476-1524	MPA	denotes	exerts a Wnt/β-catenin-dependent anabolic effect
+T24	1547-1556	PosReg	denotes	promoting
+T25	1557-1571	CPA	denotes	bone formation
+T26	1576-1586	NegReg	denotes	inhibiting
+T27	1587-1621	CPA	denotes	bone resorption at the adult stage
+R1	T1	T3	ThemeOf	FGFR2,mutations
+R10	T16	T15	ThemeOf	bone marrow stromal cell,proliferation
+R11	T18	T19	ThemeOf	osteoblast,proliferation
+R12	T18	T20	ThemeOf	osteoblast,differentiation
+R13	T9	T13	CauseOf	mutant,increase
+R14	T9	T11	CauseOf	mutant,enhanced
+R15	T12	T11	ThemeOf	Wnt/?-catenin activity,enhanced
+R16	T17	T13	ThemeOf	recruitment,increase
+R17	T15	T13	ThemeOf	proliferation,increase
+R18	T19	T13	ThemeOf	proliferation,increase
+R19	T20	T13	ThemeOf	differentiation,increase
+R2	T3	T2	CauseOf	mutations,gain-of-function
+R20	T21	T22	ThemeOf	FGFR2,mutation
+R21	T22	T23	CauseOf	mutation,gain-of-function
+R22	T23	T24	CauseOf	gain-of-function,promoting
+R23	T25	T24	ThemeOf	bone formation,promoting
+R24	T23	T26	CauseOf	gain-of-function,inhibiting
+R25	T27	T26	ThemeOf	bone resorption at the adult stage,inhibiting
+R26	T28	T23	ThemeOf	exerts a Wnt/β-catenin-dependent anabolic effect,gain-of-function
+R3	T4	T2	ThemeOf	Apert syndrome,gain-of-function
+R4	T10	T9	ThemeOf	Fgfr2,mutant
+R5	T9	T5	CauseOf	mutant,increased
+R6	T9	T7	CauseOf	mutant,decreased
+R7	T6	T5	ThemeOf	trabecular bone formation,increased
+R8	T8	T7	ThemeOf	bone resorption,decreased
+R9	T16	T17	ThemeOf	bone marrow stromal cell,recruitment

@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T10	600-613	Var	denotes	null mutation
+T9	617-623	Gene	denotes	TgRON4
+T7	666-676	NegReg	denotes	Deficiency
+T8	680-686	Protein	denotes	TgRON4
+T3	698-707	NegReg	denotes	decreased
+T4	708-724	CPA	denotes	invasion ability
+T1	782-830	MPA	denotes	expression of the endogenous N-terminal fragment
+T6	834-838	Protein	denotes	RON5
+T2	839-848	NegReg	denotes	decreased
+T5	856-862	Var	denotes	mutant
+R1	T9	T10	ThemeOf	TgRON4,null mutation
+R2	T10	T7	CauseOf	null mutation,Deficiency
+R3	T8	T7	ThemeOf	TgRON4,Deficiency
+R4	T7	T3	CauseOf	Deficiency,decreased
+R5	T4	T3	ThemeOf	invasion ability,decreased
+R6	T5	T2	CauseOf	mutant,decreased
+R7	T1	T2	ThemeOf	expression of the endogenous N-terminal fragment,decreased
+R8	T6	T1	ThemeOf	RON5,expression of the endogenous N-terminal fragment

@@ -1,0 +1,26 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	349-358	Var	denotes	mutations
+T2	366-371	Gene	denotes	CSF3R
+T3	385-409	Disease	denotes	hematologic malignancies
+T4	809-818	Var	denotes	mutations
+T5	844-853	Reg	denotes	transform
+T6	854-859	CPA	denotes	cells
+T7	893-943	MPA	denotes	cysteine- and disulfide bond-mediated dimerization
+T8	956-997	Var	denotes	"""polar, noncharged amino acid substitution"""
+T9	1064-1073	PosReg	denotes	increased
+T10	1074-1089	MPA	denotes	internalization
+T11	1153-1189	Var	denotes	hydrophobic amino acid substitutions
+T12	1599-1617	Var	denotes	missense mutations
+T14	1618-1625	PosReg	denotes	exhibit
+T13	1626-1638	Disease	denotes	leukemogenic
+R1	T2	T1	ThemeOf	CSF3R,mutations
+R10	T12	T14	CauseOf	missense mutations,exhibit
+R11	T13	T14	ThemeOf	leukemogenic,exhibit
+R2	T1	T3	CauseOf	mutations,hematologic malignancies
+R3	T4	T5	CauseOf	mutations,transform
+R4	T6	T5	ThemeOf	cells,transform
+R5	T4	T7	CauseOf	mutations,cysteine- and disulfide bond-mediated dimerization
+R6	T4	T8	CauseOf	"mutations,""""""polar, noncharged amino acid substitution"""""""
+R7	T4	T9	CauseOf	mutations,increased
+R8	T10	T9	ThemeOf	internalization,increased
+R9	T4	T11	CauseOf	mutations,hydrophobic amino acid substitutions

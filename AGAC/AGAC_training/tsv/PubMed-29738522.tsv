@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	30-38	Var	denotes	variants
+T1	42-47	Gene	denotes	MAP1B
+T3	51-86	Disease	denotes	periventricular nodular heterotopia
+T4	804-820	NegReg	denotes	loss-of-function
+T5	834-842	Var	denotes	variants
+T6	846-851	Gene	denotes	MAP1B
+T7	914-919	Gene	denotes	MAP1B
+T8	920-927	Var	denotes	variant
+T9	932-946	Reg	denotes	inherited from
+T10	984-988	Disease	denotes	PVNH
+R1	T1	T2	ThemeOf	MAP1B,variants
+R2	T6	T5	ThemeOf	MAP1B,variants
+R3	T5	T4	CauseOf	variants,loss-of-function
+R4	T7	T8	ThemeOf	MAP1B,variant
+R5	T8	T9	CauseOf	variant,inherited from
+R6	T10	T9	ThemeOf	PVNH,inherited from

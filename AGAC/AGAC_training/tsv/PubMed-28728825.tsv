@@ -1,0 +1,37 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	194-210	NegReg	denotes	Loss-of-function
+T3	211-220	Var	denotes	mutations
+T1	234-240	Gene	denotes	PIEZO1
+T21	252-302	Disease	denotes	autosomal recessive congenital lymphatic dysplasia
+T6	304-320	PosReg	denotes	Gain-of-function
+T7	321-330	Var	denotes	mutations
+T5	344-350	Gene	denotes	PIEZO1
+T22	366-401	Disease	denotes	autosomal dominant hemolytic anemia
+T9	403-425	Disease	denotes	hereditary xerocytosis
+T19	441-466	Disease	denotes	dehydrated stomatocytosis
+T11	469-485	NegReg	denotes	Loss-of-function
+T12	486-495	Var	denotes	mutations
+T10	509-515	Gene	denotes	PIEZO2
+T13	530-578	Disease	denotes	autosomal recessive syndrome of muscular atrophy
+T14	616-630	Disease	denotes	arthrogryposis
+T15	636-645	Disease	denotes	scoliosis
+T17	647-663	PosReg	denotes	Gain-of-function
+T18	664-673	Var	denotes	mutations
+T16	687-693	Gene	denotes	PIEZO2
+T20	729-769	Disease	denotes	autosomal dominant distal arthrogryposis
+R1	T1	T3	ThemeOf	PIEZO1,mutations
+R11	T9	T6	ThemeOf	hereditary xerocytosis,Gain-of-function
+R12	T19	T6	ThemeOf	dehydrated stomatocytosis,Gain-of-function
+R13	T13	T11	ThemeOf	autosomal recessive syndrome of muscular atrophy,Loss-of-function
+R14	T14	T11	ThemeOf	arthrogryposis,Loss-of-function
+R15	T15	T11	ThemeOf	scoliosis,Loss-of-function
+R16	T20	T17	ThemeOf	autosomal dominant distal arthrogryposis,Gain-of-function
+R17	T21	T2	ThemeOf	autosomal recessive congenital lymphatic dysplasia,Loss-of-function
+R18	T22	T6	ThemeOf	autosomal dominant hemolytic anemia,Gain-of-function
+R2	T3	T2	CauseOf	mutations,Loss-of-function
+R3	T5	T7	ThemeOf	PIEZO1,mutations
+R4	T7	T6	CauseOf	mutations,Gain-of-function
+R5	T10	T12	ThemeOf	PIEZO2,mutations
+R6	T12	T11	CauseOf	mutations,Loss-of-function
+R7	T16	T18	ThemeOf	PIEZO2,mutations
+R8	T18	T17	CauseOf	mutations,Gain-of-function

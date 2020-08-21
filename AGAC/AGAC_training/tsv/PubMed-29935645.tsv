@@ -1,0 +1,53 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	37-42	Gene	denotes	NR5A1
+T1	51-85	Disease	denotes	"""46,XY disorders of sex development"""
+T3	115-131	NegReg	denotes	loss of function
+T4	132-141	Var	denotes	mutations
+T11	840-845	Gene	denotes	NR5A1
+T17	863-876	Reg	denotes	identified in
+T12	881-890	Disease	denotes	"""46,XY DSD"""
+T5	921-927	Var	denotes	p.T40R
+T6	929-935	Var	denotes	p.T47C
+T7	937-944	Var	denotes	p.G328W
+T8	946-953	Var	denotes	p.A351E
+T9	955-962	Var	denotes	p.R427W
+T10	968-975	Var	denotes	p.Q460R
+T13	1096-1100	NegReg	denotes	loss
+T14	1104-1115	Interaction	denotes	DNA-binding
+T15	1120-1135	MPA	denotes	transactivation
+T18	1513-1522	Var	denotes	mutations
+T19	1526-1531	Gene	denotes	NR5A1
+T20	1564-1570	Reg	denotes	affect
+T21	1571-1588	MPA	denotes	protein structure
+T22	1600-1612	NegReg	denotes	compromising
+T23	1627-1631	MPA	denotes	SF-1
+T24	1651-1670	CPA	denotes	gonadal development
+R1	T4	T3	CauseOf	mutations,loss of function
+R10	T10	T17	CauseOf	p.Q460R,identified in
+R11	T5	T17	CauseOf	p.T40R,identified in
+R12	T9	T17	CauseOf	p.R427W,identified in
+R13	T8	T17	CauseOf	p.A351E,identified in
+R14	T7	T17	CauseOf	p.G328W,identified in
+R15	T6	T17	CauseOf	p.T47C,identified in
+R16	T9	T13	CauseOf	p.R427W,loss
+R17	T12	T17	ThemeOf	"""""""46,XY DSD"""""",identified in"
+R18	T8	T13	CauseOf	p.A351E,loss
+R19	T7	T13	CauseOf	p.G328W,loss
+R2	T2	T4	ThemeOf	NR5A1,mutations
+R20	T6	T13	CauseOf	p.T47C,loss
+R21	T5	T13	CauseOf	p.T40R,loss
+R22	T14	T13	ThemeOf	DNA-binding,loss
+R23	T15	T13	ThemeOf	transactivation,loss
+R24	T19	T18	ThemeOf	NR5A1,mutations
+R25	T18	T20	CauseOf	mutations,affect
+R26	T21	T20	ThemeOf	protein structure,affect
+R27	T20	T22	CauseOf	affect,compromising
+R28	T23	T22	ThemeOf	SF-1,compromising
+R29	T24	T22	ThemeOf	gonadal development,compromising
+R3	T1	T3	ThemeOf	"""""""46,XY disorders of sex development"""""",loss of function"
+R4	T11	T5	ThemeOf	NR5A1,p.T40R
+R5	T11	T10	ThemeOf	NR5A1,p.Q460R
+R6	T11	T9	ThemeOf	NR5A1,p.R427W
+R7	T11	T8	ThemeOf	NR5A1,p.A351E
+R8	T11	T7	ThemeOf	NR5A1,p.G328W
+R9	T11	T6	ThemeOf	NR5A1,p.T47C

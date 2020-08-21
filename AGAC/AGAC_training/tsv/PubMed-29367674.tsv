@@ -1,0 +1,27 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	24-27	Gene	denotes	TRH
+T2	29-45	NegReg	denotes	loss of function
+T3	46-55	Var	denotes	mutations
+T6	63-92	CPA	denotes	growth and behavioral defects
+T7	652-659	Var	denotes	Mutants
+T8	660-667	NegReg	denotes	lacking
+T9	668-677	MPA	denotes	serotonin
+T11	678-682	CPA	denotes	grew
+T10	683-687	NegReg	denotes	less
+T12	698-708	CPA	denotes	reproduced
+T13	726-733	NegReg	denotes	smaller
+T14	734-742	CPA	denotes	clutches
+T17	746-753	NegReg	denotes	smaller
+T18	754-763	CPA	denotes	offspring
+R1	T1	T3	ThemeOf	TRH,mutations
+R10	T8	T12	CauseOf	lacking,reproduced
+R11	T18	T17	ThemeOf	offspring,smaller
+R12	T17	T14	ThemeOf	smaller,clutches
+R13	T14	T13	ThemeOf	clutches,smaller
+R14	T8	T13	CauseOf	lacking,smaller
+R15	T6	T2	ThemeOf	growth and behavioral defects,loss of function
+R2	T3	T2	CauseOf	mutations,loss of function
+R6	T9	T8	ThemeOf	serotonin,lacking
+R7	T7	T8	CauseOf	Mutants,lacking
+R8	T8	T10	CauseOf	lacking,less
+R9	T11	T10	ThemeOf	grew,less

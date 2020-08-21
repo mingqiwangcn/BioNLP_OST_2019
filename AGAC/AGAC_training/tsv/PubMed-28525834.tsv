@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	304-307	Gene	denotes	FLG
+T5	309-325	NegReg	denotes	loss-of function
+T2	326-335	Var	denotes	mutations
+T3	351-361	PosReg	denotes	facilitate
+T4	362-389	CPA	denotes	trans-epidermal penetration
+R1	T1	T2	ThemeOf	FLG,mutations
+R2	T2	T5	CauseOf	mutations,loss-of function
+R3	T4	T3	ThemeOf	trans-epidermal penetration,facilitate
+R4	T2	T3	CauseOf	mutations,facilitate

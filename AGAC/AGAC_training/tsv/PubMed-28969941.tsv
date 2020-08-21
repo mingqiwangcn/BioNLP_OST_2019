@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T8	564-569	Var	denotes	rs333
+T1	576-592	NegReg	denotes	loss-of-function
+T2	609-613	Gene	denotes	CCR5
+T4	642-650	Reg	denotes	modulate
+T5	655-668	CPA	denotes	host response
+T10	1569-1578	NegReg	denotes	decreased
+T11	1579-1589	MPA	denotes	expression
+T9	1593-1597	Protein	denotes	TNFα
+T12	1661-1669	Var	denotes	mutation
+R10	T9	T11	ThemeOf	TNFα,expression
+R11	T11	T10	ThemeOf	expression,decreased
+R2	T5	T4	ThemeOf	host response,modulate
+R5	T1	T4	CauseOf	loss-of-function,modulate
+R7	T2	T8	ThemeOf	CCR5,rs333
+R8	T8	T1	CauseOf	rs333,loss-of-function
+R9	T12	T10	CauseOf	mutation,decreased

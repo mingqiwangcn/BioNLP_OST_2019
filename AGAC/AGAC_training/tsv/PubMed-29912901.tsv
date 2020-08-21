@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	301-317	NegReg	denotes	loss of function
+T3	318-327	Var	denotes	mutations
+T1	331-337	Gene	denotes	TRIM28
+T4	361-373	Disease	denotes	Wilms tumour
+T5	513-525	NegReg	denotes	Inactivation
+T6	529-535	Gene	denotes	TRIM28
+T7	582-604	Var	denotes	inactivating mutations
+T8	606-628	Var	denotes	loss of heterozygosity
+T9	632-652	Var	denotes	epigenetic silencing
+R1	T3	T2	CauseOf	mutations,loss of function
+R2	T4	T2	ThemeOf	Wilms tumour,loss of function
+R3	T1	T3	ThemeOf	TRIM28,mutations
+R4	T8	T5	CauseOf	loss of heterozygosity,Inactivation
+R5	T7	T5	CauseOf	inactivating mutations,Inactivation
+R6	T9	T5	CauseOf	epigenetic silencing,Inactivation
+R7	T6	T5	ThemeOf	TRIM28,Inactivation

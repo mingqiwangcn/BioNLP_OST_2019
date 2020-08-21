@@ -1,0 +1,42 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	786-797	Var	denotes	rs151291296
+T2	807-818	Var	denotes	rs121912777
+T3	828-839	Var	denotes	rs146456965
+T4	849-860	Var	denotes	rs148947808
+T5	874-885	Var	denotes	rs201065375
+T6	904-920	NegReg	denotes	loss-of-function
+T7	934-946	MPA	denotes	metabolizing
+T12	951-955	Enzyme	denotes	CES1
+T8	1032-1043	Var	denotes	rs202121317
+T9	1053-1062	Var	denotes	rs2307243
+T10	1072-1083	Var	denotes	rs200707504
+T11	1097-1108	Var	denotes	rs202001817
+T15	1110-1119	NegReg	denotes	decreased
+T13	1120-1124	Enzyme	denotes	CES1
+T14	1125-1133	MPA	denotes	activity
+T16	1223-1234	Var	denotes	rs151291296
+T17	1244-1255	Var	denotes	rs146456965
+T18	1265-1276	Var	denotes	rs148947808
+T19	1290-1301	Var	denotes	rs201065375
+T20	1317-1324	NegReg	denotes	reduced
+T21	1325-1337	Protein	denotes	CES1 protein
+T22	1345-1361	MPA	denotes	mRNA expressions
+R1	T1	T6	CauseOf	rs151291296,loss-of-function
+R10	T16	T20	CauseOf	rs151291296,reduced
+R11	T17	T20	CauseOf	rs146456965,reduced
+R12	T18	T20	CauseOf	rs148947808,reduced
+R13	T19	T20	CauseOf	rs201065375,reduced
+R14	T7	T6	ThemeOf	metabolizing,loss-of-function
+R15	T12	T7	ThemeOf	CES1,metabolizing
+R16	T13	T14	ThemeOf	CES1,activity
+R17	T14	T15	ThemeOf	activity,decreased
+R18	T21	T20	ThemeOf	CES1 protein,reduced
+R19	T22	T20	ThemeOf	mRNA expressions,reduced
+R2	T2	T6	CauseOf	rs121912777,loss-of-function
+R3	T3	T6	CauseOf	rs146456965,loss-of-function
+R4	T4	T6	CauseOf	rs148947808,loss-of-function
+R5	T5	T6	CauseOf	rs201065375,loss-of-function
+R6	T8	T15	CauseOf	rs202121317,decreased
+R7	T9	T15	CauseOf	rs2307243,decreased
+R8	T10	T15	CauseOf	rs200707504,decreased
+R9	T11	T15	CauseOf	rs202001817,decreased

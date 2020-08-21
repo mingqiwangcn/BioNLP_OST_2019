@@ -1,0 +1,58 @@
+Id	Subject	Object	Predicate	Lexical cue
+T7	0-5	Gene	denotes	TRPV1
+T3	6-22	PosReg	denotes	gain-of-function
+T4	23-31	Var	denotes	mutation
+T5	32-39	NegReg	denotes	impairs
+T6	40-64	CPA	denotes	pain and itch sensations
+T8	543-548	Var	denotes	G564S
+T9	567-572	Gene	denotes	TRPV1
+T10	580-589	PosReg	denotes	increased
+T11	590-603	CPA	denotes	basal current
+T12	610-646	CPA	denotes	leftward shift of voltage dependence
+T14	726-739	CPA	denotes	thermosensory
+T13	740-746	NegReg	denotes	defect
+T15	748-756	NegReg	denotes	impaired
+T16	757-782	MPA	denotes	inflammatory thermal pain
+T17	788-809	CPA	denotes	capsaicin sensitivity
+T18	1087-1092	Var	denotes	G564S
+T19	1100-1107	NegReg	denotes	reduced
+T20	1108-1113	Protein	denotes	TRPV1
+T21	1114-1129	MPA	denotes	phosphorylation
+T22	1134-1159	CPA	denotes	cell membrane trafficking
+T23	1210-1226	PosReg	denotes	gain-of-function
+T24	1227-1235	Var	denotes	mutation
+T25	1239-1244	Gene	denotes	Trpv1
+T32	1276-1320	CPA	denotes	pain and histamine-dependent itch sensations
+T31	1339-1347	NegReg	denotes	impaired
+T26	1357-1366	NegReg	denotes	decreased
+T27	1367-1388	MPA	denotes	phosphorylation level
+T28	1393-1400	NegReg	denotes	reduced
+T29	1401-1422	MPA	denotes	membrane localization
+T30	1426-1431	Protein	denotes	TRPV1
+R1	T7	T4	ThemeOf	TRPV1,mutation
+R10	T14	T13	ThemeOf	thermosensory,defect
+R11	T8	T15	CauseOf	G564S,impaired
+R12	T16	T15	ThemeOf	inflammatory thermal pain,impaired
+R13	T8	T17	CauseOf	G564S,capsaicin sensitivity
+R14	T18	T19	CauseOf	G564S,reduced
+R15	T20	T21	ThemeOf	TRPV1,phosphorylation
+R16	T21	T19	ThemeOf	phosphorylation,reduced
+R17	T22	T19	ThemeOf	cell membrane trafficking,reduced
+R18	T25	T24	ThemeOf	Trpv1,mutation
+R19	T24	T23	CauseOf	mutation,gain-of-function
+R2	T4	T3	CauseOf	mutation,gain-of-function
+R20	T23	T26	CauseOf	gain-of-function,decreased
+R21	T23	T28	CauseOf	gain-of-function,reduced
+R22	T27	T26	ThemeOf	phosphorylation level,decreased
+R23	T30	T29	ThemeOf	TRPV1,membrane localization
+R24	T29	T28	ThemeOf	membrane localization,reduced
+R25	T26	T31	CauseOf	decreased,impaired
+R26	T28	T31	CauseOf	reduced,impaired
+R27	T32	T31	ThemeOf	pain and histamine-dependent itch sensations,impaired
+R3	T3	T5	CauseOf	gain-of-function,impairs
+R4	T6	T5	ThemeOf	pain and itch sensations,impairs
+R5	T9	T8	ThemeOf	TRPV1,G564S
+R6	T8	T10	CauseOf	G564S,increased
+R7	T11	T10	ThemeOf	basal current,increased
+R8	T8	T12	CauseOf	G564S,leftward shift of voltage dependence
+R9	T8	T13	CauseOf	G564S,defect

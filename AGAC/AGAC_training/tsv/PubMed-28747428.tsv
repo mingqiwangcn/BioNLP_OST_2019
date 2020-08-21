@@ -1,0 +1,25 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	0-17	Var	denotes	Sequence exchange
+T2	26-27	Gene	denotes	R
+T1	34-42	Reg	denotes	converts
+T4	65-84	MPA	denotes	nematode resistance
+T5	348-355	Var	denotes	changes
+T6	392-397	Reg	denotes	alter
+T7	398-458	MPA	denotes	resistance specificities towards novel strains of a pathogen
+T8	1115-1123	Var	denotes	exchange
+T9	1154-1157	Gene	denotes	Rx1
+T10	1176-1182	PosReg	denotes	regain
+T11	1185-1241	MPA	denotes	wild type resistance response to G. pallida in the roots
+T12	1271-1281	Var	denotes	exchanging
+T13	1333-1340	Reg	denotes	convert
+T14	1385-1422	MPA	denotes	mild nematode resistance in the roots
+R1	T3	T1	CauseOf	Sequence exchange,converts
+R10	T14	T13	ThemeOf	mild nematode resistance in the roots,convert
+R2	T4	T1	ThemeOf	nematode resistance,converts
+R3	T2	T3	ThemeOf	R,Sequence exchange
+R4	T5	T6	CauseOf	changes,alter
+R5	T7	T6	ThemeOf	resistance specificities towards novel strains of a pathogen,alter
+R6	T8	T10	CauseOf	exchange,regain
+R7	T11	T10	ThemeOf	wild type resistance response to G. pallida in the roots,regain
+R8	T9	T8	ThemeOf	Rx1,exchange
+R9	T12	T13	CauseOf	exchanging,convert

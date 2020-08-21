@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	1006-1010	Gene	denotes	lac4
+T2	1011-1018	Var	denotes	mutants
+T3	1074-1083	Reg	denotes	underwent
+T4	1084-1113	MPA	denotes	terminal deletion/duplication
+T5	1314-1318	Gene	denotes	lac4
+T6	1319-1326	Var	denotes	mutants
+T7	1361-1370	Reg	denotes	contained
+T8	1371-1383	MPA	denotes	base changes
+R1	T1	T2	ThemeOf	lac4,mutants
+R2	T2	T3	CauseOf	mutants,underwent
+R3	T4	T3	ThemeOf	terminal deletion/duplication,underwent
+R4	T5	T6	ThemeOf	lac4,mutants
+R5	T6	T7	CauseOf	mutants,contained
+R6	T8	T7	ThemeOf	base changes,contained

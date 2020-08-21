@@ -1,0 +1,29 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	0-6	Gene	denotes	Parkin
+T1	7-14	Var	denotes	absence
+T3	15-26	PosReg	denotes	accelerates
+T4	27-68	MPA	denotes	microtubule aging in dopaminergic neurons
+T5	70-86	NegReg	denotes	Loss-of-function
+T6	97-106	Var	denotes	mutations
+T7	127-132	Gene	denotes	PARK2
+T8	142-182	Disease	denotes	early-onset familial Parkinson's disease
+T9	390-394	Var	denotes	loss
+T10	398-404	Gene	denotes	parkin
+T11	416-427	PosReg	denotes	accelerated
+T12	434-445	MPA	denotes	acetylation
+T13	739-743	Var	denotes	loss
+T14	747-753	Gene	denotes	parkin
+T15	754-761	Reg	denotes	affects
+T16	762-783	MPA	denotes	mitochondria mobility
+R1	T2	T1	ThemeOf	Parkin,absence
+R10	T13	T15	CauseOf	loss,affects
+R11	T16	T15	ThemeOf	mitochondria mobility,affects
+R12	T14	T13	ThemeOf	parkin,loss
+R2	T1	T3	CauseOf	absence,accelerates
+R3	T4	T3	ThemeOf	microtubule aging in dopaminergic neurons,accelerates
+R4	T6	T5	CauseOf	mutations,Loss-of-function
+R5	T8	T5	ThemeOf	early-onset familial Parkinson's disease,Loss-of-function
+R6	T7	T6	ThemeOf	PARK2,mutations
+R7	T9	T11	CauseOf	loss,accelerated
+R8	T12	T11	ThemeOf	acetylation,accelerated
+R9	T10	T9	ThemeOf	parkin,loss

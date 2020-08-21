@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	928-936	Var	denotes	deletion
+T2	973-978	Gene	denotes	PTPN2
+T6	995-1004	PosReg	denotes	increased
+T7	1009-1034	CPA	denotes	efficacy of immunotherapy
+T3	1038-1047	PosReg	denotes	enhancing
+T4	1048-1101	MPA	denotes	interferon-γ-mediated effects on antigen presentation
+T5	1106-1124	CPA	denotes	growth suppression
+R1	T2	T1	ThemeOf	PTPN2,deletion
+R2	T1	T3	CauseOf	deletion,enhancing
+R3	T4	T3	ThemeOf	interferon-γ-mediated effects on antigen presentation,enhancing
+R4	T5	T3	ThemeOf	growth suppression,enhancing
+R5	T3	T6	CauseOf	enhancing,increased
+R6	T7	T6	ThemeOf	efficacy of immunotherapy,increased

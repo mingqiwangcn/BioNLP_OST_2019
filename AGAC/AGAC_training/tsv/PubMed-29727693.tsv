@@ -1,0 +1,29 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-9	Var	denotes	Mutations
+T3	13-21	Gene	denotes	C11orf70
+T4	22-27	Reg	denotes	Cause
+T2	28-54	Disease	denotes	Primary Ciliary Dyskinesia
+T5	110-117	NegReg	denotes	Defects
+T6	121-148	Protein	denotes	Outer and Inner Dynein Arms
+T7	583-599	NegReg	denotes	loss-of-function
+T8	600-609	Var	denotes	mutations
+T9	613-621	Gene	denotes	C11orf70
+T11	628-638	CPA	denotes	immotility
+T10	642-659	CPA	denotes	respiratory cilia
+T12	664-678	CPA	denotes	sperm flagella
+T13	713-717	NegReg	denotes	loss
+T14	721-735	Protein	denotes	axonemal outer
+T15	747-764	Protein	denotes	inner dynein arms
+R1	T3	T1	ThemeOf	C11orf70,Mutations
+R10	T10	T11	ThemeOf	respiratory cilia,immotility
+R11	T12	T11	ThemeOf	sperm flagella,immotility
+R12	T14	T13	ThemeOf	axonemal outer,loss
+R13	T15	T13	ThemeOf	inner dynein arms,loss
+R14	T13	T7	CauseOf	loss,loss-of-function
+R15	T8	T13	ThemeOf	mutations,loss
+R3	T2	T4	ThemeOf	Primary Ciliary Dyskinesia,Cause
+R4	T1	T5	CauseOf	Mutations,Defects
+R5	T6	T5	ThemeOf	Outer and Inner Dynein Arms,Defects
+R6	T5	T4	CauseOf	Defects,Cause
+R7	T9	T8	ThemeOf	C11orf70,mutations
+R9	T11	T7	ThemeOf	immotility,loss-of-function

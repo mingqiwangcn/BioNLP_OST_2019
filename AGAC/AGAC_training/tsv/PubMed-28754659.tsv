@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	966-982	NegReg	denotes	loss of function
+T1	983-989	Var	denotes	mutant
+T2	993-998	Gene	denotes	cep-1
+T5	1011-1020	NegReg	denotes	decreased
+T6	1021-1040	MPA	denotes	movement quiescence
+T7	1227-1232	Gene	denotes	cep-1
+T8	1240-1246	Var	denotes	mutant
+T9	1247-1257	NegReg	denotes	suppressed
+T10	1258-1300	MPA	denotes	body movement quiescence controlled by EGF
+R1	T1	T4	CauseOf	mutant,loss of function
+R2	T2	T1	ThemeOf	cep-1,mutant
+R3	T1	T5	CauseOf	mutant,decreased
+R4	T6	T5	ThemeOf	movement quiescence,decreased
+R5	T7	T8	ThemeOf	cep-1,mutant
+R6	T8	T9	CauseOf	mutant,suppressed
+R7	T10	T9	ThemeOf	body movement quiescence controlled by EGF,suppressed

@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-5	Gene	denotes	APOC3
+T2	6-22	NegReg	denotes	Loss-of-Function
+T3	23-32	Var	denotes	Mutations
+T4	181-197	NegReg	denotes	Loss-of-function
+T5	198-207	Var	denotes	mutations
+T6	211-216	Gene	denotes	APOC3
+T7	232-235	NegReg	denotes	low
+T8	236-262	MPA	denotes	remnant cholesterol levels
+T16	1716-1721	Gene	denotes	APOC3
+T17	1722-1738	NegReg	denotes	loss-of-function
+T20	1790-1793	NegReg	denotes	low
+T21	1794-1813	MPA	denotes	remnant cholesterol
+R1	T6	T5	ThemeOf	APOC3,mutations
+R12	T1	T3	ThemeOf	APOC3,Mutations
+R13	T3	T2	CauseOf	Mutations,Loss-of-Function
+R2	T5	T4	CauseOf	mutations,Loss-of-function
+R3	T4	T7	CauseOf	Loss-of-function,low
+R5	T8	T7	ThemeOf	remnant cholesterol levels,low
+R7	T16	T17	ThemeOf	APOC3,loss-of-function
+R8	T17	T20	CauseOf	loss-of-function,low
+R9	T21	T20	ThemeOf	remnant cholesterol,low

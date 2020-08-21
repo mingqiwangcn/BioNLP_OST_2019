@@ -1,0 +1,30 @@
+Id	Subject	Object	Predicate	Lexical cue
+T21	869-878	Var	denotes	mutations
+T13	888-894	PosReg	denotes	higher
+T14	895-903	MPA	denotes	activity
+T32	907-932	Enzyme	denotes	drug-metabolizing enzymes
+T33	948-970	Enzyme	denotes	CYP3A4 cytochrome P450
+T22	972-990	MPA	denotes	Ectopic expression
+T23	994-997	Gene	denotes	p53
+T24	998-1010	Var	denotes	mutant R282W
+T16	1050-1061	PosReg	denotes	upregulated
+T17	1062-1092	MPA	denotes	CYP3A4 mRNA and protein levels
+T25	1145-1148	Gene	denotes	p53
+T26	1149-1158	Var	denotes	mutations
+T18	1167-1173	PosReg	denotes	higher
+T31	1174-1180	Enzyme	denotes	CYP3A4
+T19	1181-1191	MPA	denotes	expression
+T20	1196-1206	CPA	denotes	resistance
+R10	T21	T13	CauseOf	mutations,higher
+R11	T14	T13	ThemeOf	activity,higher
+R12	T23	T24	ThemeOf	p53,mutant R282W
+R13	T24	T22	ThemeOf	mutant R282W,Ectopic expression
+R14	T22	T16	CauseOf	Ectopic expression,upregulated
+R15	T17	T16	ThemeOf	CYP3A4 mRNA and protein levels,upregulated
+R16	T19	T18	ThemeOf	expression,higher
+R17	T20	T18	ThemeOf	resistance,higher
+R18	T25	T26	ThemeOf	p53,mutations
+R19	T26	T18	CauseOf	mutations,higher
+R25	T32	T14	ThemeOf	drug-metabolizing enzymes,activity
+R26	T33	T32	ThemeOf	CYP3A4 cytochrome P450,drug-metabolizing enzymes
+R27	T31	T19	ThemeOf	CYP3A4,expression

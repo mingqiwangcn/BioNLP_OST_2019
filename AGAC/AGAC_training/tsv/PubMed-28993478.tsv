@@ -1,0 +1,46 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	0-6	Reg	denotes	Effect
+T1	10-16	Var	denotes	Mutant
+T24	17-20	Gene	denotes	p53
+T2	21-29	Protein	denotes	Proteins
+T4	33-43	MPA	denotes	Glycolysis
+T5	48-72	MPA	denotes	Mitochondrial Metabolism
+T6	253-257	Gene	denotes	TP53
+T7	258-267	Var	denotes	mutations
+T8	282-304	Var	denotes	missense substitutions
+T9	324-334	MPA	denotes	expression
+T10	350-356	Var	denotes	mutant
+T11	357-365	Protein	denotes	proteins
+T12	371-381	PosReg	denotes	accumulate
+T13	420-436	PosReg	denotes	gain-of-function
+T14	443-453	MPA	denotes	activities
+T15	457-464	PosReg	denotes	promote
+T16	465-483	CPA	denotes	tumorigenic events
+T17	495-501	Var	denotes	mutant
+T18	502-505	Gene	denotes	p53
+T19	506-514	Protein	denotes	proteins
+T20	542-559	CPA	denotes	metabolic changes
+T21	571-574	PosReg	denotes	GOF
+T22	578-585	PosReg	denotes	promote
+T23	586-603	CPA	denotes	tumor development
+R1	T1	T3	CauseOf	Mutant,Effect
+R10	T11	T10	ThemeOf	proteins,mutant
+R11	T14	T13	ThemeOf	activities,gain-of-function
+R12	T12	T13	CauseOf	accumulate,gain-of-function
+R13	T13	T15	CauseOf	gain-of-function,promote
+R14	T16	T15	ThemeOf	tumorigenic events,promote
+R15	T23	T22	ThemeOf	tumor development,promote
+R16	T21	T22	CauseOf	GOF,promote
+R17	T17	T21	CauseOf	mutant,GOF
+R18	T20	T21	ThemeOf	metabolic changes,GOF
+R19	T19	T17	ThemeOf	proteins,mutant
+R2	T4	T3	ThemeOf	Glycolysis,Effect
+R20	T18	T19	ThemeOf	p53,proteins
+R21	T24	T2	ThemeOf	p53,Proteins
+R3	T5	T3	ThemeOf	Mitochondrial Metabolism,Effect
+R4	T2	T1	ThemeOf	Proteins,Mutant
+R5	T6	T7	ThemeOf	TP53,mutations
+R6	T7	T12	CauseOf	mutations,accumulate
+R7	T8	T7	CauseOf	missense substitutions,mutations
+R8	T11	T9	ThemeOf	proteins,expression
+R9	T9	T12	ThemeOf	expression,accumulate

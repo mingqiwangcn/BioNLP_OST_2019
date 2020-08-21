@@ -1,0 +1,25 @@
+Id	Subject	Object	Predicate	Lexical cue
+T10	351-356	Gene	denotes	DOT1L
+T1	463-472	Var	denotes	mutations
+T2	486-496	NegReg	denotes	compromise
+T3	497-502	Gene	denotes	DOT1L
+T4	503-527	Enzyme	denotes	methyltransferase enzyme
+T5	528-536	MPA	denotes	activity
+T7	548-555	NegReg	denotes	reduced
+T8	556-561	Protein	denotes	H3K79
+T9	562-573	MPA	denotes	methylation
+T11	671-676	Gene	denotes	DOT1L
+T12	677-681	NegReg	denotes	loss
+T13	682-690	PosReg	denotes	promotes
+T14	691-711	CPA	denotes	melanoma development
+R1	T10	T1	ThemeOf	DOT1L,mutations
+R10	T14	T13	ThemeOf	melanoma development,promotes
+R11	T12	T13	CauseOf	loss,promotes
+R2	T3	T4	ThemeOf	DOT1L,methyltransferase enzyme
+R3	T4	T5	ThemeOf	methyltransferase enzyme,activity
+R4	T8	T9	ThemeOf	H3K79,methylation
+R5	T9	T7	ThemeOf	methylation,reduced
+R6	T5	T2	ThemeOf	activity,compromise
+R7	T1	T2	CauseOf	mutations,compromise
+R8	T2	T7	CauseOf	compromise,reduced
+R9	T11	T12	ThemeOf	DOT1L,loss

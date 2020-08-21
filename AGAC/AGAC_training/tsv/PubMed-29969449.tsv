@@ -1,0 +1,21 @@
+Id	Subject	Object	Predicate	Lexical cue
+T9	657-673	NegReg	denotes	loss-of-function
+T10	674-681	Var	denotes	mutants
+T7	889-897	NegReg	denotes	decrease
+T8	901-923	CPA	denotes	differentiated neurons
+T1	952-957	Gene	denotes	bud13
+T2	959-964	Gene	denotes	snip1
+T3	976-981	Gene	denotes	rbmx2
+T4	990-997	Var	denotes	mutants
+T11	1016-1022	NegReg	denotes	defect
+T12	1026-1041	MPA	denotes	intron splicing
+T13	1055-1090	MPA	denotes	mis-splicing of a subset of introns
+R1	T10	T9	CauseOf	mutants,loss-of-function
+R10	T12	T11	ThemeOf	intron splicing,defect
+R11	T13	T12	ThemeOf	mis-splicing of a subset of introns,intron splicing
+R3	T9	T7	CauseOf	loss-of-function,decrease
+R5	T8	T7	ThemeOf	differentiated neurons,decrease
+R6	T3	T4	ThemeOf	rbmx2,mutants
+R7	T2	T4	ThemeOf	snip1,mutants
+R8	T1	T4	ThemeOf	bud13,mutants
+R9	T4	T11	CauseOf	mutants,defect

@@ -1,0 +1,30 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-3	Gene	denotes	ATR
+T2	4-13	Var	denotes	Mutations
+T3	14-21	PosReg	denotes	Promote
+T5	26-32	MPA	denotes	Growth
+T4	36-51	Disease	denotes	Melanoma Tumors
+T6	133-142	Var	denotes	mutations
+T7	166-174	Reg	denotes	generate
+T8	175-186	MPA	denotes	neoantigens
+T9	200-208	NegReg	denotes	suppress
+T10	213-259	MPA	denotes	immune response to facilitate continued growth
+T11	464-467	Gene	denotes	ATR
+T12	468-474	Var	denotes	mutant
+T13	597-606	NegReg	denotes	decreased
+T14	607-625	MPA	denotes	T cell recruitment
+T15	630-639	PosReg	denotes	increased
+T16	640-666	MPA	denotes	recruitment of macrophages
+R1	T1	T2	ThemeOf	ATR,Mutations
+R10	T12	T13	CauseOf	mutant,decreased
+R11	T14	T13	ThemeOf	T cell recruitment,decreased
+R12	T12	T15	CauseOf	mutant,increased
+R13	T16	T15	ThemeOf	recruitment of macrophages,increased
+R2	T2	T3	CauseOf	Mutations,Promote
+R3	T5	T3	ThemeOf	Growth,Promote
+R4	T4	T5	ThemeOf	Melanoma Tumors,Growth
+R5	T6	T7	CauseOf	mutations,generate
+R6	T8	T7	ThemeOf	neoantigens,generate
+R7	T6	T9	CauseOf	mutations,suppress
+R8	T10	T9	ThemeOf	immune response to facilitate continued growth,suppress
+R9	T11	T12	ThemeOf	ATR,mutant

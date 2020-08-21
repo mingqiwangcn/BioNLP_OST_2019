@@ -1,0 +1,37 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	200-216	PosReg	denotes	Gain-of-function
+T2	223-232	Var	denotes	mutations
+T3	240-296	Gene	denotes	human signal transducer and activator of transcription 1
+T4	356-364	NegReg	denotes	impaired
+T5	365-390	CPA	denotes	TH17 cell differentiation
+T6	395-406	PosReg	denotes	exaggerated
+T7	407-450	Interaction	denotes	responsiveness to type I and II interferons
+T8	954-983	Var	denotes	mutation in the linker domain
+T9	987-992	Gene	denotes	STAT1
+T10	1133-1142	PosReg	denotes	increased
+T11	1143-1175	CPA	denotes	TH1 and follicular T helper cell
+T12	1180-1190	NegReg	denotes	suppressed
+T13	1191-1210	CPA	denotes	TH17 cell responses
+T14	1216-1224	Var	denotes	mutation
+T15	1225-1234	PosReg	denotes	augmented
+T16	1235-1273	MPA	denotes	cytokine-induced STAT1 phosphorylation
+T17	1661-1666	Gene	denotes	STAT1
+T18	1667-1670	PosReg	denotes	GOF
+T19	1671-1680	Var	denotes	mutations
+T20	1712-1735	CPA	denotes	T helper cell responses
+R1	T2	T4	CauseOf	mutations,impaired
+R10	T13	T12	ThemeOf	TH17 cell responses,suppressed
+R11	T14	T15	CauseOf	mutation,augmented
+R12	T16	T15	ThemeOf	cytokine-induced STAT1 phosphorylation,augmented
+R13	T9	T8	ThemeOf	STAT1,mutation in the linker domain
+R14	T19	T18	CauseOf	mutations,GOF
+R15	T20	T18	ThemeOf	T helper cell responses,GOF
+R16	T17	T19	ThemeOf	STAT1,mutations
+R2	T2	T1	CauseOf	mutations,Gain-of-function
+R3	T3	T2	ThemeOf	human signal transducer and activator of transcription 1,mutations
+R4	T5	T4	ThemeOf	TH17 cell differentiation,impaired
+R5	T2	T6	CauseOf	mutations,exaggerated
+R6	T7	T6	ThemeOf	responsiveness to type I and II interferons,exaggerated
+R7	T8	T10	CauseOf	mutation in the linker domain,increased
+R8	T11	T10	ThemeOf	TH1 and follicular T helper cell,increased
+R9	T8	T12	CauseOf	mutation in the linker domain,suppressed

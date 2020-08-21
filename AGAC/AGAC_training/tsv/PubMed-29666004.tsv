@@ -1,0 +1,31 @@
+Id	Subject	Object	Predicate	Lexical cue
+T5	10-14	Gene	denotes	TP53
+T6	15-31	PosReg	denotes	gain of function
+T7	32-41	Var	denotes	mutations
+T8	45-77	Disease	denotes	rapidly progressing solid tumors
+T1	110-114	Gene	denotes	TP53
+T2	115-124	Var	denotes	mutations
+T3	130-146	PosReg	denotes	gain of function
+T4	177-190	CPA	denotes	tumorigenesis
+T10	623-626	PosReg	denotes	GOF
+T12	638-645	Var	denotes	p.R273H
+T13	650-657	Var	denotes	p.R273C
+T9	702-714	Disease	denotes	glioblastoma
+T14	942-972	Disease	denotes	metastatic lung adenocarcinoma
+T15	986-993	Var	denotes	p.P278S
+T16	995-998	PosReg	denotes	GOF
+T17	1004-1011	Var	denotes	p.R283L
+T18	1013-1020	Reg	denotes	non-GOF
+R1	T5	T7	ThemeOf	TP53,mutations
+R10	T15	T16	CauseOf	p.P278S,GOF
+R11	T14	T16	ThemeOf	metastatic lung adenocarcinoma,GOF
+R12	T17	T18	CauseOf	p.R283L,non-GOF
+R13	T14	T18	ThemeOf	metastatic lung adenocarcinoma,non-GOF
+R2	T7	T6	CauseOf	mutations,gain of function
+R3	T8	T6	ThemeOf	rapidly progressing solid tumors,gain of function
+R4	T1	T2	ThemeOf	TP53,mutations
+R5	T2	T3	CauseOf	mutations,gain of function
+R6	T4	T3	ThemeOf	tumorigenesis,gain of function
+R7	T12	T10	CauseOf	p.R273H,GOF
+R8	T13	T10	CauseOf	p.R273C,GOF
+R9	T9	T10	ThemeOf	glioblastoma,GOF

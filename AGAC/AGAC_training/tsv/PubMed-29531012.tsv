@@ -1,0 +1,31 @@
+Id	Subject	Object	Predicate	Lexical cue
+T13	639-644	Gene	denotes	mib-1
+T12	650-657	Var	denotes	mutants
+T16	665-700	Disease	denotes	spermatogenesis-defective phenotype
+T14	706-716	Reg	denotes	results in
+T15	719-766	MPA	denotes	heterogeneous mixture of arrested spermatocytes
+T1	1464-1469	Gene	denotes	mib-1
+T2	1470-1477	Var	denotes	mutants
+T3	1478-1486	NegReg	denotes	suppress
+T4	1492-1498	Gene	denotes	lin-12
+T5	1503-1508	Gene	denotes	glp-1
+T6	1528-1544	PosReg	denotes	gain-of-function
+T7	1545-1552	Var	denotes	mutants
+T8	1554-1563	PosReg	denotes	restoring
+T9	1564-1585	MPA	denotes	anchor cell formation
+T10	1592-1608	MPA	denotes	functional vulva
+T11	1644-1661	MPA	denotes	oocyte production
+R1	T1	T2	ThemeOf	mib-1,mutants
+R10	T11	T8	ThemeOf	oocyte production,restoring
+R11	T13	T12	ThemeOf	mib-1,mutants
+R12	T12	T14	CauseOf	mutants,results in
+R13	T15	T14	ThemeOf	heterogeneous mixture of arrested spermatocytes,results in
+R14	T15	T16	CauseOf	heterogeneous mixture of arrested spermatocytes,spermatogenesis-defective phenotype
+R2	T2	T3	CauseOf	mutants,suppress
+R3	T4	T7	ThemeOf	lin-12,mutants
+R4	T5	T7	ThemeOf	glp-1,mutants
+R5	T7	T6	CauseOf	mutants,gain-of-function
+R6	T7	T3	ThemeOf	mutants,suppress
+R7	T2	T8	CauseOf	mutants,restoring
+R8	T9	T8	ThemeOf	anchor cell formation,restoring
+R9	T10	T8	ThemeOf	functional vulva,restoring

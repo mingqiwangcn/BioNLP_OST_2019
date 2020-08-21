@@ -1,0 +1,48 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	260-265	Gene	denotes	RIG-I
+T26	267-272	Var	denotes	C268F
+T27	277-282	Var	denotes	E373A
+T3	292-300	NegReg	denotes	impaired
+T4	301-307	Protein	denotes	ATPase
+T5	308-316	MPA	denotes	activity
+T7	334-345	PosReg	denotes	hyperactive
+T6	346-355	MPA	denotes	signaling
+T8	791-796	Gene	denotes	RIG-I
+T9	797-811	Var	denotes	H830A mutation
+T10	812-820	PosReg	denotes	restores
+T11	821-834	Protein	denotes	Cap1-helicase
+T12	835-845	MPA	denotes	engagement
+T13	857-884	MPA	denotes	CARDs partial opening event
+T19	934-939	Var	denotes	E373A
+T20	940-945	Gene	denotes	RIG-I
+T21	1001-1009	PosReg	denotes	enhanced
+T22	1010-1023	Protein	denotes	Cap1-helicase
+T23	1024-1034	MPA	denotes	engagement
+T24	1041-1069	MPA	denotes	sequential CARDs stimulation
+T25	1071-1085	Var	denotes	C268F mutation
+T15	1096-1100	PosReg	denotes	more
+T16	1101-1127	MPA	denotes	tethered ring architecture
+T17	1132-1142	Reg	denotes	results in
+T18	1143-1171	MPA	denotes	constitutive CARDs signaling
+R1	T1	T26	ThemeOf	RIG-I,C268F
+R10	T9	T10	CauseOf	H830A mutation,restores
+R11	T11	T12	ThemeOf	Cap1-helicase,engagement
+R12	T12	T10	ThemeOf	engagement,restores
+R13	T13	T10	ThemeOf	CARDs partial opening event,restores
+R14	T20	T19	ThemeOf	RIG-I,E373A
+R15	T19	T21	CauseOf	E373A,enhanced
+R16	T22	T23	ThemeOf	Cap1-helicase,engagement
+R17	T23	T21	ThemeOf	engagement,enhanced
+R18	T24	T21	ThemeOf	sequential CARDs stimulation,enhanced
+R19	T25	T15	CauseOf	C268F mutation,more
+R2	T1	T27	ThemeOf	RIG-I,E373A
+R20	T16	T15	ThemeOf	tethered ring architecture,more
+R21	T25	T17	CauseOf	C268F mutation,results in
+R22	T18	T17	ThemeOf	constitutive CARDs signaling,results in
+R3	T26	T3	CauseOf	C268F,impaired
+R4	T27	T3	CauseOf	E373A,impaired
+R5	T4	T5	ThemeOf	ATPase,activity
+R6	T5	T3	ThemeOf	activity,impaired
+R7	T3	T7	CauseOf	impaired,hyperactive
+R8	T6	T7	ThemeOf	signaling,hyperactive
+R9	T8	T9	ThemeOf	RIG-I,H830A mutation

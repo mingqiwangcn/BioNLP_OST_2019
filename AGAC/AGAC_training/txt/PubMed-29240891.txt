@@ -1,0 +1,10 @@
+Primary Ovarian Insufficiency and Azoospermia in Carriers of a Homozygous PSMC3IP Stop Gain Mutation.
+Context: The etiology of primary ovarian insufficiency (POI) remains unknown in most cases.
+Objective: We sought to identify the genes causing POI.
+Design: The study was a familial genetic study.
+Setting: The study was performed at two academic institutions.
+Patients: We identified a consanguineous Yemeni family in which four daughters had POI. A brother had azoospermia.
+Intervention: DNA was subjected to whole genome sequencing. Shared regions of homozygosity were identified using Truploidy and prioritized using the Variant Annotation, Analysis, and Search Tool with control data from 387 healthy subjects. Imaging and quantification of protein localization and mitochondrial function were examined in cell lines.
+Main Outcome: Homozygous recessive gene variants shared by the four sisters.
+Results: The sisters shared a homozygous stop gain mutation in exon 6 of PSMC3IP (c.489 C>G, p.Tyr163Ter) and a missense variant in exon 1 of CLPP (c.100C>T, p.Pro34Ser). The affected brother also carried the homozygous PSMC3IP mutation. Functional studies demonstrated mitochondrial fragmentation in cells infected with the CLPP mutation. However, no abnormality was found in mitochondrial targeting or respiration.
+Conclusions: The PSMC3IP mutation provides additional evidence that mutations in meiotic homologous recombination and DNA repair genes result in distinct female and male reproductive phenotypes, including delayed puberty and primary amenorrhea caused by POI (XX gonadal dysgenesis) in females but isolated azoospermia with normal pubertal development in males. The findings also suggest that the N-terminal missense mutation in CLPP does not cause substantial mitochondrial dysfunction or contribute to ovarian insufficiency in an oligogenic manner.

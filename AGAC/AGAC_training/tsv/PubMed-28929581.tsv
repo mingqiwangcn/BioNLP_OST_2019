@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	0-16	PosReg	denotes	Gain-of-function
+T2	17-25	Var	denotes	mutation
+T1	29-35	Gene	denotes	PTPN11
+T4	39-59	Disease	denotes	histiocytic sarcomas
+T5	534-538	Var	denotes	E76K
+T6	539-555	PosReg	denotes	gain-of-function
+T8	588-594	Gene	denotes	PTPN11
+T7	628-652	Disease	denotes	histiocytic malignancies
+R1	T1	T2	ThemeOf	PTPN11,mutation
+R2	T2	T3	CauseOf	mutation,Gain-of-function
+R3	T4	T3	ThemeOf	histiocytic sarcomas,Gain-of-function
+R4	T8	T5	ThemeOf	PTPN11,E76K
+R5	T5	T6	CauseOf	E76K,gain-of-function
+R6	T7	T6	ThemeOf	histiocytic malignancies,gain-of-function

@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	510-526	NegReg	denotes	loss of function
+T2	530-534	Gene	denotes	ROP2
+T3	539-548	Var	denotes	knockdown
+T4	552-557	Gene	denotes	MAP18
+T5	568-576	NegReg	denotes	decrease
+T6	580-596	MPA	denotes	root hair length
+R1	T3	T5	CauseOf	knockdown,decrease
+R2	T6	T5	ThemeOf	root hair length,decrease
+R3	T4	T3	ThemeOf	MAP18,knockdown

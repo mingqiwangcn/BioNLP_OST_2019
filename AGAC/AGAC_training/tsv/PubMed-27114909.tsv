@@ -1,0 +1,21 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	237-240	Gene	denotes	p53
+T2	241-257	Var	denotes	missense mutants
+T3	266-282	PosReg	denotes	gain-of-function
+T4	342-350	PosReg	denotes	enhanced
+T5	351-366	CPA	denotes	chemoresistance
+T6	1059-1062	PosReg	denotes	GOF
+T7	1063-1069	Var	denotes	mutant
+T8	1070-1073	Gene	denotes	p53
+T9	1078-1086	Reg	denotes	modulate
+T10	1087-1108	Pathway	denotes	key cellular pathways
+T11	1112-1155	CPA	denotes	withstand the cytotoxic effect of the drugs
+R1	T1	T2	ThemeOf	p53,missense mutants
+R2	T2	T3	CauseOf	missense mutants,gain-of-function
+R3	T5	T4	ThemeOf	chemoresistance,enhanced
+R4	T2	T4	CauseOf	missense mutants,enhanced
+R5	T7	T6	CauseOf	mutant,GOF
+R6	T8	T7	ThemeOf	p53,mutant
+R7	T7	T9	CauseOf	mutant,modulate
+R8	T10	T9	ThemeOf	key cellular pathways,modulate
+R9	T11	T9	ThemeOf	withstand the cytotoxic effect of the drugs,modulate

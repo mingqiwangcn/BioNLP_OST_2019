@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	831-839	PosReg	denotes	elevated
+T5	848-855	MPA	denotes	glucose
+T3	884-887	NegReg	denotes	LOF
+T2	888-897	Var	denotes	variation
+T1	901-907	Gene	denotes	TXNDC5
+T6	981-998	NegReg	denotes	recessive effects
+T7	1002-1009	Gene	denotes	C1QTNF8
+T8	1013-1035	MPA	denotes	serum magnesium levels
+R1	T1	T2	ThemeOf	TXNDC5,variation
+R2	T2	T3	CauseOf	variation,LOF
+R3	T3	T4	CauseOf	LOF,elevated
+R4	T5	T4	ThemeOf	glucose,elevated
+R5	T7	T6	CauseOf	C1QTNF8,recessive effects
+R6	T8	T6	ThemeOf	serum magnesium levels,recessive effects

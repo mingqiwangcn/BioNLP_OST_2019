@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	136-152	NegReg	denotes	loss-of-function
+T3	159-167	Var	denotes	variants
+T1	188-213	Disease	denotes	autism spectrum disorders
+T4	231-235	Gene	denotes	TBR1
+R1	T4	T3	ThemeOf	TBR1,variants
+R2	T3	T2	CauseOf	variants,loss-of-function
+R3	T1	T2	ThemeOf	autism spectrum disorders,loss-of-function

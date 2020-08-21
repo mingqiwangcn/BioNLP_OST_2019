@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	466-482	Var	denotes	Loss-of-function
+T3	483-488	Gene	denotes	Enpp1
+T5	540-549	Reg	denotes	exhibited
+T6	629-645	Disease	denotes	arteriosclerosis
+T7	650-662	Disease	denotes	osteoporosis
+T2	669-677	PosReg	denotes	elevated
+T1	678-702	MPA	denotes	"""serum 1,25(OH)2D3 levels"""
+R1	T4	T5	CauseOf	Loss-of-function,exhibited
+R2	T6	T5	ThemeOf	arteriosclerosis,exhibited
+R3	T7	T5	ThemeOf	osteoporosis,exhibited
+R4	T3	T4	ThemeOf	Enpp1,Loss-of-function
+R5	T1	T2	ThemeOf	"""""""serum 1,25(OH)2D3 levels"""""",elevated"
+R6	T4	T2	CauseOf	Loss-of-function,elevated

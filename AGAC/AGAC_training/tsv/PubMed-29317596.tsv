@@ -1,0 +1,18 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	5-21	NegReg	denotes	loss of function
+T2	22-31	Var	denotes	mutations
+T3	35-75	Protein	denotes	N-methyl-D-aspartate glutamate receptors
+T5	103-116	Disease	denotes	schizophrenia
+T8	1344-1360	NegReg	denotes	loss of function
+T11	1362-1372	Var	denotes	frameshift
+T12	1374-1397	Var	denotes	nonsense or splice site
+T7	1402-1408	Gene	denotes	NMDARs
+T10	1450-1453	Disease	denotes	SCZ
+R1	T3	T2	ThemeOf	N-methyl-D-aspartate glutamate receptors,mutations
+R2	T2	T1	CauseOf	mutations,loss of function
+R3	T5	T1	ThemeOf	schizophrenia,loss of function
+R4	T7	T12	ThemeOf	NMDARs,nonsense or splice site
+R5	T7	T11	ThemeOf	NMDARs,frameshift
+R6	T11	T8	CauseOf	frameshift,loss of function
+R7	T12	T8	CauseOf	nonsense or splice site,loss of function
+R8	T10	T8	ThemeOf	SCZ,loss of function

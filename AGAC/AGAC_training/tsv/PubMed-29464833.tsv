@@ -1,0 +1,49 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-6	Gene	denotes	CgPDR1
+T2	7-23	PosReg	denotes	gain-of-function
+T3	24-33	Var	denotes	mutations
+T4	34-41	Reg	denotes	lead to
+T5	42-58	MPA	denotes	azole-resistance
+T6	63-72	PosReg	denotes	increased
+T7	73-81	MPA	denotes	adhesion
+T12	816-870	MPA	denotes	"""CDR1, CDR2 and SNQ2 efflux pump gene expression levels"""
+T11	876-884	PosReg	denotes	elevated
+T10	907-910	PosReg	denotes	GOF
+T8	911-920	Var	denotes	mutations
+T9	924-930	Gene	denotes	CgPDR1
+T13	945-954	NegReg	denotes	decreased
+T14	955-975	MPA	denotes	azole susceptibility
+T15	1088-1094	Gene	denotes	CgPDR1
+T16	1094-1097	PosReg	denotes	GOF
+T17	1098-1107	Var	denotes	mutations
+T18	1115-1124	PosReg	denotes	increased
+T19	1125-1155	MPA	denotes	efflux pumps expression levels
+T21	1466-1469	PosReg	denotes	GOF
+T20	1470-1479	Var	denotes	mutations
+T22	1483-1489	Gene	denotes	CgPDR1
+T24	1490-1499	Reg	denotes	conferred
+T25	1500-1515	MPA	denotes	drug resistance
+T23	1520-1529	PosReg	denotes	increased
+T26	1530-1539	MPA	denotes	adherence
+R1	T1	T3	ThemeOf	CgPDR1,mutations
+R10	T25	T24	ThemeOf	drug resistance,conferred
+R11	T20	T23	CauseOf	mutations,increased
+R12	T26	T23	ThemeOf	adherence,increased
+R13	T8	T11	CauseOf	mutations,elevated
+R14	T12	T11	ThemeOf	"""""""CDR1, CDR2 and SNQ2 efflux pump gene expression levels"""""",elevated"
+R15	T9	T8	ThemeOf	CgPDR1,mutations
+R16	T8	T10	CauseOf	mutations,GOF
+R17	T8	T13	CauseOf	mutations,decreased
+R18	T14	T13	ThemeOf	azole susceptibility,decreased
+R19	T15	T17	ThemeOf	CgPDR1,mutations
+R2	T3	T2	CauseOf	mutations,gain-of-function
+R20	T17	T16	CauseOf	mutations,GOF
+R21	T17	T18	CauseOf	mutations,increased
+R22	T19	T18	ThemeOf	efflux pumps expression levels,increased
+R3	T3	T4	CauseOf	mutations,lead to
+R4	T5	T4	ThemeOf	azole-resistance,lead to
+R5	T3	T6	CauseOf	mutations,increased
+R6	T7	T6	ThemeOf	adhesion,increased
+R7	T20	T21	CauseOf	mutations,GOF
+R8	T22	T20	ThemeOf	CgPDR1,mutations
+R9	T20	T24	CauseOf	mutations,conferred

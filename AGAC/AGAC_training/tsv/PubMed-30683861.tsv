@@ -1,0 +1,30 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-16	NegReg	denotes	Loss-of-function
+T2	17-26	Var	denotes	mutations
+T3	30-36	Gene	denotes	QRICH2
+T12	37-42	Reg	denotes	cause
+T4	43-59	Disease	denotes	male infertility
+T15	125-133	Var	denotes	Aberrant
+T14	134-148	CPA	denotes	sperm flagella
+T9	149-155	NegReg	denotes	impair
+T10	156-170	CPA	denotes	sperm motility
+T13	175-180	Reg	denotes	cause
+T11	181-197	Disease	denotes	male infertility
+T8	1056-1065	Var	denotes	mutations
+T7	1075-1081	Gene	denotes	QRICH2
+T16	1086-1093	Reg	denotes	lead to
+T17	1094-1110	Disease	denotes	male infertility
+T18	1116-1120	CPA	denotes	MMAF
+R1	T3	T2	ThemeOf	QRICH2,mutations
+R10	T11	T13	ThemeOf	male infertility,cause
+R11	T7	T8	ThemeOf	QRICH2,mutations
+R12	T8	T16	CauseOf	mutations,lead to
+R13	T17	T16	ThemeOf	male infertility,lead to
+R14	T18	T16	ThemeOf	MMAF,lead to
+R2	T2	T1	CauseOf	mutations,Loss-of-function
+R3	T1	T12	CauseOf	Loss-of-function,cause
+R4	T4	T12	ThemeOf	male infertility,cause
+R6	T14	T15	ThemeOf	sperm flagella,Aberrant
+R7	T15	T9	CauseOf	Aberrant,impair
+R8	T10	T9	ThemeOf	sperm motility,impair
+R9	T9	T13	CauseOf	impair,cause

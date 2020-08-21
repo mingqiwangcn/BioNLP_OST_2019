@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T9	760-776	NegReg	denotes	Loss-of-function
+T10	777-786	Var	denotes	mutations
+T7	835-848	MPA	denotes	host-specific
+T6	852-878	MPA	denotes	broad virulence phenotypes
+T1	1055-1071	NegReg	denotes	loss-of-function
+T2	1072-1081	Var	denotes	mutations
+T3	1103-1108	Gene	denotes	LegC4
+T11	1121-1129	PosReg	denotes	enhanced
+T12	1130-1144	CPA	denotes	L. pneumophila
+T14	1227-1232	Var	denotes	LegC4
+T13	1233-1241	PosReg	denotes	augments
+T15	1242-1261	CPA	denotes	bacterial clearance
+R10	T12	T11	ThemeOf	L. pneumophila,enhanced
+R11	T14	T13	CauseOf	LegC4,augments
+R12	T15	T13	ThemeOf	bacterial clearance,augments
+R4	T10	T9	CauseOf	mutations,Loss-of-function
+R5	T7	T9	ThemeOf	host-specific,Loss-of-function
+R6	T6	T9	ThemeOf	broad virulence phenotypes,Loss-of-function
+R7	T2	T1	CauseOf	mutations,loss-of-function
+R8	T3	T2	ThemeOf	LegC4,mutations
+R9	T2	T11	CauseOf	mutations,enhanced

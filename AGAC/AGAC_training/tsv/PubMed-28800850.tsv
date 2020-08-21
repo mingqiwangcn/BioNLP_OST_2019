@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	626-634	Var	denotes	Deletion
+T2	638-644	Gene	denotes	BmATG8
+T3	645-653	NegReg	denotes	impaired
+T6	654-666	MPA	denotes	localization
+T5	749-758	CPA	denotes	autophagy
+T4	763-772	NegReg	denotes	deficient
+T7	976-977	Var	denotes	Δ
+T8	977-983	Gene	denotes	BmATG8
+T9	1001-1010	NegReg	denotes	reduction
+T10	1014-1052	CPA	denotes	conidiation and aerial mycelial growth
+R1	T2	T1	ThemeOf	BmATG8,Deletion
+R2	T1	T3	CauseOf	Deletion,impaired
+R3	T6	T3	ThemeOf	localization,impaired
+R4	T1	T4	CauseOf	Deletion,deficient
+R5	T5	T4	ThemeOf	autophagy,deficient
+R6	T7	T9	CauseOf	Δ,reduction
+R7	T8	T7	ThemeOf	BmATG8,Δ
+R8	T10	T9	ThemeOf	conidiation and aerial mycelial growth,reduction

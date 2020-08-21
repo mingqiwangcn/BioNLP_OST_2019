@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	272-277	Gene	denotes	TRPV1
+T1	338-348	Var	denotes	Leu206Stop
+T3	371-387	NegReg	denotes	loss-of-function
+T10	561-586	MPA	denotes	Capsaicin-induced [Ca2+]i
+T12	613-624	CPA	denotes	DRG neurons
+T11	644-654	NegReg	denotes	diminished
+T8	658-663	Gene	denotes	TRPV1
+T9	664-674	Var	denotes	Leu206Stop
+T5	972-980	PosReg	denotes	increase
+T13	984-1006	CPA	denotes	spontaneous locomotion
+T6	1023-1028	Gene	denotes	TRPV1
+T7	1029-1039	Var	denotes	Leu206Stop
+R1	T4	T1	ThemeOf	TRPV1,Leu206Stop
+R2	T1	T3	CauseOf	Leu206Stop,loss-of-function
+R3	T8	T9	ThemeOf	TRPV1,Leu206Stop
+R4	T9	T11	CauseOf	Leu206Stop,diminished
+R5	T10	T11	ThemeOf	Capsaicin-induced [Ca2+]i,diminished
+R6	T12	T10	ThemeOf	DRG neurons,Capsaicin-induced [Ca2+]i
+R7	T6	T7	ThemeOf	TRPV1,Leu206Stop
+R8	T7	T5	CauseOf	Leu206Stop,increase
+R9	T13	T5	ThemeOf	spontaneous locomotion,increase

@@ -1,0 +1,31 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	163-184	Disease	denotes	Pitt-Hopkins syndrome
+T4	306-315	Reg	denotes	caused by
+T2	316-334	Var	denotes	haploinsufficiency
+T1	342-346	Gene	denotes	TCF4
+T5	879-887	Var	denotes	variants
+T6	888-898	NegReg	denotes	disrupting
+T7	899-903	Gene	denotes	TCF4
+T9	924-931	Disease	denotes	mild ID
+T10	974-984	Var	denotes	frameshift
+T11	985-992	Reg	denotes	causing
+T12	993-1014	Var	denotes	partial gene deletion
+T13	1041-1045	Gene	denotes	TCF4
+T15	1066-1070	Reg	denotes	with
+T14	1071-1078	Disease	denotes	mild ID
+T16	1163-1173	Var	denotes	c.520C > T
+T18	1227-1231	Reg	denotes	with
+T17	1269-1273	Disease	denotes	PTHS
+R1	T2	T4	CauseOf	haploinsufficiency,caused by
+R10	T12	T15	CauseOf	partial gene deletion,with
+R11	T14	T15	ThemeOf	mild ID,with
+R12	T16	T18	CauseOf	c.520C > T,with
+R13	T17	T18	ThemeOf	PTHS,with
+R2	T3	T4	ThemeOf	Pitt-Hopkins syndrome,caused by
+R3	T1	T2	ThemeOf	TCF4,haploinsufficiency
+R4	T5	T6	CauseOf	variants,disrupting
+R5	T7	T5	ThemeOf	TCF4,variants
+R6	T9	T6	ThemeOf	mild ID,disrupting
+R7	T10	T11	CauseOf	frameshift,causing
+R8	T12	T11	ThemeOf	partial gene deletion,causing
+R9	T13	T12	ThemeOf	TCF4,partial gene deletion

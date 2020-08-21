@@ -1,0 +1,16 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-4	Var	denotes	Loss
+T2	42-47	Gene	denotes	rad51
+T3	48-53	Reg	denotes	leads
+T4	57-85	Disease	denotes	Fanconi anemia-like symptoms
+T5	246-260	Disease	denotes	Fanconi anemia
+T6	579-584	Gene	denotes	rad51
+T7	585-601	NegReg	denotes	loss-of-function
+T8	602-609	Var	denotes	mutants
+T9	636-638	Disease	denotes	FA
+R1	T1	T3	CauseOf	Loss,leads
+R2	T4	T3	ThemeOf	Fanconi anemia-like symptoms,leads
+R3	T2	T1	ThemeOf	rad51,Loss
+R4	T8	T7	CauseOf	mutants,loss-of-function
+R5	T9	T7	ThemeOf	FA,loss-of-function
+R6	T6	T8	ThemeOf	rad51,mutants

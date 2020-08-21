@@ -1,0 +1,13 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	85-100	Disease	denotes	Kabuki syndrome
+T2	135-151	NegReg	denotes	loss of function
+T3	152-160	Var	denotes	variants
+T5	459-467	Var	denotes	variants
+T4	471-476	Gene	denotes	KMT2A
+T6	590-600	Reg	denotes	associated
+T7	606-633	Disease	denotes	Wiedermann-Steiner syndrome
+R1	T3	T2	CauseOf	variants,loss of function
+R2	T1	T2	ThemeOf	Kabuki syndrome,loss of function
+R3	T5	T6	CauseOf	variants,associated
+R4	T7	T6	ThemeOf	Wiedermann-Steiner syndrome,associated
+R5	T4	T5	ThemeOf	KMT2A,variants

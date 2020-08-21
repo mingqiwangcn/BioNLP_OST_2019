@@ -1,0 +1,50 @@
+Id	Subject	Object	Predicate	Lexical cue
+T5	4-26	MPA	denotes	anti-adipogenic effect
+T4	68-74	NegReg	denotes	absent
+T1	80-85	Gene	denotes	PCSK9
+T3	86-102	NegReg	denotes	loss-of-function
+T2	103-111	Var	denotes	variants
+T7	234-250	NegReg	denotes	loss-of-function
+T6	257-264	Var	denotes	variant
+T8	335-342	NegReg	denotes	inhibit
+T9	343-361	MPA	denotes	human adipogenesis
+T10	917-922	Gene	denotes	PCSK9
+T28	923-926	NegReg	denotes	LOF
+T12	927-934	Var	denotes	variant
+T13	961-973	MPA	denotes	adipogenesis
+T14	1010-1015	Gene	denotes	PCSK9
+T29	1016-1019	NegReg	denotes	LOF
+T15	1020-1027	Var	denotes	variant
+T17	1056-1065	PosReg	denotes	increases
+T18	1069-1098	MPA	denotes	mRNA levels of interleukin-1β
+T19	1100-1123	MPA	denotes	tumor necrosis factor-α
+T20	1125-1169	MPA	denotes	sterol regulatory element binding protein-1c
+T21	1171-1175	MPA	denotes	CD36
+T22	1310-1317	NegReg	denotes	absence
+T23	1321-1343	MPA	denotes	anti-adipogenic action
+T24	1357-1362	Gene	denotes	PCSK9
+T25	1367-1374	Var	denotes	variant
+T27	1396-1406	PosReg	denotes	novel role
+T26	1438-1450	Interaction	denotes	interactions
+R1	T1	T2	ThemeOf	PCSK9,variants
+R10	T25	T22	CauseOf	variant,absence
+R11	T25	T27	CauseOf	variant,novel role
+R12	T26	T27	ThemeOf	interactions,novel role
+R13	T10	T12	ThemeOf	PCSK9,variant
+R14	T12	T28	CauseOf	variant,LOF
+R15	T13	T28	ThemeOf	adipogenesis,LOF
+R16	T14	T15	ThemeOf	PCSK9,variant
+R17	T15	T29	CauseOf	variant,LOF
+R18	T15	T17	CauseOf	variant,increases
+R19	T18	T17	ThemeOf	mRNA levels of interleukin-1β,increases
+R2	T2	T3	CauseOf	variants,loss-of-function
+R20	T19	T17	ThemeOf	tumor necrosis factor-α,increases
+R21	T20	T17	ThemeOf	sterol regulatory element binding protein-1c,increases
+R22	T21	T17	ThemeOf	CD36,increases
+R3	T3	T4	CauseOf	loss-of-function,absent
+R4	T5	T4	ThemeOf	anti-adipogenic effect,absent
+R5	T6	T7	CauseOf	variant,loss-of-function
+R6	T7	T8	CauseOf	loss-of-function,inhibit
+R7	T9	T8	ThemeOf	human adipogenesis,inhibit
+R8	T23	T22	ThemeOf	anti-adipogenic action,absence
+R9	T24	T25	ThemeOf	PCSK9,variant

@@ -1,0 +1,34 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	727-736	Var	denotes	p.Tyr298*
+T3	737-741	Gene	denotes	MC1R
+T4	749-751	NegReg	denotes	no
+T5	752-777	MPA	denotes	agonist-induced signaling
+T6	785-789	Pathway	denotes	cAMP
+T7	793-805	Pathway	denotes	ERK pathways
+T8	807-810	NegReg	denotes	nor
+T9	822-837	Interaction	denotes	agonist binding
+T10	880-891	Var	denotes	p.Val174del
+T11	979-987	NegReg	denotes	impaired
+T12	988-1011	MPA	denotes	cell surface expression
+T13	1066-1073	NegReg	denotes	reduced
+T14	1074-1100	MPA	denotes	plasma membrane expression
+T15	1104-1115	Var	denotes	p.Val174del
+T16	1120-1129	Var	denotes	p.Tyr298*
+T17	1142-1151	Var	denotes	p.Tyr298*
+T18	1164-1180	NegReg	denotes	loss-of-function
+T19	1201-1212	Var	denotes	p.Val174del
+T20	1225-1236	NegReg	denotes	partial LOF
+R1	T3	T2	ThemeOf	MC1R,p.Tyr298*
+R10	T14	T13	ThemeOf	plasma membrane expression,reduced
+R11	T15	T13	CauseOf	p.Val174del,reduced
+R12	T16	T13	CauseOf	p.Tyr298*,reduced
+R13	T17	T18	CauseOf	p.Tyr298*,loss-of-function
+R14	T19	T20	CauseOf	p.Val174del,partial LOF
+R2	T2	T4	CauseOf	p.Tyr298*,no
+R3	T2	T8	CauseOf	p.Tyr298*,nor
+R4	T9	T8	ThemeOf	agonist binding,nor
+R5	T4	T5	ThemeOf	no,agonist-induced signaling
+R6	T6	T5	ThemeOf	cAMP,agonist-induced signaling
+R7	T7	T5	ThemeOf	ERK pathways,agonist-induced signaling
+R8	T10	T11	CauseOf	p.Val174del,impaired
+R9	T12	T11	ThemeOf	cell surface expression,impaired

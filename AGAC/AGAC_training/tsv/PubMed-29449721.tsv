@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	0-32	Var	denotes	Bi-allelic inactivating variants
+T1	40-44	Gene	denotes	COCH
+T3	50-55	Reg	denotes	cause
+T4	56-105	Disease	denotes	autosomal recessive prelingual hearing impairment
+T5	495-513	Var	denotes	c.292C>T(p.Arg98*)
+T6	514-518	Gene	denotes	COCH
+T7	541-557	NegReg	denotes	loss-of-function
+T8	566-588	Disease	denotes	Vestibular dysfunction
+R1	T1	T2	ThemeOf	COCH,Bi-allelic inactivating variants
+R2	T2	T3	CauseOf	Bi-allelic inactivating variants,cause
+R3	T4	T3	ThemeOf	autosomal recessive prelingual hearing impairment,cause
+R4	T6	T5	ThemeOf	COCH,c.292C>T(p.Arg98*)
+R5	T5	T7	CauseOf	c.292C>T(p.Arg98*),loss-of-function
+R6	T8	T7	ThemeOf	Vestibular dysfunction,loss-of-function

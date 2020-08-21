@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	959-975	NegReg	denotes	loss-of-function
+T3	976-984	Var	denotes	mutation
+T6	996-999	Gene	denotes	HJV
+T5	1031-1055	Disease	denotes	juvenile hemochromatosis
+T10	1103-1127	Disease	denotes	juvenile hemochromatosis
+T7	1128-1138	Reg	denotes	associated
+T8	1146-1149	Gene	denotes	HJV
+T9	1150-1158	Var	denotes	mutation
+R1	T6	T3	ThemeOf	HJV,mutation
+R2	T3	T4	CauseOf	mutation,loss-of-function
+R3	T4	T5	CauseOf	loss-of-function,juvenile hemochromatosis
+R4	T10	T7	ThemeOf	juvenile hemochromatosis,associated
+R5	T8	T9	ThemeOf	HJV,mutation
+R6	T9	T7	CauseOf	mutation,associated

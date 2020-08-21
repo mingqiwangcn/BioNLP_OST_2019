@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	183-192	Var	denotes	mutations
+T1	200-205	Gene	denotes	KCNK3
+T3	211-216	Reg	denotes	cause
+T4	228-259	Disease	denotes	pulmonary arterial hypertension
+T6	1331-1336	Gene	denotes	KCNK3
+T5	1337-1346	Var	denotes	mutations
+T7	1371-1375	NegReg	denotes	loss
+T8	1379-1395	MPA	denotes	channel function
+R1	T1	T2	ThemeOf	KCNK3,mutations
+R2	T4	T3	ThemeOf	pulmonary arterial hypertension,cause
+R3	T8	T7	ThemeOf	channel function,loss
+R4	T6	T5	ThemeOf	KCNK3,mutations
+R5	T2	T3	CauseOf	mutations,cause
+R6	T5	T7	CauseOf	mutations,loss

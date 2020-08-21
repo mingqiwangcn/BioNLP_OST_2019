@@ -1,0 +1,30 @@
+Id	Subject	Object	Predicate	Lexical cue
+T5	0-14	Disease	denotes	Bronchiectasis
+T6	19-51	Disease	denotes	Recurrent Respiratory Infections
+T2	67-72	Gene	denotes	STAT1
+T3	73-89	PosReg	denotes	Gain-of-Function
+T4	90-97	Var	denotes	Variant
+T7	552-568	PosReg	denotes	gain-of-function
+T19	575-582	Var	denotes	alleles
+T16	590-595	Gene	denotes	STAT1
+T9	617-669	Disease	denotes	autosomal dominant chronic mucocutaneous candidiasis
+T10	723-737	Disease	denotes	bronchiectasis
+T11	929-994	Disease	denotes	respiratory bacterial and nontuberculous mycobacterial infections
+T14	1017-1031	Disease	denotes	bronchiectasis
+T15	1036-1039	Disease	denotes	CMC
+T18	1064-1072	Reg	denotes	revealed
+T13	1075-1083	Var	denotes	c.800C>T
+T12	1127-1132	Gene	denotes	STAT1
+R1	T2	T4	ThemeOf	STAT1,Variant
+R10	T13	T18	CauseOf	c.800C>T,revealed
+R11	T11	T18	ThemeOf	respiratory bacterial and nontuberculous mycobacterial infections,revealed
+R12	T14	T18	ThemeOf	bronchiectasis,revealed
+R13	T15	T18	ThemeOf	CMC,revealed
+R14	T16	T19	ThemeOf	STAT1,alleles
+R15	T19	T7	CauseOf	alleles,gain-of-function
+R16	T9	T7	ThemeOf	autosomal dominant chronic mucocutaneous candidiasis,gain-of-function
+R17	T10	T7	ThemeOf	bronchiectasis,gain-of-function
+R2	T4	T3	CauseOf	Variant,Gain-of-Function
+R3	T5	T3	ThemeOf	Bronchiectasis,Gain-of-Function
+R4	T6	T3	ThemeOf	Recurrent Respiratory Infections,Gain-of-Function
+R9	T12	T13	ThemeOf	STAT1,c.800C>T

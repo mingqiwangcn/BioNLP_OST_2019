@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	122-165	Disease	denotes	Fragile X-associated tremor/ataxia syndrome
+T3	216-225	Reg	denotes	caused by
+T2	229-260	Var	denotes	expansion of 55-200 CGG repeats
+T1	276-280	Gene	denotes	FMR1
+R1	T1	T2	ThemeOf	FMR1,expansion of 55-200 CGG repeats
+R2	T2	T3	CauseOf	expansion of 55-200 CGG repeats,caused by
+R3	T4	T3	ThemeOf	Fragile X-associated tremor/ataxia syndrome,caused by

@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T7	140-156	PosReg	denotes	gain of function
+T6	157-166	Var	denotes	mutations
+T5	170-176	Gene	denotes	GRIN2B
+T3	271-297	Disease	denotes	epileptic encephalopathies
+T4	309-325	Disease	denotes	infantile spasms
+R1	T6	T7	CauseOf	mutations,gain of function
+R2	T3	T7	ThemeOf	epileptic encephalopathies,gain of function
+R3	T4	T7	ThemeOf	infantile spasms,gain of function
+R4	T5	T6	ThemeOf	GRIN2B,mutations

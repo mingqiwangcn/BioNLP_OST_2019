@@ -1,0 +1,21 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	92-108	PosReg	denotes	gain-of-function
+T3	115-124	Var	denotes	mutations
+T1	128-134	Gene	denotes	NFKBIA
+T4	192-245	Disease	denotes	anhidrotic ectodermal dysplasia with immunodeficiency
+T5	359-368	Var	denotes	mutations
+T6	369-377	PosReg	denotes	enhanced
+T7	382-401	MPA	denotes	inhibitory activity
+T8	405-409	Protein	denotes	IκBα
+T9	414-424	NegReg	denotes	preventing
+T10	429-463	MPA	denotes	phosphorylation on serine 32 or 36
+T11	483-494	MPA	denotes	degradation
+R1	T1	T3	ThemeOf	NFKBIA,mutations
+R2	T3	T2	CauseOf	mutations,gain-of-function
+R3	T4	T2	ThemeOf	anhidrotic ectodermal dysplasia with immunodeficiency,gain-of-function
+R4	T5	T9	CauseOf	mutations,preventing
+R5	T9	T6	CauseOf	preventing,enhanced
+R6	T8	T7	ThemeOf	IκBα,inhibitory activity
+R7	T7	T6	ThemeOf	inhibitory activity,enhanced
+R8	T11	T9	ThemeOf	degradation,preventing
+R9	T10	T9	ThemeOf	phosphorylation on serine 32 or 36,preventing

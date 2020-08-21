@@ -1,0 +1,34 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	10-14	Gene	denotes	MLK4
+T1	15-31	NegReg	denotes	Loss-of-Function
+T3	32-41	Var	denotes	Mutations
+T4	42-50	NegReg	denotes	Suppress
+T5	51-64	Pathway	denotes	JNK Signaling
+T6	68-75	PosReg	denotes	Promote
+T7	76-95	Disease	denotes	Colon Tumorigenesis
+T8	537-541	Gene	denotes	MLK4
+T9	542-551	Var	denotes	mutations
+T10	556-572	NegReg	denotes	loss-of-function
+T11	1299-1303	Gene	denotes	MLK4
+T15	1359-1362	NegReg	denotes	LOF
+T12	1363-1372	Var	denotes	mutations
+T13	1386-1396	NegReg	denotes	diminished
+T14	1397-1406	MPA	denotes	signaling
+T16	1414-1425	Pathway	denotes	JNK pathway
+T17	1430-1438	PosReg	denotes	enhanced
+T18	1439-1452	CPA	denotes	proliferation
+R1	T2	T3	ThemeOf	MLK4,Mutations
+R10	T12	T15	CauseOf	mutations,LOF
+R11	T12	T13	CauseOf	mutations,diminished
+R12	T14	T13	ThemeOf	signaling,diminished
+R13	T14	T16	ThemeOf	signaling,JNK pathway
+R14	T12	T17	CauseOf	mutations,enhanced
+R15	T18	T17	ThemeOf	proliferation,enhanced
+R2	T3	T1	CauseOf	Mutations,Loss-of-Function
+R3	T3	T4	CauseOf	Mutations,Suppress
+R4	T5	T4	ThemeOf	JNK Signaling,Suppress
+R5	T3	T6	CauseOf	Mutations,Promote
+R6	T7	T6	ThemeOf	Colon Tumorigenesis,Promote
+R7	T8	T9	ThemeOf	MLK4,mutations
+R8	T9	T10	CauseOf	mutations,loss-of-function
+R9	T11	T12	ThemeOf	MLK4,mutations

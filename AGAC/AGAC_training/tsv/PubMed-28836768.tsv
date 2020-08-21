@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	1262-1267	Var	denotes	S148C
+T2	1334-1343	PosReg	denotes	increased
+T3	1344-1365	MPA	denotes	substrate flexibility
+T5	1367-1375	PosReg	denotes	enabling
+T4	1380-1422	MPA	denotes	production of diastereomeric macrolactones
+R1	T1	T2	CauseOf	S148C,increased
+R2	T3	T2	ThemeOf	substrate flexibility,increased
+R3	T4	T5	ThemeOf	production of diastereomeric macrolactones,enabling
+R4	T1	T5	CauseOf	S148C,enabling

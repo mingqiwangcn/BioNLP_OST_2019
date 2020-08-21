@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	1526-1534	Var	denotes	variants
+T5	1543-1557	Reg	denotes	dyshomeostasis
+T6	1561-1603	CPA	denotes	expression of collagens-TIMPs/MMPs systems
+T7	1609-1615	Gene	denotes	Col5a2
+T8	1638-1656	CPA	denotes	growth retardation
+T9	1661-1677	CPA	denotes	aortic dysplasia
+R3	T4	T5	CauseOf	variants,dyshomeostasis
+R4	T6	T5	ThemeOf	expression of collagens-TIMPs/MMPs systems,dyshomeostasis
+R5	T7	T4	ThemeOf	Col5a2,variants
+R6	T8	T5	ThemeOf	growth retardation,dyshomeostasis
+R7	T9	T5	ThemeOf	aortic dysplasia,dyshomeostasis

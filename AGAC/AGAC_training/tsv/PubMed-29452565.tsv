@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	153-168	Disease	denotes	Werner syndrome
+T2	204-213	Reg	denotes	caused by
+T3	214-223	Var	denotes	mutations
+T4	229-253	Protein	denotes	RecQ-family DNA helicase
+R1	T4	T3	ThemeOf	RecQ-family DNA helicase,mutations
+R2	T3	T2	CauseOf	mutations,caused by
+R3	T1	T2	ThemeOf	Werner syndrome,caused by

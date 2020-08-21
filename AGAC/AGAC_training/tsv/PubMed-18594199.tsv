@@ -1,0 +1,43 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	105-111	Var	denotes	Mutant
+T2	112-115	Gene	denotes	p53
+T3	116-124	Protein	denotes	proteins
+T4	157-173	PosReg	denotes	gain of function
+T5	217-237	CPA	denotes	tumor aggressiveness
+T11	280-294	NegReg	denotes	downregulation
+T9	298-304	Var	denotes	mutant
+T10	305-308	Gene	denotes	p53
+T8	312-328	MPA	denotes	RNA interference
+T6	329-336	NegReg	denotes	reduces
+T7	341-390	CPA	denotes	tumorigenicity of cancer cells in an animal model
+T12	706-734	MPA	denotes	conditional RNA interference
+T13	738-748	NegReg	denotes	inhibiting
+T18	766-774	MPA	denotes	activity
+T17	778-784	Var	denotes	mutant
+T15	785-788	Gene	denotes	p53
+T16	789-797	Protein	denotes	proteins
+T21	1061-1070	MPA	denotes	depletion
+T22	1074-1080	Var	denotes	mutant
+T23	1081-1084	Gene	denotes	p53
+T24	1085-1092	Protein	denotes	protein
+T19	1093-1100	Reg	denotes	impacts
+T20	1104-1120	CPA	denotes	tumor malignancy
+R1	T2	T3	ThemeOf	p53,proteins
+R10	T12	T13	CauseOf	conditional RNA interference,inhibiting
+R11	T18	T13	ThemeOf	activity,inhibiting
+R12	T15	T16	ThemeOf	p53,proteins
+R13	T16	T17	ThemeOf	proteins,mutant
+R14	T17	T18	ThemeOf	mutant,activity
+R15	T21	T19	CauseOf	depletion,impacts
+R16	T20	T19	ThemeOf	tumor malignancy,impacts
+R17	T22	T21	ThemeOf	mutant,depletion
+R18	T23	T24	ThemeOf	p53,protein
+R19	T24	T22	ThemeOf	protein,mutant
+R2	T3	T1	ThemeOf	proteins,Mutant
+R3	T1	T4	CauseOf	Mutant,gain of function
+R4	T5	T4	ThemeOf	tumor aggressiveness,gain of function
+R5	T8	T11	CauseOf	RNA interference,downregulation
+R6	T11	T6	CauseOf	downregulation,reduces
+R7	T10	T9	ThemeOf	p53,mutant
+R8	T9	T11	ThemeOf	mutant,downregulation
+R9	T7	T6	ThemeOf	tumorigenicity of cancer cells in an animal model,reduces

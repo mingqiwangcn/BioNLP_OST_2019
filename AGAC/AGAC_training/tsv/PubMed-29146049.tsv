@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	16-20	Gene	denotes	TBK1
+T2	21-29	Var	denotes	variants
+T4	30-32	Reg	denotes	in
+T3	33-62	Disease	denotes	early-onset Alzheimer disease
+T5	108-112	Gene	denotes	TBK1
+T6	114-130	NegReg	denotes	loss-of-function
+T7	137-146	Var	denotes	mutations
+T9	166-189	Disease	denotes	frontotemporal dementia
+T10	200-229	Disease	denotes	amyotrophic lateral sclerosis
+R1	T1	T2	ThemeOf	TBK1,variants
+R2	T3	T4	ThemeOf	early-onset Alzheimer disease,in
+R3	T5	T7	ThemeOf	TBK1,mutations
+R4	T9	T6	ThemeOf	frontotemporal dementia,loss-of-function
+R5	T10	T6	ThemeOf	amyotrophic lateral sclerosis,loss-of-function
+R6	T2	T4	CauseOf	variants,in
+R7	T7	T6	CauseOf	mutations,loss-of-function

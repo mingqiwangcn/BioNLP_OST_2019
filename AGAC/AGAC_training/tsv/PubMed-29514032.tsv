@@ -1,0 +1,13 @@
+Id	Subject	Object	Predicate	Lexical cue
+T7	63-86	Disease	denotes	Familial erythrocytosis
+T8	137-143	Reg	denotes	caused
+T5	147-156	Var	denotes	mutations
+T6	249-252	Gene	denotes	EPO
+T9	423-431	Var	denotes	mutation
+T10	513-523	NegReg	denotes	interrupts
+T11	543-583	MPA	denotes	main EPO messenger RNA (mRNA) transcript
+R1	T5	T8	CauseOf	mutations,caused
+R2	T7	T8	ThemeOf	Familial erythrocytosis,caused
+R3	T6	T5	ThemeOf	EPO,mutations
+R4	T9	T10	CauseOf	mutation,interrupts
+R5	T11	T10	ThemeOf	main EPO messenger RNA (mRNA) transcript,interrupts

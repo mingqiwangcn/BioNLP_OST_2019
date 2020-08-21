@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	98-127	Disease	denotes	Activated PI3K Delta Syndrome
+T5	173-179	Reg	denotes	caused
+T1	194-203	Var	denotes	mutations
+T3	256-262	Gene	denotes	PIK3CD
+T6	1094-1099	Gene	denotes	APDS2
+T7	1100-1108	Var	denotes	mutation
+T9	1144-1154	PosReg	denotes	activation
+T10	1158-1175	MPA	denotes	p110δ (>300-fold)
+T11	1180-1188	NegReg	denotes	disrupts
+T12	1189-1212	MPA	denotes	inhibitory interactions
+R1	T1	T5	CauseOf	mutations,caused
+R2	T4	T5	ThemeOf	Activated PI3K Delta Syndrome,caused
+R3	T3	T1	ThemeOf	PIK3CD,mutations
+R4	T6	T7	ThemeOf	APDS2,mutation
+R5	T7	T9	CauseOf	mutation,activation
+R6	T10	T9	ThemeOf	p110δ (>300-fold),activation
+R7	T7	T11	CauseOf	mutation,disrupts
+R8	T12	T11	ThemeOf	inhibitory interactions,disrupts

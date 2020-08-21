@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	10-29	Disease	denotes	hypocholesterolemia
+T5	34-43	Disease	denotes	steatosis
+T1	62-67	Gene	denotes	PCSK9
+T2	68-84	NegReg	denotes	loss-of-function
+T3	85-93	Var	denotes	mutation
+T9	301-310	Var	denotes	c.946 G>T
+T6	398-414	NegReg	denotes	loss of function
+T10	418-423	Gene	denotes	PCSK9
+T7	427-471	MPA	denotes	low-density lipoprotein receptor degradation
+R1	T1	T3	ThemeOf	PCSK9,mutation
+R2	T3	T2	CauseOf	mutation,loss-of-function
+R3	T4	T2	ThemeOf	hypocholesterolemia,loss-of-function
+R4	T5	T2	ThemeOf	steatosis,loss-of-function
+R5	T10	T9	ThemeOf	PCSK9,c.946 G>T
+R6	T9	T6	CauseOf	c.946 G>T,loss of function
+R7	T7	T6	ThemeOf	low-density lipoprotein receptor degradation,loss of function

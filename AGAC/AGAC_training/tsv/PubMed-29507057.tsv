@@ -1,0 +1,16 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	282-287	Gene	denotes	ego-3
+T2	288-292	Var	denotes	om40
+T3	294-300	Reg	denotes	causes
+T4	309-316	MPA	denotes	defects
+T5	357-366	Disease	denotes	paralysis
+T6	394-403	Disease	denotes	sterility
+T7	405-426	CPA	denotes	delayed proliferation
+T8	455-495	CPA	denotes	ectopic germline stem cell proliferation
+R1	T1	T2	ThemeOf	ego-3,om40
+R2	T2	T3	CauseOf	om40,causes
+R3	T4	T3	ThemeOf	defects,causes
+R4	T5	T4	ThemeOf	paralysis,defects
+R5	T6	T4	ThemeOf	sterility,defects
+R6	T7	T4	ThemeOf	delayed proliferation,defects
+R7	T8	T4	ThemeOf	ectopic germline stem cell proliferation,defects

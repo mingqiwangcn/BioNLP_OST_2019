@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	0-12	Var	denotes	Inactivation
+T1	16-21	Gene	denotes	Fgfr2
+T3	71-79	Reg	denotes	leads to
+T4	80-92	Disease	denotes	cleft palate
+T5	669-681	Var	denotes	inactivation
+T6	685-690	Gene	denotes	Fgfr2
+T7	762-770	Reg	denotes	leads to
+T8	771-783	Disease	denotes	cleft palate
+R1	T1	T2	ThemeOf	Fgfr2,Inactivation
+R2	T2	T3	CauseOf	Inactivation,leads to
+R3	T4	T3	ThemeOf	cleft palate,leads to
+R4	T5	T7	CauseOf	inactivation,leads to
+R5	T8	T7	ThemeOf	cleft palate,leads to
+R6	T6	T5	ThemeOf	Fgfr2,inactivation

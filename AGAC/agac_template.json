@@ -1,0 +1,5 @@
+["CauseOf", "What does XXX lead to?"]
+["GOF", "What disease does the gene XXX increase?"]
+["LOF", "What disease does the gene XXX inhibit?"]
+["REG", "What disease is the gene XXX related to?"]
+["COM", "What disease could the gene XXX both increase and inhibit?"]

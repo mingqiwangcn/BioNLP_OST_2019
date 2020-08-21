@@ -1,0 +1,52 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	144-152	Var	denotes	variants
+T28	203-208	Gene	denotes	PCSK9
+T3	226-242	PosReg	denotes	gain-of-function
+T4	252-268	NegReg	denotes	loss-of-function
+T7	292-299	Reg	denotes	effects
+T6	303-318	Disease	denotes	LDL cholesterol
+T5	323-345	Disease	denotes	cardiovascular disease
+T8	448-451	PosReg	denotes	GOF
+T9	452-460	Var	denotes	variants
+T10	489-495	Reg	denotes	affect
+T11	500-522	Protein	denotes	domains of the protein
+T12	531-537	NegReg	denotes	reduce
+T13	538-550	Protein	denotes	LDL receptor
+T14	551-561	MPA	denotes	expression
+T15	602-607	Reg	denotes	cause
+T16	611-640	Disease	denotes	familial hypercholesterolemia
+T18	856-859	NegReg	denotes	LOF
+T17	860-868	Var	denotes	variants
+T19	964-970	Reg	denotes	affect
+T20	975-997	Protein	denotes	domains of the protein
+T21	1006-1014	PosReg	denotes	increase
+T22	1015-1027	Protein	denotes	LDL receptor
+T23	1028-1038	MPA	denotes	expression
+T24	1081-1096	MPA	denotes	LDL cholesterol
+T25	1097-1105	NegReg	denotes	lowering
+T26	1145-1154	NegReg	denotes	decreased
+T27	1155-1158	Disease	denotes	CVD
+R1	T1	T3	CauseOf	variants,gain-of-function
+R10	T13	T14	ThemeOf	LDL receptor,expression
+R11	T14	T12	ThemeOf	expression,reduce
+R12	T9	T15	CauseOf	variants,cause
+R13	T16	T15	ThemeOf	familial hypercholesterolemia,cause
+R14	T17	T18	CauseOf	variants,LOF
+R15	T17	T19	CauseOf	variants,affect
+R16	T19	T21	CauseOf	affect,increase
+R17	T20	T19	ThemeOf	domains of the protein,affect
+R18	T17	T25	CauseOf	variants,lowering
+R19	T24	T25	ThemeOf	LDL cholesterol,lowering
+R2	T1	T4	CauseOf	variants,loss-of-function
+R20	T27	T26	ThemeOf	CVD,decreased
+R21	T17	T26	CauseOf	variants,decreased
+R22	T22	T23	ThemeOf	LDL receptor,expression
+R23	T23	T21	ThemeOf	expression,increase
+R24	T28	T1	ThemeOf	PCSK9,variants
+R3	T1	T7	CauseOf	variants,effects
+R4	T6	T7	ThemeOf	LDL cholesterol,effects
+R5	T5	T7	ThemeOf	cardiovascular disease,effects
+R6	T9	T10	CauseOf	variants,affect
+R7	T11	T10	ThemeOf	domains of the protein,affect
+R8	T9	T8	CauseOf	variants,GOF
+R9	T10	T12	CauseOf	affect,reduce

@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	0-19	CPA	denotes	Nephron development
+T5	24-43	CPA	denotes	extrarenal features
+T1	90-99	Reg	denotes	caused by
+T2	105-110	Gene	denotes	LAMB2
+T3	111-120	Var	denotes	mutations
+R1	T2	T3	ThemeOf	LAMB2,mutations
+R2	T3	T1	CauseOf	mutations,caused by
+R3	T5	T1	ThemeOf	extrarenal features,caused by
+R4	T4	T1	ThemeOf	Nephron development,caused by

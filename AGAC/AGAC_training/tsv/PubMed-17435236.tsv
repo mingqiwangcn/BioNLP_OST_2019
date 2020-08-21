@@ -1,0 +1,27 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	343-352	Var	denotes	mutations
+T4	389-393	Gene	denotes	bchs
+T13	403-410	NegReg	denotes	reduced
+T14	411-426	CPA	denotes	adult life span
+T2	428-437	PosReg	denotes	increased
+T3	438-452	CPA	denotes	neuronal death
+T6	458-472	CPA	denotes	widespread CNS
+T5	473-485	NegReg	denotes	degeneration
+T7	1130-1139	Var	denotes	Mutations
+T8	1151-1178	Gene	denotes	lysosomal trafficking genes
+T9	1205-1214	NegReg	denotes	decreased
+T12	1215-1231	CPA	denotes	adult life spans
+T10	1259-1266	Reg	denotes	changes
+T11	1270-1300	MPA	denotes	ubiquitinated protein profiles
+R1	T4	T1	ThemeOf	bchs,mutations
+R10	T11	T10	ThemeOf	ubiquitinated protein profiles,changes
+R11	T1	T13	CauseOf	mutations,reduced
+R12	T14	T13	ThemeOf	adult life span,reduced
+R2	T1	T2	CauseOf	mutations,increased
+R3	T3	T2	ThemeOf	neuronal death,increased
+R4	T1	T5	CauseOf	mutations,degeneration
+R5	T6	T5	ThemeOf	widespread CNS,degeneration
+R6	T8	T7	ThemeOf	lysosomal trafficking genes,Mutations
+R7	T7	T9	CauseOf	Mutations,decreased
+R8	T12	T9	ThemeOf	adult life spans,decreased
+R9	T7	T10	CauseOf	Mutations,changes

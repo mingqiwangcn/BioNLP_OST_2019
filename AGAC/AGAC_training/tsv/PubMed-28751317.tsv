@@ -1,0 +1,35 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	255-271	NegReg	denotes	loss-of-function
+T3	272-280	Var	denotes	mutation
+T4	284-290	Gene	denotes	OsPRI1
+T5	291-300	PosReg	denotes	increased
+T6	305-316	MPA	denotes	sensitivity
+T7	358-371	NegReg	denotes	downregulated
+T8	376-386	MPA	denotes	expression
+T12	685-694	MPA	denotes	stability
+T9	739-748	PosReg	denotes	increased
+T10	756-762	Gene	denotes	hrz1-2
+T11	763-769	Var	denotes	mutant
+T13	910-916	Gene	denotes	pri1-1
+T14	917-925	Var	denotes	mutation
+T15	930-940	Interaction	denotes	introduced
+T16	946-952	Gene	denotes	hrz1-2
+T17	953-960	Var	denotes	mutants
+T18	993-997	PosReg	denotes	more
+T19	998-1024	MPA	denotes	sensitive to Fe deficiency
+R1	T3	T2	CauseOf	mutation,loss-of-function
+R10	T13	T14	ThemeOf	pri1-1,mutation
+R11	T14	T15	ThemeOf	mutation,introduced
+R12	T17	T15	ThemeOf	mutants,introduced
+R13	T16	T17	ThemeOf	hrz1-2,mutants
+R14	T16	T15	CauseOf	hrz1-2,introduced
+R15	T17	T18	CauseOf	mutants,more
+R16	T19	T18	ThemeOf	sensitive to Fe deficiency,more
+R2	T4	T3	ThemeOf	OsPRI1,mutation
+R3	T3	T5	CauseOf	mutation,increased
+R4	T6	T5	ThemeOf	sensitivity,increased
+R5	T3	T7	CauseOf	mutation,downregulated
+R6	T8	T7	ThemeOf	expression,downregulated
+R7	T10	T11	ThemeOf	hrz1-2,mutant
+R8	T11	T9	CauseOf	mutant,increased
+R9	T12	T9	ThemeOf	stability,increased

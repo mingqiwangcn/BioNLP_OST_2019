@@ -1,0 +1,20 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	4-20	PosReg	denotes	gain-of-function
+T3	21-29	Var	denotes	mutation
+T1	36-43	Gene	denotes	CACNA1D
+T4	75-100	Disease	denotes	autism spectrum disorders
+T5	105-113	Disease	denotes	epilepsy
+T6	938-943	Var	denotes	V401L
+T7	1007-1015	PosReg	denotes	enhanced
+T8	1016-1033	MPA	denotes	current densities
+T9	1208-1215	Var	denotes	changes
+T10	1242-1250	PosReg	denotes	enhanced
+T11	1251-1282	MPA	denotes	Ca2+-influx through the channel
+R1	T3	T2	CauseOf	mutation,gain-of-function
+R2	T4	T2	ThemeOf	autism spectrum disorders,gain-of-function
+R3	T5	T2	ThemeOf	epilepsy,gain-of-function
+R4	T1	T3	ThemeOf	CACNA1D,mutation
+R5	T8	T7	ThemeOf	current densities,enhanced
+R6	T11	T10	ThemeOf	Ca2+-influx through the channel,enhanced
+R7	T6	T7	CauseOf	V401L,enhanced
+R8	T9	T10	CauseOf	changes,enhanced

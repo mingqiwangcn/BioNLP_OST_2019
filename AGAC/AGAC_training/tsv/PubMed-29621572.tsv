@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	27-43	NegReg	denotes	loss-of-function
+T2	44-52	Var	denotes	mutation
+T3	56-61	Gene	denotes	IGF1R
+T5	68-77	Reg	denotes	crosstalk
+T6	86-91	Gene	denotes	IGF1R
+T4	96-128	Pathway	denotes	Wnt/β-catenin signaling pathways
+R1	T3	T2	ThemeOf	IGF1R,mutation
+R2	T2	T1	CauseOf	mutation,loss-of-function
+R3	T2	T5	CauseOf	mutation,crosstalk
+R4	T4	T5	ThemeOf	Wnt/β-catenin signaling pathways,crosstalk
+R5	T6	T5	ThemeOf	IGF1R,crosstalk

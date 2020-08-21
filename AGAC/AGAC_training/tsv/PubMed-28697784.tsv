@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T5	37-41	Gene	denotes	SGCD
+T6	42-51	Var	denotes	deletions
+T7	52-59	Reg	denotes	causing
+T8	60-90	Disease	denotes	limb girdle muscular dystrophy
+T9	910-914	Gene	denotes	SGCD
+T3	1073-1082	Var	denotes	mutations
+T4	1109-1116	NegReg	denotes	absence
+T1	1120-1124	Gene	denotes	SGCD
+T2	1125-1132	Protein	denotes	protein
+R2	T5	T6	ThemeOf	SGCD,deletions
+R3	T8	T7	ThemeOf	limb girdle muscular dystrophy,causing
+R4	T6	T7	CauseOf	deletions,causing
+R5	T3	T4	CauseOf	mutations,absence
+R6	T2	T4	ThemeOf	protein,absence
+R7	T1	T2	ThemeOf	SGCD,protein
+R8	T9	T3	ThemeOf	SGCD,mutations

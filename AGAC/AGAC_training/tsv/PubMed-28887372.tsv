@@ -1,0 +1,27 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	4-24	Protein	denotes	apolipoprotein C-III
+T3	26-34	Var	denotes	Gln38Lys
+T1	60-86	Disease	denotes	human hypertriglyceridemia
+T2	92-108	PosReg	denotes	gain-of-function
+T10	863-882	MPA	denotes	de novo lipogenesis
+T11	1031-1035	Var	denotes	C3QK
+T12	1059-1067	PosReg	denotes	increase
+T13	1071-1074	MPA	denotes	DNL
+T14	1079-1089	MPA	denotes	expression
+T15	1093-1108	Gene	denotes	lipogenic genes
+T5	1172-1176	Var	denotes	C3QK
+T6	1225-1234	PosReg	denotes	stimulate
+T7	1235-1251	MPA	denotes	VLDL1 production
+T8	1261-1269	PosReg	denotes	enhanced
+T9	1270-1273	MPA	denotes	DNL
+R1	T4	T3	ThemeOf	apolipoprotein C-III,Gln38Lys
+R10	T5	T8	ThemeOf	C3QK,enhanced
+R11	T3	T2	ThemeOf	Gln38Lys,gain-of-function
+R2	T1	T2	ThemeOf	human hypertriglyceridemia,gain-of-function
+R3	T13	T12	ThemeOf	DNL,increase
+R4	T15	T14	ThemeOf	lipogenic genes,expression
+R5	T14	T12	ThemeOf	expression,increase
+R6	T7	T6	ThemeOf	VLDL1 production,stimulate
+R7	T9	T8	ThemeOf	DNL,enhanced
+R8	T11	T12	CauseOf	C3QK,increase
+R9	T5	T6	ThemeOf	C3QK,stimulate

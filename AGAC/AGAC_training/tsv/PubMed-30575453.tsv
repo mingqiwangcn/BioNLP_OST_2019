@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T10	352-370	Disease	denotes	hyperprolactinemia
+T7	494-510	NegReg	denotes	loss-of-function
+T6	511-519	Var	denotes	variants
+T5	523-527	Gene	denotes	PRLR
+T9	670-673	NegReg	denotes	not
+T8	674-681	CPA	denotes	lactate
+R1	T5	T6	ThemeOf	PRLR,variants
+R2	T6	T7	CauseOf	variants,loss-of-function
+R3	T7	T9	CauseOf	loss-of-function,not
+R4	T8	T9	ThemeOf	lactate,not
+R5	T9	T10	CauseOf	not,hyperprolactinemia

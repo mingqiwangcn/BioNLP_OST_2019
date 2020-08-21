@@ -1,0 +1,54 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	19-27	Var	denotes	mutation
+T7	38-45	PosReg	denotes	confers
+T1	46-49	Gene	denotes	p53
+T4	50-66	PosReg	denotes	gain-of-function
+T5	71-90	CPA	denotes	tumor cell survival
+T3	95-102	Gene	denotes	TNFAIP8
+T8	194-203	Var	denotes	Mutations
+T9	230-233	Gene	denotes	p53
+T10	277-286	Reg	denotes	result in
+T11	305-318	Var	denotes	substitutions
+T30	351-358	Interaction	denotes	binding
+T12	373-381	NegReg	denotes	blocking
+T13	389-416	CPA	denotes	tumor suppressive functions
+T14	471-489	Var	denotes	missense mutations
+T15	493-496	Gene	denotes	p53
+T16	504-520	PosReg	denotes	gain-of-function
+T17	527-552	CPA	denotes	activities to tumor cells
+T18	749-766	Var	denotes	mutations at K120
+T19	803-809	PosReg	denotes	confer
+T20	810-813	Gene	denotes	p53
+T21	847-854	MPA	denotes	ability
+T22	858-862	Interaction	denotes	bind
+T23	867-875	PosReg	denotes	activate
+T24	880-893	MPA	denotes	transcription
+T25	914-921	Gene	denotes	TNFAIP8
+T26	1244-1260	PosReg	denotes	gain-of-function
+T27	1261-1269	MPA	denotes	activity
+T28	1274-1280	Var	denotes	mutant
+T29	1281-1284	Gene	denotes	p53
+R1	T3	T2	ThemeOf	TNFAIP8,mutation
+R10	T13	T12	ThemeOf	tumor suppressive functions,blocking
+R11	T14	T16	CauseOf	missense mutations,gain-of-function
+R12	T17	T16	ThemeOf	activities to tumor cells,gain-of-function
+R13	T15	T14	ThemeOf	p53,missense mutations
+R14	T18	T19	CauseOf	mutations at K120,confer
+R15	T20	T18	ThemeOf	p53,mutations at K120
+R16	T21	T19	ThemeOf	ability,confer
+R17	T22	T21	ThemeOf	bind,ability
+R18	T18	T23	CauseOf	mutations at K120,activate
+R19	T24	T23	ThemeOf	transcription,activate
+R2	T2	T7	CauseOf	mutation,confers
+R20	T25	T24	ThemeOf	TNFAIP8,transcription
+R21	T28	T26	CauseOf	mutant,gain-of-function
+R22	T27	T26	ThemeOf	activity,gain-of-function
+R23	T29	T27	ThemeOf	p53,activity
+R24	T30	T10	ThemeOf	binding,result in
+R3	T4	T7	ThemeOf	gain-of-function,confers
+R4	T1	T4	ThemeOf	p53,gain-of-function
+R5	T5	T7	ThemeOf	tumor cell survival,confers
+R6	T9	T8	ThemeOf	p53,Mutations
+R7	T8	T10	CauseOf	Mutations,result in
+R8	T11	T10	ThemeOf	substitutions,result in
+R9	T12	T10	ThemeOf	blocking,result in

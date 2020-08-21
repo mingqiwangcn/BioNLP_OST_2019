@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	634-639	Gene	denotes	Rack1
+T2	640-650	Var	denotes	knock-down
+T3	687-694	NegReg	denotes	reduces
+T4	695-707	MPA	denotes	invasiveness
+T5	712-719	Reg	denotes	induces
+T6	720-740	MPA	denotes	cell differentiation
+R1	T1	T2	ThemeOf	Rack1,knock-down
+R2	T2	T3	CauseOf	knock-down,reduces
+R3	T4	T3	ThemeOf	invasiveness,reduces
+R4	T2	T5	CauseOf	knock-down,induces
+R5	T6	T5	ThemeOf	cell differentiation,induces

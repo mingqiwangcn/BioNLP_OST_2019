@@ -1,0 +1,34 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	638-644	Var	denotes	mutant
+T2	645-648	Gene	denotes	p53
+T3	680-691	PosReg	denotes	upregulates
+T4	692-697	Gene	denotes	EFNB2
+T5	698-708	MPA	denotes	expression
+T6	712-734	MPA	denotes	response to DNA damage
+T7	769-775	Var	denotes	mutant
+T8	776-779	Gene	denotes	p53
+T9	780-787	Protein	denotes	protein
+T10	791-800	PosReg	denotes	recruited
+T11	838-847	Reg	denotes	regulates
+T12	852-862	MPA	denotes	expression
+T13	1314-1321	PosReg	denotes	induces
+T14	1322-1327	Gene	denotes	ABCG2
+T15	1328-1338	MPA	denotes	expression
+T16	1374-1393	MPA	denotes	JNK-c-Jun signaling
+T17	1397-1403	Var	denotes	mutant
+T18	1404-1407	Gene	denotes	p53
+R1	T2	T1	ThemeOf	p53,mutant
+R10	T12	T11	ThemeOf	expression,regulates
+R11	T14	T15	ThemeOf	ABCG2,expression
+R13	T16	T13	ThemeOf	JNK-c-Jun signaling,induces
+R14	T15	T13	ThemeOf	expression,induces
+R15	T18	T17	ThemeOf	p53,mutant
+R16	T17	T13	CauseOf	mutant,induces
+R2	T1	T3	CauseOf	mutant,upregulates
+R3	T4	T5	ThemeOf	EFNB2,expression
+R4	T5	T3	ThemeOf	expression,upregulates
+R5	T6	T3	ThemeOf	response to DNA damage,upregulates
+R6	T7	T10	CauseOf	mutant,recruited
+R7	T8	T9	ThemeOf	p53,protein
+R8	T9	T7	ThemeOf	protein,mutant
+R9	T7	T11	CauseOf	mutant,regulates

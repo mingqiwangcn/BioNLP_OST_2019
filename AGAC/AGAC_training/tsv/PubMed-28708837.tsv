@@ -1,0 +1,20 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	390-393	NegReg	denotes	LoF
+T2	394-402	Var	denotes	mutation
+T9	423-449	Gene	denotes	Adenomatous polyposis coli
+T3	474-484	PosReg	denotes	activation
+T4	492-503	Pathway	denotes	Wnt pathway
+T10	519-538	Disease	denotes	colon cancer tumors
+T5	544-555	Protein	denotes	APC protein
+T6	580-595	NegReg	denotes	retains partial
+T7	596-603	Interaction	denotes	binding
+T8	604-613	MPA	denotes	abilities
+R1	T2	T1	CauseOf	mutation,LoF
+R2	T2	T3	CauseOf	mutation,activation
+R3	T2	T6	CauseOf	mutation,retains partial
+R4	T4	T3	ThemeOf	Wnt pathway,activation
+R5	T5	T8	ThemeOf	APC protein,abilities
+R6	T7	T8	ThemeOf	binding,abilities
+R7	T8	T6	ThemeOf	abilities,retains partial
+R8	T9	T2	ThemeOf	Adenomatous polyposis coli,mutation
+R9	T10	T1	ThemeOf	colon cancer tumors,LoF

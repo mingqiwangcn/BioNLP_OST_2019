@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	2134-2142	Var	denotes	Deleting
+T2	2143-2152	Gene	denotes	Fgfr1/2/3
+T3	2162-2170	NegReg	denotes	impaired
+T4	2171-2190	MPA	denotes	bSC dendritogenesis
+T5	2200-2209	NegReg	denotes	abolished
+T6	2210-2261	MPA	denotes	glutamate transmission-induced dendritic overgrowth
+R1	T1	T3	CauseOf	Deleting,impaired
+R2	T4	T3	ThemeOf	bSC dendritogenesis,impaired
+R3	T1	T5	CauseOf	Deleting,abolished
+R4	T6	T5	ThemeOf	glutamate transmission-induced dendritic overgrowth,abolished
+R5	T2	T1	ThemeOf	Fgfr1/2/3,Deleting

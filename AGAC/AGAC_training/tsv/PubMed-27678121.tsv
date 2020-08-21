@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	185-188	Gene	denotes	FLG
+T2	258-285	Var	denotes	extensive genetic variation
+T3	318-334	NegReg	denotes	loss-of-function
+T4	341-350	Var	denotes	mutations
+T5	401-418	Disease	denotes	atopic dermatitis
+R1	T1	T2	ThemeOf	FLG,extensive genetic variation
+R2	T2	T4	CauseOf	extensive genetic variation,mutations
+R3	T4	T3	CauseOf	mutations,loss-of-function
+R4	T3	T5	ThemeOf	loss-of-function,atopic dermatitis

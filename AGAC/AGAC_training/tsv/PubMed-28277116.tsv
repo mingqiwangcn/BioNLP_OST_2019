@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	902-906	Gene	denotes	BDNF
+T7	913-925	Var	denotes	polymorphism
+T4	931-947	NegReg	denotes	loss-of-function
+T5	948-960	Var	denotes	polymorphism
+T6	968-1006	MPA	denotes	regulation of endometrial cells growth
+R1	T1	T7	ThemeOf	BDNF,polymorphism
+R2	T7	T4	CauseOf	polymorphism,loss-of-function
+R3	T6	T4	ThemeOf	regulation of endometrial cells growth,loss-of-function
+R4	T5	T6	ThemeOf	polymorphism,regulation of endometrial cells growth

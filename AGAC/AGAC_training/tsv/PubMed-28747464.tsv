@@ -1,0 +1,33 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	15-24	Var	denotes	mutations
+T1	54-60	Gene	denotes	KCNJ10
+T3	73-78	Gene	denotes	KCNT1
+T4	80-90	Reg	denotes	associated
+T5	113-121	Disease	denotes	seizures
+T6	126-150	Disease	denotes	neurodevelopmental delay
+T8	1008-1014	Gene	denotes	KCNJ10
+T7	1015-1023	Var	denotes	mutation
+T9	1033-1044	Reg	denotes	resulted in
+T10	1055-1067	Var	denotes	substitution
+T12	1258-1265	NegReg	denotes	reduced
+T11	1266-1284	MPA	denotes	protein expression
+T13	1292-1300	Var	denotes	mutation
+T16	1590-1606	NegReg	denotes	loss-of-function
+T17	1607-1615	Var	denotes	mutation
+T18	1663-1671	Var	denotes	mutation
+T14	1695-1705	Reg	denotes	results in
+T15	1708-1721	Disease	denotes	fatal disease
+R1	T2	T4	CauseOf	mutations,associated
+R10	T11	T12	ThemeOf	protein expression,reduced
+R11	T17	T16	CauseOf	mutation,loss-of-function
+R12	T18	T17	ThemeOf	mutation,mutation
+R13	T17	T14	CauseOf	mutation,results in
+R14	T15	T14	ThemeOf	fatal disease,results in
+R2	T5	T4	ThemeOf	seizures,associated
+R3	T1	T2	ThemeOf	KCNJ10,mutations
+R4	T3	T2	ThemeOf	KCNT1,mutations
+R5	T6	T4	ThemeOf	neurodevelopmental delay,associated
+R6	T8	T7	ThemeOf	KCNJ10,mutation
+R7	T7	T9	CauseOf	mutation,resulted in
+R8	T10	T9	ThemeOf	substitution,resulted in
+R9	T13	T12	CauseOf	mutation,reduced

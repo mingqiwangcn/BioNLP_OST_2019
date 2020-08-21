@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	104-133	Disease	denotes	Spinocerebellar ataxia type 2
+T4	192-201	Reg	denotes	caused by
+T1	202-222	Var	denotes	CAG repeat expansion
+T2	230-235	Gene	denotes	ATXN2
+R1	T1	T4	CauseOf	CAG repeat expansion,caused by
+R2	T2	T1	ThemeOf	ATXN2,CAG repeat expansion
+R3	T3	T4	ThemeOf	Spinocerebellar ataxia type 2,caused by

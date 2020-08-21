@@ -1,0 +1,16 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	758-763	Gene	denotes	PINK1
+T2	764-770	Var	denotes	mutant
+T4	787-792	MPA	denotes	ERMCS
+T3	796-808	PosReg	denotes	strengthened
+T6	813-828	MPA	denotes	mito-Ca2+ level
+T5	832-840	PosReg	denotes	elevated
+T8	855-868	MPA	denotes	mitochondrial
+T7	869-880	PosReg	denotes	enlargement
+R1	T1	T2	ThemeOf	PINK1,mutant
+R2	T2	T3	CauseOf	mutant,strengthened
+R3	T2	T5	CauseOf	mutant,elevated
+R4	T5	T7	CauseOf	elevated,enlargement
+R6	T4	T3	ThemeOf	ERMCS,strengthened
+R7	T6	T5	ThemeOf	mito-Ca2+ level,elevated
+R8	T8	T7	ThemeOf	mitochondrial,enlargement

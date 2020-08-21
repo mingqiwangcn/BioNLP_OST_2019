@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T26	589-593	Gene	denotes	Shp2
+T27	594-603	Var	denotes	mutations
+T28	613-623	Reg	denotes	associated
+T4	709-741	Disease	denotes	juvenile myelomonocytic leukemia
+T5	758-760	Disease	denotes	NS
+T6	765-769	Disease	denotes	JMML
+T15	784-800	PosReg	denotes	gain-of-function
+T17	807-816	Var	denotes	mutations
+T18	820-824	Gene	denotes	Shp2
+T19	826-842	NegReg	denotes	loss-of-function
+T21	849-858	Var	denotes	mutations
+T25	893-909	Disease	denotes	LEOPARD syndrome
+R10	T17	T15	CauseOf	mutations,gain-of-function
+R12	T18	T17	ThemeOf	Shp2,mutations
+R13	T21	T19	CauseOf	mutations,loss-of-function
+R19	T26	T27	ThemeOf	Shp2,mutations
+R20	T27	T28	CauseOf	mutations,associated
+R22	T4	T28	ThemeOf	juvenile myelomonocytic leukemia,associated
+R23	T5	T15	ThemeOf	NS,gain-of-function
+R24	T6	T15	ThemeOf	JMML,gain-of-function
+R25	T25	T19	ThemeOf	LEOPARD syndrome,loss-of-function
+R26	T18	T21	ThemeOf	Shp2,mutations

@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	1083-1092	Gene	denotes	Leu191Phe
+T1	1093-1101	Var	denotes	mutation
+T3	1102-1109	Reg	denotes	affects
+T4	1114-1126	MPA	denotes	architecture
+T5	1161-1171	NegReg	denotes	preventing
+T6	1176-1197	MPA	denotes	allosteric inhibition
+T7	1205-1211	Enzyme	denotes	enzyme
+R1	T2	T1	ThemeOf	Leu191Phe,mutation
+R2	T1	T3	CauseOf	mutation,affects
+R3	T4	T3	ThemeOf	architecture,affects
+R4	T4	T5	CauseOf	architecture,preventing
+R5	T6	T5	ThemeOf	allosteric inhibition,preventing
+R6	T7	T6	ThemeOf	enzyme,allosteric inhibition

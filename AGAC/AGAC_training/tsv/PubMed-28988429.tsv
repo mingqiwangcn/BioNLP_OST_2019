@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T13	0-25	Var	denotes	Homozygous indel mutation
+T12	29-34	Gene	denotes	CDH11
+T14	51-56	Reg	denotes	cause
+T15	60-82	Disease	denotes	Elsahy-Waters syndrome
+T9	1526-1549	CPA	denotes	cell proliferation rate
+T8	1554-1558	NegReg	denotes	slow
+T11	1563-1599	CPA	denotes	osteogenic differentiation potential
+T10	1604-1611	NegReg	denotes	delayed
+T2	1666-1675	Var	denotes	mutations
+T1	1679-1684	Gene	denotes	CDH11
+R1	T1	T2	ThemeOf	CDH11,mutations
+R10	T15	T14	ThemeOf	Elsahy-Waters syndrome,cause
+R2	T9	T8	ThemeOf	cell proliferation rate,slow
+R3	T11	T10	ThemeOf	osteogenic differentiation potential,delayed
+R4	T2	T8	CauseOf	mutations,slow
+R5	T2	T10	CauseOf	mutations,delayed
+R8	T12	T13	ThemeOf	CDH11,Homozygous indel mutation
+R9	T13	T14	CauseOf	Homozygous indel mutation,cause

@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	120-133	Disease	denotes	Atopic eczema
+T2	196-210	Var	denotes	Null mutations
+T3	225-228	Gene	denotes	FLG
+T4	273-283	Reg	denotes	predispose
+T5	287-289	Disease	denotes	AE
+T6	1386-1404	Pathway	denotes	Molecular pathways
+T9	1405-1420	PosReg	denotes	overrepresented
+T7	1427-1430	Gene	denotes	FLG
+T8	1431-1440	Var	denotes	knockdown
+T10	1722-1726	Var	denotes	loss
+T11	1730-1733	Gene	denotes	FLG
+T12	1782-1787	Reg	denotes	alter
+T13	1792-1820	MPA	denotes	expression level of proteins
+R1	T2	T4	CauseOf	Null mutations,predispose
+R2	T5	T4	ThemeOf	AE,predispose
+R3	T3	T2	ThemeOf	FLG,Null mutations
+R4	T6	T9	ThemeOf	Molecular pathways,overrepresented
+R5	T7	T8	ThemeOf	FLG,knockdown
+R6	T8	T9	CauseOf	knockdown,overrepresented
+R7	T10	T12	CauseOf	loss,alter
+R8	T13	T12	ThemeOf	expression level of proteins,alter
+R9	T11	T10	ThemeOf	FLG,loss

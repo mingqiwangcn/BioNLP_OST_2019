@@ -1,0 +1,30 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	30-36	Var	denotes	Mutant
+T10	37-40	Gene	denotes	p53
+T4	41-49	Protein	denotes	proteins
+T5	57-64	Reg	denotes	changes
+T6	68-85	MPA	denotes	cellular behavior
+T7	90-98	MPA	denotes	function
+T8	107-119	Interaction	denotes	interactions
+T9	125-133	Protein	denotes	proteins
+T11	349-355	Var	denotes	mutant
+T12	356-359	Gene	denotes	p53
+T13	368-375	Reg	denotes	dictate
+T14	376-404	MPA	denotes	protein-protein interactions
+T23	885-891	Var	denotes	mutant
+T24	892-895	Gene	denotes	p53
+T20	914-924	PosReg	denotes	activation
+T25	928-933	Gene	denotes	genes
+R1	T1	T5	CauseOf	Mutant,changes
+R10	T12	T11	ThemeOf	p53,mutant
+R12	T23	T20	CauseOf	mutant,activation
+R13	T25	T20	ThemeOf	genes,activation
+R14	T24	T23	ThemeOf	p53,mutant
+R2	T6	T5	ThemeOf	cellular behavior,changes
+R3	T7	T5	ThemeOf	function,changes
+R4	T1	T8	CauseOf	Mutant,interactions
+R5	T9	T8	ThemeOf	proteins,interactions
+R6	T10	T1	ThemeOf	p53,Mutant
+R7	T4	T10	ThemeOf	proteins,p53
+R8	T11	T13	CauseOf	mutant,dictate
+R9	T14	T13	ThemeOf	protein-protein interactions,dictate

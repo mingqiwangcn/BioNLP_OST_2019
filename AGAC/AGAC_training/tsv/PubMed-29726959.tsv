@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	227-243	NegReg	denotes	Loss of function
+T3	250-259	Var	denotes	mutations
+T1	267-279	Pathway	denotes	MC4R pathway
+T4	330-334	Gene	denotes	POMC
+T5	362-367	Gene	denotes	PCSK1
+T6	387-391	Gene	denotes	LEPR
+T7	397-401	Gene	denotes	MC4R
+T8	434-460	Disease	denotes	early-onset severe obesity
+R1	T3	T2	CauseOf	mutations,Loss of function
+R10	T4	T1	ThemeOf	POMC,MC4R pathway
+R2	T8	T2	ThemeOf	early-onset severe obesity,Loss of function
+R3	T5	T3	ThemeOf	PCSK1,mutations
+R4	T6	T3	ThemeOf	LEPR,mutations
+R5	T7	T3	ThemeOf	MC4R,mutations
+R6	T4	T3	ThemeOf	POMC,mutations
+R7	T5	T1	ThemeOf	PCSK1,MC4R pathway
+R8	T6	T1	ThemeOf	LEPR,MC4R pathway
+R9	T7	T1	ThemeOf	MC4R,MC4R pathway

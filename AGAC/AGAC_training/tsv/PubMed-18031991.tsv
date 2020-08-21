@@ -1,0 +1,39 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	195-206	PosReg	denotes	stimulation
+T3	210-237	Protein	denotes	G protein-coupled receptors
+T4	242-267	Protein	denotes	heterotrimeric G proteins
+T9	269-280	Var	denotes	Alterations
+T26	284-287	Protein	denotes	RGS
+T8	307-317	Reg	denotes	implicated
+T5	337-344	Disease	denotes	disease
+T12	662-673	Var	denotes	RGS4 mutant
+T13	689-697	PosReg	denotes	enhanced
+T25	701-717	PosReg	denotes	gain-of-function
+T14	790-820	Pathway	denotes	yeast-based signalling pathway
+T15	846-938	Protein	denotes	Galpha(o1) subunit contained in an alpha(2A)-adrenoreceptor-Galpha(o1)(C351I) fusion protein
+T19	1223-1227	Var	denotes	RGS4
+T27	1228-1232	Var	denotes	S30C
+T28	1233-1237	Var	denotes	S30F
+T29	1238-1242	Var	denotes	S30K
+T20	1256-1265	PosReg	denotes	increased
+T21	1279-1293	MPA	denotes	protein levels
+T23	1334-1342	PosReg	denotes	enhanced
+T24	1343-1355	MPA	denotes	GAP activity
+R1	T4	T1	CauseOf	heterotrimeric G proteins,stimulation
+R11	T19	T20	CauseOf	RGS4,increased
+R12	T21	T20	ThemeOf	protein levels,increased
+R14	T24	T23	ThemeOf	GAP activity,enhanced
+R15	T12	T25	CauseOf	RGS4 mutant,gain-of-function
+R16	T14	T25	ThemeOf	yeast-based signalling pathway,gain-of-function
+R17	T15	T25	ThemeOf	Galpha(o1) subunit contained in an alpha(2A)-adrenoreceptor-Galpha(o1)(C351I) fusion protein,gain-of-function
+R18	T26	T9	ThemeOf	RGS,Alterations
+R19	T19	T23	CauseOf	RGS4,enhanced
+R2	T3	T1	ThemeOf	G protein-coupled receptors,stimulation
+R20	T27	T19	ThemeOf	S30C,RGS4
+R21	T28	T19	ThemeOf	S30F,RGS4
+R22	T29	T19	ThemeOf	S30K,RGS4
+R3	T9	T8	CauseOf	Alterations,implicated
+R4	T5	T8	ThemeOf	disease,implicated
+R6	T12	T13	CauseOf	RGS4 mutant,enhanced
+R7	T14	T13	ThemeOf	yeast-based signalling pathway,enhanced
+R8	T15	T13	ThemeOf	Galpha(o1) subunit contained in an alpha(2A)-adrenoreceptor-Galpha(o1)(C351I) fusion protein,enhanced

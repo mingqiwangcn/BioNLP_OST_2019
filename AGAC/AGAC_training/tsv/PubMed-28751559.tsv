@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-16	NegReg	denotes	Loss-of-function
+T2	54-59	Gene	denotes	IKZF1
+T3	60-69	Var	denotes	deletions
+T4	137-165	Disease	denotes	acute lymphoblastic leukemia
+T5	374-383	Var	denotes	deletions
+T8	419-450	MPA	denotes	functionally inactivated allele
+T7	453-469	NegReg	denotes	loss-of-function
+T6	479-496	NegReg	denotes	dominant-negative
+T9	498-506	MPA	denotes	isoforms
+T10	1123-1141	Var	denotes	high deletion load
+T11	1148-1155	NegReg	denotes	shorter
+T12	1156-1172	MPA	denotes	overall survival
+R1	T2	T3	ThemeOf	IKZF1,deletions
+R2	T3	T1	CauseOf	deletions,Loss-of-function
+R3	T4	T1	ThemeOf	acute lymphoblastic leukemia,Loss-of-function
+R4	T5	T7	CauseOf	deletions,loss-of-function
+R5	T8	T7	ThemeOf	functionally inactivated allele,loss-of-function
+R6	T5	T6	CauseOf	deletions,dominant-negative
+R7	T9	T6	ThemeOf	isoforms,dominant-negative
+R8	T10	T11	CauseOf	high deletion load,shorter
+R9	T12	T11	ThemeOf	overall survival,shorter

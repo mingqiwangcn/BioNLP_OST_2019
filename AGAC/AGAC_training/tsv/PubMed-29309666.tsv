@@ -1,0 +1,20 @@
+Id	Subject	Object	Predicate	Lexical cue
+T10	785-789	Gene	denotes	PLC3
+T1	886-904	Var	denotes	knock-down mutants
+T2	947-954	NegReg	denotes	reduced
+T3	955-977	CPA	denotes	lateral root densities
+T4	989-995	Var	denotes	Mutant
+T5	1002-1012	CPA	denotes	germinated
+T6	1018-1024	NegReg	denotes	slowly
+T11	1448-1465	MPA	denotes	formation of PIP2
+T9	1547-1554	NegReg	denotes	reduced
+T7	1558-1562	Gene	denotes	plc3
+T8	1563-1570	Var	denotes	mutants
+R1	T10	T1	ThemeOf	PLC3,knock-down mutants
+R2	T1	T2	CauseOf	knock-down mutants,reduced
+R3	T3	T2	ThemeOf	lateral root densities,reduced
+R4	T4	T6	CauseOf	Mutant,slowly
+R5	T5	T6	ThemeOf	germinated,slowly
+R6	T7	T8	ThemeOf	plc3,mutants
+R7	T8	T9	CauseOf	mutants,reduced
+R8	T11	T9	ThemeOf	formation of PIP2,reduced

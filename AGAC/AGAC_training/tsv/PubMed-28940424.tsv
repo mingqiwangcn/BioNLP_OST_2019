@@ -1,0 +1,33 @@
+Id	Subject	Object	Predicate	Lexical cue
+T5	99-121	Disease	denotes	Paramyotonia congenita
+T6	152-158	Reg	denotes	caused
+T4	162-180	Var	denotes	missense mutations
+T3	188-193	Gene	denotes	SCN4A
+T7	1132-1154	Disease	denotes	Paramyotonia congenita
+T10	1210-1216	Reg	denotes	caused
+T8	1220-1238	Var	denotes	missense mutations
+T9	1242-1247	Gene	denotes	SCN4A
+T16	1938-1944	Var	denotes	N1366S
+T17	2099-2106	NegReg	denotes	reduced
+T18	2107-2111	MPA	denotes	rate
+T19	2115-2132	MPA	denotes	fast inactivation
+T14	2137-2148	PosReg	denotes	accelerated
+T20	2149-2157	MPA	denotes	recovery
+T21	2163-2180	MPA	denotes	fast inactivation
+T11	2433-2439	Var	denotes	N1366S
+T12	2445-2461	PosReg	denotes	gain-of-function
+T13	2565-2587	Disease	denotes	paramyotonia congenita
+R1	T3	T4	ThemeOf	SCN4A,missense mutations
+R10	T16	T14	CauseOf	N1366S,accelerated
+R11	T19	T18	ThemeOf	fast inactivation,rate
+R12	T18	T17	ThemeOf	rate,reduced
+R13	T21	T20	ThemeOf	fast inactivation,recovery
+R14	T20	T14	ThemeOf	recovery,accelerated
+R2	T4	T6	CauseOf	missense mutations,caused
+R3	T5	T6	ThemeOf	Paramyotonia congenita,caused
+R4	T9	T8	ThemeOf	SCN4A,missense mutations
+R5	T8	T10	CauseOf	missense mutations,caused
+R6	T7	T10	ThemeOf	Paramyotonia congenita,caused
+R7	T11	T12	CauseOf	N1366S,gain-of-function
+R8	T13	T12	ThemeOf	paramyotonia congenita,gain-of-function
+R9	T16	T17	CauseOf	N1366S,reduced

@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	22-38	NegReg	denotes	Loss-of-Function
+T3	39-47	Var	denotes	Variants
+T4	51-55	Gene	denotes	TLK2
+T1	105-141	Disease	denotes	Distinct Neurodevelopmental Disorder
+R1	T3	T2	CauseOf	Variants,Loss-of-Function
+R2	T4	T3	ThemeOf	TLK2,Variants
+R3	T1	T2	ThemeOf	Distinct Neurodevelopmental Disorder,Loss-of-Function

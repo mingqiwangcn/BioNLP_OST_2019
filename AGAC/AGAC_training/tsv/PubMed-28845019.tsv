@@ -1,0 +1,37 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	0-11	Protein	denotes	Progranulin
+T1	12-30	Var	denotes	haploinsufficiency
+T3	31-38	NegReg	denotes	reduces
+T4	39-62	MPA	denotes	amyloid beta deposition
+T5	66-85	Disease	denotes	Alzheimer's disease
+T13	151-184	Disease	denotes	frontotemporal lobar degeneration
+T6	259-262	Protein	denotes	Grn
+T7	274-292	Var	denotes	haploinsufficiency
+T8	346-364	NegReg	denotes	loss of functional
+T9	378-382	Protein	denotes	PGRN
+T10	405-414	Var	denotes	mutations
+T11	428-436	Reg	denotes	involved
+T12	440-444	Disease	denotes	FTLD
+T15	499-502	Protein	denotes	Grn
+T16	503-512	Var	denotes	mutations
+T17	517-527	Reg	denotes	associated
+T14	597-616	Disease	denotes	Alzheimer's disease
+T18	1358-1362	Protein	denotes	PGRN
+T19	1363-1381	Var	denotes	haploinsufficiency
+T20	1386-1394	NegReg	denotes	decrease
+T21	1395-1413	MPA	denotes	accumulation of Aβ
+R1	T2	T1	ThemeOf	Progranulin,haploinsufficiency
+R10	T15	T16	ThemeOf	Grn,mutations
+R11	T14	T17	ThemeOf	Alzheimer's disease,associated
+R12	T16	T17	CauseOf	mutations,associated
+R13	T18	T19	ThemeOf	PGRN,haploinsufficiency
+R14	T21	T20	ThemeOf	accumulation of Aβ,decrease
+R15	T19	T20	CauseOf	haploinsufficiency,decrease
+R2	T4	T3	ThemeOf	amyloid beta deposition,reduces
+R3	T5	T3	ThemeOf	Alzheimer's disease,reduces
+R4	T1	T3	CauseOf	haploinsufficiency,reduces
+R5	T6	T7	ThemeOf	Grn,haploinsufficiency
+R6	T9	T8	ThemeOf	PGRN,loss of functional
+R7	T12	T11	ThemeOf	FTLD,involved
+R8	T7	T8	CauseOf	haploinsufficiency,loss of functional
+R9	T10	T11	CauseOf	mutations,involved

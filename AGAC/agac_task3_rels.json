@@ -1,0 +1,236 @@
+{"subject": "SHP-2", "sub_type": "gene", "rel": "GOF", "object": "leukemias", "obj_type": "disease", "pmid": "16371368"}
+{"subject": "SHP-2", "sub_type": "gene", "rel": "GOF", "object": "juvenile myelomonocytic leukemia", "obj_type": "disease", "pmid": ""}
+{"subject": "MC1R", "sub_type": "gene", "rel": "LOF", "object": "melanoma", "obj_type": "disease", "pmid": "19338054"}
+{"subject": "p53", "sub_type": "gene", "rel": "GOF", "object": "endometrial cancer", "obj_type": "disease", "pmid": "19917135"}
+{"subject": "Shp2", "sub_type": "gene", "rel": "GOF", "object": "juvenile myelomonocytic leukemia", "obj_type": "disease", "pmid": "20399956"}
+{"subject": "Shp2", "sub_type": "gene", "rel": "LOF", "object": "LEOPARD syndrome", "obj_type": "disease", "pmid": ""}
+{"subject": "p53", "sub_type": "gene", "rel": "GOF", "object": "lung cancer", "obj_type": "disease", "pmid": "22114072"}
+{"subject": "p53", "sub_type": "gene", "rel": "GOF", "object": "lung cancer", "obj_type": "disease", "pmid": "22989750"}
+{"subject": "p53", "sub_type": "gene", "rel": "GOF", "object": "colitis-associated colorectal cancer", "obj_type": "disease", "pmid": "23680148"}
+{"subject": "p53", "sub_type": "gene", "rel": "GOF", "object": "high-grade serous ovarian carcinoma", "obj_type": "disease", "pmid": "23967324"}
+{"subject": "p53", "sub_type": "gene", "rel": "GOF", "object": "osteosarcoma", "obj_type": "disease", "pmid": "24373920"}
+{"subject": "\u03b2-catenin", "sub_type": "gene", "rel": "GOF", "object": "anorectal malformations", "obj_type": "disease", "pmid": "24632946"}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "LOF", "object": "hypocholesterolemia", "obj_type": "disease", "pmid": "24808909"}
+{"subject": "PDGF-B", "sub_type": "gene", "rel": "LOF", "object": "familial idiopathic basal ganglia calcification", "obj_type": "disease", "pmid": "24946076"}
+{"subject": "PDGF-R\u03b2", "sub_type": "gene", "rel": "LOF", "object": "familial idiopathic basal ganglia calcification", "obj_type": "disease", "pmid": ""}
+{"subject": "PPARG", "sub_type": "gene", "rel": "LOF", "object": "type 2 diabetes", "obj_type": "disease", "pmid": "25157153"}
+{"subject": "SHROOM3", "sub_type": "gene", "rel": "LOF", "object": "Neural tube defects", "obj_type": "disease", "pmid": "25805808"}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "GOF", "object": "autosomal dominant hypercholesterolemia", "obj_type": "disease", "pmid": "26586530"}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "GOF", "object": "premature atherosclerosis", "obj_type": "disease", "pmid": ""}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "LOF", "object": "familial hypobetalipoproteinemia", "obj_type": "disease", "pmid": ""}
+{"subject": "MLK4", "sub_type": "gene", "rel": "LOF", "object": "Colon Tumorigenesis", "obj_type": "disease", "pmid": "26637668"}
+{"subject": "TBR1", "sub_type": "gene", "rel": "LOF", "object": "autism spectrum disorders", "obj_type": "disease", "pmid": "27325115"}
+{"subject": "SON", "sub_type": "gene", "rel": "LOF", "object": "Intellectual-Disability Syndrome", "obj_type": "disease", "pmid": "27545680"}
+{"subject": "FLG", "sub_type": "gene", "rel": "LOF", "object": "atopic dermatitis", "obj_type": "disease", "pmid": "27678121"}
+{"subject": "Col5a2", "sub_type": "gene", "rel": "REG", "object": "aortic dysplasia", "obj_type": "disease", "pmid": "27975164"}
+{"subject": "STAT1", "sub_type": "gene", "rel": "LOF", "object": "mycobacteria disease", "obj_type": "disease", "pmid": "28011069"}
+{"subject": "STAT1", "sub_type": "gene", "rel": "GOF", "object": "chronic mucocutanneous candidiasis", "obj_type": "disease", "pmid": ""}
+{"subject": "STAT1", "sub_type": "gene", "rel": "GOF", "object": "immunodeficiency and autoimmunity", "obj_type": "disease", "pmid": "28139313"}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "GOF", "object": "LDL cholesterol", "obj_type": "disease", "pmid": "28157721"}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "LOF", "object": "cardiovascular disease", "obj_type": "disease", "pmid": ""}
+{"subject": "APC", "sub_type": "gene", "rel": "LOF", "object": "colon cancer tumors", "obj_type": "disease", "pmid": "28708837"}
+{"subject": "ALMS", "sub_type": "gene", "rel": "LOF", "object": "Alstr\u00f6m syndrome", "obj_type": "disease", "pmid": "28717663"}
+{"subject": "ARHGA29", "sub_type": "gene", "rel": "LOF", "object": "Nonsyndromic cleft lip and/or palate", "obj_type": "disease", "pmid": "28817352"}
+{"subject": "GRN", "sub_type": "gene", "rel": "LOF", "object": "frontotemporal lobar degeneration", "obj_type": "disease", "pmid": "28890134"}
+{"subject": "QRICH2", "sub_type": "gene", "rel": "LOF", "object": "Male Infertility", "obj_type": "disease", "pmid": "30683861"}
+{"subject": "PRLR", "sub_type": "gene", "rel": "LOF", "object": "Hyperprolactinemia", "obj_type": "disease", "pmid": "30575453"}
+{"subject": "TTN", "sub_type": "gene", "rel": "LOF", "object": "early-onset Atrial Fibrillation", "obj_type": "disease", "pmid": "30535219"}
+{"subject": "CYBC1", "sub_type": "gene", "rel": "LOF", "object": "chronic granulomatous disease", "obj_type": "disease", "pmid": "30361506"}
+{"subject": "STAT1", "sub_type": "gene", "rel": "GOF", "object": "autosomal dominant chronic mucocutaneous candidiasis", "obj_type": "disease", "pmid": "30187709"}
+{"subject": "STAT1", "sub_type": "gene", "rel": "GOF", "object": "bronchiectasis", "obj_type": "disease", "pmid": ""}
+{"subject": "STAT1", "sub_type": "gene", "rel": "GOF", "object": "Recurrent Respiratory Infections", "obj_type": "disease", "pmid": ""}
+{"subject": "ERBB2", "sub_type": "gene", "rel": "GOF", "object": "breast cancer", "obj_type": "disease", "pmid": "30094493"}
+{"subject": "ABCC8", "sub_type": "gene", "rel": "GOF", "object": "neonatal diabetes mellitus", "obj_type": "disease", "pmid": "30068891"}
+{"subject": "ABCC8", "sub_type": "gene", "rel": "GOF", "object": "maturity-onset diabetes", "obj_type": "disease", "pmid": ""}
+{"subject": "ABCC8", "sub_type": "gene", "rel": "GOF", "object": "diabetes", "obj_type": "disease", "pmid": ""}
+{"subject": "NOTCH3", "sub_type": "gene", "rel": "GOF", "object": "Lateral meningocele syndrome", "obj_type": "disease", "pmid": "30042232"}
+{"subject": "NR5A1", "sub_type": "gene", "rel": "LOF", "object": "46,XY disorders of sex development", "obj_type": "disease", "pmid": "29935645"}
+{"subject": "NR5A1", "sub_type": "gene", "rel": "LOF", "object": "47,XY disorders of sex development", "obj_type": "disease", "pmid": ""}
+{"subject": "NR5A1", "sub_type": "gene", "rel": "LOF", "object": "48,XY disorders of sex development", "obj_type": "disease", "pmid": ""}
+{"subject": "NR5A1", "sub_type": "gene", "rel": "LOF", "object": "49,XY disorders of sex development", "obj_type": "disease", "pmid": ""}
+{"subject": "NR5A1", "sub_type": "gene", "rel": "LOF", "object": "50,XY disorders of sex development", "obj_type": "disease", "pmid": ""}
+{"subject": "NR5A1", "sub_type": "gene", "rel": "LOF", "object": "51,XY disorders of sex development", "obj_type": "disease", "pmid": ""}
+{"subject": "TRIM28", "sub_type": "gene", "rel": "LOF", "object": "Wilms tumour", "obj_type": "disease", "pmid": "29912901"}
+{"subject": "GRN", "sub_type": "gene", "rel": "REG", "object": "rontotemporal dementia", "obj_type": "disease", "pmid": "29889573"}
+{"subject": "TLK2", "sub_type": "gene", "rel": "LOF", "object": "Distinct Neurodevelopmental Disorder", "obj_type": "disease", "pmid": "29861108"}
+{"subject": "KCNJ6", "sub_type": "gene", "rel": "COM", "object": "Severe Hyperkinetic Movement Disorder", "obj_type": "disease", "pmid": "29852244"}
+{"subject": "KCNJ6", "sub_type": "gene", "rel": "COM", "object": "Severe Hyperkinetic Movement Disorder", "obj_type": "disease", "pmid": ""}
+{"subject": "PKCa", "sub_type": "gene", "rel": "COM", "object": "Alzheimer's disease", "obj_type": "disease", "pmid": "29844158"}
+{"subject": "MAP1B", "sub_type": "gene", "rel": "LOF", "object": "periventricular nodular heterotopia", "obj_type": "disease", "pmid": "29738522"}
+{"subject": "C11orf70", "sub_type": "gene", "rel": "LOF", "object": "Primary Ciliary Dyskinesia", "obj_type": "disease", "pmid": "29727693"}
+{"subject": "POMC", "sub_type": "gene", "rel": "LOF", "object": "early-onset severe obesity", "obj_type": "disease", "pmid": "29726959"}
+{"subject": "PCSK1", "sub_type": "gene", "rel": "LOF", "object": "early-onset severe obesity", "obj_type": "disease", "pmid": ""}
+{"subject": "LEPR", "sub_type": "gene", "rel": "LOF", "object": "early-onset severe obesity", "obj_type": "disease", "pmid": ""}
+{"subject": "MC4R", "sub_type": "gene", "rel": "LOF", "object": "early-onset severe obesity", "obj_type": "disease", "pmid": ""}
+{"subject": "CDH1", "sub_type": "gene", "rel": "REG", "object": "hereditary diffuse gastric cancer", "obj_type": "disease", "pmid": "29706558"}
+{"subject": "PALB2", "sub_type": "gene", "rel": "REG", "object": "breast cancer", "obj_type": "disease", "pmid": ""}
+{"subject": "PALB2", "sub_type": "gene", "rel": "REG", "object": "gastric cancer", "obj_type": "disease", "pmid": ""}
+{"subject": "TP53", "sub_type": "gene", "rel": "GOF", "object": "glioblastoma", "obj_type": "disease", "pmid": "29666004"}
+{"subject": "TP53", "sub_type": "gene", "rel": "GOF", "object": "glioblastoma", "obj_type": "disease", "pmid": ""}
+{"subject": "TP53", "sub_type": "gene", "rel": "GOF", "object": "metastatic lung adenocarcinoma", "obj_type": "disease", "pmid": ""}
+{"subject": "TP53", "sub_type": "gene", "rel": "REG", "object": "metastatic lung adenocarcinoma", "obj_type": "disease", "pmid": ""}
+{"subject": "MLKL", "sub_type": "gene", "rel": "LOF", "object": "Alzheimer's disease", "obj_type": "disease", "pmid": "29656768"}
+{"subject": "GRN", "sub_type": "gene", "rel": "REG", "object": "frontotemporal dementia", "obj_type": "disease", "pmid": "29653316"}
+{"subject": "CBL", "sub_type": "gene", "rel": "LOF", "object": "chronic myelomonocytic leukemia", "obj_type": "disease", "pmid": "29600428"}
+{"subject": "MEFV", "sub_type": "gene", "rel": "LOF", "object": "chronic myelomonocytic leukemia", "obj_type": "disease", "pmid": ""}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "LOF", "object": "cardiovascular disease", "obj_type": "disease", "pmid": "29593095"}
+{"subject": "SYNGAP1", "sub_type": "gene", "rel": "LOF", "object": "intellectual disability", "obj_type": "disease", "pmid": "29580901"}
+{"subject": "SYNGAP1", "sub_type": "gene", "rel": "LOF", "object": "severe epilepsy", "obj_type": "disease", "pmid": ""}
+{"subject": "SYNGAP1", "sub_type": "gene", "rel": "LOF", "object": "autism spectrum disorder", "obj_type": "disease", "pmid": ""}
+{"subject": "SYNGAP1", "sub_type": "gene", "rel": "LOF", "object": "schizophrenia", "obj_type": "disease", "pmid": ""}
+{"subject": "WNT5A", "sub_type": "gene", "rel": "LOF", "object": "Robinow syndrome", "obj_type": "disease", "pmid": "29575631"}
+{"subject": "CSF3R", "sub_type": "gene", "rel": "GOF", "object": "hematologic malignancies", "obj_type": "disease", "pmid": "29572350"}
+{"subject": "HSD17B13", "sub_type": "gene", "rel": "LOF", "object": "chronic liver", "obj_type": "disease", "pmid": "29562163"}
+{"subject": "G\u03b1s", "sub_type": "gene", "rel": "GOF", "object": "McCune Albright syndrome", "obj_type": "disease", "pmid": "29544460"}
+{"subject": "mib-1", "sub_type": "gene", "rel": "LOF", "object": "spermatogenesis-defective phenotype", "obj_type": "disease", "pmid": "29531012"}
+{"subject": "Fgfr2", "sub_type": "gene", "rel": "GOF", "object": "cleft palate", "obj_type": "disease", "pmid": "29526646"}
+{"subject": "EPO", "sub_type": "gene", "rel": "GOF", "object": "Familial erythrocytosis", "obj_type": "disease", "pmid": "29514032"}
+{"subject": "Fama", "sub_type": "gene", "rel": "LOF", "object": "plant immunity to Botrytis Cinerea", "obj_type": "disease", "pmid": "29513733"}
+{"subject": "ego-3", "sub_type": "gene", "rel": "REG", "object": "paralysis", "obj_type": "disease", "pmid": "29507057"}
+{"subject": "ego-3", "sub_type": "gene", "rel": "REG", "object": "sterility", "obj_type": "disease", "pmid": ""}
+{"subject": "Nav1.5", "sub_type": "gene", "rel": "GOF", "object": "dilated cardiomyopathy", "obj_type": "disease", "pmid": "29506689"}
+{"subject": "ATP5F1D", "sub_type": "gene", "rel": "GOF", "object": "Mendelian mitochondrial disease", "obj_type": "disease", "pmid": "29478781"}
+{"subject": "NR2F2", "sub_type": "gene", "rel": "REG", "object": "congenital heart disease", "obj_type": "disease", "pmid": "29478779"}
+{"subject": "NR2F2", "sub_type": "gene", "rel": "REG", "object": "congenital heart disease", "obj_type": "disease", "pmid": ""}
+{"subject": "NR2F2", "sub_type": "gene", "rel": "LOF", "object": "syndromic form of DSD", "obj_type": "disease", "pmid": ""}
+{"subject": "COCH", "sub_type": "gene", "rel": "LOF", "object": "Verstibular dysfunction", "obj_type": "disease", "pmid": "29449721"}
+{"subject": "COCH", "sub_type": "gene", "rel": "LOF", "object": "autosomal recessive prelingual hearing impairment", "obj_type": "disease", "pmid": ""}
+{"subject": "GTPBP2", "sub_type": "gene", "rel": "REG", "object": "neurodevelopmental disorder", "obj_type": "disease", "pmid": "29449720"}
+{"subject": "PPP3CA", "sub_type": "gene", "rel": "REG", "object": "multiple congenital abnormalities", "obj_type": "disease", "pmid": "29432562"}
+{"subject": "UNC45A", "sub_type": "gene", "rel": "LOF", "object": "Cholestasis", "obj_type": "disease", "pmid": "29429573"}
+{"subject": "UNC45A", "sub_type": "gene", "rel": "LOF", "object": "Diarrhea", "obj_type": "disease", "pmid": ""}
+{"subject": "UNC45A", "sub_type": "gene", "rel": "LOF", "object": "Impaired Hearing", "obj_type": "disease", "pmid": ""}
+{"subject": "UNC45A", "sub_type": "gene", "rel": "LOF", "object": "Bone Fragility", "obj_type": "disease", "pmid": ""}
+{"subject": "HJV", "sub_type": "gene", "rel": "LOF", "object": "Juvenile hemochromatosi", "obj_type": "disease", "pmid": "29373985"}
+{"subject": "FLT3", "sub_type": "gene", "rel": "REG", "object": "Acute myeloid leukemia", "obj_type": "disease", "pmid": "29372308"}
+{"subject": "FLG", "sub_type": "gene", "rel": "LOF", "object": "Atopic dermatitis", "obj_type": "disease", "pmid": "29367526"}
+{"subject": "NHS", "sub_type": "gene", "rel": "LOF", "object": "Congenital diaphragmatic hernia", "obj_type": "disease", "pmid": "29358614"}
+{"subject": "NHS", "sub_type": "gene", "rel": "LOF", "object": "Nance-Horan syndrome", "obj_type": "disease", "pmid": ""}
+{"subject": "APAF1", "sub_type": "gene", "rel": "LOF", "object": "neural tube defect", "obj_type": "disease", "pmid": "29358613"}
+{"subject": "CASP9", "sub_type": "gene", "rel": "LOF", "object": "neural tube defect", "obj_type": "disease", "pmid": ""}
+{"subject": "KIF14", "sub_type": "gene", "rel": "LOF", "object": "intellectual disability", "obj_type": "disease", "pmid": "29343805"}
+{"subject": "KIF14", "sub_type": "gene", "rel": "LOF", "object": "microcephaly", "obj_type": "disease", "pmid": ""}
+{"subject": "NT5C2", "sub_type": "gene", "rel": "GOF", "object": "Relapsed acute lymphoblastic leukaemia", "obj_type": "disease", "pmid": "29342136"}
+{"subject": "PIGN", "sub_type": "gene", "rel": "REG", "object": "multiple congenital anomalies-hypotonia-seizures syndrome 1", "obj_type": "disease", "pmid": "29330547"}
+{"subject": "SHP2", "sub_type": "gene", "rel": "GOF", "object": "colorectal cancer", "obj_type": "disease", "pmid": "29323748"}
+{"subject": "NMDARs", "sub_type": "gene", "rel": "LOF", "object": "schizophrenia", "obj_type": "disease", "pmid": "29317596"}
+{"subject": "KCNJ8", "sub_type": "gene", "rel": "GOF", "object": "Cantu syndrome", "obj_type": "disease", "pmid": "29275331"}
+{"subject": "ABCC9", "sub_type": "gene", "rel": "GOF", "object": "Cantu syndrome", "obj_type": "disease", "pmid": ""}
+{"subject": "ARL13B", "sub_type": "gene", "rel": "LOF", "object": "Joubert syndrome", "obj_type": "disease", "pmid": "29255182"}
+{"subject": "KMT2A", "sub_type": "gene", "rel": "LOF", "object": "Kabuki syndrome", "obj_type": "disease", "pmid": "29255178"}
+{"subject": "KMT2A", "sub_type": "gene", "rel": "REG", "object": "Wiedermann-Steiner syndrome", "obj_type": "disease", "pmid": ""}
+{"subject": "PSMC3IP", "sub_type": "gene", "rel": "REG", "object": "Primary Ovarian Insufficiency", "obj_type": "disease", "pmid": "29240891"}
+{"subject": "PSMC3IP", "sub_type": "gene", "rel": "REG", "object": "Azoospermia", "obj_type": "disease", "pmid": ""}
+{"subject": "DCHS1", "sub_type": "gene", "rel": "REG", "object": "mitral valve prolapse", "obj_type": "disease", "pmid": "29224215"}
+{"subject": "FMR1", "sub_type": "gene", "rel": "REG", "object": "Fragile X-associated tremor/ataxia syndrome", "obj_type": "disease", "pmid": "29223504"}
+{"subject": "NR2F2", "sub_type": "gene", "rel": "LOF", "object": "congenital heart defect", "obj_type": "disease", "pmid": "29222010"}
+{"subject": "SOX10", "sub_type": "gene", "rel": "REG", "object": "Waardenburg syndrome Types II", "obj_type": "disease", "pmid": "29216801"}
+{"subject": "SOX10", "sub_type": "gene", "rel": "REG", "object": "Waardenburg syndrome Types IV", "obj_type": "disease", "pmid": ""}
+{"subject": "KMT2A", "sub_type": "gene", "rel": "REG", "object": "Wiedemann-Steiner syndrome", "obj_type": "disease", "pmid": "29203834"}
+{"subject": "SLC4A3", "sub_type": "gene", "rel": "LOF", "object": "short QT syndrome", "obj_type": "disease", "pmid": "29167417"}
+{"subject": "MED13L", "sub_type": "gene", "rel": "LOF", "object": "Pierre Robin sequence", "obj_type": "disease", "pmid": "29159987"}
+{"subject": "MED13L", "sub_type": "gene", "rel": "REG", "object": "intellectual disability syndrome", "obj_type": "disease", "pmid": ""}
+{"subject": "MED13L", "sub_type": "gene", "rel": "REG", "object": "acial dysmorphism", "obj_type": "disease", "pmid": ""}
+{"subject": "NLRP1", "sub_type": "gene", "rel": "GOF", "object": "asthma", "obj_type": "disease", "pmid": "29154202"}
+{"subject": "IL1A", "sub_type": "gene", "rel": "LOF", "object": "asthma", "obj_type": "disease", "pmid": ""}
+{"subject": "TBK1", "sub_type": "gene", "rel": "LOF", "object": "frontotemporal dementia", "obj_type": "disease", "pmid": "29146049"}
+{"subject": "TBK1", "sub_type": "gene", "rel": "LOF", "object": "amyotrophic lateral sclerosis", "obj_type": "disease", "pmid": ""}
+{"subject": "TMEM16E", "sub_type": "gene", "rel": "GOF", "object": "gnathodiaphyseal dysplasia", "obj_type": "disease", "pmid": "29124309"}
+{"subject": "TMEM16E", "sub_type": "gene", "rel": "GOF", "object": "muscle dystrophies", "obj_type": "disease", "pmid": ""}
+{"subject": "JAK1", "sub_type": "gene", "rel": "LOF", "object": "endometrial carcinomas", "obj_type": "disease", "pmid": "29121062"}
+{"subject": "JAK1", "sub_type": "gene", "rel": "LOF", "object": "colorectal carcinomas", "obj_type": "disease", "pmid": ""}
+{"subject": "JAK1", "sub_type": "gene", "rel": "LOF", "object": "stomach carcinomas", "obj_type": "disease", "pmid": ""}
+{"subject": "JAK1", "sub_type": "gene", "rel": "LOF", "object": "prostate carcinomas", "obj_type": "disease", "pmid": ""}
+{"subject": "P53", "sub_type": "gene", "rel": "GOF", "object": "cancer", "obj_type": "disease", "pmid": "29099487"}
+{"subject": "FLG", "sub_type": "gene", "rel": "GOF", "object": "atopic eczema/dermatitis syndrome", "obj_type": "disease", "pmid": "29087092"}
+{"subject": "GSTM1", "sub_type": "gene", "rel": "GOF", "object": "psoriasis", "obj_type": "disease", "pmid": "29067933"}
+{"subject": "GSTT1", "sub_type": "gene", "rel": "GOF", "object": "psoriasis", "obj_type": "disease", "pmid": ""}
+{"subject": "HCN2", "sub_type": "gene", "rel": "GOF", "object": "epilepsy", "obj_type": "disease", "pmid": "29064616"}
+{"subject": "LRRK2", "sub_type": "gene", "rel": "LOF", "object": "Parkinson's Disease", "obj_type": "disease", "pmid": "29054882"}
+{"subject": "SYNJ1", "sub_type": "gene", "rel": "LOF", "object": "Parkinson's Disease", "obj_type": "disease", "pmid": ""}
+{"subject": "PARK2", "sub_type": "gene", "rel": "GOF", "object": "early-onset familial Parkinson's disease", "obj_type": "disease", "pmid": "29040870"}
+{"subject": "ITGB3", "sub_type": "gene", "rel": "GOF", "object": "autism spectrum disorder", "obj_type": "disease", "pmid": "29038237"}
+{"subject": "FLNA", "sub_type": "gene", "rel": "LOF", "object": "congenital intestinal pseudo-obstruction", "obj_type": "disease", "pmid": "29024177"}
+{"subject": "CDH11", "sub_type": "gene", "rel": "LOF", "object": "Elsahy-Waters syndrome", "obj_type": "disease", "pmid": "28988429"}
+{"subject": "KCNT1", "sub_type": "gene", "rel": "GOF", "object": "Infantile epilepsy", "obj_type": "disease", "pmid": "28987752"}
+{"subject": "CDC6", "sub_type": "gene", "rel": "LOF", "object": "Meier-Gorlin syndrome", "obj_type": "disease", "pmid": "28985365"}
+{"subject": "BMP9", "sub_type": "gene", "rel": "LOF", "object": "Hereditary hemorrhagic telangiectasia", "obj_type": "disease", "pmid": "28973643"}
+{"subject": "IL-36Ra", "sub_type": "gene", "rel": "LOF", "object": "pustular psoriasis", "obj_type": "disease", "pmid": "28967976"}
+{"subject": "CLCN7", "sub_type": "gene", "rel": "LOF", "object": "Albers-Sch\u00f6nberg disease", "obj_type": "disease", "pmid": "28942122"}
+{"subject": "NIFA", "sub_type": "gene", "rel": "LOF", "object": "1p32-p31 deletion syndrome", "obj_type": "disease", "pmid": "28941020"}
+{"subject": "SCN4A", "sub_type": "gene", "rel": "GOF", "object": "paramyotonia congenita", "obj_type": "disease", "pmid": "28940424"}
+{"subject": "KIDINS220", "sub_type": "gene", "rel": "LOF", "object": "spastic paraplegia", "obj_type": "disease", "pmid": "28934391"}
+{"subject": "KIDINS220", "sub_type": "gene", "rel": "LOF", "object": "intellectual disability", "obj_type": "disease", "pmid": ""}
+{"subject": "KIDINS220", "sub_type": "gene", "rel": "LOF", "object": "nystagmus", "obj_type": "disease", "pmid": ""}
+{"subject": "KIDINS220", "sub_type": "gene", "rel": "LOF", "object": "obesity", "obj_type": "disease", "pmid": ""}
+{"subject": "PTPN11", "sub_type": "gene", "rel": "GOF", "object": "histiocytic sarcomas", "obj_type": "disease", "pmid": "28929581"}
+{"subject": "CACNA1C", "sub_type": "gene", "rel": "GOF", "object": "Timothy syndrome", "obj_type": "disease", "pmid": "28921675"}
+{"subject": "STAT1", "sub_type": "gene", "rel": "GOF", "object": "primary immunodeficiencies", "obj_type": "disease", "pmid": "28914637"}
+{"subject": "SETD5", "sub_type": "gene", "rel": "LOF", "object": "intellectual disability", "obj_type": "disease", "pmid": "28905509"}
+{"subject": "KCNK3", "sub_type": "gene", "rel": "LOF", "object": "pulmonary arterial hypertension", "obj_type": "disease", "pmid": "28889099"}
+{"subject": "apolipoprotein C-III", "sub_type": "gene", "rel": "GOF", "object": "human hypertriglyceridemia", "obj_type": "disease", "pmid": "28887372"}
+{"subject": "GRHL3", "sub_type": "gene", "rel": "LOF", "object": "cleft palate only", "obj_type": "disease", "pmid": "28886269"}
+{"subject": "CUL3", "sub_type": "gene", "rel": "REG", "object": "Oesophageal squamous cell carcinoma", "obj_type": "disease", "pmid": "28860350"}
+{"subject": "CUL3", "sub_type": "gene", "rel": "REG", "object": "squamous cell cancers", "obj_type": "disease", "pmid": ""}
+{"subject": "PGRN", "sub_type": "gene", "rel": "LOF", "object": "Alzheimer's disease", "obj_type": "disease", "pmid": "28845019"}
+{"subject": "TNFRSF13B", "sub_type": "gene", "rel": "GOF", "object": "immune thrombocytopenia", "obj_type": "disease", "pmid": "28834165"}
+{"subject": "FLG", "sub_type": "gene", "rel": "LOF", "object": "skin malignancies", "obj_type": "disease", "pmid": "28833578"}
+{"subject": "SLC40A1", "sub_type": "gene", "rel": "REG", "object": "hemochromatosis type 4", "obj_type": "disease", "pmid": "28826751"}
+{"subject": "TCF4", "sub_type": "gene", "rel": "REG", "object": "Pitt-Hopkins syndrome", "obj_type": "disease", "pmid": "28807867"}
+{"subject": "Enpp1", "sub_type": "gene", "rel": "REG", "object": "arteriosclerosis", "obj_type": "disease", "pmid": "28798354"}
+{"subject": "Enpp1", "sub_type": "gene", "rel": "REG", "object": "osteoporosis", "obj_type": "disease", "pmid": ""}
+{"subject": "Braf", "sub_type": "gene", "rel": "GOF", "object": "lung adenocarcinoma", "obj_type": "disease", "pmid": "28783725"}
+{"subject": "IKZF1", "sub_type": "gene", "rel": "LOF", "object": "acute lymphoblastic leukemia", "obj_type": "disease", "pmid": "28751559"}
+{"subject": "KCNH2", "sub_type": "gene", "rel": "REG", "object": "long QT syndrome", "obj_type": "disease", "pmid": "28749435"}
+{"subject": "KCNJ10", "sub_type": "gene", "rel": "LOF", "object": "seizures", "obj_type": "disease", "pmid": "28747464"}
+{"subject": "KCNJ10", "sub_type": "gene", "rel": "LOF", "object": "neurodevelopmental delay", "obj_type": "disease", "pmid": ""}
+{"subject": "FOXP1", "sub_type": "gene", "rel": "REG", "object": "neurodevelopmental disorders", "obj_type": "disease", "pmid": "28741757"}
+{"subject": "FOXP1", "sub_type": "gene", "rel": "REG", "object": "intellectual disability", "obj_type": "disease", "pmid": ""}
+{"subject": "FOXP1", "sub_type": "gene", "rel": "REG", "object": "speech/language impairment", "obj_type": "disease", "pmid": ""}
+{"subject": "FOXP1", "sub_type": "gene", "rel": "REG", "object": "global developmental delay", "obj_type": "disease", "pmid": ""}
+{"subject": "FOXP2", "sub_type": "gene", "rel": "REG", "object": "neurodevelopmental disorders", "obj_type": "disease", "pmid": ""}
+{"subject": "KV7.1", "sub_type": "gene", "rel": "COM", "object": "Long QT Syndrome", "obj_type": "disease", "pmid": "28739325"}
+{"subject": "SCN5a", "sub_type": "gene", "rel": "GOF", "object": "Long QT Syndrome-3", "obj_type": "disease", "pmid": "28734073"}
+{"subject": "SCN5a", "sub_type": "gene", "rel": "GOF", "object": "Brugada Syndrome 1", "obj_type": "disease", "pmid": ""}
+{"subject": "PIEZO1", "sub_type": "gene", "rel": "GOF", "object": "autosomal dominant hemolytic anemia", "obj_type": "disease", "pmid": "28728825"}
+{"subject": "PIEZO1", "sub_type": "gene", "rel": "GOF", "object": "hereditary xerocytosis", "obj_type": "disease", "pmid": ""}
+{"subject": "PIEZO1", "sub_type": "gene", "rel": "GOF", "object": "dehydrated stomatocytosis", "obj_type": "disease", "pmid": ""}
+{"subject": "PIEZO2", "sub_type": "gene", "rel": "LOF", "object": "autosomal recessive syndrome of muscular atrophy", "obj_type": "disease", "pmid": ""}
+{"subject": "PIEZO2", "sub_type": "gene", "rel": "LOF", "object": "arthrogryposis", "obj_type": "disease", "pmid": ""}
+{"subject": "PIEZO2", "sub_type": "gene", "rel": "LOF", "object": "scoliosis", "obj_type": "disease", "pmid": ""}
+{"subject": "PIEZO2", "sub_type": "gene", "rel": "GOF", "object": "autosomal dominant distal arthrogryposis", "obj_type": "disease", "pmid": ""}
+{"subject": "PDGFRB", "sub_type": "gene", "rel": "REG", "object": "Kosaki and Penttinen syndromes", "obj_type": "disease", "pmid": "28726812"}
+{"subject": "PDGFRB", "sub_type": "gene", "rel": "REG", "object": "myofibromatosis", "obj_type": "disease", "pmid": ""}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "LOF", "object": "hypocholesterolemia", "obj_type": "disease", "pmid": "28711549"}
+{"subject": "PCSK9", "sub_type": "gene", "rel": "LOF", "object": "steatosis", "obj_type": "disease", "pmid": ""}
+{"subject": "SGCD", "sub_type": "gene", "rel": "LOF", "object": "limb girdle muscular dystrophy", "obj_type": "disease", "pmid": "28697784"}
+{"subject": "TNFAIP3", "sub_type": "gene", "rel": "LOF", "object": "Early-onset autoimmune disease", "obj_type": "disease", "pmid": "28659290"}
+{"subject": "FGFR2", "sub_type": "gene", "rel": "GOF", "object": "Apert syndrome", "obj_type": "disease", "pmid": "28650109"}
+{"subject": "NFKBIA", "sub_type": "gene", "rel": "GOF", "object": "anhidrotic ectodermal dysplasia", "obj_type": "disease", "pmid": "28597146"}
+{"subject": "NFKBIA", "sub_type": "gene", "rel": "GOF", "object": "immunodeficiency", "obj_type": "disease", "pmid": ""}
+{"subject": "ROBO1", "sub_type": "gene", "rel": "LOF", "object": "tetralogy of Fallot, septal defects", "obj_type": "disease", "pmid": "28592524"}
+{"subject": "WNT10A", "sub_type": "gene", "rel": "LOF", "object": "ectodermal dysplasia", "obj_type": "disease", "pmid": "28589954"}
+{"subject": "LPL", "sub_type": "gene", "rel": "LOF", "object": "recurrent acute pancreatitis", "obj_type": "disease", "pmid": "28548960"}
+{"subject": "PAI-1", "sub_type": "gene", "rel": "REG", "object": "asthma", "obj_type": "disease", "pmid": "28543872"}
+{"subject": "GRIN2B", "sub_type": "gene", "rel": "GOF", "object": "epileptic encephalopathies", "obj_type": "disease", "pmid": "28533163"}
+{"subject": "GRIN2B", "sub_type": "gene", "rel": "GOF", "object": "infantile spasms", "obj_type": "disease", "pmid": ""}
+{"subject": "ATXN2", "sub_type": "gene", "rel": "REG", "object": "Spinocerebellar ataxia type 2", "obj_type": "disease", "pmid": "28525545"}
+{"subject": "rad51", "sub_type": "gene", "rel": "LOF", "object": "Fanconi anemia", "obj_type": "disease", "pmid": "28512217"}
+{"subject": "EGFR", "sub_type": "gene", "rel": "REG", "object": "Non-Small Cell Lung Cancer", "obj_type": "disease", "pmid": "28507206"}
+{"subject": "KRIT1", "sub_type": "gene", "rel": "LOF", "object": "Cerebrospinal cavernous malformations", "obj_type": "disease", "pmid": "28488085"}
+{"subject": "TREM2", "sub_type": "gene", "rel": "LOF", "object": "Alzheimer's disease", "obj_type": "disease", "pmid": "28483841"}
+{"subject": "TREM2", "sub_type": "gene", "rel": "LOF", "object": "frontotemporal lobar degeneration", "obj_type": "disease", "pmid": ""}
+{"subject": "FLG", "sub_type": "gene", "rel": "GOF", "object": "Atopic eczem", "obj_type": "disease", "pmid": "28479159"}
+{"subject": "CACNA1D", "sub_type": "gene", "rel": "GOF", "object": "autism spectrum disorders", "obj_type": "disease", "pmid": "28472301"}
+{"subject": "CACNA1D", "sub_type": "gene", "rel": "GOF", "object": "epilepsy", "obj_type": "disease", "pmid": ""}
+{"subject": "L1CAM", "sub_type": "gene", "rel": "REG", "object": "Hydrocephalus", "obj_type": "disease", "pmid": "28460636"}
+{"subject": "MPDZ", "sub_type": "gene", "rel": "REG", "object": "isolated hydrocephalus", "obj_type": "disease", "pmid": ""}
+{"subject": "DGAT1", "sub_type": "gene", "rel": "LOF", "object": "congenital diarrhea", "obj_type": "disease", "pmid": "28373485"}
+{"subject": "DGAT1", "sub_type": "gene", "rel": "LOF", "object": "protein-losing enteropathy", "obj_type": "disease", "pmid": ""}
+{"subject": "ART", "sub_type": "gene", "rel": "LOF", "object": "Melanoma Tumors", "obj_type": "disease", "pmid": "28273450"}
+{"subject": "KIT", "sub_type": "gene", "rel": "REG", "object": "gastrointestinal stromal tumours", "obj_type": "disease", "pmid": "28270683"}
+{"subject": "PDGFRA", "sub_type": "gene", "rel": "REG", "object": "gastrointestinal stromal tumours", "obj_type": "disease", "pmid": ""}
+{"subject": "NF1", "sub_type": "gene", "rel": "REG", "object": "gastrointestinal stromal tumours", "obj_type": "disease", "pmid": ""}
+{"subject": "SDH", "sub_type": "gene", "rel": "REG", "object": "gastrointestinal stromal tumours", "obj_type": "disease", "pmid": ""}
+{"subject": "PIK3CD", "sub_type": "gene", "rel": "REG", "object": "Activated PI3K Delta Syndrome", "obj_type": "disease", "pmid": "28167755"}
+{"subject": "SOD1", "sub_type": "gene", "rel": "REG", "object": "Amyotrophic Lateral Sclerosis", "obj_type": "disease", "pmid": "30296255"}

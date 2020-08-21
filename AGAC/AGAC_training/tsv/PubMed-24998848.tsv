@@ -1,0 +1,33 @@
+Id	Subject	Object	Predicate	Lexical cue
+T15	0-6	Var	denotes	Mutant
+T14	7-10	Gene	denotes	p53
+T16	33-42	PosReg	denotes	promoting
+T17	43-63	MPA	denotes	inflammatory signals
+T18	67-77	NegReg	denotes	repression
+T2	133-159	Gene	denotes	TP53 tumor-suppressor gene
+T1	199-217	Var	denotes	Missense mutations
+T3	271-278	PosReg	denotes	promote
+T4	279-295	CPA	denotes	tumor malignancy
+T5	317-323	Var	denotes	mutant
+T6	330-333	Gene	denotes	p53
+T7	334-342	PosReg	denotes	promotes
+T8	343-359	CPA	denotes	tumor malignancy
+T9	363-374	NegReg	denotes	suppressing
+T10	379-389	MPA	denotes	expression
+T11	519-525	Var	denotes	mutp53
+T12	553-563	NegReg	denotes	suppresses
+T13	568-586	MPA	denotes	sIL-1Ra production
+R1	T2	T1	ThemeOf	TP53 tumor-suppressor gene,Missense mutations
+R10	T13	T12	ThemeOf	sIL-1Ra production,suppresses
+R11	T14	T15	ThemeOf	p53,Mutant
+R12	T15	T16	CauseOf	Mutant,promoting
+R13	T17	T16	ThemeOf	inflammatory signals,promoting
+R14	T15	T18	CauseOf	Mutant,repression
+R2	T1	T3	CauseOf	Missense mutations,promote
+R3	T4	T3	ThemeOf	tumor malignancy,promote
+R4	T6	T5	ThemeOf	p53,mutant
+R5	T5	T9	CauseOf	mutant,suppressing
+R6	T10	T9	ThemeOf	expression,suppressing
+R7	T9	T7	CauseOf	suppressing,promotes
+R8	T8	T7	ThemeOf	tumor malignancy,promotes
+R9	T11	T12	CauseOf	mutp53,suppresses

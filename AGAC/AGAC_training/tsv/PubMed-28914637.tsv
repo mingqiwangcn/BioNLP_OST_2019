@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	153-179	Disease	denotes	primary immunodeficiencies
+T1	190-206	PosReg	denotes	gain-of-function
+T2	213-222	Var	denotes	mutations
+T3	276-280	Gene	denotes	STAT
+T6	447-456	Var	denotes	mutations
+T7	467-472	Gene	denotes	STAT1
+T8	483-492	PosReg	denotes	increased
+T9	493-522	MPA	denotes	STAT tyrosine phosphorylation
+T10	539-548	PosReg	denotes	increased
+T11	549-586	MPA	denotes	response to STAT1-signaling cytokines
+R1	T3	T2	ThemeOf	STAT,mutations
+R2	T4	T1	ThemeOf	primary immunodeficiencies,gain-of-function
+R3	T7	T6	ThemeOf	STAT1,mutations
+R4	T9	T8	ThemeOf	STAT tyrosine phosphorylation,increased
+R5	T11	T10	ThemeOf	response to STAT1-signaling cytokines,increased
+R6	T2	T1	CauseOf	mutations,gain-of-function
+R7	T6	T8	CauseOf	mutations,increased
+R8	T6	T10	CauseOf	mutations,increased

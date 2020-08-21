@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T6	779-785	Var	denotes	mutant
+T7	791-798	NegReg	denotes	escaped
+T8	799-822	MPA	denotes	nonsense-mediated decay
+T9	844-851	NegReg	denotes	lacking
+T10	852-877	MPA	denotes	two transmembrane domains
+T11	1143-1149	Gene	denotes	PROKR2
+T12	1150-1157	Var	denotes	mutants
+T13	1185-1194	PosReg	denotes	enhancing
+T14	1199-1209	MPA	denotes	functional
+R1	T6	T7	CauseOf	mutant,escaped
+R2	T8	T7	ThemeOf	nonsense-mediated decay,escaped
+R3	T6	T9	CauseOf	mutant,lacking
+R4	T10	T9	ThemeOf	two transmembrane domains,lacking
+R5	T11	T12	ThemeOf	PROKR2,mutants
+R6	T12	T13	CauseOf	mutants,enhancing
+R7	T14	T13	ThemeOf	functional,enhancing

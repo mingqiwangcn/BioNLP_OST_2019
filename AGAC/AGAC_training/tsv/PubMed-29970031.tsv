@@ -1,0 +1,63 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-6	Var	denotes	Mutant
+T2	7-10	Gene	denotes	p53
+T3	11-27	PosReg	denotes	gain of function
+T5	28-35	Reg	denotes	induces
+T4	36-40	Protein	denotes	HER2
+T6	41-56	MPA	denotes	over-expression
+T13	991-997	PosReg	denotes	Higher
+T14	998-1002	Protein	denotes	HER2
+T15	1003-1013	MPA	denotes	expression
+T16	1049-1054	Var	denotes	mtp53
+T10	1126-1129	Gene	denotes	p53
+T11	1139-1144	Var	denotes	R248Q
+T12	1149-1154	Var	denotes	R273C
+T7	1170-1179	PosReg	denotes	increased
+T8	1184-1194	MPA	denotes	expression
+T9	1198-1202	Protein	denotes	HER2
+T17	1260-1263	Gene	denotes	p53
+T18	1272-1277	Var	denotes	R248Q
+T19	1282-1287	Var	denotes	R273C
+T20	1302-1310	PosReg	denotes	increase
+T21	1315-1325	Enzyme	denotes	luciferase
+T22	1326-1334	MPA	denotes	activity
+T23	1379-1386	PosReg	denotes	promote
+T29	1387-1398	MPA	denotes	acetylation
+T30	1402-1404	Protein	denotes	H3
+T31	1409-1420	Protein	denotes	H4 histones
+T32	1421-1428	Interaction	denotes	binding
+T24	1493-1496	Gene	denotes	p53
+T25	1497-1504	Var	denotes	mutants
+T26	1505-1511	Reg	denotes	induce
+T27	1512-1527	MPA	denotes	over-expression
+T28	1531-1535	Protein	denotes	HER2
+R1	T2	T1	ThemeOf	p53,Mutant
+R10	T16	T13	CauseOf	mtp53,Higher
+R11	T14	T15	ThemeOf	HER2,expression
+R12	T15	T13	ThemeOf	expression,Higher
+R13	T10	T11	ThemeOf	p53,R248Q
+R14	T10	T12	ThemeOf	p53,R273C
+R15	T12	T7	CauseOf	R273C,increased
+R16	T11	T7	CauseOf	R248Q,increased
+R17	T9	T8	ThemeOf	HER2,expression
+R18	T8	T7	ThemeOf	expression,increased
+R19	T17	T18	ThemeOf	p53,R248Q
+R2	T1	T3	CauseOf	Mutant,gain of function
+R20	T17	T19	ThemeOf	p53,R273C
+R21	T18	T20	CauseOf	R248Q,increase
+R22	T19	T20	CauseOf	R273C,increase
+R23	T21	T22	ThemeOf	luciferase,activity
+R24	T22	T20	ThemeOf	activity,increase
+R25	T30	T32	ThemeOf	H3,binding
+R26	T31	T32	ThemeOf	H4 histones,binding
+R27	T32	T29	ThemeOf	binding,acetylation
+R28	T29	T23	ThemeOf	acetylation,promote
+R29	T18	T23	CauseOf	R248Q,promote
+R3	T3	T5	CauseOf	gain of function,induces
+R30	T19	T23	CauseOf	R273C,promote
+R4	T4	T6	ThemeOf	HER2,over-expression
+R5	T6	T5	ThemeOf	over-expression,induces
+R6	T24	T25	ThemeOf	p53,mutants
+R7	T25	T26	CauseOf	mutants,induce
+R8	T28	T27	ThemeOf	HER2,over-expression
+R9	T27	T26	ThemeOf	over-expression,induce

@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	122-135	Disease	denotes	human cancers
+T2	140-150	Reg	denotes	associated
+T3	156-165	Var	denotes	mutations
+T4	173-177	Gene	denotes	TP53
+T5	329-361	Var	denotes	dominant-negative (DN) mutations
+T6	395-406	MPA	denotes	DN activity
+T7	407-435	PosReg	denotes	over the remaining WT allele
+T8	707-709	Var	denotes	DN
+T9	710-713	Gene	denotes	p53
+T10	718-751	PosReg	denotes	'gain-of-function (GOF)' activity
+T13	1163-1214	CPA	denotes	vitro invasions of Matrigel and type I collagen gel
+T11	1218-1237	Var	denotes	R248Q-transfectants
+T12	1257-1263	PosReg	denotes	higher
+R1	T4	T3	ThemeOf	TP53,mutations
+R2	T3	T2	CauseOf	mutations,associated
+R3	T1	T2	ThemeOf	human cancers,associated
+R4	T5	T7	CauseOf	dominant-negative (DN) mutations,over the remaining WT allele
+R5	T6	T7	ThemeOf	DN activity,over the remaining WT allele
+R6	T9	T8	ThemeOf	p53,DN
+R7	T8	T10	CauseOf	DN,'gain-of-function (GOF)' activity
+R8	T11	T12	CauseOf	R248Q-transfectants,higher
+R9	T13	T12	ThemeOf	vitro invasions of Matrigel and type I collagen gel,higher

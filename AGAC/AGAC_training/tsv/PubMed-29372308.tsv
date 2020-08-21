@@ -1,0 +1,29 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	0-37	Var	denotes	Internal tandem duplication mutations
+T1	71-75	Gene	denotes	FLT3
+T3	86-92	PosReg	denotes	higher
+T4	93-112	CPA	denotes	oncogenic potential
+T19	154-176	Disease	denotes	Acute myeloid leukemia
+T17	303-312	Var	denotes	Mutations
+T16	344-348	Gene	denotes	FLT3
+T18	369-378	Reg	denotes	prevalent
+T6	1631-1649	CPA	denotes	Cell proliferation
+T7	1654-1667	CPA	denotes	cell survival
+T5	1691-1697	PosReg	denotes	higher
+T9	1701-1708	Var	denotes	TKD-ITD
+T11	1781-1788	Var	denotes	TKD-ITD
+T14	1803-1811	PosReg	denotes	inducing
+T15	1812-1827	MPA	denotes	phosphorylation
+T13	1831-1836	Protein	denotes	STAT5
+R1	T1	T2	ThemeOf	FLT3,Internal tandem duplication mutations
+R10	T13	T15	ThemeOf	STAT5,phosphorylation
+R11	T15	T14	ThemeOf	phosphorylation,inducing
+R12	T17	T18	CauseOf	Mutations,prevalent
+R13	T19	T18	ThemeOf	Acute myeloid leukemia,prevalent
+R14	T16	T17	ThemeOf	FLT3,Mutations
+R2	T2	T3	CauseOf	Internal tandem duplication mutations,higher
+R3	T4	T3	ThemeOf	oncogenic potential,higher
+R5	T9	T5	CauseOf	TKD-ITD,higher
+R6	T7	T5	ThemeOf	cell survival,higher
+R7	T6	T5	ThemeOf	Cell proliferation,higher
+R9	T11	T14	CauseOf	TKD-ITD,inducing

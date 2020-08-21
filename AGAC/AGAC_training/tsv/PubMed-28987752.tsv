@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	136-141	Gene	denotes	KCNT1
+T2	142-151	Var	denotes	mutations
+T3	156-172	PosReg	denotes	gain-of-function
+T5	225-243	Disease	denotes	infantile epilepsy
+R1	T1	T2	ThemeOf	KCNT1,mutations
+R2	T2	T3	CauseOf	mutations,gain-of-function
+R3	T5	T3	ThemeOf	infantile epilepsy,gain-of-function

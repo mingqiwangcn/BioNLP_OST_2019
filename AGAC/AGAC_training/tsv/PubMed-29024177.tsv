@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	135-151	NegReg	denotes	Loss-of-function
+T3	152-161	Var	denotes	mutations
+T1	183-187	Gene	denotes	FLNA
+T4	200-227	CPA	denotes	abnormal neuronal migration
+T5	229-257	CPA	denotes	vascular and cardiac defects
+T6	263-303	Disease	denotes	congenital intestinal pseudo-obstruction
+R1	T1	T3	ThemeOf	FLNA,mutations
+R2	T3	T2	CauseOf	mutations,Loss-of-function
+R3	T4	T2	ThemeOf	abnormal neuronal migration,Loss-of-function
+R4	T5	T2	ThemeOf	vascular and cardiac defects,Loss-of-function
+R5	T6	T2	ThemeOf	congenital intestinal pseudo-obstruction,Loss-of-function

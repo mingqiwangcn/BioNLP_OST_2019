@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	0-16	PosReg	denotes	Gain of function
+T3	20-27	Gene	denotes	TMEM16E
+T4	33-52	MPA	denotes	scrambling activity
+T1	65-73	Var	denotes	mutation
+T11	90-116	Disease	denotes	gnathodiaphyseal dysplasia
+T5	118-127	Var	denotes	Mutations
+T6	141-148	Gene	denotes	TMEM16E
+T7	165-175	Reg	denotes	associated
+T8	190-202	Disease	denotes	bone disease
+T9	203-229	Disease	denotes	gnathodiaphyseal dysplasia
+T10	254-272	Disease	denotes	muscle dystrophies
+R1	T1	T2	CauseOf	mutation,Gain of function
+R10	T11	T2	ThemeOf	gnathodiaphyseal dysplasia,Gain of function
+R2	T3	T1	ThemeOf	TMEM16E,mutation
+R3	T4	T2	ThemeOf	scrambling activity,Gain of function
+R4	T5	T7	CauseOf	Mutations,associated
+R5	T9	T7	ThemeOf	gnathodiaphyseal dysplasia,associated
+R6	T10	T7	ThemeOf	muscle dystrophies,associated
+R7	T6	T5	ThemeOf	TMEM16E,Mutations
+R8	T9	T8	CauseOf	gnathodiaphyseal dysplasia,bone disease
+R9	T10	T8	CauseOf	muscle dystrophies,bone disease

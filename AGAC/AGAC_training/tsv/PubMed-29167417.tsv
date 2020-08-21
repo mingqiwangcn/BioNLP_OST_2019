@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	0-16	NegReg	denotes	Loss-of-activity
+T4	17-25	Var	denotes	mutation
+T2	33-75	MPA	denotes	cardiac chloride-bicarbonate exchanger AE3
+T1	83-100	Disease	denotes	short QT syndrome
+T5	321-338	Var	denotes	missense mutation
+T6	377-383	Gene	denotes	SLC4A3
+T7	446-453	NegReg	denotes	reduced
+T8	454-479	MPA	denotes	surface expression of AE3
+T9	484-491	NegReg	denotes	reduced
+T10	492-522	MPA	denotes	membrane bicarbonate transport
+R1	T4	T3	CauseOf	mutation,Loss-of-activity
+R2	T2	T3	ThemeOf	cardiac chloride-bicarbonate exchanger AE3,Loss-of-activity
+R3	T1	T3	ThemeOf	short QT syndrome,Loss-of-activity
+R4	T5	T7	CauseOf	missense mutation,reduced
+R5	T6	T5	ThemeOf	SLC4A3,missense mutation
+R6	T8	T7	ThemeOf	surface expression of AE3,reduced
+R7	T5	T9	CauseOf	missense mutation,reduced
+R8	T10	T9	ThemeOf	membrane bicarbonate transport,reduced

@@ -1,0 +1,55 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	418-434	PosReg	denotes	Gain-of-function
+T3	435-440	Gene	denotes	NLRP1
+T2	441-449	Var	denotes	variants
+T4	450-460	Var	denotes	rs11651270
+T5	462-472	Var	denotes	rs12150220
+T6	477-486	Var	denotes	rs2670660
+T8	524-530	Disease	denotes	asthma
+T9	560-570	Var	denotes	rs11651270
+T10	575-584	Var	denotes	rs2670660
+T11	590-594	Reg	denotes	with
+T12	595-601	Disease	denotes	asthma
+T13	621-630	MPA	denotes	IgE level
+T14	746-762	PosReg	denotes	gain-of-function
+T15	763-767	Var	denotes	SNPs
+T16	771-776	Gene	denotes	NLRP1
+T18	791-796	PosReg	denotes	prone
+T17	800-823	MPA	denotes	activating inflammasome
+T19	932-942	PosReg	denotes	exacerbate
+T20	943-964	CPA	denotes	inflammatory response
+T21	969-987	CPA	denotes	asthma development
+T23	1006-1010	Gene	denotes	IL1A
+T24	1011-1018	Var	denotes	rs17561
+T25	1060-1067	NegReg	denotes	reduced
+T26	1068-1086	CPA	denotes	pulmonary capacity
+T27	1110-1114	Gene	denotes	IL18
+T28	1115-1124	Var	denotes	rs5744256
+T29	1139-1144	NegReg	denotes	lower
+T30	1145-1165	MPA	denotes	serum level of IL-18
+R1	T3	T2	ThemeOf	NLRP1,variants
+R10	T9	T11	CauseOf	rs11651270,with
+R11	T10	T11	CauseOf	rs2670660,with
+R13	T13	T11	ThemeOf	IgE level,with
+R14	T12	T11	ThemeOf	asthma,with
+R15	T15	T14	CauseOf	SNPs,gain-of-function
+R16	T16	T15	ThemeOf	NLRP1,SNPs
+R17	T17	T18	ThemeOf	activating inflammasome,prone
+R18	T15	T18	CauseOf	SNPs,prone
+R19	T15	T19	CauseOf	SNPs,exacerbate
+R2	T3	T4	ThemeOf	NLRP1,rs11651270
+R20	T20	T19	ThemeOf	inflammatory response,exacerbate
+R21	T21	T19	ThemeOf	asthma development,exacerbate
+R22	T23	T24	ThemeOf	IL1A,rs17561
+R23	T24	T25	CauseOf	rs17561,reduced
+R24	T26	T25	ThemeOf	pulmonary capacity,reduced
+R25	T27	T28	ThemeOf	IL18,rs5744256
+R26	T30	T29	ThemeOf	serum level of IL-18,lower
+R27	T28	T29	CauseOf	rs5744256,lower
+R3	T3	T5	ThemeOf	NLRP1,rs12150220
+R4	T2	T1	CauseOf	variants,Gain-of-function
+R5	T4	T1	CauseOf	rs11651270,Gain-of-function
+R6	T5	T1	CauseOf	rs12150220,Gain-of-function
+R7	T6	T1	CauseOf	rs2670660,Gain-of-function
+R8	T3	T6	ThemeOf	NLRP1,rs2670660
+R9	T8	T1	ThemeOf	asthma,Gain-of-function

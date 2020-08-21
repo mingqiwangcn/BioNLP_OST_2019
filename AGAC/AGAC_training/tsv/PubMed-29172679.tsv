@@ -1,0 +1,36 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	151-180	Disease	denotes	Familial hypercholesterolemia
+T4	991-1000	Var	denotes	c.1429G>A
+T5	1012-1021	Var	denotes	c.1474G>A
+T6	1033-1042	Var	denotes	c.1731G>T
+T7	1058-1067	Var	denotes	c.1783C>T
+T8	1081-1085	Gene	denotes	LDLR
+T3	1107-1116	Var	denotes	c.9835A>G
+T2	1131-1135	Gene	denotes	APOB
+T10	1203-1225	Interaction	denotes	functional interaction
+T9	1226-1237	Reg	denotes	deformities
+T12	1259-1263	NegReg	denotes	loss
+T13	1268-1272	PosReg	denotes	gain
+T11	1276-1308	MPA	denotes	energies in the mutated proteins
+R1	T8	T4	ThemeOf	LDLR,c.1429G>A
+R10	T3	T9	CauseOf	c.9835A>G,deformities
+R11	T10	T9	ThemeOf	functional interaction,deformities
+R12	T6	T12	CauseOf	c.1731G>T,loss
+R13	T7	T12	CauseOf	c.1783C>T,loss
+R14	T4	T12	CauseOf	c.1429G>A,loss
+R15	T5	T12	CauseOf	c.1474G>A,loss
+R16	T3	T12	CauseOf	c.9835A>G,loss
+R17	T11	T12	ThemeOf	energies in the mutated proteins,loss
+R18	T6	T13	CauseOf	c.1731G>T,gain
+R19	T7	T13	CauseOf	c.1783C>T,gain
+R2	T8	T5	ThemeOf	LDLR,c.1474G>A
+R20	T4	T13	CauseOf	c.1429G>A,gain
+R21	T5	T13	CauseOf	c.1474G>A,gain
+R22	T3	T13	CauseOf	c.9835A>G,gain
+R3	T8	T6	ThemeOf	LDLR,c.1731G>T
+R4	T8	T7	ThemeOf	LDLR,c.1783C>T
+R5	T2	T3	ThemeOf	APOB,c.9835A>G
+R6	T4	T9	CauseOf	c.1429G>A,deformities
+R7	T5	T9	CauseOf	c.1474G>A,deformities
+R8	T6	T9	CauseOf	c.1731G>T,deformities
+R9	T7	T9	CauseOf	c.1783C>T,deformities

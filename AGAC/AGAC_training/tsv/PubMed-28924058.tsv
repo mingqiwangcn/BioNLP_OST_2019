@@ -1,0 +1,24 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	1173-1177	Gene	denotes	Cdc7
+T1	1178-1192	Var	denotes	point mutation
+T3	1193-1202	PosReg	denotes	increases
+T4	1207-1249	MPA	denotes	Ty5 retrotransposon integration efficiency
+T11	1256-1291	MPA	denotes	55-amino acid C-terminal truncation
+T13	1295-1299	Gene	denotes	Cdc7
+T8	1301-1307	NegReg	denotes	unable
+T9	1311-1315	Interaction	denotes	bind
+T10	1316-1320	Gene	denotes	Dbf4
+T5	1322-1329	NegReg	denotes	reduces
+T6	1330-1334	Gene	denotes	Cdc7
+T7	1335-1342	Interaction	denotes	binding
+R1	T2	T1	ThemeOf	Cdc7,point mutation
+R10	T11	T13	ThemeOf	55-amino acid C-terminal truncation,Cdc7
+R11	T13	T9	ThemeOf	Cdc7,bind
+R2	T1	T3	CauseOf	point mutation,increases
+R3	T1	T8	CauseOf	point mutation,unable
+R4	T9	T8	ThemeOf	bind,unable
+R5	T10	T9	ThemeOf	Dbf4,bind
+R6	T8	T5	ThemeOf	unable,reduces
+R7	T6	T7	ThemeOf	Cdc7,binding
+R8	T7	T5	ThemeOf	binding,reduces
+R9	T4	T3	ThemeOf	Ty5 retrotransposon integration efficiency,increases

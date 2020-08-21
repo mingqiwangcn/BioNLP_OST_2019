@@ -1,0 +1,25 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	162-174	Var	denotes	inactivation
+T1	263-268	Gene	denotes	LZTR1
+T3	282-290	PosReg	denotes	enhanced
+T4	291-338	Pathway	denotes	mitogen-activated protein kinase (MAPK) pathway
+T5	339-347	MPA	denotes	activity
+T6	352-359	NegReg	denotes	reduced
+T7	360-401	MPA	denotes	sensitivity to tyrosine kinase inhibitors
+T10	571-583	Var	denotes	Inactivation
+T9	587-592	Gene	denotes	LZTR1
+T8	600-609	NegReg	denotes	decreased
+T12	610-624	MPA	denotes	ubiquitination
+T11	629-637	PosReg	denotes	enhanced
+T13	638-666	MPA	denotes	plasma membrane localization
+R1	T1	T2	ThemeOf	LZTR1,inactivation
+R10	T10	T11	CauseOf	Inactivation,enhanced
+R11	T13	T11	ThemeOf	plasma membrane localization,enhanced
+R2	T2	T3	CauseOf	inactivation,enhanced
+R3	T5	T3	ThemeOf	activity,enhanced
+R4	T4	T5	ThemeOf	mitogen-activated protein kinase (MAPK) pathway,activity
+R5	T2	T6	CauseOf	inactivation,reduced
+R6	T7	T6	ThemeOf	sensitivity to tyrosine kinase inhibitors,reduced
+R7	T9	T10	ThemeOf	LZTR1,Inactivation
+R8	T10	T8	CauseOf	Inactivation,decreased
+R9	T12	T8	ThemeOf	ubiquitination,decreased

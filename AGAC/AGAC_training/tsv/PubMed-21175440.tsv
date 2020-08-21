@@ -1,0 +1,29 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	779-787	Interaction	denotes	combined
+T2	802-809	Var	denotes	CYP2C19
+T3	814-820	Var	denotes	CYP2B6
+T4	828-861	MPA	denotes	bioactivation of cyclophosphamide
+T5	941-948	Var	denotes	CYP2C19
+T6	952-958	Var	denotes	CYP2B6
+T8	985-993	NegReg	denotes	decrease
+T9	1002-1043	MPA	denotes	V(max) (P= 0.028) and CL(int) (P= 0.0017)
+T10	1215-1222	Var	denotes	CYP2C19
+T11	1226-1232	Var	denotes	CYP2B6
+T12	1275-1280	NegReg	denotes	lower
+T13	1281-1314	MPA	denotes	bioactivation of cyclophosphamide
+T14	1549-1555	Var	denotes	CYP2B6
+T15	1559-1566	Var	denotes	CYP2C19
+T16	1589-1598	NegReg	denotes	decreased
+T17	1599-1632	MPA	denotes	bioactivation of cyclophosphamide
+R1	T3	T4	CauseOf	CYP2B6,bioactivation of cyclophosphamide
+R10	T14	T16	CauseOf	CYP2B6,decreased
+R11	T15	T16	CauseOf	CYP2C19,decreased
+R12	T17	T16	ThemeOf	bioactivation of cyclophosphamide,decreased
+R2	T2	T4	CauseOf	CYP2C19,bioactivation of cyclophosphamide
+R3	T1	T4	ThemeOf	combined,bioactivation of cyclophosphamide
+R4	T5	T8	CauseOf	CYP2C19,decrease
+R5	T6	T8	CauseOf	CYP2B6,decrease
+R6	T9	T8	ThemeOf	V(max) (P= 0.028) and CL(int) (P= 0.0017),decrease
+R7	T10	T12	CauseOf	CYP2C19,lower
+R8	T11	T12	CauseOf	CYP2B6,lower
+R9	T13	T12	ThemeOf	bioactivation of cyclophosphamide,lower

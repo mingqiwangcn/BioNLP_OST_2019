@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	543-549	Gene	denotes	GNPTAB
+T4	627-633	Var	denotes	p.D76G
+T5	635-642	Var	denotes	p.S385L
+T6	644-655	Var	denotes	p.Q278Kfs*3
+T7	657-669	Var	denotes	p.H588Qfs*27
+T8	671-683	Var	denotes	p.N642Lfs*10
+T9	688-696	Var	denotes	p.Y1111*
+T1	819-825	Var	denotes	p.D76G
+T2	886-893	Var	denotes	p.S385L
+T10	1009-1013	NegReg	denotes	loss
+T11	1017-1044	Enzyme	denotes	GlcNAc-1-phosphotransferase
+T12	1045-1053	MPA	denotes	activity
+R1	T3	T4	ThemeOf	GNPTAB,p.D76G
+R10	T12	T10	ThemeOf	activity,loss
+R2	T3	T5	ThemeOf	GNPTAB,p.S385L
+R3	T3	T6	ThemeOf	GNPTAB,p.Q278Kfs*3
+R4	T3	T7	ThemeOf	GNPTAB,p.H588Qfs*27
+R5	T3	T8	ThemeOf	GNPTAB,p.N642Lfs*10
+R6	T3	T9	ThemeOf	GNPTAB,p.Y1111*
+R7	T1	T10	CauseOf	p.D76G,loss
+R8	T2	T10	CauseOf	p.S385L,loss
+R9	T11	T12	ThemeOf	GlcNAc-1-phosphotransferase,activity

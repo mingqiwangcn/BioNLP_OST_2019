@@ -1,0 +1,28 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	4-20	PosReg	denotes	Gain-of-Function
+T2	39-46	Var	denotes	Variant
+T3	58-74	MPA	denotes	Serotonin System
+T4	462-467	Gene	denotes	ITGB3
+T5	488-496	Var	denotes	Leu33Pro
+T6	521-532	PosReg	denotes	hyperactive
+T7	533-547	Protein	denotes	αvβ3 receptors
+T8	553-562	Reg	denotes	influence
+T9	563-586	MPA	denotes	whole-blood 5-HT levels
+T10	595-604	Reg	denotes	influence
+T11	618-642	Disease	denotes	autism spectrum disorder
+T13	878-883	Gene	denotes	Itgb3
+T12	884-891	Var	denotes	variant
+T14	981-989	PosReg	denotes	enhanced
+T15	990-1023	MPA	denotes	αvβ3 signaling to the 5-HT system
+R1	T2	T1	CauseOf	Variant,Gain-of-Function
+R10	T13	T12	ThemeOf	Itgb3,variant
+R11	T12	T14	CauseOf	variant,enhanced
+R12	T15	T14	ThemeOf	αvβ3 signaling to the 5-HT system,enhanced
+R2	T3	T1	ThemeOf	Serotonin System,Gain-of-Function
+R3	T4	T5	ThemeOf	ITGB3,Leu33Pro
+R4	T5	T6	CauseOf	Leu33Pro,hyperactive
+R5	T7	T6	ThemeOf	αvβ3 receptors,hyperactive
+R6	T7	T8	CauseOf	αvβ3 receptors,influence
+R7	T9	T8	ThemeOf	whole-blood 5-HT levels,influence
+R8	T5	T10	CauseOf	Leu33Pro,influence
+R9	T11	T10	ThemeOf	autism spectrum disorder,influence

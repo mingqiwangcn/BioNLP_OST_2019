@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	19-25	Gene	denotes	ARL13B
+T1	26-33	Var	denotes	variant
+T3	68-75	NegReg	denotes	impairs
+T4	80-123	MPA	denotes	guanine nucleotide-exchange factor activity
+T5	1217-1223	Gene	denotes	ARL13B
+T6	1224-1234	Var	denotes	c.[223G>A]
+T7	1268-1272	NegReg	denotes	loss
+T8	1276-1324	MPA	denotes	ARL3 guanine nucleotide-exchange factor activity
+T9	1475-1491	Disease	denotes	Joubert syndrome
+R1	T2	T1	ThemeOf	ARL13B,variant
+R2	T1	T3	CauseOf	variant,impairs
+R3	T4	T3	ThemeOf	guanine nucleotide-exchange factor activity,impairs
+R4	T5	T6	ThemeOf	ARL13B,c.[223G>A]
+R5	T6	T7	CauseOf	c.[223G>A],loss
+R6	T8	T7	ThemeOf	ARL3 guanine nucleotide-exchange factor activity,loss
+R7	T9	T7	ThemeOf	Joubert syndrome,loss

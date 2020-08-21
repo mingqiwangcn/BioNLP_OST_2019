@@ -1,0 +1,35 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-18	Var	denotes	Biallelic variants
+T2	22-27	Gene	denotes	KIF14
+T3	28-33	Reg	denotes	cause
+T4	34-57	Disease	denotes	intellectual disability
+T5	63-75	Disease	denotes	microcephaly
+T10	472-482	CPA	denotes	pathogenic
+T12	495-500	Gene	denotes	KIF14
+T13	520-536	NegReg	denotes	loss-of-function
+T14	538-552	Var	denotes	p.Asn83Ilefs*3
+T15	557-568	Var	denotes	p.Ser1478fs
+T18	579-601	Reg	denotes	missense substitutions
+T16	603-614	Var	denotes	p.Ser841Phe
+T17	619-630	Var	denotes	p.Gly459Arg
+T6	754-757	Gene	denotes	CIT
+T7	764-771	Var	denotes	mutated
+T9	772-774	Reg	denotes	in
+T8	775-787	Disease	denotes	microcephaly
+R1	T2	T1	ThemeOf	KIF14,Biallelic variants
+R10	T14	T13	CauseOf	p.Asn83Ilefs*3,loss-of-function
+R11	T15	T13	CauseOf	p.Ser1478fs,loss-of-function
+R12	T10	T13	ThemeOf	pathogenic,loss-of-function
+R13	T12	T16	ThemeOf	KIF14,p.Ser841Phe
+R14	T12	T17	ThemeOf	KIF14,p.Gly459Arg
+R15	T10	T18	ThemeOf	pathogenic,missense substitutions
+R16	T16	T18	CauseOf	p.Ser841Phe,missense substitutions
+R17	T17	T18	CauseOf	p.Gly459Arg,missense substitutions
+R2	T4	T3	ThemeOf	intellectual disability,cause
+R3	T5	T3	ThemeOf	microcephaly,cause
+R4	T1	T3	CauseOf	Biallelic variants,cause
+R5	T6	T7	ThemeOf	CIT,mutated
+R6	T8	T9	ThemeOf	microcephaly,in
+R7	T7	T9	CauseOf	mutated,in
+R8	T12	T14	ThemeOf	KIF14,p.Asn83Ilefs*3
+R9	T12	T15	ThemeOf	KIF14,p.Ser1478fs

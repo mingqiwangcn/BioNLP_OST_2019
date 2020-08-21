@@ -1,0 +1,37 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	0-19	Var	denotes	Biallelic Mutations
+T1	23-30	Gene	denotes	ATP5F1D
+T3	73-78	Reg	denotes	Cause
+T4	81-99	MPA	denotes	Metabolic Disorder
+T5	374-391	Var	denotes	missense variants
+T6	395-402	Gene	denotes	ATP5F1D
+T7	408-417	Reg	denotes	presented
+T8	423-440	MPA	denotes	episodic lethargy
+T9	442-460	MPA	denotes	metabolic acidosis
+T10	462-489	MPA	denotes	3-methylglutaconic aciduria
+T11	495-509	Disease	denotes	hyperammonemia
+T12	1226-1234	Var	denotes	variants
+T13	1235-1242	PosReg	denotes	rescued
+T14	1247-1266	MPA	denotes	head-size phenotype
+T15	1271-1284	NegReg	denotes	recapitulated
+T16	1289-1292	MPA	denotes	eye
+T17	1297-1313	MPA	denotes	antennae defects
+T18	1491-1499	Var	denotes	variants
+T20	1500-1510	Reg	denotes	leading to
+T19	1513-1544	Disease	denotes	Mendelian mitochondrial disease
+R1	T1	T2	ThemeOf	ATP5F1D,Biallelic Mutations
+R10	T19	T20	ThemeOf	Mendelian mitochondrial disease,leading to
+R11	T5	T7	CauseOf	missense variants,presented
+R12	T8	T7	ThemeOf	episodic lethargy,presented
+R13	T9	T7	ThemeOf	metabolic acidosis,presented
+R14	T10	T7	ThemeOf	3-methylglutaconic aciduria,presented
+R15	T11	T7	ThemeOf	hyperammonemia,presented
+R16	T6	T5	ThemeOf	ATP5F1D,missense variants
+R2	T2	T3	CauseOf	Biallelic Mutations,Cause
+R3	T4	T3	ThemeOf	Metabolic Disorder,Cause
+R4	T12	T13	CauseOf	variants,rescued
+R5	T14	T13	ThemeOf	head-size phenotype,rescued
+R6	T12	T15	CauseOf	variants,recapitulated
+R7	T16	T15	ThemeOf	eye,recapitulated
+R8	T17	T15	ThemeOf	antennae defects,recapitulated
+R9	T18	T20	CauseOf	variants,leading to

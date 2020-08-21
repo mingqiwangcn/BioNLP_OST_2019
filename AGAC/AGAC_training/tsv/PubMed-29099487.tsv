@@ -1,0 +1,18 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	299-308	Var	denotes	mutations
+T2	391-400	Reg	denotes	regulates
+T3	405-432	Pathway	denotes	p53 transcriptional pathway
+T4	796-802	Var	denotes	mutant
+T5	847-854	Reg	denotes	altered
+T6	855-864	MPA	denotes	structure
+T7	1283-1289	Var	denotes	mutant
+T8	1290-1298	Protein	denotes	proteins
+T9	1323-1339	PosReg	denotes	gain of function
+T10	1354-1360	Disease	denotes	cancer
+R1	T1	T2	CauseOf	mutations,regulates
+R2	T3	T2	ThemeOf	p53 transcriptional pathway,regulates
+R3	T4	T5	CauseOf	mutant,altered
+R4	T6	T5	ThemeOf	structure,altered
+R5	T7	T9	CauseOf	mutant,gain of function
+R6	T10	T9	ThemeOf	cancer,gain of function
+R7	T8	T7	ThemeOf	proteins,mutant

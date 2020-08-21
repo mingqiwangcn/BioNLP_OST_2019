@@ -1,0 +1,23 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	10-26	NegReg	denotes	loss-of-function
+T3	27-32	Gene	denotes	WNT5A
+T4	33-42	Var	denotes	mutations
+T1	99-116	Disease	denotes	Robinow syndrome.
+T16	558-609	Var	denotes	homozygous frameshifting single nucleotide deletion
+T15	613-618	Gene	denotes	WNT5A
+T17	797-828	Disease	denotes	congenital diaphragmatic hernia
+T18	830-849	Disease	denotes	ambiguous genitalia
+T19	851-868	Disease	denotes	dysmorphic facies
+T20	870-890	Disease	denotes	shortened long bones
+T21	892-900	Disease	denotes	adactyly
+T22	906-931	Disease	denotes	ventricular septal defect
+R1	T3	T4	ThemeOf	WNT5A,mutations
+R12	T15	T16	ThemeOf	WNT5A,homozygous frameshifting single nucleotide deletion
+R13	T16	T17	CauseOf	homozygous frameshifting single nucleotide deletion,congenital diaphragmatic hernia
+R14	T16	T18	CauseOf	homozygous frameshifting single nucleotide deletion,ambiguous genitalia
+R15	T16	T22	CauseOf	homozygous frameshifting single nucleotide deletion,ventricular septal defect
+R16	T16	T21	CauseOf	homozygous frameshifting single nucleotide deletion,adactyly
+R17	T16	T20	CauseOf	homozygous frameshifting single nucleotide deletion,shortened long bones
+R18	T16	T19	CauseOf	homozygous frameshifting single nucleotide deletion,dysmorphic facies
+R2	T4	T2	CauseOf	mutations,loss-of-function
+R3	T4	T1	CauseOf	mutations,Robinow syndrome.

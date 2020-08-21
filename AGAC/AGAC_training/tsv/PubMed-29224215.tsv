@@ -1,0 +1,13 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	12-20	Var	denotes	variants
+T1	24-29	Gene	denotes	DCHS1
+T3	34-43	Reg	denotes	prevalent
+T4	65-86	Disease	denotes	mitral valve prolapse
+T5	481-489	Var	denotes	p.R2330C
+T6	494-502	Var	denotes	p.R2513H
+T7	524-529	Gene	denotes	DCHS1
+R1	T1	T2	ThemeOf	DCHS1,variants
+R2	T2	T3	CauseOf	variants,prevalent
+R3	T4	T3	ThemeOf	mitral valve prolapse,prevalent
+R4	T7	T5	ThemeOf	DCHS1,p.R2330C
+R5	T7	T6	ThemeOf	DCHS1,p.R2513H

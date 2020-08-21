@@ -1,0 +1,10 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	1107-1110	Var	denotes	LOF
+T1	1114-1118	Protein	denotes	MC1R
+T4	1119-1130	NegReg	denotes	compromises
+T9	1135-1138	MPA	denotes	DDR
+T3	1143-1175	CPA	denotes	genomic stability of melanocytes
+R1	T1	T2	ThemeOf	MC1R,LOF
+R2	T2	T4	CauseOf	LOF,compromises
+R3	T3	T4	ThemeOf	genomic stability of melanocytes,compromises
+R7	T9	T4	ThemeOf	DDR,compromises

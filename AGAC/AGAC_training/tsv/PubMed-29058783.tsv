@@ -1,0 +1,49 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	162-171	Var	denotes	mutations
+T2	175-178	Gene	denotes	p53
+T3	218-230	NegReg	denotes	inactivation
+T4	234-252	MPA	denotes	wildtype functions
+T6	264-271	Reg	denotes	elicits
+T5	283-295	Interaction	denotes	interactions
+T7	301-308	PosReg	denotes	promote
+T10	309-319	Disease	denotes	malignancy
+T8	333-339	Var	denotes	mutant
+T9	340-343	Gene	denotes	p53
+T11	344-360	PosReg	denotes	gain-of-function
+T13	567-572	Var	denotes	R273C
+T12	590-595	Var	denotes	R175H
+T14	604-607	Gene	denotes	p53
+T15	699-708	Reg	denotes	exhibited
+T16	709-730	Var	denotes	structural distortion
+T17	735-742	NegReg	denotes	reduced
+T18	743-754	MPA	denotes	flexibility
+T19	1293-1301	Var	denotes	mutation
+T20	1302-1309	Reg	denotes	induced
+T21	1310-1331	Var	denotes	structural distortion
+T24	1333-1337	NegReg	denotes	loss
+T22	1341-1352	MPA	denotes	flexibility
+T23	1354-1362	MPA	denotes	rigidity
+T25	1364-1372	PosReg	denotes	enhanced
+T26	1373-1382	MPA	denotes	stability
+R1	T1	T3	CauseOf	mutations,inactivation
+R10	T14	T13	ThemeOf	p53,R273C
+R11	T14	T12	ThemeOf	p53,R175H
+R12	T13	T15	CauseOf	R273C,exhibited
+R13	T16	T15	ThemeOf	structural distortion,exhibited
+R14	T13	T17	CauseOf	R273C,reduced
+R15	T18	T17	ThemeOf	flexibility,reduced
+R16	T19	T20	CauseOf	mutation,induced
+R17	T21	T20	ThemeOf	structural distortion,induced
+R18	T22	T24	ThemeOf	flexibility,loss
+R19	T23	T24	ThemeOf	rigidity,loss
+R2	T2	T1	ThemeOf	p53,mutations
+R20	T26	T25	ThemeOf	stability,enhanced
+R21	T19	T25	CauseOf	mutation,enhanced
+R22	T19	T24	CauseOf	mutation,loss
+R3	T4	T3	ThemeOf	wildtype functions,inactivation
+R4	T1	T6	CauseOf	mutations,elicits
+R5	T5	T6	ThemeOf	interactions,elicits
+R6	T8	T7	CauseOf	mutant,promote
+R7	T10	T7	ThemeOf	malignancy,promote
+R8	T9	T8	ThemeOf	p53,mutant
+R9	T8	T11	CauseOf	mutant,gain-of-function

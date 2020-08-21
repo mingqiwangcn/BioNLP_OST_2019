@@ -1,0 +1,32 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	67-76	Var	denotes	Mutations
+T2	77-87	PosReg	denotes	activating
+T3	105-130	Protein	denotes	heterotrimeric Gs protein
+T4	251-275	Disease	denotes	McCune Albright syndrome
+T7	637-647	PosReg	denotes	activating
+T6	648-651	Gene	denotes	Gαs
+T5	652-661	Var	denotes	mutations
+T8	706-710	Disease	denotes	IPMN
+T9	712-733	Disease	denotes	Pyloric gland adenoma
+T10	735-758	Disease	denotes	pituitary toxic adenoma
+T11	945-961	PosReg	denotes	gain-of-function
+T12	962-971	Var	denotes	mutations
+T13	975-978	Gene	denotes	Gαs
+T14	979-988	NegReg	denotes	interfere
+T16	1009-1039	MPA	denotes	microenvironment of permissive
+T15	1052-1059	Reg	denotes	lead to
+T17	1062-1094	MPA	denotes	transversal neoplastic phenotype
+R1	T1	T2	CauseOf	Mutations,activating
+R10	T13	T12	ThemeOf	Gαs,mutations
+R11	T12	T14	CauseOf	mutations,interfere
+R12	T16	T14	ThemeOf	microenvironment of permissive,interfere
+R13	T12	T15	CauseOf	mutations,lead to
+R14	T17	T15	ThemeOf	transversal neoplastic phenotype,lead to
+R2	T3	T2	ThemeOf	heterotrimeric Gs protein,activating
+R3	T4	T3	ThemeOf	McCune Albright syndrome,heterotrimeric Gs protein
+R4	T6	T5	ThemeOf	Gαs,mutations
+R5	T5	T7	CauseOf	mutations,activating
+R6	T8	T7	ThemeOf	IPMN,activating
+R7	T9	T7	ThemeOf	Pyloric gland adenoma,activating
+R8	T10	T7	ThemeOf	pituitary toxic adenoma,activating
+R9	T12	T11	CauseOf	mutations,gain-of-function

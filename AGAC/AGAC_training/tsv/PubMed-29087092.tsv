@@ -1,0 +1,24 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	53-67	Var	denotes	Null-mutations
+T3	80-96	NegReg	denotes	loss of function
+T4	129-132	Gene	denotes	FLG
+T13	153-159	Reg	denotes	linked
+T14	214-247	Disease	denotes	atopic eczema/dermatitis syndrome
+T6	839-842	Gene	denotes	FLG
+T5	843-856	Var	denotes	null-mutation
+T7	879-886	PosReg	denotes	develop
+T8	887-911	Disease	denotes	unspecific skin symptoms
+T9	1105-1116	Interaction	denotes	association
+T11	1120-1123	Gene	denotes	FLG
+T10	1124-1138	Var	denotes	null-mutations
+T12	1144-1148	Disease	denotes	AEDS
+R1	T1	T3	CauseOf	Null-mutations,loss of function
+R10	T1	T13	CauseOf	Null-mutations,linked
+R11	T14	T13	ThemeOf	atopic eczema/dermatitis syndrome,linked
+R3	T11	T10	ThemeOf	FLG,null-mutations
+R4	T10	T9	CauseOf	null-mutations,association
+R5	T12	T9	ThemeOf	AEDS,association
+R6	T6	T5	ThemeOf	FLG,null-mutation
+R7	T5	T7	CauseOf	null-mutation,develop
+R8	T8	T7	ThemeOf	unspecific skin symptoms,develop
+R9	T4	T1	ThemeOf	FLG,Null-mutations

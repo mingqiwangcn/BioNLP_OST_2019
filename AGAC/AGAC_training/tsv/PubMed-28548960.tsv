@@ -1,0 +1,37 @@
+Id	Subject	Object	Predicate	Lexical cue
+T6	7-27	Disease	denotes	hypertriglyceridemia
+T3	45-61	NegReg	denotes	loss-of-function
+T4	62-80	Enzyme	denotes	lipoprotein lipase
+T1	97-102	Var	denotes	C310R
+T2	103-108	Var	denotes	E396V
+T7	130-145	Reg	denotes	associated with
+T8	146-174	Disease	denotes	recurrent acute pancreatitis
+T9	967-972	Var	denotes	C310R
+T10	982-989	NegReg	denotes	reduced
+T11	1002-1019	MPA	denotes	LPL protein level
+T12	1314-1323	Var	denotes	mutations
+T13	1324-1330	Reg	denotes	caused
+T14	1340-1363	MPA	denotes	triglyceride catabolism
+T15	1384-1389	Var	denotes	E396V
+T16	1394-1410	Var	denotes	double mutations
+T17	1411-1419	NegReg	denotes	dampened
+T18	1424-1460	MPA	denotes	transport of LPL to the cell surface
+T19	1476-1481	Var	denotes	C310R
+T20	1492-1500	NegReg	denotes	reducing
+T21	1501-1518	MPA	denotes	LPL protein level
+R1	T2	T3	CauseOf	E396V,loss-of-function
+R10	T12	T13	CauseOf	mutations,caused
+R11	T14	T13	ThemeOf	triglyceride catabolism,caused
+R12	T15	T17	CauseOf	E396V,dampened
+R13	T16	T17	CauseOf	double mutations,dampened
+R14	T18	T17	ThemeOf	transport of LPL to the cell surface,dampened
+R15	T19	T20	CauseOf	C310R,reducing
+R16	T21	T20	ThemeOf	LPL protein level,reducing
+R2	T1	T3	CauseOf	C310R,loss-of-function
+R3	T2	T7	CauseOf	E396V,associated with
+R4	T1	T7	CauseOf	C310R,associated with
+R5	T4	T1	ThemeOf	lipoprotein lipase,C310R
+R6	T8	T7	ThemeOf	recurrent acute pancreatitis,associated with
+R7	T6	T3	ThemeOf	hypertriglyceridemia,loss-of-function
+R8	T9	T10	CauseOf	C310R,reduced
+R9	T11	T10	ThemeOf	LPL protein level,reduced

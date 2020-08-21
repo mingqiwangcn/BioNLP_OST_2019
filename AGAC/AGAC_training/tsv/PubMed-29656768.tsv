@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	7-14	Var	denotes	variant
+T2	18-22	Gene	denotes	MLKL
+T3	31-45	Reg	denotes	susceptibility
+T4	66-85	Disease	denotes	Alzheimer's disease
+T8	810-814	Gene	denotes	MLKL
+T9	852-869	MPA	denotes	expression levels
+T10	877-883	Var	denotes	p.Q48X
+T11	912-917	NegReg	denotes	lower
+T12	1068-1072	Gene	denotes	MLKL
+T13	1073-1089	NegReg	denotes	loss-of-function
+T15	1090-1098	Var	denotes	mutation
+T14	1147-1149	Disease	denotes	AD
+R1	T2	T1	ThemeOf	MLKL,variant
+R2	T1	T3	CauseOf	variant,susceptibility
+R3	T4	T3	ThemeOf	Alzheimer's disease,susceptibility
+R4	T8	T10	ThemeOf	MLKL,p.Q48X
+R5	T10	T11	CauseOf	p.Q48X,lower
+R6	T9	T11	ThemeOf	expression levels,lower
+R7	T12	T15	ThemeOf	MLKL,mutation
+R8	T15	T13	CauseOf	mutation,loss-of-function
+R9	T14	T13	ThemeOf	AD,loss-of-function

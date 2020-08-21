@@ -1,0 +1,57 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	33-38	Gene	denotes	KMT2A
+T2	39-47	Var	denotes	variants
+T3	48-59	Reg	denotes	involved in
+T4	60-86	Disease	denotes	Wiedemann-Steiner syndrome
+T6	88-96	Var	denotes	Variants
+T5	100-105	Gene	denotes	KMT2A
+T7	167-172	Reg	denotes	cause
+T8	176-199	Disease	denotes	intellectual disability
+T9	233-238	Gene	denotes	KMT2A
+T12	239-247	Var	denotes	variants
+T10	252-261	Var	denotes	non-sense
+T11	266-276	Var	denotes	frameshift
+T13	286-293	Reg	denotes	causing
+T14	312-338	Disease	denotes	Wiedemann-Steiner syndrome
+T19	630-637	Reg	denotes	effects
+T15	647-655	Var	denotes	variants
+T16	659-664	Gene	denotes	KMT2A
+T17	665-675	MPA	denotes	expression
+T18	680-688	MPA	denotes	function
+T20	722-734	Var	denotes	c.11322-1G>A
+T21	794-798	NegReg	denotes	loss
+T22	806-836	MPA	denotes	C-terminal part of the protein
+T23	854-859	Gene	denotes	KMT2A
+T24	879-888	Var	denotes	c.3460C>T
+T25	910-919	Var	denotes	c.8558T>G
+T26	1049-1056	Reg	denotes	altered
+T27	1076-1086	MPA	denotes	expression
+T29	1158-1167	Reg	denotes	disturbed
+T28	1168-1192	MPA	denotes	subcellular distribution
+T30	1196-1201	Gene	denotes	KMT2A
+T31	1210-1219	Var	denotes	c.3460C>T
+R1	T1	T2	ThemeOf	KMT2A,variants
+R10	T12	T13	CauseOf	variants,causing
+R11	T14	T13	ThemeOf	Wiedemann-Steiner syndrome,causing
+R12	T16	T15	ThemeOf	KMT2A,variants
+R13	T15	T19	CauseOf	variants,effects
+R14	T17	T19	ThemeOf	expression,effects
+R15	T18	T19	ThemeOf	function,effects
+R16	T20	T21	CauseOf	c.11322-1G>A,loss
+R17	T22	T21	ThemeOf	C-terminal part of the protein,loss
+R18	T23	T24	ThemeOf	KMT2A,c.3460C>T
+R19	T23	T25	ThemeOf	KMT2A,c.8558T>G
+R2	T2	T3	CauseOf	variants,involved in
+R20	T25	T26	CauseOf	c.8558T>G,altered
+R21	T24	T26	CauseOf	c.3460C>T,altered
+R22	T27	T26	ThemeOf	expression,altered
+R23	T30	T31	ThemeOf	KMT2A,c.3460C>T
+R24	T31	T29	CauseOf	c.3460C>T,disturbed
+R25	T28	T29	ThemeOf	subcellular distribution,disturbed
+R3	T4	T3	ThemeOf	Wiedemann-Steiner syndrome,involved in
+R4	T5	T6	ThemeOf	KMT2A,Variants
+R5	T8	T7	ThemeOf	intellectual disability,cause
+R6	T6	T7	CauseOf	Variants,cause
+R7	T9	T12	ThemeOf	KMT2A,variants
+R8	T10	T12	ThemeOf	non-sense,variants
+R9	T11	T12	ThemeOf	frameshift,variants

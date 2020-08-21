@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	169-178	Var	denotes	Mutations
+T2	212-216	Gene	denotes	SOD1
+T3	218-225	Reg	denotes	lead to
+T4	226-255	Disease	denotes	Amyotrophic Lateral Sclerosis
+R1	T2	T1	ThemeOf	SOD1,Mutations
+R2	T1	T3	CauseOf	Mutations,lead to
+R3	T4	T3	ThemeOf	Amyotrophic Lateral Sclerosis,lead to

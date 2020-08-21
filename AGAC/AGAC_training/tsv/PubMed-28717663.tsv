@@ -1,0 +1,11 @@
+Id	Subject	Object	Predicate	Lexical cue
+T6	116-132	Disease	denotes	Alström syndrome
+T1	1054-1059	Gene	denotes	ALMS1
+T2	1060-1067	Protein	denotes	protein
+T3	1072-1084	NegReg	denotes	undetectable
+T4	1104-1120	NegReg	denotes	loss-of-function
+T5	1127-1136	Var	denotes	mutations
+R1	T1	T2	ThemeOf	ALMS1,protein
+R2	T2	T3	ThemeOf	protein,undetectable
+R3	T4	T5	ThemeOf	loss-of-function,mutations
+R4	T5	T3	CauseOf	mutations,undetectable

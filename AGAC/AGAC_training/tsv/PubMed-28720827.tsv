@@ -1,0 +1,39 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	569-585	Var	denotes	loss-of-function
+T17	592-599	Gene	denotes	CG17259
+T2	600-609	PosReg	denotes	activated
+T3	610-615	Protein	denotes	eIF2α
+T4	616-631	CPA	denotes	phosphorylation
+T5	647-660	PosReg	denotes	up-regulation
+T9	664-673	CPA	denotes	chaperons
+T6	675-680	Protein	denotes	Hsp26
+T7	685-690	Protein	denotes	Hsp27
+T8	696-705	CPA	denotes	autophagy
+T10	720-735	NegReg	denotes	down-regulation
+T11	739-744	Protein	denotes	eIF2α
+T12	745-760	CPA	denotes	phosphorylation
+T13	762-767	Protein	denotes	Hsp26
+T20	768-773	Protein	denotes	Hsp27
+T14	777-786	CPA	denotes	autophagy
+T15	787-794	NegReg	denotes	reduced
+T16	799-816	CPA	denotes	protective effect
+T18	820-823	Var	denotes	LOF
+T19	824-831	Gene	denotes	CG17259
+R1	T1	T2	CauseOf	loss-of-function,activated
+R10	T12	T10	ThemeOf	phosphorylation,down-regulation
+R11	T13	T10	ThemeOf	Hsp26,down-regulation
+R12	T14	T10	ThemeOf	autophagy,down-regulation
+R13	T10	T15	CauseOf	down-regulation,reduced
+R14	T17	T1	ThemeOf	CG17259,loss-of-function
+R15	T16	T15	ThemeOf	protective effect,reduced
+R16	T19	T18	ThemeOf	CG17259,LOF
+R17	T18	T16	ThemeOf	LOF,protective effect
+R18	T20	T10	ThemeOf	Hsp27,down-regulation
+R2	T1	T5	CauseOf	loss-of-function,up-regulation
+R3	T4	T2	ThemeOf	phosphorylation,activated
+R4	T3	T4	ThemeOf	eIF2α,phosphorylation
+R5	T6	T9	ThemeOf	Hsp26,chaperons
+R6	T7	T9	ThemeOf	Hsp27,chaperons
+R7	T9	T5	ThemeOf	chaperons,up-regulation
+R8	T8	T5	ThemeOf	autophagy,up-regulation
+R9	T11	T12	ThemeOf	eIF2α,phosphorylation

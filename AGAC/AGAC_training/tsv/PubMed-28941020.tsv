@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-16	NegReg	denotes	Loss-of-function
+T2	17-25	Var	denotes	variants
+T3	29-33	Gene	denotes	NFIA
+T4	90-116	Disease	denotes	1p32-p31 deletion syndrome
+R1	T3	T2	ThemeOf	NFIA,variants
+R2	T4	T1	ThemeOf	1p32-p31 deletion syndrome,Loss-of-function
+R3	T2	T1	CauseOf	variants,Loss-of-function

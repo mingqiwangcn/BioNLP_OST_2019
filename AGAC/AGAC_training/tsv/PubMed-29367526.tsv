@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	105-121	NegReg	denotes	loss-of-function
+T2	122-131	Var	denotes	mutations
+T3	146-149	Gene	denotes	FLG
+T4	159-176	Disease	denotes	atopic dermatitis
+R1	T3	T2	ThemeOf	FLG,mutations
+R2	T2	T1	CauseOf	mutations,loss-of-function
+R3	T4	T1	ThemeOf	atopic dermatitis,loss-of-function

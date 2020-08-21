@@ -1,0 +1,69 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-19	Disease	denotes	Parkinson's Disease
+T2	31-36	Gene	denotes	LRRK2
+T3	56-62	Var	denotes	Mutant
+T4	63-71	NegReg	denotes	Disrupts
+T5	72-128	MPA	denotes	Synaptic Vesicle Trafficking in Ventral Midbrain Neurons
+T6	434-439	Gene	denotes	LRRK2
+T7	440-447	Var	denotes	mutants
+T9	448-458	Reg	denotes	contribute
+T8	462-482	MPA	denotes	nigral vulnerability
+T11	537-545	Var	denotes	mutation
+T12	546-551	Gene	denotes	LRRK2
+T10	559-566	NegReg	denotes	impairs
+T13	567-636	MPA	denotes	"""SV endocytosis in ventral midbrain (MB) neurons, including DA neurons"""
+T15	975-985	NegReg	denotes	impairment
+T16	989-1014	MPA	denotes	SV endocytosis in neurons
+T17	1037-1045	Var	denotes	deletion
+T14	1049-1054	Gene	denotes	SYNJ1
+T18	1130-1138	Var	denotes	SYNJ1+/-
+T19	1143-1155	Var	denotes	LRRK2 G2019S
+T20	1195-1202	NegReg	denotes	impairs
+T21	1203-1237	MPA	denotes	sustained exocytosis in MB neurons
+T22	1242-1248	Reg	denotes	alters
+T23	1249-1273	MPA	denotes	specific motor functions
+T24	1327-1332	Var	denotes	LRRK2
+T25	1381-1393	Reg	denotes	resulting in
+T26	1398-1476	MPA	denotes	disruption of endophilin-synaptojanin1 interaction required for SV endocytosis
+T31	2027-2035	PosReg	denotes	enhanced
+T32	2036-2051	MPA	denotes	kinase activity
+T28	2085-2091	Var	denotes	G2019S
+T29	2104-2109	Gene	denotes	LRRK2
+T39	2177-2182	Gene	denotes	LRRK2
+T33	2183-2189	Var	denotes	G2019S
+T34	2194-2199	Gene	denotes	SYNJ1
+T35	2200-2216	NegReg	denotes	loss of function
+T36	2255-2297	MPA	denotes	deregulating DAergic neuron SV endocytosis
+T37	2312-2331	Reg	denotes	play additive roles
+T38	2385-2387	Disease	denotes	PD
+R1	T2	T3	ThemeOf	LRRK2,Mutant
+R10	T13	T10	ThemeOf	"""""""SV endocytosis in ventral midbrain (MB) neurons, including DA neurons"""""",impairs"
+R11	T14	T17	ThemeOf	SYNJ1,deletion
+R12	T17	T15	CauseOf	deletion,impairment
+R13	T16	T15	ThemeOf	SV endocytosis in neurons,impairment
+R14	T18	T20	CauseOf	SYNJ1+/-,impairs
+R15	T21	T20	ThemeOf	sustained exocytosis in MB neurons,impairs
+R16	T19	T20	CauseOf	LRRK2 G2019S,impairs
+R17	T18	T22	CauseOf	SYNJ1+/-,alters
+R18	T19	T22	CauseOf	LRRK2 G2019S,alters
+R19	T23	T22	ThemeOf	specific motor functions,alters
+R2	T3	T4	CauseOf	Mutant,Disrupts
+R20	T28	T31	CauseOf	G2019S,enhanced
+R21	T32	T31	ThemeOf	kinase activity,enhanced
+R22	T29	T28	ThemeOf	LRRK2,G2019S
+R23	T33	T35	CauseOf	G2019S,loss of function
+R24	T34	T35	CauseOf	SYNJ1,loss of function
+R25	T36	T35	ThemeOf	deregulating DAergic neuron SV endocytosis,loss of function
+R26	T34	T37	CauseOf	SYNJ1,play additive roles
+R27	T33	T37	CauseOf	G2019S,play additive roles
+R28	T38	T37	ThemeOf	PD,play additive roles
+R29	T24	T25	CauseOf	LRRK2,resulting in
+R3	T5	T4	ThemeOf	Synaptic Vesicle Trafficking in Ventral Midbrain Neurons,Disrupts
+R30	T26	T25	ThemeOf	disruption of endophilin-synaptojanin1 interaction required for SV endocytosis,resulting in
+R31	T39	T33	ThemeOf	LRRK2,G2019S
+R4	T3	T1	CauseOf	Mutant,Parkinson's Disease
+R5	T6	T7	ThemeOf	LRRK2,mutants
+R6	T7	T9	CauseOf	mutants,contribute
+R7	T8	T9	ThemeOf	nigral vulnerability,contribute
+R8	T12	T11	ThemeOf	LRRK2,mutation
+R9	T11	T10	CauseOf	mutation,impairs

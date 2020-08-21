@@ -1,0 +1,25 @@
+Id	Subject	Object	Predicate	Lexical cue
+T2	381-394	Var	denotes	Polymorphisms
+T1	402-405	Gene	denotes	GST
+T3	416-423	Reg	denotes	lead to
+T4	427-468	MPA	denotes	imbalance in pro- and antioxidant systems
+T5	486-495	PosReg	denotes	increased
+T6	496-533	MPA	denotes	production of reactive oxygen species
+T8	545-554	Reg	denotes	influence
+T7	575-584	Disease	denotes	psoriasis
+T13	1440-1448	Var	denotes	presence
+T9	1475-1480	Gene	denotes	GSTM1
+T10	1485-1490	Gene	denotes	GSTT1
+T11	1499-1508	PosReg	denotes	increased
+T12	1521-1530	Disease	denotes	psoriasis
+R1	T2	T3	CauseOf	Polymorphisms,lead to
+R10	T10	T13	ThemeOf	GSTT1,presence
+R11	T9	T13	ThemeOf	GSTM1,presence
+R2	T4	T3	ThemeOf	imbalance in pro- and antioxidant systems,lead to
+R3	T1	T2	ThemeOf	GST,Polymorphisms
+R4	T4	T5	CauseOf	imbalance in pro- and antioxidant systems,increased
+R5	T6	T5	ThemeOf	production of reactive oxygen species,increased
+R6	T6	T8	CauseOf	production of reactive oxygen species,influence
+R7	T7	T8	ThemeOf	psoriasis,influence
+R8	T13	T11	CauseOf	presence,increased
+R9	T12	T11	ThemeOf	psoriasis,increased

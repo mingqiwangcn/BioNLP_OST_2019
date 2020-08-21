@@ -1,0 +1,51 @@
+Id	Subject	Object	Predicate	Lexical cue
+T8	372-388	PosReg	denotes	gain-of-function
+T6	395-404	Var	denotes	mutations
+T5	408-414	Gene	denotes	CgPDR1
+T7	434-438	PosReg	denotes	lead
+T10	451-467	MPA	denotes	azole resistance
+T11	480-488	PosReg	denotes	enhanced
+T12	489-498	MPA	denotes	virulence
+T37	505-515	Reg	denotes	implicates
+T14	516-522	Gene	denotes	CgPDR1
+T15	530-540	MPA	denotes	regulation
+T13	548-559	Interaction	denotes	interaction
+T16	910-919	Var	denotes	mutations
+T17	923-929	Gene	denotes	CgPDR1
+T23	1026-1035	NegReg	denotes	decreased
+T21	1036-1074	CPA	denotes	adherence to and uptake by macrophages
+T24	1234-1243	Var	denotes	mutations
+T25	1247-1253	Gene	denotes	CgPDR1
+T28	1258-1263	PosReg	denotes	favor
+T29	1264-1287	CPA	denotes	epithelial colonization
+T26	1323-1332	PosReg	denotes	increased
+T27	1333-1342	CPA	denotes	adherence
+T30	1397-1406	Var	denotes	mutations
+T31	1410-1416	Gene	denotes	CgPDR1
+T32	1417-1425	Reg	denotes	modulate
+T33	1430-1441	Interaction	denotes	interaction
+T35	1489-1498	PosReg	denotes	increased
+T36	1499-1508	MPA	denotes	virulence
+R10	T12	T11	ThemeOf	virulence,enhanced
+R15	T16	T23	CauseOf	mutations,decreased
+R16	T21	T23	ThemeOf	adherence to and uptake by macrophages,decreased
+R17	T24	T26	CauseOf	mutations,increased
+R18	T27	T26	ThemeOf	adherence,increased
+R20	T29	T28	ThemeOf	epithelial colonization,favor
+R21	T25	T24	ThemeOf	CgPDR1,mutations
+R22	T30	T32	CauseOf	mutations,modulate
+R23	T33	T32	ThemeOf	interaction,modulate
+R24	T31	T30	ThemeOf	CgPDR1,mutations
+R25	T30	T35	CauseOf	mutations,increased
+R26	T36	T35	ThemeOf	virulence,increased
+R27	T14	T6	ThemeOf	CgPDR1,mutations
+R28	T6	T37	CauseOf	mutations,implicates
+R29	T15	T37	ThemeOf	regulation,implicates
+R30	T13	T15	ThemeOf	interaction,regulation
+R31	T17	T16	ThemeOf	CgPDR1,mutations
+R32	T26	T28	CauseOf	increased,favor
+R4	T6	T8	CauseOf	mutations,gain-of-function
+R6	T5	T6	ThemeOf	CgPDR1,mutations
+R7	T6	T7	CauseOf	mutations,lead
+R8	T10	T7	ThemeOf	azole resistance,lead
+R9	T6	T11	CauseOf	mutations,enhanced

@@ -1,0 +1,25 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	8-13	Gene	denotes	NR2F2
+T2	14-30	NegReg	denotes	loss-of-function
+T3	31-39	Var	denotes	mutation
+T1	55-78	Disease	denotes	congenital heart defect
+T5	1339-1345	Var	denotes	mutant
+T6	1346-1351	Gene	denotes	NR2F2
+T7	1364-1366	NegReg	denotes	no
+T8	1367-1391	MPA	denotes	transcriptional activity
+T9	1453-1461	Var	denotes	mutation
+T10	1462-1471	NegReg	denotes	abrogated
+T11	1476-1514	MPA	denotes	synergistic transcriptional activation
+T12	1523-1528	Gene	denotes	NR2F2
+T13	1533-1538	Gene	denotes	GATA4
+R1	T4	T3	ThemeOf	NR2F2,mutation
+R10	T12	T11	ThemeOf	NR2F2,synergistic transcriptional activation
+R11	T13	T11	ThemeOf	GATA4,synergistic transcriptional activation
+R2	T3	T2	CauseOf	mutation,loss-of-function
+R3	T1	T2	ThemeOf	congenital heart defect,loss-of-function
+R4	T6	T5	ThemeOf	NR2F2,mutant
+R5	T5	T7	CauseOf	mutant,no
+R6	T8	T7	ThemeOf	transcriptional activity,no
+R7	T6	T9	ThemeOf	NR2F2,mutation
+R8	T9	T10	CauseOf	mutation,abrogated
+R9	T11	T10	ThemeOf	synergistic transcriptional activation,abrogated

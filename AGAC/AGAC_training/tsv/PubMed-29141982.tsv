@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	10-26	NegReg	denotes	Loss-of-Function
+T2	27-34	Var	denotes	Variant
+T1	38-42	Gene	denotes	AKT2
+T4	62-69	NegReg	denotes	Reduced
+T5	70-101	CPA	denotes	Insulin-Mediated Glucose Uptake
+T6	1465-1471	Var	denotes	p.P50T
+T7	1488-1492	Gene	denotes	AKT2
+T8	1493-1503	Reg	denotes	influences
+T9	1504-1523	MPA	denotes	insulin-mediated GU
+R1	T1	T2	ThemeOf	AKT2,Variant
+R2	T2	T3	CauseOf	Variant,Loss-of-Function
+R3	T5	T4	ThemeOf	Insulin-Mediated Glucose Uptake,Reduced
+R4	T9	T8	ThemeOf	insulin-mediated GU,influences
+R5	T7	T6	ThemeOf	AKT2,p.P50T
+R6	T2	T4	CauseOf	Variant,Reduced
+R7	T6	T8	CauseOf	p.P50T,influences

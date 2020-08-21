@@ -1,0 +1,12 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	222-235	Var	denotes	Abnormalities
+T2	239-244	Gene	denotes	SOX10
+T3	249-259	Reg	denotes	associated
+T4	265-285	Disease	denotes	Waardenburg syndrome
+T5	286-294	Disease	denotes	Types II
+T6	299-301	Disease	denotes	IV
+R1	T1	T3	CauseOf	Abnormalities,associated
+R2	T2	T1	ThemeOf	SOX10,Abnormalities
+R3	T4	T3	ThemeOf	Waardenburg syndrome,associated
+R4	T5	T4	ThemeOf	Types II,Waardenburg syndrome
+R5	T6	T4	ThemeOf	IV,Waardenburg syndrome

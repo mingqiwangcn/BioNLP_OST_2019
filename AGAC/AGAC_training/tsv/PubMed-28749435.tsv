@@ -1,0 +1,20 @@
+Id	Subject	Object	Predicate	Lexical cue
+T14	72-88	Disease	denotes	long QT syndrome
+T4	1050-1055	Gene	denotes	KCNH2
+T5	1056-1063	Var	denotes	p.C108Y
+T6	1082-1089	Reg	denotes	encoded
+T7	1092-1114	Pathway	denotes	non-functional channel
+T8	1127-1144	NegReg	denotes	dominant-negative
+T9	1145-1152	MPA	denotes	effects
+T11	1370-1375	Gene	denotes	KCNH2
+T10	1376-1381	Var	denotes	C108Y
+T13	1399-1409	Reg	denotes	pathogenic
+T12	1410-1414	Disease	denotes	LQTS
+R10	T12	T13	ThemeOf	LQTS,pathogenic
+R3	T4	T5	ThemeOf	KCNH2,p.C108Y
+R4	T5	T6	CauseOf	p.C108Y,encoded
+R5	T7	T6	ThemeOf	non-functional channel,encoded
+R6	T7	T8	CauseOf	non-functional channel,dominant-negative
+R7	T9	T8	ThemeOf	effects,dominant-negative
+R8	T11	T10	ThemeOf	KCNH2,C108Y
+R9	T10	T13	CauseOf	C108Y,pathogenic

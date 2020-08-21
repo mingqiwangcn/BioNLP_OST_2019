@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	402-418	PosReg	denotes	gain-of-function
+T2	419-427	Var	denotes	mutation
+T3	431-438	Gene	denotes	CACNA1C
+T4	490-506	Disease	denotes	Timothy syndrome
+R1	T3	T2	ThemeOf	CACNA1C,mutation
+R2	T2	T1	CauseOf	mutation,gain-of-function
+R3	T4	T1	ThemeOf	Timothy syndrome,gain-of-function

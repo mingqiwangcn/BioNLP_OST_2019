@@ -1,0 +1,11 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	141-176	Disease	denotes	Oesophageal squamous cell carcinoma
+T4	1548-1552	Gene	denotes	CUL3
+T5	1570-1577	Var	denotes	deleted
+T7	1591-1593	Reg	denotes	in
+T2	1594-1598	Disease	denotes	OSCC
+T3	1609-1630	Disease	denotes	squamous cell cancers
+R1	T4	T5	ThemeOf	CUL3,deleted
+R2	T5	T7	CauseOf	deleted,in
+R3	T2	T7	ThemeOf	OSCC,in
+R4	T3	T7	ThemeOf	squamous cell cancers,in

@@ -1,0 +1,50 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-16	PosReg	denotes	Gain-of-function
+T2	17-22	Gene	denotes	KCNJ6
+T3	23-31	Var	denotes	Mutation
+T4	37-74	Disease	denotes	Severe Hyperkinetic Movement Disorder
+T5	144-149	Gene	denotes	KCNJ6
+T6	158-166	Var	denotes	mutation
+T7	172-181	Reg	denotes	presented
+T8	208-245	Disease	denotes	severe hyperkinetic movement disorder
+T9	250-269	CPA	denotes	developmental delay
+T10	429-434	Gene	denotes	KCNJ6
+T11	436-444	Var	denotes	c.512T>G
+T12	446-457	Var	denotes	p.Leu171Arg
+T14	612-618	Var	denotes	mutant
+T15	619-624	Gene	denotes	GIRK2
+T16	639-647	PosReg	denotes	produced
+T17	660-680	MPA	denotes	basal inward current
+T18	686-692	NegReg	denotes	lacked
+T19	693-702	Protein	denotes	G protein
+T20	703-713	MPA	denotes	activation
+T21	715-719	NegReg	denotes	lost
+T22	720-734	MPA	denotes	K+ selectivity
+T23	739-745	PosReg	denotes	gained
+T24	746-763	MPA	denotes	Ca2+ permeability
+T25	1078-1089	Var	denotes	p.Leu171Arg
+T26	1090-1095	Gene	denotes	GIRK2
+T28	1184-1198	NegReg	denotes	depolarization
+T29	1222-1257	MPA	denotes	G protein-gated inhibitory response
+R1	T2	T3	ThemeOf	KCNJ6,Mutation
+R10	T15	T14	ThemeOf	GIRK2,mutant
+R11	T14	T16	CauseOf	mutant,produced
+R12	T17	T16	ThemeOf	basal inward current,produced
+R13	T16	T18	CauseOf	produced,lacked
+R14	T19	T20	ThemeOf	G protein,activation
+R15	T20	T18	ThemeOf	activation,lacked
+R16	T16	T21	CauseOf	produced,lost
+R17	T22	T21	ThemeOf	K+ selectivity,lost
+R18	T16	T23	CauseOf	produced,gained
+R19	T24	T23	ThemeOf	Ca2+ permeability,gained
+R2	T3	T1	CauseOf	Mutation,Gain-of-function
+R20	T26	T25	ThemeOf	GIRK2,p.Leu171Arg
+R21	T25	T28	CauseOf	p.Leu171Arg,depolarization
+R22	T29	T28	ThemeOf	G protein-gated inhibitory response,depolarization
+R3	T4	T1	ThemeOf	Severe Hyperkinetic Movement Disorder,Gain-of-function
+R4	T5	T6	ThemeOf	KCNJ6,mutation
+R5	T6	T7	CauseOf	mutation,presented
+R6	T8	T7	ThemeOf	severe hyperkinetic movement disorder,presented
+R7	T9	T7	ThemeOf	developmental delay,presented
+R8	T10	T11	ThemeOf	KCNJ6,c.512T>G
+R9	T10	T12	ThemeOf	KCNJ6,p.Leu171Arg

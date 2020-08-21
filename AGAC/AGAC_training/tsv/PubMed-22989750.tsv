@@ -1,0 +1,48 @@
+Id	Subject	Object	Predicate	Lexical cue
+T3	16-32	PosReg	denotes	gain-of-function
+T4	33-41	MPA	denotes	activity
+T1	45-48	Gene	denotes	p53
+T2	49-56	Var	denotes	mutants
+T36	60-71	Disease	denotes	lung cancer
+T6	79-82	Gene	denotes	p53
+T5	83-92	Var	denotes	mutations
+T7	130-142	Reg	denotes	resulting in
+T8	143-153	MPA	denotes	expression
+T9	187-203	PosReg	denotes	gain of function
+T10	211-219	MPA	denotes	activity
+T13	390-393	Gene	denotes	p53
+T14	394-401	Var	denotes	mutants
+T16	413-417	NegReg	denotes	loss
+T17	425-433	MPA	denotes	activity
+T18	446-454	NegReg	denotes	lowering
+T19	458-474	CPA	denotes	cell growth rate
+T20	540-568	Var	denotes	mutants p53-P278S and -R267P
+T21	575-584	NegReg	denotes	reduction
+T22	588-599	MPA	denotes	growth rate
+T24	646-655	NegReg	denotes	reduction
+T23	663-666	Var	denotes	p53
+T26	681-685	NegReg	denotes	loss
+T27	689-703	MPA	denotes	tumorigenicity
+T28	736-745	PosReg	denotes	escalates
+T29	746-760	MPA	denotes	tumorigenicity
+R1	T1	T2	ThemeOf	p53,mutants
+R10	T14	T16	CauseOf	mutants,loss
+R11	T17	T16	ThemeOf	activity,loss
+R12	T14	T18	CauseOf	mutants,lowering
+R13	T19	T18	ThemeOf	cell growth rate,lowering
+R14	T20	T21	CauseOf	mutants p53-P278S and -R267P,reduction
+R15	T22	T21	ThemeOf	growth rate,reduction
+R18	T27	T26	ThemeOf	tumorigenicity,loss
+R19	T24	T23	ThemeOf	reduction,p53
+R2	T2	T3	CauseOf	mutants,gain-of-function
+R20	T23	T28	CauseOf	p53,escalates
+R21	T29	T28	ThemeOf	tumorigenicity,escalates
+R22	T23	T26	CauseOf	p53,loss
+R27	T36	T3	ThemeOf	lung cancer,gain-of-function
+R3	T4	T3	ThemeOf	activity,gain-of-function
+R4	T5	T7	CauseOf	mutations,resulting in
+R5	T8	T7	ThemeOf	expression,resulting in
+R6	T6	T5	ThemeOf	p53,mutations
+R7	T5	T9	CauseOf	mutations,gain of function
+R8	T10	T9	ThemeOf	activity,gain of function
+R9	T13	T14	ThemeOf	p53,mutants

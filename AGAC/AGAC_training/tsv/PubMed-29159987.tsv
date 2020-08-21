@@ -1,0 +1,17 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-6	Gene	denotes	MED13L
+T2	7-23	NegReg	denotes	loss-of-function
+T3	24-32	Var	denotes	variants
+T4	64-85	Disease	denotes	Pierre Robin sequence
+T5	613-623	Var	denotes	Disruption
+T6	627-633	Gene	denotes	MED13L
+T7	715-720	Reg	denotes	cause
+T8	727-759	Disease	denotes	intellectual disability syndrome
+T9	776-794	Disease	denotes	facial dysmorphism
+R1	T1	T3	ThemeOf	MED13L,variants
+R2	T3	T2	CauseOf	variants,loss-of-function
+R3	T4	T2	ThemeOf	Pierre Robin sequence,loss-of-function
+R4	T6	T5	ThemeOf	MED13L,Disruption
+R5	T5	T7	CauseOf	Disruption,cause
+R6	T8	T7	ThemeOf	intellectual disability syndrome,cause
+R7	T9	T7	ThemeOf	facial dysmorphism,cause

@@ -1,0 +1,15 @@
+Id	Subject	Object	Predicate	Lexical cue
+T4	1255-1259	Gene	denotes	MTOR
+T3	1260-1267	Var	denotes	variant
+T1	1289-1298	PosReg	denotes	increased
+T5	1299-1314	MPA	denotes	mTORC1 activity
+T7	1467-1471	Gene	denotes	MTOR
+T6	1472-1480	Var	denotes	mutation
+T8	1534-1544	Reg	denotes	leading to
+T9	1547-1589	MPA	denotes	high sensitivity to temsirolimus treatment
+R1	T4	T3	ThemeOf	MTOR,variant
+R2	T3	T1	CauseOf	variant,increased
+R3	T5	T1	ThemeOf	mTORC1 activity,increased
+R4	T7	T6	ThemeOf	MTOR,mutation
+R5	T6	T8	CauseOf	mutation,leading to
+R6	T9	T8	ThemeOf	high sensitivity to temsirolimus treatment,leading to

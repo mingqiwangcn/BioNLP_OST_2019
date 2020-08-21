@@ -1,0 +1,19 @@
+Id	Subject	Object	Predicate	Lexical cue
+T7	149-158	Var	denotes	mutations
+T8	162-168	Gene	denotes	PDGFRB
+T11	169-174	Reg	denotes	cause
+T9	175-205	Disease	denotes	Kosaki and Penttinen syndromes
+T10	210-225	Disease	denotes	myofibromatosis
+T1	276-282	Gene	denotes	PDGFRB
+T2	283-290	Var	denotes	p.N666H
+T4	304-355	MPA	denotes	responded to the tyrosine kinase inhibitor imatinib
+T5	359-369	NegReg	denotes	inhibition
+T6	373-379	Gene	denotes	PDGFRB
+R1	T1	T2	ThemeOf	PDGFRB,p.N666H
+R2	T2	T5	CauseOf	p.N666H,inhibition
+R3	T6	T5	ThemeOf	PDGFRB,inhibition
+R4	T5	T4	CauseOf	inhibition,responded to the tyrosine kinase inhibitor imatinib
+R5	T7	T11	CauseOf	mutations,cause
+R6	T8	T7	ThemeOf	PDGFRB,mutations
+R7	T9	T11	ThemeOf	Kosaki and Penttinen syndromes,cause
+R8	T10	T11	ThemeOf	myofibromatosis,cause

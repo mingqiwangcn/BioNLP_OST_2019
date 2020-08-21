@@ -1,0 +1,22 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	544-548	Gene	denotes	htpG
+T2	549-555	Var	denotes	mutant
+T3	605-614	NegReg	denotes	decreased
+T4	615-623	MPA	denotes	activity
+T5	631-644	Enzyme	denotes	LasA protease
+T6	646-655	NegReg	denotes	reduction
+T7	659-676	MPA	denotes	biofilm formation
+T8	678-687	NegReg	denotes	decreased
+T9	688-696	CPA	denotes	motility
+T10	702-712	NegReg	denotes	diminished
+T11	713-760	MPA	denotes	amount of rhamnolipids and pyoverdine/pyocyanin
+R1	T1	T2	ThemeOf	htpG,mutant
+R10	T11	T10	ThemeOf	amount of rhamnolipids and pyoverdine/pyocyanin,diminished
+R2	T2	T3	CauseOf	mutant,decreased
+R3	T4	T3	ThemeOf	activity,decreased
+R4	T5	T4	ThemeOf	LasA protease,activity
+R5	T2	T6	CauseOf	mutant,reduction
+R6	T7	T6	ThemeOf	biofilm formation,reduction
+R7	T2	T8	CauseOf	mutant,decreased
+R8	T9	T8	ThemeOf	motility,decreased
+R9	T2	T10	CauseOf	mutant,diminished

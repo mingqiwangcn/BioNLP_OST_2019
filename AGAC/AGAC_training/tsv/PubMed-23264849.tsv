@@ -1,0 +1,44 @@
+Id	Subject	Object	Predicate	Lexical cue
+T7	191-194	Gene	denotes	p53
+T8	195-204	Var	denotes	mutations
+T9	218-222	CPA	denotes	grow
+T10	228-240	PosReg	denotes	aggressively
+T11	310-316	Var	denotes	mutant
+T12	317-320	Gene	denotes	p53
+T13	339-351	PosReg	denotes	up-regulated
+T14	352-371	MPA	denotes	expression of genes
+T15	381-387	Reg	denotes	affect
+T16	388-399	CPA	denotes	cell growth
+T49	404-415	CPA	denotes	oncogenesis
+T20	502-521	Enzyme	denotes	tyrosine kinase Axl
+T17	532-544	PosReg	denotes	up-regulated
+T18	548-551	Gene	denotes	p53
+T19	552-559	Var	denotes	mutants
+T34	1148-1155	Reg	denotes	histone
+T35	1156-1194	MPA	denotes	acetylation on the Axl promoter region
+T32	1198-1204	Var	denotes	mutant
+T33	1205-1208	Gene	denotes	p53
+T47	1676-1682	Var	denotes	mutant
+T46	1683-1686	Gene	denotes	p53
+T44	1692-1702	MPA	denotes	activities
+T45	1707-1715	Reg	denotes	mediated
+T48	1732-1735	Protein	denotes	Axl
+R10	T12	T11	ThemeOf	p53,mutant
+R11	T14	T15	CauseOf	expression of genes,affect
+R12	T16	T15	ThemeOf	cell growth,affect
+R13	T19	T17	CauseOf	mutants,up-regulated
+R14	T20	T17	ThemeOf	tyrosine kinase Axl,up-regulated
+R15	T18	T19	ThemeOf	p53,mutants
+R29	T33	T32	ThemeOf	p53,mutant
+R30	T32	T34	CauseOf	mutant,histone
+R31	T35	T34	ThemeOf	acetylation on the Axl promoter region,histone
+R32	T46	T47	ThemeOf	p53,mutant
+R33	T47	T48	ThemeOf	mutant,Axl
+R34	T48	T45	CauseOf	Axl,mediated
+R35	T44	T45	ThemeOf	activities,mediated
+R36	T8	T10	CauseOf	mutations,aggressively
+R37	T9	T10	ThemeOf	grow,aggressively
+R38	T49	T15	ThemeOf	oncogenesis,affect
+R5	T7	T8	ThemeOf	p53,mutations
+R8	T11	T13	CauseOf	mutant,up-regulated
+R9	T14	T13	ThemeOf	expression of genes,up-regulated

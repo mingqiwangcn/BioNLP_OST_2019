@@ -1,0 +1,42 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	0-16	NegReg	denotes	Loss-of-Function
+T2	17-26	Var	denotes	Mutations
+T3	30-36	Gene	denotes	UNC45A
+T5	45-53	Disease	denotes	Syndrome
+T6	66-77	Disease	denotes	Cholestasis
+T7	79-87	Disease	denotes	Diarrhea
+T8	89-105	Disease	denotes	Impaired Hearing
+T9	111-125	Disease	denotes	Bone Fragility
+T12	348-359	Disease	denotes	cholestasis
+T13	361-380	Disease	denotes	congenital diarrhea
+T14	382-398	Disease	denotes	impaired hearing
+T15	404-418	Disease	denotes	bone fragility
+T10	500-519	Var	denotes	biallelic mutations
+T11	550-556	Gene	denotes	UNC45A
+T20	681-697	NegReg	denotes	loss-of-function
+T16	726-736	NegReg	denotes	attenuated
+T17	740-749	NegReg	denotes	abolished
+T18	750-757	Protein	denotes	protein
+T19	758-766	MPA	denotes	activity
+T21	784-791	NegReg	denotes	defects
+T22	795-810	CPA	denotes	gut development
+R1	T3	T2	ThemeOf	UNC45A,Mutations
+R10	T10	T14	CauseOf	biallelic mutations,impaired hearing
+R11	T10	T13	CauseOf	biallelic mutations,congenital diarrhea
+R12	T10	T12	CauseOf	biallelic mutations,cholestasis
+R13	T10	T20	CauseOf	biallelic mutations,loss-of-function
+R14	T10	T16	CauseOf	biallelic mutations,attenuated
+R15	T10	T17	CauseOf	biallelic mutations,abolished
+R16	T18	T19	ThemeOf	protein,activity
+R17	T19	T17	ThemeOf	activity,abolished
+R18	T19	T16	ThemeOf	activity,attenuated
+R19	T22	T21	CauseOf	gut development,defects
+R2	T2	T1	CauseOf	Mutations,Loss-of-Function
+R20	T10	T21	CauseOf	biallelic mutations,defects
+R3	T1	T5	CauseOf	Loss-of-Function,Syndrome
+R4	T6	T5	ThemeOf	Cholestasis,Syndrome
+R5	T7	T5	ThemeOf	Diarrhea,Syndrome
+R6	T8	T5	ThemeOf	Impaired Hearing,Syndrome
+R7	T9	T5	ThemeOf	Bone Fragility,Syndrome
+R8	T11	T10	ThemeOf	UNC45A,biallelic mutations
+R9	T10	T15	CauseOf	biallelic mutations,bone fragility

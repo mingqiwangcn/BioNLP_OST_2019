@@ -1,0 +1,8 @@
+Id	Subject	Object	Predicate	Lexical cue
+T7	691-710	Disease	denotes	hypocholesterolemia
+T6	722-725	NegReg	denotes	LOF
+T4	726-735	Var	denotes	mutations
+T5	743-748	Gene	denotes	PCSK9
+R3	T4	T6	CauseOf	mutations,LOF
+R4	T7	T6	ThemeOf	hypocholesterolemia,LOF
+R5	T5	T4	ThemeOf	PCSK9,mutations

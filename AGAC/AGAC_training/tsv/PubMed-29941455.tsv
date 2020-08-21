@@ -1,0 +1,14 @@
+Id	Subject	Object	Predicate	Lexical cue
+T5	1005-1017	Var	denotes	Substitution
+T3	1083-1087	NegReg	denotes	loss
+T4	1091-1099	MPA	denotes	function
+T1	1117-1126	PosReg	denotes	increased
+T2	1131-1135	MPA	denotes	EC50
+T6	1145-1152	Reg	denotes	altered
+T7	1157-1209	MPA	denotes	maximal response to the partial GlyR agonist taurine
+R1	T5	T3	CauseOf	Substitution,loss
+R2	T4	T3	ThemeOf	function,loss
+R3	T5	T1	CauseOf	Substitution,increased
+R4	T2	T1	ThemeOf	EC50,increased
+R5	T5	T6	CauseOf	Substitution,altered
+R6	T7	T6	ThemeOf	maximal response to the partial GlyR agonist taurine,altered

@@ -1,0 +1,13 @@
+Id	Subject	Object	Predicate	Lexical cue
+T6	384-400	NegReg	denotes	Loss of function
+T5	408-448	Enzyme	denotes	Caenorhabditis elegans peroxidasin PXN-2
+T8	460-485	CPA	denotes	fully penetrant embryonic
+T9	489-505	CPA	denotes	larval lethality
+T10	951-958	Gene	denotes	let-805
+T12	984-1004	Var	denotes	missense alterations
+T11	1147-1163	PosReg	denotes	gain of function
+R5	T5	T6	ThemeOf	Caenorhabditis elegans peroxidasin PXN-2,Loss of function
+R6	T6	T8	CauseOf	Loss of function,fully penetrant embryonic
+R7	T6	T9	CauseOf	Loss of function,larval lethality
+R8	T10	T12	ThemeOf	let-805,missense alterations
+R9	T12	T11	CauseOf	missense alterations,gain of function

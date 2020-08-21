@@ -1,0 +1,21 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	248-253	Gene	denotes	PCSK9
+T2	254-270	PosReg	denotes	gain-of-function
+T3	277-286	Var	denotes	mutations
+T4	307-346	Disease	denotes	autosomal dominant hypercholesterolemia
+T5	357-382	Disease	denotes	premature atherosclerosis
+T6	384-389	Gene	denotes	PCSK9
+T7	390-406	NegReg	denotes	loss-of-function
+T8	413-422	Var	denotes	mutations
+T9	423-427	PosReg	denotes	have
+T10	430-454	CPA	denotes	cardio-protective effect
+T11	485-517	Disease	denotes	familial hypobetalipoproteinemia
+R1	T1	T3	ThemeOf	PCSK9,mutations
+R2	T3	T2	CauseOf	mutations,gain-of-function
+R3	T4	T2	ThemeOf	autosomal dominant hypercholesterolemia,gain-of-function
+R4	T5	T2	ThemeOf	premature atherosclerosis,gain-of-function
+R5	T6	T8	ThemeOf	PCSK9,mutations
+R6	T8	T7	CauseOf	mutations,loss-of-function
+R7	T11	T7	ThemeOf	familial hypobetalipoproteinemia,loss-of-function
+R8	T8	T9	CauseOf	mutations,have
+R9	T10	T9	ThemeOf	cardio-protective effect,have

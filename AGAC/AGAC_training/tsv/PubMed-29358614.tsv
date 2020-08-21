@@ -1,0 +1,18 @@
+Id	Subject	Object	Predicate	Lexical cue
+T1	278-298	Disease	denotes	Nance-Horan syndrome
+T2	299-308	Reg	denotes	caused by
+T3	315-323	Var	denotes	nonsense
+T4	324-327	Gene	denotes	NHS
+T5	372-403	Disease	denotes	congenital diaphragmatic hernia
+T6	536-567	Disease	denotes	Congenital diaphragmatic hernia
+T10	574-585	Reg	denotes	result from
+T7	586-589	Gene	denotes	NHS
+T8	590-606	NegReg	denotes	loss of function
+T9	712-727	CPA	denotes	cells migration
+R1	T4	T3	ThemeOf	NHS,nonsense
+R2	T3	T2	CauseOf	nonsense,caused by
+R3	T1	T2	ThemeOf	Nance-Horan syndrome,caused by
+R4	T5	T2	ThemeOf	congenital diaphragmatic hernia,caused by
+R5	T7	T8	ThemeOf	NHS,loss of function
+R6	T8	T9	CauseOf	loss of function,cells migration
+R7	T9	T6	CauseOf	cells migration,Congenital diaphragmatic hernia
