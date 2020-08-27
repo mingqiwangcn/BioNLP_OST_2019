@@ -1,1 +1,1 @@
-In what (Genotype) is XXX  (Protein Family, Protein, Tissue, Gene, Gene Family, RNA, Protein_Domain, Protein_Complex, Box, Hormone) ?
+In what Genotype does XXX exists ? 

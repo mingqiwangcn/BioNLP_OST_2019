@@ -1,1 +1,1 @@
-What (Protein, Protein Family, Protein Complex, Box, Protein_Domain, Promoter, Gene) does XXX (Protein, Protein Domain, Environmental Factor, Protein Family, Gene) interact with ?
+What (Protein, Protein Family, Protein Complex, Box, Protein_Domain, Promoter, Gene) does XXX interact with ?

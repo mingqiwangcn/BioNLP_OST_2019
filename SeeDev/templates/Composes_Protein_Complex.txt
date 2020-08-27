@@ -1,1 +1,1 @@
-In what (Protein Family, Protein) is XXX (Protein, Protein Family) in ?
+What (Protein Family, Protein) is XXX part of ?

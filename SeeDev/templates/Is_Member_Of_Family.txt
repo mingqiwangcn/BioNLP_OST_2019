@@ -1,1 +1,1 @@
-What (Protein Family, Gene Family, RNA) does XXX (Protein Family, Gene Family, RNA) belong to ?
+What (Protein Family, Gene Family, RNA) family is XXX a member of ?
