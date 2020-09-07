@@ -1,1 +1,1 @@
-What disease is the gene , XXX related to?
+What disease do mutations in gene XXX regulate ?
