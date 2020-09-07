@@ -1,1 +1,1 @@
-What disease does mutations in XXX gene suppress, decrease, inhibit ?
+What disease do loss-of-function (LOF) mutations in gene relate to ?
