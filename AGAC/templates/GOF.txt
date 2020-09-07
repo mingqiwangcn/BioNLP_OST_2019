@@ -1,1 +1,1 @@
-What disease do gain-of-function (GOF) mutations in gene XXX relate to ?
+What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?
