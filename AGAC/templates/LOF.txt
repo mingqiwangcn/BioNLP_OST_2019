@@ -1,1 +1,1 @@
-What disease do mutations in gene XXX play a role of loss-of-function (LOF) in ?
+What OBJ_TYPE_DESC do mutations in SUB_TYPE_DESC XXX play a role of loss-of-function (LOF) in ?

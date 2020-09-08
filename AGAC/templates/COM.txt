@@ -1,1 +1,1 @@
-What disease do mutations in gene XXX relate to ?
+What OBJ_TYPE_DESC do mutations in SUB_TYPE_DESC XXX relate to ?

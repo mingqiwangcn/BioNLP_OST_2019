@@ -1,1 +1,1 @@
-What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?
+What OBJ_TYPE_DESC do mutations in SUB_TYPE_DESC XXX play a role of gain-of-function (GOF) in ?

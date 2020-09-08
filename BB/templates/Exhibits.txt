@@ -1,1 +1,1 @@
-What (Phenotype, Property) does XXX Microorganism have ?
+What OBJ_TYPE_DESC does SUB_TYPE_DESC XXX have ?
