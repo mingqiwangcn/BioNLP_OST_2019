@@ -1,1 +1,3 @@
-In what Genotype does XXX exists ? 
+SUB_TYPE_DESC XXX exists in what OBJ_TYPE_DESC ?
+What OBJ_TYPE_DESC does SUB_TYPE_DESC XXX exist in ?
+In what OBJ_TYPE_DESC does SUB_TYPE_DESC XXX exist ?

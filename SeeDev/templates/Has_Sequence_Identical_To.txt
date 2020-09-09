@@ -1,1 +1,5 @@
-What is the (Gene_Family, Gene, Protein Family, Box, Protein, Protein Domain) for XXX (Gene_Family, Gene, Protein_Family, Box, Protein, Protein_Domain) ?
+What OBJ_TYPE_DESC is SUB_TYPE_DESC XXX in sequence ?
+What OBJ_TYPE_DESC has the same sequence as that of SUB_TYPE_DESC XXX ?
+What OBJ_TYPE_DESC has the idential sequence to that of SUB_TYPE_DESC XXX ?
+What OBJ_TYPE_DESC is SUB_TYPE_DESC XXX like in sequence ?
+What OBJ_TYPE_DESC is the sequence of SUB_TYPE_DESC XXX identical to ?
