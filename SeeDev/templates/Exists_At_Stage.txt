@@ -1,1 +1,1 @@
-In what Development Phase is XXX (RNA, Protein, Protein Complex, Protein Family, Hormone) present ?
+What OBJ_TYPE_DESC is SUB_TYPE_DESC XXX at ?
