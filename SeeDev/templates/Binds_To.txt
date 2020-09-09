@@ -1,1 +1,1 @@
-What Box, Protein, Protein Family, Protein Domain, Promoter, Protein Complex, Gene does XXX bind to ?
+What OBJ_TYPE_DESC does SUB_TYPE_DESC XXX bind to ?
