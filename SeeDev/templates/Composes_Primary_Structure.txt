@@ -1,1 +1,1 @@
-In what (Box, Promoter, Gene) is XXX Box in ?
+What OBJ_TYPE_DESC is SUB_TYPE_DESC XXX the main part or core element in ?
