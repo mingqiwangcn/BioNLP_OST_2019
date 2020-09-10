@@ -1,1 +1,1 @@
-What (Protein Family, Protein) is XXX part of ?
+What OBJ_TYPE_DESC does SUB_TYPE_DESC XXX compose ?
