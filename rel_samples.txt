@@ -1,0 +1,10 @@
+Binds_To
+REG
+Interacts_With
+Has_Sequence_Identical_To
+Exhibits
+Composes_Protein_Complex
+Is_Localized_In
+Regulates_Expression
+GOF
+Exists_At_Stage
