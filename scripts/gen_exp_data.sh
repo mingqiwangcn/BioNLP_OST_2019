@@ -5,7 +5,7 @@ fi
 rel_name=$1
 cd ~/code/fabric-qa/text_to_table/data_process/BioNLP_OST_2019
 expert_rel_data_dir=~/code/fabric-qa/text_to_table/albert_relation/data/bionlp
-python create_albert_rel_data.py --questions ~/data/BioNLP_OST_2019/sample_qas/${rel_name}_questions.txt \
+python create_albert_rel_data.py --questions ~/data/BioNLP_OST_2019/qas/sample_qas/${rel_name}_questions.txt \
         --preds ~/code/fabric-qa/text_to_table/baseline/ir_rc/output/bionlp/${rel_name}_top_80/preds_detail.txt \
         --output ${expert_rel_data_dir}/${rel_name}_sample_dev.json
 cd ~/code/fabric-qa/text_to_table/albert_relation
