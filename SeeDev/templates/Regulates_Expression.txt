@@ -1,1 +1,1 @@
-What Gene, Gene_Family, Promoter, Box is expressed in XXX ?
+What OBJ_TYPE_DESC expresson does SUB_TYPE_DESC XXX regulate ?

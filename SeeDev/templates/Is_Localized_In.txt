@@ -1,1 +1,1 @@
-In what Tissue is XXX (Protein, Protein Family, Regulatory Network, Pathway, Protein Complex, RNA, Protein Domain, Hormone) found ?
+What OBJ_TYPE_DESC is SUB_TYPE_DESC XXX in ?

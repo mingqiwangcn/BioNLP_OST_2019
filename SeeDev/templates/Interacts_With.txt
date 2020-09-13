@@ -1,1 +1,1 @@
-What (Protein, Protein Family, Protein Complex, Box, Protein_Domain, Promoter, Gene) does XXX interact with ?
+What OBJ_TYPE_DESC does SUB_TYPE_DESC XXX interact with ?

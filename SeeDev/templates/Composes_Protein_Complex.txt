@@ -1,1 +1,1 @@
-What OBJ_TYPE_DESC does SUB_TYPE_DESC XXX compose ?
+What OBJ_TYPE_DESC is SUB_TYPE_DESC XXX in ?
