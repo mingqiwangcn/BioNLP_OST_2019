@@ -1,0 +1,7 @@
+["seedev_train_527", "What protein complex is protein KAPP in ?", "Composes_Protein_Complex", "What protein complex is protein XXX in ?", "KAPP", ["SERK1 complex"], true, "Composes_Protein_Complex"]
+["seedev_train_511", "What protein complex is protein CO-like in ?", "Composes_Protein_Complex", "What protein complex is protein XXX in ?", "CO-like", ["SERK1 complex"], true, "Composes_Protein_Complex"]
+["seedev_train_526", "What protein complex is protein 14-3-3\u03bd in ?", "Composes_Protein_Complex", "What protein complex is protein XXX in ?", "14-3-3\u03bd", ["SERK1 complex"], true, "Composes_Protein_Complex"]
+["seedev_train_399", "What protein complex is protein BRI1 in ?", "Composes_Protein_Complex", "What protein complex is protein XXX in ?", "BRI1", ["BRI1-containing multiple protein complexes", "SERK1 complex"], true, "Composes_Protein_Complex"]
+["seedev_train_509", "What protein complex is protein BAK1 in ?", "Composes_Protein_Complex", "What protein complex is protein XXX in ?", "BAK1", ["SERK1 complex"], true, "Composes_Protein_Complex"]
+["seedev_train_514", "What protein complex is protein BZR1 in ?", "Composes_Protein_Complex", "What protein complex is protein XXX in ?", "BZR1", ["SERK1 complex"], true, "Composes_Protein_Complex"]
+["seedev_train_513", "What protein complex is protein AGL15 in ?", "Composes_Protein_Complex", "What protein complex is protein XXX in ?", "AGL15", ["SERK1 complex"], true, "Composes_Protein_Complex"]

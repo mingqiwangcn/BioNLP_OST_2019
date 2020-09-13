@@ -1,0 +1,7 @@
+["seedev_train_399", ["BRI1-containing multiple protein complexes", "SERK1 complex"]]
+["seedev_train_509", ["SERK1 complex"]]
+["seedev_train_511", ["SERK1 complex"]]
+["seedev_train_513", ["SERK1 complex"]]
+["seedev_train_514", ["SERK1 complex"]]
+["seedev_train_526", ["SERK1 complex"]]
+["seedev_train_527", ["SERK1 complex"]]
