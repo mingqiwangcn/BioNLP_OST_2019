@@ -1,0 +1,235 @@
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "GSTM1", "objects": ["psoriasis"], "id": "agac_task3_96"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "HCN2", "objects": ["epilepsy", "polygenic epilepsy"], "id": "agac_task3_98"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "Shp2", "objects": ["juvenile myelomonocytic leukemia", "leukemia", "Noonan syndrome", "leukemias"], "id": "agac_task3_3"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "NT5C2", "objects": ["Relapsed acute lymphoblastic leukaemia", "leukemia"], "id": "agac_task3_73"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "CACNA1C", "objects": ["Timothy Syndrome", "Timothy syndrome"], "id": "agac_task3_114"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "PTPN11", "objects": ["histiocytic sarcomas"], "id": "agac_task3_113"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "GSTT1", "objects": ["psoriasis"], "id": "agac_task3_97"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "ABCC9", "objects": ["Cantu syndrome"], "id": "agac_task3_78"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "SCN4A", "objects": ["paramyotonia congenita"], "id": "agac_task3_111"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "P53", "objects": ["cancer"], "id": "agac_task3_94"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "EPO", "objects": ["Familial erythrocytosis"], "id": "agac_task3_56"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "NOTCH3", "objects": ["Lateral meningocele syndrome"], "id": "agac_task3_29"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "TP53", "objects": ["glioblastoma", "glioblastoma", "metastatic lung adenocarcinoma"], "id": "agac_task3_44"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "PCSK9", "objects": ["autosomal dominant hypercholesterolemia", "premature atherosclerosis", "LDL cholesterol"], "id": "agac_task3_11"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "CACNA1D", "objects": ["autism spectrum disorders", "epilepsy"], "id": "agac_task3_151"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "\u03b2-catenin", "objects": ["anorectal malformations"], "id": "agac_task3_5"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "Braf", "objects": ["lung adenocarcinoma"], "id": "agac_task3_125"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "SCN5a", "objects": ["Long QT Syndrome-3", "Brugada Syndrome 1"], "id": "agac_task3_132"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "PIEZO1", "objects": ["autosomal dominant hemolytic anemia", "hereditary xerocytosis", "dehydrated stomatocytosis"], "id": "agac_task3_133"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "SHP2", "objects": ["colorectal cancer"], "id": "agac_task3_75"}
+{"rel_type": "GOF", "template": "What disease do mutations in gene XXX play a role of gain-of-function (GOF) in ?", "subject": "apolipoprotein C-III", "objects": ["human hypertriglyceridemia"], "id": "agac_task3_117"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Leuconostoc mesenteroides", "objects": ["non-spore-forming Gram-positive lactic acid bacterium.", "high IgA-inducing ability.", "high mannitol producing lactic acid bacteria", "LAB"], "id": "bb_train_299"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "L. lactis subsp. cremoris strain B1157", "objects": ["GABA production", "transaminase activities", "has transaminase and hydroxy acid dehydrogenase activities approximately similar to those of strain B697.", "hydroxy acid dehydrogenase activities", "slow acid producers"], "id": "bb_dev_146"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Actinobacteria", "objects": ["Actinobacteria is found to have a potent metabolic activity against pathogens", "Gram-positive", "Actinobacteria are important producers of bioactive compounds", "Actinobacteria are known for their metabolic potential of producing diverse secondary metabolites such as antibiotics.", "They are morphologically diverse and extremely versatile in their metabolic activities"], "id": "bb_train_315"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "E. coli O157:H7", "objects": ["attachment ability", "capsule production", "attachment"], "id": "bb_train_22"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Streptococcus pneumoniae  type 37", "objects": ["The type 37 capsule of Streptococcus pneumoniae is a homopolysaccharide", "production of a \u03b2-glucan capsular  polysaccharide", "resistance against various antibiotics", "a homopolymer with a disaccharide-repeating unit"], "id": "bb_train_195"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Lactobacillus plantarum", "objects": ["LAB", "production of exopolysaccharides"], "id": "bb_train_412"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Vibrio", "objects": ["Gram-negative"], "id": "bb_train_388"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Lb. farminis", "objects": ["NSLAB"], "id": "bb_train_309"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Brevibacterium", "objects": ["Gram positive", "coagulase-negative", "catalase positive", "Gram positive", "salt-tolerant"], "id": "bb_dev_155"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "H. alvei", "objects": ["Gram-negative", "high capacity to produce VSC", "high capacity to convert  methionine or cysteine into aroma compounds"], "id": "bb_train_227"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Pseudoalteromonas", "objects": ["Gram-negative"], "id": "bb_train_386"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Brevibacterium spp.", "objects": ["acid tolerant", "Gram-positive"], "id": "bb_train_285"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "E. coli", "objects": ["diarrheagenic", "resistance to chloramphenicol", "resistance to ampicillin", "Diarrheagenic", "resistance to trimethoprim/sulfamethoxazole"], "id": "bb_dev_36"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "P. aeruginosa", "objects": ["hydrogen cyanide (HCN) production", "Hydrogen cyanide production", "produced HCN", "HCN production"], "id": "bb_train_145"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Leuconostoc", "objects": ["dextran-producing"], "id": "bb_train_408"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Mycoplasma pneumoniae", "objects": ["pathogens"], "id": "bb_train_74"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Lactococcus lactis", "objects": ["lactic acid bacteria", "lactic acid bacterium", "production of exopolysaccharides", "LAB"], "id": "bb_train_208"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Carnobacterium", "objects": ["Gram positive"], "id": "bb_dev_154"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "L. lactis subsp. cremoris B697", "objects": ["transaminase activity", "high hydroxy acid dehydrogenase activity"], "id": "bb_dev_145"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Vibrio parahaemolyticus", "objects": ["Gram-negative"], "id": "bb_train_47"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "lactococci", "objects": ["bile-sensitive", "bile-resistant", "bile resistance"], "id": "bb_dev_63"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Kingella kingae", "objects": ["invasive pathogen of young children"], "id": "bb_train_182"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "S. thermophilus", "objects": ["EPS producers", "LAB"], "id": "bb_train_418"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Ara+ Burkholderia pseudomallei", "objects": ["nonvirulent"], "id": "bb_dev_111"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "F. tularensis ssp tularensis", "objects": ["human pathogenic"], "id": "bb_dev_56"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Streptococcus agalactiae", "objects": ["pathogens"], "id": "bb_train_79"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "P. celer 91", "objects": ["Gram-negative", "sensitivity to 24 antibiotics"], "id": "bb_train_245"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "Staphylococcus epidermidis", "objects": ["development of a biofilm"], "id": "bb_train_50"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "L. lactis", "objects": ["transaminase activity towards leucine"], "id": "bb_dev_138"}
+{"rel_type": "Exhibits", "template": "What characteristics does microorganism XXX have ?", "subject": "EHEC", "objects": ["EHEC", "EHEC"], "id": "bb_train_37"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "PDGFRB", "objects": ["apoptosis", "KOGS", "autosomal-dominant infantile myofibromatosis.", "myofibromatosis", "Kosaki and Penttinen syndromes", "Kosaki overgrowth syndrome"], "id": "agac_task3_136"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "ATXN2", "objects": ["Parkinson's disease", "Spinocerebellar ataxia type 2", "ALS", "neuronal atrophy", "thrombotic antiphospholipid syndrome"], "id": "agac_task3_146"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "CDH1", "objects": ["breast cancer", "cancer", "hereditary diffuse gastric cancer", "familial gastric cancer", "gastric cancer"], "id": "agac_task3_42"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "MED13L", "objects": ["congenital heart defect transposition of the great arteries (TGA).", "acial dysmorphism", "colon cancer", "intellectual disability syndrome"], "id": "agac_task3_88"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "PDGFRA", "objects": ["small cell lung carcinoma", "tumor progression", "gastrointestinal stromal tumours", "leukemia-like disease.", "melanoma"], "id": "agac_task3_157"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "PSMC3IP", "objects": ["Primary Ovarian Insufficiency", "Azoospermia"], "id": "agac_task3_82"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "MPDZ", "objects": ["isolated hydrocephalus"], "id": "agac_task3_153"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "PAI-1", "objects": ["asthma"], "id": "agac_task3_144"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "PIK3CD", "objects": ["Activated PI3K Delta Syndrome"], "id": "agac_task3_160"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "FLT3", "objects": ["Acute myeloid leukemia"], "id": "agac_task3_68"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "SOX10", "objects": ["Waardenburg syndrome Types II", "Waardenburg syndrome Types IV"], "id": "agac_task3_85"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "KMT2A", "objects": ["Wiedermann-Steiner syndrome", "Wiedemann-Steiner syndrome"], "id": "agac_task3_81"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "SLC40A1", "objects": ["hemochromatosis type 4"], "id": "agac_task3_122"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "NR2F2", "objects": ["congenital heart disease", "congenital heart disease"], "id": "agac_task3_61"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "NF1", "objects": ["gastrointestinal stromal tumours"], "id": "agac_task3_158"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "TP53", "objects": ["metastatic lung adenocarcinoma"], "id": "agac_task3_45"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "EGFR", "objects": ["Non-Small Cell Lung Cancer"], "id": "agac_task3_148"}
+{"rel_type": "REG", "template": "What disease do mutations in gene XXX cause ?", "subject": "Enpp1", "objects": ["arteriosclerosis", "osteoporosis"], "id": "agac_task3_124"}
+{"rel_type": "Binds_To", "template": "What box does protein domain XXX bind to ?", "subject": "B3 domain", "objects": ["TCCATGCAT", "CACCTG"], "id": "seedev_dev_321"}
+{"rel_type": "Binds_To", "template": "What protein does protein XXX bind to ?", "subject": "bZIP25", "objects": ["bZIP53"], "id": "seedev_train_760"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "bZIP10", "objects": ["ACGT"], "id": "seedev_dev_266"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "WRI1", "objects": ["AW-box", "AW box", "BCCP2 promoter", "AW-box of Pl-PK\u03b21"], "id": "seedev_train_781"}
+{"rel_type": "Binds_To", "template": "What protein complex does protein XXX bind to ?", "subject": "CLV3", "objects": ["CLV1/CLV2 receptor complex", "CLV1 ectodomain", "CLV1 receptor kinase complex", "receptor CLV1", "CLV1-CLV2 receptor complex,"], "id": "seedev_train_378"}
+{"rel_type": "Binds_To", "template": "What protein does protein XXX bind to ?", "subject": "HDA19", "objects": ["Arabidopsis ortholog of SAP18", "AGL15"], "id": "seedev_train_704"}
+{"rel_type": "Binds_To", "template": "What promoter does protein family XXX bind to ?", "subject": "bZIP transcription factors", "objects": ["promoters of genes involved in the synthesis of storage lipids", "promoters of seed storage protein genes"], "id": "seedev_train_920"}
+{"rel_type": "Binds_To", "template": "What promoter does protein family XXX bind to ?", "subject": "LEC", "objects": ["promoters of genes involved in the synthesis of storage lipids", "promoters of seed storage protein genes"], "id": "seedev_train_919"}
+{"rel_type": "Binds_To", "template": "What protein does protein XXX bind to ?", "subject": "ABI3", "objects": ["bZIP53"], "id": "seedev_train_761"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "AGL15", "objects": ["CArG motif"], "id": "seedev_train_719"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "SEF3", "objects": ["AACCCA"], "id": "seedev_train_823"}
+{"rel_type": "Binds_To", "template": "What protein does protein family XXX bind to ?", "subject": "bZIP", "objects": ["ABI3"], "id": "seedev_train_758"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "EmBP1", "objects": ["Em1a"], "id": "seedev_dev_93"}
+{"rel_type": "Binds_To", "template": "What box does protein family XXX bind to ?", "subject": "basic Leu-zipper transcription factors", "objects": ["ABA response elements"], "id": "seedev_train_616"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "ANT", "objects": ["5\u2032-gCAC(A/G)N(A/T)TcCC(a/g)ANG(c/t)-3\u2032"], "id": "seedev_dev_318"}
+{"rel_type": "Binds_To", "template": "What protein family does protein family XXX bind to ?", "subject": "TGF-\u00df", "objects": ["TGF-\u00df", "T\u00dfRII"], "id": "seedev_train_504"}
+{"rel_type": "Binds_To", "template": "What protein does protein XXX bind to ?", "subject": "AGL15", "objects": ["AP1", "SEP3", "SEP3", "LEA76", "AGL18", "CBF2"], "id": "seedev_train_718"}
+{"rel_type": "Binds_To", "template": "What protein does protein XXX bind to ?", "subject": "SEU", "objects": ["SEP3"], "id": "seedev_dev_228"}
+{"rel_type": "Binds_To", "template": "What protein does protein domain XXX bind to ?", "subject": "kinase domain of SERK1", "objects": ["KAPP", "CDC48A", "14-3-3\u03bb"], "id": "seedev_train_502"}
+{"rel_type": "Binds_To", "template": "What box does protein domain XXX bind to ?", "subject": "AP2 repeat", "objects": ["CAACA"], "id": "seedev_dev_319"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "ASIL1", "objects": ["GT-box"], "id": "seedev_train_931"}
+{"rel_type": "Binds_To", "template": "What protein family does protein family XXX bind to ?", "subject": "T\u00dfRII", "objects": ["T\u00dfRII"], "id": "seedev_train_505"}
+{"rel_type": "Binds_To", "template": "What box does protein domain XXX bind to ?", "subject": "AP2 domain", "objects": ["GCC box"], "id": "seedev_dev_322"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "AGL15", "objects": ["C[A/T]8G"], "id": "seedev_dev_225"}
+{"rel_type": "Binds_To", "template": "What promoter does protein XXX bind to ?", "subject": "AGL15", "objects": ["SERK promoter", "promoter of LEA76", "regulatory regions of AGL18"], "id": "seedev_train_500"}
+{"rel_type": "Binds_To", "template": "What box does protein XXX bind to ?", "subject": "bZIP53", "objects": ["G-box"], "id": "seedev_train_757"}
+{"rel_type": "Binds_To", "template": "What box does protein family XXX bind to ?", "subject": "bZIP", "objects": ["ACGT"], "id": "seedev_dev_265"}
+{"rel_type": "Binds_To", "template": "What protein does protein XXX bind to ?", "subject": "SAP18", "objects": ["AGL15"], "id": "seedev_train_705"}
+{"rel_type": "Binds_To", "template": "What protein does protein XXX bind to ?", "subject": "AGL24", "objects": ["receptor-like kinase"], "id": "seedev_train_499"}
+{"rel_type": "Composes_Protein_Complex", "template": "What protein complex is protein XXX in ?", "subject": "KAPP", "objects": ["KAPP-YFP protein,", "SERK1 complex"], "id": "seedev_train_527"}
+{"rel_type": "Composes_Protein_Complex", "template": "What protein complex is protein XXX in ?", "subject": "CO-like", "objects": ["SERK1 complex"], "id": "seedev_train_511"}
+{"rel_type": "Composes_Protein_Complex", "template": "What protein complex is protein XXX in ?", "subject": "14-3-3\u03bd", "objects": ["SERK1", "PI4KB", "SERK1 complex"], "id": "seedev_train_526"}
+{"rel_type": "Composes_Protein_Complex", "template": "What protein complex is protein XXX in ?", "subject": "BRI1", "objects": ["BRI1-containing multiple protein complexes", "SERK1 complex"], "id": "seedev_train_399"}
+{"rel_type": "Composes_Protein_Complex", "template": "What protein complex is protein XXX in ?", "subject": "BAK1", "objects": ["SERK1 complex", "heteromeric complex"], "id": "seedev_train_509"}
+{"rel_type": "Composes_Protein_Complex", "template": "What protein complex is protein XXX in ?", "subject": "BZR1", "objects": ["SERK1 complex"], "id": "seedev_train_514"}
+{"rel_type": "Composes_Protein_Complex", "template": "What protein complex is protein XXX in ?", "subject": "AGL15", "objects": ["SERK1 complex"], "id": "seedev_train_513"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does cell tissue XXX regulate ?", "subject": "embryo proper", "objects": ["FUS3", "LEC2"], "id": "seedev_train_915"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does protein XXX regulate ?", "subject": "AP2", "objects": ["AtERF1", "PMA-induced MUC8 gene expression.", "MUM4", "AtEBP", "human Frizzled 1", "AP2", "NEU4"], "id": "seedev_dev_118"}
+{"rel_type": "Regulates_Expression", "template": "What promoter expresson does development phase XXX regulate ?", "subject": "reproductive phase", "objects": ["AGL15 promoter"], "id": "seedev_train_82"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does  XXX regulate ?", "subject": "ethylene treatment", "objects": ["AP2", "ACC oxidase gene"], "id": "seedev_train_668"}
+{"rel_type": "Regulates_Expression", "template": "What gene family expresson does development phase XXX regulate ?", "subject": "onset of the maturation phase", "objects": ["lipogenic gene", "fatty acid biosynthesis", "Na,K-ATPase"], "id": "seedev_dev_354"}
+{"rel_type": "Regulates_Expression", "template": "What gene family expresson does development phase XXX regulate ?", "subject": "later stages of maturation", "objects": ["LEA"], "id": "seedev_dev_271"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does development phase XXX regulate ?", "subject": "early developmental stage", "objects": ["LEC1"], "id": "seedev_train_964"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does genotype XXX regulate ?", "subject": "seedlings constitutively expressing AGL15", "objects": ["CBF2"], "id": "seedev_train_735"}
+{"rel_type": "Regulates_Expression", "template": "What gene family expresson does development phase XXX regulate ?", "subject": "early or mid-maturation phase", "objects": ["albumin genes", "cruciferin genes", "SSP"], "id": "seedev_dev_269"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does cell tissue XXX regulate ?", "subject": "presumptive hypophysis cells", "objects": ["DR5rev\u2237GFP"], "id": "seedev_train_868"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does development phase XXX regulate ?", "subject": "after the heart stage", "objects": ["pAt2S3:GFP"], "id": "seedev_dev_452"}
+{"rel_type": "Regulates_Expression", "template": "What gene family expresson does development phase XXX regulate ?", "subject": "seed maturation", "objects": ["ABI3"], "id": "seedev_train_626"}
+{"rel_type": "Regulates_Expression", "template": "What gene family expresson does cell tissue XXX regulate ?", "subject": "seeds", "objects": ["lipogenic gene"], "id": "seedev_dev_353"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does cell tissue XXX regulate ?", "subject": "endosperm", "objects": ["AP2", "AP2", "AP2"], "id": "seedev_train_335"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does genotype XXX regulate ?", "subject": "seedlings accumulating the AGL15-VP16", "objects": ["CBF2"], "id": "seedev_train_730"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does cell tissue XXX regulate ?", "subject": "seed", "objects": ["ABI4"], "id": "seedev_dev_469"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does gene XXX regulate ?", "subject": "GL2", "objects": ["MUM4"], "id": "seedev_train_201"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does genotype XXX regulate ?", "subject": "over-expression of AtEBP", "objects": ["AP2", "AP2", "AtERF1"], "id": "seedev_train_666"}
+{"rel_type": "Regulates_Expression", "template": "What gene family expresson does RNA XXX regulate ?", "subject": "miR166", "objects": ["HD-ZIPIII"], "id": "seedev_dev_382"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does gene XXX regulate ?", "subject": "AG", "objects": ["WUS"], "id": "seedev_train_374"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does protein complex XXX regulate ?", "subject": "SIN3/HDAC1", "objects": ["LEA76"], "id": "seedev_train_737"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does gene XXX regulate ?", "subject": "TTG1", "objects": ["MUM4"], "id": "seedev_train_202"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does protein XXX regulate ?", "subject": "PKL", "objects": ["LEC1"], "id": "seedev_train_189"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does cell tissue XXX regulate ?", "subject": "developing seeds", "objects": ["bZIP53"], "id": "seedev_train_762"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does genotype XXX regulate ?", "subject": "ectopic expression of SEPALLATA3", "objects": ["AG"], "id": "seedev_dev_224"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does genotype XXX regulate ?", "subject": "lec2-1", "objects": ["pAt2S3:GFP"], "id": "seedev_dev_449"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does genotype XXX regulate ?", "subject": "dcl1", "objects": ["SPL11", "SPL10"], "id": "seedev_train_847"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does genotype XXX regulate ?", "subject": "gl2", "objects": ["MUM4"], "id": "seedev_dev_122"}
+{"rel_type": "Regulates_Expression", "template": "What gene expresson does genotype XXX regulate ?", "subject": "ectopic expression of SAP18", "objects": ["AGL18", "AGL15"], "id": "seedev_train_738"}
+{"rel_type": "Regulates_Expression", "template": "What box expresson does gene family XXX regulate ?", "subject": "VAL", "objects": ["Sph/RY"], "id": "seedev_train_613"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "SAP18", "objects": ["ERF3", "mSin3", "mSin3A", "Hairy1", "Sin3"], "id": "seedev_dev_256"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "SAP18", "objects": ["HDA6"], "id": "seedev_train_700"}
+{"rel_type": "Interacts_With", "template": "What protein family does protein XXX interact with ?", "subject": "AGL15", "objects": ["HDAC", "LEA76"], "id": "seedev_dev_210"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "HDA19", "objects": ["SCARECROW (SCR).", "bnKCP", "BnSCL1"], "id": "seedev_train_714"}
+{"rel_type": "Interacts_With", "template": "What protein domain does protein XXX interact with ?", "subject": "ABI3", "objects": ["ABI5 domains", "epigenetic factor Powerdress", "PIL5 protein"], "id": "seedev_train_86"}
+{"rel_type": "Interacts_With", "template": "What protein family does protein family XXX interact with ?", "subject": "14-3-3 proteins", "objects": ["They interact with more than 200 different, mostly phosphorylated proteins.", "14-3-3 proteins are a family of conserved dimeric molecules that interact with a broad range of target proteins,", "SSH", "G-box transcription factors"], "id": "seedev_train_528"}
+{"rel_type": "Interacts_With", "template": "What protein does environmental factor XXX interact with ?", "subject": "yeast one-hybrid", "objects": ["WRI1"], "id": "seedev_train_811"}
+{"rel_type": "Interacts_With", "template": "What box does environmental factor XXX interact with ?", "subject": "in vitro", "objects": ["G-box"], "id": "seedev_train_771"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "AGL15", "objects": ["SAP18"], "id": "seedev_train_701"}
+{"rel_type": "Interacts_With", "template": "What protein domain does environmental factor XXX interact with ?", "subject": "in vitro", "objects": ["kinase domain of SERK1"], "id": "seedev_train_559"}
+{"rel_type": "Interacts_With", "template": "What box does environmental factor XXX interact with ?", "subject": "in vivo", "objects": ["G-box"], "id": "seedev_train_770"}
+{"rel_type": "Interacts_With", "template": "What box does protein XXX interact with ?", "subject": "Pti4", "objects": ["GCC-box"], "id": "seedev_train_675"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "ABI5", "objects": ["ABI3", "ABI5", "ABI3"], "id": "seedev_dev_42"}
+{"rel_type": "Interacts_With", "template": "What protein family does protein XXX interact with ?", "subject": "PTPH1", "objects": ["14-3-3 protein"], "id": "seedev_train_438"}
+{"rel_type": "Interacts_With", "template": "What protein does environmental factor XXX interact with ?", "subject": "in vitro", "objects": ["AGL15", "SAP18", "SAP18"], "id": "seedev_dev_247"}
+{"rel_type": "Interacts_With", "template": "What protein domain does protein XXX interact with ?", "subject": "TTG1", "objects": ["bHLH"], "id": "seedev_train_226"}
+{"rel_type": "Interacts_With", "template": "What protein does environmental factor XXX interact with ?", "subject": "in vitro", "objects": ["AGL24", "receptor-like kinase", "KAPP", "CDC48A", "14-3-3\u03bb", "bZIP53"], "id": "seedev_train_558"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "EGL3", "objects": ["TTG1"], "id": "seedev_dev_129"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "ABI1", "objects": ["ABI5", "ABI4"], "id": "seedev_train_100"}
+{"rel_type": "Interacts_With", "template": "What protein does environmental factor XXX interact with ?", "subject": "yeast two-hybrid", "objects": ["AGL15", "SIN3-associated polypeptide of 18\u00a0kDa"], "id": "seedev_dev_248"}
+{"rel_type": "Interacts_With", "template": "What protein domain does environmental factor XXX interact with ?", "subject": "in\u00a0vitro", "objects": ["B3 domain of VP1"], "id": "seedev_train_981"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "14-3-3\u03bb", "objects": ["SERK1"], "id": "seedev_train_434"}
+{"rel_type": "Interacts_With", "template": "What protein domain does environmental factor XXX interact with ?", "subject": "in vitro", "objects": ["ERF3 binding site", "AGL15 binding site"], "id": "seedev_dev_261"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "OSVP1", "objects": ["TRAB1"], "id": "seedev_dev_44"}
+{"rel_type": "Interacts_With", "template": "What promoter does environmental factor XXX interact with ?", "subject": "Yeast one-hybrid", "objects": ["AtEm6 promoter"], "id": "seedev_train_94"}
+{"rel_type": "Interacts_With", "template": "What protein family does protein XXX interact with ?", "subject": "ABI3", "objects": ["basic Leu-zipper transcription factors"], "id": "seedev_train_614"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "SEP3", "objects": ["LUG", "SEU"], "id": "seedev_dev_209"}
+{"rel_type": "Interacts_With", "template": "What protein does protein XXX interact with ?", "subject": "BAK1", "objects": ["BRI1"], "id": "seedev_train_529"}
+{"rel_type": "Interacts_With", "template": "What protein does environmental factor XXX interact with ?", "subject": "Yeast one-hybrid", "objects": ["ABI5"], "id": "seedev_train_93"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "PINHEAD transcripts", "objects": ["anterior neural plate", "apical cell lineage", "fibroblasts"], "id": "seedev_train_881"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is hormone XXX in ?", "subject": "auxin", "objects": ["vascular", "plant tissue", "hypophysis cells of wild-type globular embryos", "embryo proper", "pea"], "id": "seedev_train_885"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is pathway XXX in ?", "subject": "production of mucilage", "objects": ["root cap", "epidermal cells of the Arabidopsis seed coat", "SCE cells", "epidermal cells", "epidermal cells of the seed coat"], "id": "seedev_train_237"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "PLT1", "objects": ["root meristem"], "id": "seedev_train_799"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "AP2 transcripts", "objects": ["macrophages", "adipose tissue", "flowers", "stems", "leaves", "THP-1 cells", "seedlings", "inflorescence meristem"], "id": "seedev_dev_176"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "TT8", "objects": ["seed coat"], "id": "seedev_dev_146"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "ZWILLE transcripts", "objects": ["apical cell lineage"], "id": "seedev_train_883"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "SPL10", "objects": ["eight-cell embryos"], "id": "seedev_train_837"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein complex XXX in ?", "subject": "TTG1-bHLH-MYB", "objects": ["seed coat-specific"], "id": "seedev_dev_140"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is pathway XXX in ?", "subject": "starch grains", "objects": ["suspensors"], "id": "seedev_train_877"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "14-3-3\u03bd", "objects": ["seedlings"], "id": "seedev_train_564"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "TTG1", "objects": ["seed coat"], "id": "seedev_dev_148"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "SERK1", "objects": ["sporophytic tissues", "internalized membrane compartments", "seedlings", "plasma membrane", "seedlings", "plasma membrane of protoplast cells", "intracellular vesicles", "seedlings", "siliques", "plasma membrane of protoplasts"], "id": "seedev_train_430"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "BCCP2 mRNAs", "objects": ["seeds", "developmental series of maturing siliques"], "id": "seedev_train_803"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is regulatory network XXX in ?", "subject": "loss of miR156-mediated regulation of SPL transcripts", "objects": ["embryos"], "id": "seedev_dev_425"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "ATML1 transcripts", "objects": ["protoderm", "suspensors", "subprotoderm", "protoderm"], "id": "seedev_train_880"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is pathway XXX in ?", "subject": "Seed coat mucilage", "objects": ["Seed coat"], "id": "seedev_train_238"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "miR156", "objects": ["eight-cell embryos"], "id": "seedev_train_838"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is pathway XXX in ?", "subject": "storage proteins", "objects": ["embryos"], "id": "seedev_dev_404"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein family XXX in ?", "subject": "Ser/Thr phosphatase bri1 Suppressor1 family", "objects": ["nucleus"], "id": "seedev_train_425"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "PLT2", "objects": ["root meristem"], "id": "seedev_train_800"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "AtEBP mRNA", "objects": ["leaves", "flowers"], "id": "seedev_dev_200"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is regulatory network XXX in ?", "subject": "somatic embryogenesis", "objects": ["embryos"], "id": "seedev_dev_12"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "miR156", "objects": ["embryos"], "id": "seedev_dev_390"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein family XXX in ?", "subject": "cell-wall-bound invertases", "objects": ["thin-walled parenchyma", "innermost seed coat tissue"], "id": "seedev_train_326"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "BRI1", "objects": ["membrane", "seedlings", "plasma membrane", "plasma membrane", "plasma membrane of protoplasts"], "id": "seedev_train_484"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is protein XXX in ?", "subject": "WRI1", "objects": ["seeds"], "id": "seedev_dev_350"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "WOX2 transcripts", "objects": ["apical cell lineage of embryos", "embryos", "basal cell lineage"], "id": "seedev_train_878"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is pathway XXX in ?", "subject": "biosynthesis of pectinaceous seed coat mucilage", "objects": ["seed coat"], "id": "seedev_train_213"}
+{"rel_type": "Is_Localized_In", "template": "What cell tissue is RNA XXX in ?", "subject": "WOX8 transcripts", "objects": ["suspensors", "basal cell lineage", "embryos"], "id": "seedev_train_875"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "SIL1", "objects": ["molecular chaperone BiP", "HDA6"], "id": "seedev_train_930"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein family is protein family XXX in sequence ?", "subject": "ethylene responsive element binding protein", "objects": ["(AP2-EREBP),", "EREBP", "AP2 (APETALA2)/EREBP", "(EREBP)"], "id": "seedev_dev_165"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "LEC2", "objects": ["LEAFY COTYLEDON 2", "Leafy Cotyledon 2", "LEAFY COTYLEDON2"], "id": "seedev_train_142"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene family is gene XXX in sequence ?", "subject": "ABSCISIC ACID INSENSITIVE 3", "objects": ["ABI3"], "id": "seedev_train_572"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What box is box XXX in sequence ?", "subject": "DREs", "objects": ["(downstream response elements)", "dehydration response elements", "DNA regulatory elements"], "id": "seedev_dev_336"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What box is box XXX in sequence ?", "subject": "ethylene response elements", "objects": ["GCC boxes"], "id": "seedev_dev_333"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene family is gene family XXX in sequence ?", "subject": "ERA", "objects": ["enhanced response to ABA"], "id": "seedev_dev_34"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "Opaque2", "objects": ["O2"], "id": "seedev_dev_282"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene family is gene family XXX in sequence ?", "subject": "ABI", "objects": ["ABA insensitive"], "id": "seedev_dev_33"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein is protein XXX in sequence ?", "subject": "LEAFY COTYLEDON2", "objects": ["LEC2"], "id": "seedev_dev_339"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein family is protein family XXX in sequence ?", "subject": "RLKs", "objects": ["receptor-like kinases"], "id": "seedev_train_448"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene family is gene family XXX in sequence ?", "subject": "ABSCISIC ACID INSENSITIVE 3", "objects": ["ABI3"], "id": "seedev_train_569"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein family is protein family XXX in sequence ?", "subject": "LRR-RLKs", "objects": ["leucine-rich repeat receptor-like kinases"], "id": "seedev_train_451"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene family is gene family XXX in sequence ?", "subject": "ABSCISIC ACID", "objects": ["ABA"], "id": "seedev_train_576"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein is protein XXX in sequence ?", "subject": "BRI1", "objects": ["BRASSINOSTEROID-INSENSITIVE1", "BRASSINOSTEROID-INSENSITIVE1"], "id": "seedev_train_405"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "pickle", "objects": ["pkl"], "id": "seedev_train_571"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "CLV3", "objects": ["CLAVATA3"], "id": "seedev_train_370"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein is protein XXX in sequence ?", "subject": "BAK1", "objects": ["SERK3", "BRI1-ASSOCIATED RECEPTOR KINASE1", "SERK3"], "id": "seedev_train_447"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein family is protein family XXX in sequence ?", "subject": "APETALA2/ethylene-responsive element binding proteins", "objects": ["AP2/EREBP"], "id": "seedev_dev_331"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "PROTODERMAL FACTOR1", "objects": ["PDF1"], "id": "seedev_train_871"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "PKL", "objects": ["PICKLE"], "id": "seedev_train_187"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein is protein XXX in sequence ?", "subject": "AP2", "objects": ["APETALA2"], "id": "seedev_train_639"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein domain is protein domain XXX in sequence ?", "subject": "LRR", "objects": ["leucine-rich repeat", "leucine-rich repeat"], "id": "seedev_train_408"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "FUSCA3", "objects": ["FUS3", "FUS3"], "id": "seedev_train_573"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What box is box XXX in sequence ?", "subject": "AW-box", "objects": ["5\u2032-gCAC(A/G)N(A/T)TcCC(a/g)ANG(c/t)-3\u2032"], "id": "seedev_train_785"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "LEAFY COTYLEDON 2", "objects": ["LEC2"], "id": "seedev_train_577"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "AP2", "objects": ["APETALA2", "APETALA2"], "id": "seedev_train_371"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene family is gene family XXX in sequence ?", "subject": "LEA", "objects": ["late embryogenesis abundant genes"], "id": "seedev_dev_283"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What protein family is protein family XXX in sequence ?", "subject": "EREBP", "objects": ["ethylene-responsive element binding proteins"], "id": "seedev_dev_340"}
+{"rel_type": "Has_Sequence_Identical_To", "template": "What gene is gene XXX in sequence ?", "subject": "FUS3", "objects": ["FUSCA3"], "id": "seedev_train_141"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is protein XXX at ?", "subject": "LEC1", "objects": ["early developmental stage", "embryo development", "maturation phase"], "id": "seedev_train_965"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is RNA XXX at ?", "subject": "FUS3 transcript", "objects": ["2 d.a.p.", "embryogenesis"], "id": "seedev_train_971"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is protein XXX at ?", "subject": "AGL15", "objects": ["embryonic mode", "vegetative phase", "embryo development"], "id": "seedev_train_77"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is RNA XXX at ?", "subject": "LEC1 RNAs", "objects": ["earliest embryonic stages"], "id": "seedev_train_186"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is protein XXX at ?", "subject": "TTG1", "objects": ["seed maturation process", "development/pigmentation", "Seed Coat Secretory Cell Differentiation"], "id": "seedev_dev_149"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is RNA XXX at ?", "subject": "MUM4 transcript", "objects": ["differentiating siliques"], "id": "seedev_dev_138"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is protein XXX at ?", "subject": "WRI1", "objects": ["onset of the maturation phase"], "id": "seedev_dev_351"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is protein XXX at ?", "subject": "PKL", "objects": ["postgerminative"], "id": "seedev_train_193"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is RNA XXX at ?", "subject": "LEC2 RNAs", "objects": ["earliest embryonic stages"], "id": "seedev_train_185"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is protein XXX at ?", "subject": "ABI3", "objects": ["embryogenesis"], "id": "seedev_train_171"}
+{"rel_type": "Exists_At_Stage", "template": "What development phase is protein XXX at ?", "subject": "AP2", "objects": ["Seed Coat Secretory Cell Differentiation"], "id": "seedev_dev_150"}
