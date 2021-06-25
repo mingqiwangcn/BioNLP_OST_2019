@@ -9,7 +9,7 @@ def get_args():
     return args
 
 def get_query_lst(args):
-    file_path = '/home/cc/data/BioNLP_OST_2019/qas/%s.json' % args.qas_data
+    file_path = '/home/cc/data/BioNLP_OST_2019/qas/%s' % args.qas_data
     query_lst = []
     with open(file_path) as f:
         for line in f:
